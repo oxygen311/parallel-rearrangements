@@ -1,7 +1,7 @@
 import glob
 from Bio import SeqIO
 
-folder = 'data/Legionella_pneumophila'
+folder = 'data/Legionella_pneumophila/fna'
 
 all_contigs = []
 for file in glob.glob(f'{folder}/*.fna'):

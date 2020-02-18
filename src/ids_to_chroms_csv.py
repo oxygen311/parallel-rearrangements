@@ -9,7 +9,7 @@ folder = 'data/Bacillus_anthracis'
 out_file = 'assemblies_chrs.csv'
 
 ans = [['assembly', 'chromosome']]
-for file in glob(f'{folder}/*.fna'):
+for file in glob(f'{folder}/fna/*.fna'):
     if file.endswith('merged.fna'): continue
 
     contigs = [contig for contig in SeqIO.parse(open(file), 'fasta') if not 'plasmid' in contig.description]

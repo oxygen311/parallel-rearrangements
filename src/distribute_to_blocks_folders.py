@@ -11,7 +11,7 @@ from collections import defaultdict
 
 folder = 'data/Bacillus_anthracis/'
 sibeliaz_folder = folder + 'sibeliaz/fine/5000/'
-blocks_faa_folder = sibeliaz_folder + 'faa_blocks/'
+blocks_faa_folder = folder + 'faa_blocks/'
 csv_file = 'blocks_coords_unique_gene.csv'
 assemblies_chr_file = 'assemblies_chrs.csv'
 
@@ -30,7 +30,7 @@ chr_to_assembly = make_chr_to_assembly_dict()
 for seq, df_seq in df.groupby('Seq'):
     print(seq)
     assembly = chr_to_assembly[seq]
-    records = SeqIO.parse(folder + assembly + '.gbff', 'genbank')
+    records = SeqIO.parse(folder + 'gbff/' + assembly + '.gbff', 'genbank')
 
     for record in records:
         # filtering plasmids

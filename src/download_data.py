@@ -9,13 +9,15 @@ import urllib.request
 import urllib.error
 
 Entrez.email = 'a.zabelkin@itmo.ru'
+type = 'gbff'
+term = 'Legionella pneumophila'
 
 def get_assembly_summary(id):
     esummary_handle = Entrez.esummary(db="assembly", id=id, report="full")
     return Entrez.read(esummary_handle)
 
 def get_assemblies(term, download=True, base_folder='data/'):
-    folder = base_folder + '_'.join(term.split())
+    folder = base_folder + '_'.join(term.split()) + '/' + type
     if not os.path.exists(folder): os.makedirs(folder)
 
     handle = Entrez.esearch(db="assembly", term=term, retmax='100500')
@@ -40,19 +42,14 @@ def get_assemblies(term, download=True, base_folder='data/'):
         label = os.path.basename(url)
 
         # get the fasta link - change this to get other formats
-        # link = os.path.join(url, label + '_genomic.fna.gz')
-        link = os.path.join(url, label + '_genomic.gff.gz')
-        file_path = f'{folder}/{label}.gff.gz'
+        link = os.path.join(url, label + f'_genomic.{type}.gz')
+        file_path = f'{folder}/{label}.{type}.gz'
         if download and not os.path.exists(file_path):
             print('Downloading to:', file_path)
-            try:
-                urllib.request.urlretrieve(link, file_path)
-            except urllib.error.URLError:
-                print("ERROR")
-                print(summary)
+            urllib.request.urlretrieve(link, file_path)
 
         i += 1
 
     print(f'Got {i} genomes')
 
-get_assemblies('Bacillus anthracis', True)
+get_assemblies(term, True)
