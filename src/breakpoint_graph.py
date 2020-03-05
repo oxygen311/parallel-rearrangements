@@ -9,14 +9,14 @@ import matplotlib.pyplot as plt
 import networkx as nx
 import pandas as pd
 
-csv_data_file = 'data/12862_2019_1403_MOESM1_ESM.csv'
-
-color = 'purple'
-sp_folder = 'sibeliaz/Streptococcus_pyogenes/'
-blocks_folder = sp_folder + 'fine/5000/'
+color = 'red'
+sp_folder = 'data/Legionella_pneumophila/'
+blocks_folder = sp_folder + 'sibeliaz/fine/5000/'
 grimm_file = blocks_folder + 'genomes_permutations_unique.txt'
-tree_file = sp_folder + 'RAxML_bestTree.concat_alignment.newick'
-tree_support_file = sp_folder + 'RAxML_support.newick'
+tree_file = sp_folder + 'tree/test'
+csv_file = sp_folder + 'assemblies_chrs.csv'
+
+# tree_support_file = sp_folder + 'RAxML_support.newick'
 output_folder = blocks_folder + 'bp_graph_output'
 
 get_colors_by_edge = lambda e: e.multicolor.multicolors
@@ -31,19 +31,19 @@ def construct_color_func(cs):
     return func
 
 
-def construct_label_func():
-    df = pd.read_csv('data/12862_2019_1403_MOESM1_ESM.csv')
-    strains = {row['ACCESSION']: row['Strain'] for index, row in df.iterrows()}
+def construct_label_func(from_):
+    df = pd.read_csv(csv_file)
+    strains = {row[from_]: row['description'] for index, row in df.iterrows()}
     return lambda id: strains.get(str(id), '')
 
 
-label_func = construct_label_func()
+label_func = construct_label_func('assembly')
+label_contig_func = construct_label_func('chromosome')
 
 
 def draw_bp_with_weights(g, tree, file=None):
     def get_color(edge):
         if not tree.bgedge_is_tree_consistent(edge): return color
-        # if not tree.bgedge_is_vtree_consistent(edge): return 'blue'
         return 'black'
 
     g_nx = nx.Graph()
@@ -66,7 +66,7 @@ bg = GRIMMReader.get_breakpoint_graph(open(grimm_file))
 tree_string = open(tree_file).read()
 
 phylo_tree = next(Phylo.parse(tree_file, 'newick'))
-phylo_support_tree = next(Phylo.parse(tree_support_file, 'newick'))
+# phylo_support_tree = next(Phylo.parse(tree_support_file, 'newick'))
 
 tree = BGTree(tree_string)
 for i, component_bg in enumerate(bg.connected_components_subgraphs()):
@@ -83,8 +83,8 @@ for i, component_bg in enumerate(bg.connected_components_subgraphs()):
     for edge in component_bg.edges():
         if not tree.bgedge_is_tree_consistent(edge):
             plt.rcParams.update({'font.size': 6, 'lines.linewidth': 0.4})
-            species = [label_func(color.name) for color in get_colors_by_edge(edge).keys()]
-            Phylo.draw(phylo_support_tree, label_colors=construct_color_func(species), do_show=False,
+            species = [label_contig_func(color.name) for color in get_colors_by_edge(edge).keys()]
+            Phylo.draw(phylo_tree, label_colors=construct_color_func(species), do_show=False,
                        label_func=label_func)
             # plt.rcParams.update({'font.size': 14, 'lines.linewidth': 1})
             # species = [color.name for color in get_colors_by_edge(edge).keys()]

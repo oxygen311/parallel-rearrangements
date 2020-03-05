@@ -9,8 +9,11 @@ import urllib.request
 import urllib.error
 
 Entrez.email = 'a.zabelkin@itmo.ru'
-type = 'gbff'
-term = 'Legionella pneumophila'
+type = 'fna'
+suffix = '_genomic'
+ids_max = 1000
+
+term = 'Staphylococcus aureus'
 
 def get_assembly_summary(id):
     esummary_handle = Entrez.esummary(db="assembly", id=id, report="full")
@@ -25,30 +28,31 @@ def get_assemblies(term, download=True, base_folder='data/'):
 
     ids = record['IdList']
     print(f'found {len(ids)} ids')
-    summaries = get_assembly_summary(','.join(ids))
-
     i = 0
-    for summary in filter(lambda s: s['AssemblyStatus'] == 'Complete Genome',
-                          summaries['DocumentSummarySet']['DocumentSummary']):
-        print('Current:', summary['AssemblyName'])
 
-        for sp in summary['Biosource']['InfraspeciesList']:
-            # print(sp)
-            print(sp['Sub_type'])
-            assert sp['Sub_type'] == 'strain'
-        # get ftp link
-        url = summary['FtpPath_RefSeq']
-        if url == '': continue
-        label = os.path.basename(url)
+    for shift in range(0, len(ids), ids_max):
+        summaries = get_assembly_summary(','.join(ids[shift:shift + ids_max]))
+        print(f'got summaries from {shift} to {min(len(ids), shift + ids_max)}')
 
-        # get the fasta link - change this to get other formats
-        link = os.path.join(url, label + f'_genomic.{type}.gz')
-        file_path = f'{folder}/{label}.{type}.gz'
-        if download and not os.path.exists(file_path):
-            print('Downloading to:', file_path)
-            urllib.request.urlretrieve(link, file_path)
+        for summary in filter(lambda s: s['AssemblyStatus'] == 'Complete Genome',
+                              summaries['DocumentSummarySet']['DocumentSummary']):
+            print('Current:', summary['AssemblyName'])
 
-        i += 1
+            for sp in summary['Biosource']['InfraspeciesList']:
+                assert sp['Sub_type'] == 'strain'
+            # get ftp link
+            url = summary['FtpPath_RefSeq']
+            if url == '': continue
+            label = os.path.basename(url)
+
+            # get the fasta link - change this to get other formats
+            link = os.path.join(url, label + f'{suffix}.{type}.gz')
+            file_path = f'{folder}/{label}.{type}.gz'
+            if download and not os.path.exists(file_path):
+                print('Downloading to:', file_path)
+                urllib.request.urlretrieve(link, file_path)
+
+            i += 1
 
     print(f'Got {i} genomes')
 

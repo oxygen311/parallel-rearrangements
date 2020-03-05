@@ -11,7 +11,7 @@ from collections import defaultdict
 
 folder = 'data/Bacillus_anthracis/'
 sibeliaz_folder = folder + 'sibeliaz/fine/5000/'
-blocks_faa_folder = folder + 'faa_blocks/'
+blocks_faa_folder = folder + 'faa_from_blocks/'
 csv_file = 'blocks_coords_unique_gene.csv'
 assemblies_chr_file = 'assemblies_chrs.csv'
 
@@ -26,6 +26,7 @@ def make_chr_to_assembly_dict():
     return d
 
 chr_to_assembly = make_chr_to_assembly_dict()
+used_ids_count = 0
 
 for seq, df_seq in df.groupby('Seq'):
     print(seq)
@@ -36,9 +37,8 @@ for seq, df_seq in df.groupby('Seq'):
         # filtering plasmids
         if 'plasmid' in record.description: continue
 
+        seqs = []
         for i, row_block in df_seq.iterrows():
-            seqs = []
-            block = row_block['Block']
             block_start = row_block['Start']
             block_end = row_block['End']
 
@@ -47,18 +47,28 @@ for seq, df_seq in df.groupby('Seq'):
             else:
                 sub_record = record[block_end:block_start]
 
+            used_ids = set()
             for feature in sub_record.features:
                 if feature.type == 'CDS' and 'translation' in feature.qualifiers:
                     q = feature.qualifiers
+                    protein_id = q['protein_id'][0]
+                    translation = q['translation'][0]
 
                     assert len(q['translation']) == 1
+                    if protein_id in used_ids:
+                        used_ids_count += 1
+                        continue
+
                     simple_seq_r = SeqRecord(
-                        Seq(q['translation'][0]),
-                        'lcl|' + record.id + '_prot_' + q['protein_id'][0],
+                        Seq(translation),
+                        'lcl|' + record.id + '_prot_' + protein_id,
                         description=f'[locus_tag={q["locus_tag"][0]}] [protein={q["product"][0]}] [protein_id={q["protein_id"][0]}] [location={feature.location}] [gbkey=CDS]')
 
+                    used_ids.add(protein_id)
                     seqs.append(simple_seq_r)
 
-            cur_folder = blocks_faa_folder + f'block_{block}/'
-            if not os.path.exists(cur_folder): os.makedirs(cur_folder)
-            SeqIO.write(seqs, cur_folder + f'{record.id}.faa', 'fasta')
+        cur_folder = blocks_faa_folder
+        if not os.path.exists(cur_folder): os.makedirs(cur_folder)
+        SeqIO.write(seqs, cur_folder + f'{record.id}.faa', 'fasta')
+
+print('Used ids count:', used_ids_count)
