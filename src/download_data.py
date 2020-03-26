@@ -9,11 +9,11 @@ import urllib.request
 import urllib.error
 
 Entrez.email = 'a.zabelkin@itmo.ru'
-type = 'fna'
+type = 'gbff'
 suffix = '_genomic'
 ids_max = 1000
 
-term = 'Staphylococcus aureus'
+term = 'Legionella pneumophila'
 
 def get_assembly_summary(id):
     esummary_handle = Entrez.esummary(db="assembly", id=id, report="full")

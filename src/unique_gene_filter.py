@@ -4,7 +4,7 @@ from collections import Counter
 import matplotlib.pyplot as plt
 import networkx as nx
 
-grimm_file = 'data/Legionella_pneumophila/sibeliaz/fine/5000/genomes_permutations.txt'
+grimm_file = 'data/E_coli/sibeliaz_out/fine/1000/genomes_permutations.txt'
 # grimm_file = 'fine_sibelia_output/Streptococcus_pneumoniae/genomes_permutations.txt'
 
 lines = open(grimm_file).read().split('\n')
@@ -51,7 +51,7 @@ with open(grimm_file.replace('.txt', '_unique.txt'), 'w') as f:
             parsed = GRIMMReader.parse_data_string(data_line)[1]
             parsed = flt.filter_unique(parsed)
 
-            print(line.split('.')[0], file=f)
+            print(line, file=f)
             print(' '.join(p[0] + p[1] for p in parsed), '@', file=f)
             i += 2
         else:
