@@ -2,7 +2,10 @@ from ete3 import Tree, NodeStyle, TreeStyle, TextFace, CircleFace
 
 class TreeDrawer():
 
-    def __init__(self, tree, scale, labels_dict=None, colors=('Gainsboro', 'White', 'LightGreen', 'LightBlue', 'LightPink', 'LightCoral')):
+    def __init__(self, tree, scale, labels_dict=None, colors=(
+                                 'Gainsboro', 'White', 'LightGreen', 'LightBlue', 'NavajoWhite', 'LightPink',
+                                 'LightCoral', 'Purple', 'Navy', 'Olive', 'Teal', 'SaddleBrown', 'SeaGreen', 'DarkCyan',
+                                 'DarkOliveGreen', 'DarkSeaGreen')):
         self.tree = Tree(tree)
         self.scale = scale
         self.colors = colors

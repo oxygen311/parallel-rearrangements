@@ -15,8 +15,13 @@ def white_proportion(colors):
     return np.mean(list(map(lambda c: c == 0, colors)))
 
 def count_shigella_differs_from_white(class_colors):
-    shigella_differs = 0
-    for cls in class_colors.keys() - {'Escherichia coli'}:
-        if white_proportion(class_colors[cls]) < 1:
-            shigella_differs += 1
-    return shigella_differs
+    return sum(
+        white_proportion(class_colors[cls]) < 1
+        for cls in
+        class_colors.keys() - {'Escherichia coli'})
+
+def count_shigella_differs_from_value(class_colors, value, threshhold=0.5):
+    return sum(
+        abs(np.mean(class_colors[cls]) - value) > threshhold
+        for cls in
+        class_colors.keys() - {'Escherichia coli'})

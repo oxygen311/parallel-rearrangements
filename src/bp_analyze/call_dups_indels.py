@@ -5,11 +5,11 @@ from bg.genome import BGGenome
 from src.bp_analyze.tree_drawer import TreeDrawer
 from src.bp_analyze.common import print_species_stats, make_labels_dict, get_genomes_contain_blocks
 from src.bp_analyze.consistency_checker import TreeConsistencyChecker
+from src.bp_analyze.shigella_common import get_class_colors, count_shigella_differs_from_value
 
 import os
 
-import matplotlib.pyplot as plt
-import networkx as nx
+import numpy as np
 
 sp_folder = 'data/E_coli/'
 csv_file = sp_folder + 'total_stats.csv'
@@ -27,7 +27,7 @@ if __name__ == "__main__":
     genomes, blocks, block_genome_count = get_genomes_contain_blocks(grimm_file)
     print_species_stats(genomes, tree_drawer.get_all_leafs())
 
-    os.makedirs(output_folder, exist_ok=True)
+    # os.makedirs(output_folder, exist_ok=True)
     for i, block in enumerate(blocks):
         print(i, 'of', len(blocks), ', current block:', block)
 
@@ -35,5 +35,15 @@ if __name__ == "__main__":
         labels = [f'{i}{"+" if i == tree_drawer.max_color - 1 else ""} copies' for i in range(max(genome_count.values()) + 1)]
         # print(labels)
 
+        # shigella differs?
+        class_colors = get_class_colors(labels_dict, {genome: genome_count[genome] for genome in genomes})
+        e_coli_mean = np.mean(class_colors['Escherichia coli'])
+        shigella_differs = count_shigella_differs_from_value(class_colors, e_coli_mean, threshhold=0.3)
+
+        # consistency
         consistent = len(consistency_checker.check_consistency({genome: genome_count[genome] for genome in genomes})) == 0
-        tree_drawer.draw(output_folder + f'block_{block}_{"" if consistent else "in"}consistent.pdf', colors_dict=genome_count, legend_labels=labels)
+
+        curr_output_folder = output_folder + f'{"" if consistent else "in"}consistent__{shigella_differs}_shigells_differ/'
+        os.makedirs(curr_output_folder, exist_ok=True)
+
+        tree_drawer.draw(curr_output_folder + f'block_{block}.pdf', colors_dict=genome_count, legend_labels=labels)
