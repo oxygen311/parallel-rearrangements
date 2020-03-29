@@ -35,5 +35,5 @@ if __name__ == "__main__":
         labels = [f'{i}{"+" if i == tree_drawer.max_color - 1 else ""} copies' for i in range(max(genome_count.values()) + 1)]
         # print(labels)
 
-        consistent = consistency_checker.check_consistency({genome: genome_count[genome] for genome in genomes})
+        consistent = len(consistency_checker.check_consistency({genome: genome_count[genome] for genome in genomes})) == 0
         tree_drawer.draw(output_folder + f'block_{block}_{"" if consistent else "in"}consistent.pdf', colors_dict=genome_count, legend_labels=labels)

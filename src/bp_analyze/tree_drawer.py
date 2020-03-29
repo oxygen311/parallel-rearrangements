@@ -45,10 +45,10 @@ class TreeDrawer():
         #     legend_labels = []
 
         for i, (label, color) in enumerate(zip(legend_labels, current_colors)):
-            ts.legend.add_face(CircleFace(25, color), column=0)
-            ts.legend.add_face(CircleFace(15, 'White'), column=1)
-            ts.legend.add_face(TextFace(label, fsize=60), column=2)
-            ts.legend.add_face(CircleFace(15, 'White'), column=3)
+            ts.legend.add_face(CircleFace(18, color), column=0)
+            ts.legend.add_face(CircleFace(10, 'White'), column=1)
+            ts.legend.add_face(TextFace(label, fsize=40), column=2)
+            ts.legend.add_face(CircleFace(10, 'White'), column=3)
 
         # self.tree.render("ete_tree.pdf", dpi=300, tree_style=ts)
         self.tree.render(file, w=1000, tree_style=ts)
