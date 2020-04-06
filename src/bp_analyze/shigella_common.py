@@ -20,8 +20,7 @@ def count_shigella_differs_from_white(class_colors):
         for cls in
         class_colors.keys() - {'Escherichia coli'})
 
-def count_shigella_differs_from_value(class_colors, value, threshhold=0.5):
-    return sum(
-        abs(np.mean(class_colors[cls]) - value) > threshhold
-        for cls in
-        class_colors.keys() - {'Escherichia coli'})
+def count_shigella_differs_from_value(class_colors, value, threshhold=0.3):
+    sh_keys = class_colors.keys() - {'Escherichia coli'}
+    return sum(np.mean(class_colors[cls]) - value >= threshhold for cls in sh_keys), \
+           sum(np.mean(class_colors[cls]) - value < threshhold for cls in sh_keys)

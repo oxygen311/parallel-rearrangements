@@ -13,7 +13,6 @@ def make_labels_dict(file):
 
 def get_genomes_contain_blocks(grimm_file):
     genomes, blocks = set(), set()
-    blocks = set()
 
     with open(grimm_file) as f: ls = f.readlines()
     block_genome_count = defaultdict(Counter)
@@ -26,7 +25,7 @@ def get_genomes_contain_blocks(grimm_file):
             blocks.add(block)
             block_genome_count[block][name] += 1
 
-    return genomes, blocks, block_genome_count
+    return genomes, list(blocks), block_genome_count
 
 def print_species_stats(block_genomes, tree_genomes):
     print('Block species:', len(block_genomes))
