@@ -24,3 +24,7 @@ def count_shigella_differs_from_value(class_colors, value, threshhold=0.3):
     sh_keys = class_colors.keys() - {'Escherichia coli'}
     return sum(np.mean(class_colors[cls]) - value >= threshhold for cls in sh_keys), \
            sum(np.mean(class_colors[cls]) - value < threshhold for cls in sh_keys)
+
+def count_shigella_with_predicate(class_colors, predicate):
+    sh_keys = class_colors.keys() - {'Escherichia coli'}
+    return sum(predicate(np.mean(class_colors[cls])) for cls in sh_keys)

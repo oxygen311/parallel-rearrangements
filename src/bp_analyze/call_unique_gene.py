@@ -5,9 +5,11 @@ from bg.vertices import BGVertex
 
 from src.bp_analyze.tree_drawer import TreeDrawer
 from src.bp_analyze.common import get_genomes_contain_blocks, print_species_stats, make_labels_dict
-from src.bp_analyze.common_bg import draw_bp_with_weights, get_colors_by_edge
+from src.bp_analyze.common_bg import draw_bp_with_weights, get_colors_by_edge, save_pygraphviz
 from src.bp_analyze.consistency_checker import TreeConsistencyChecker
 from src.bp_analyze.shigella_common import get_class_colors, white_proportion, count_shigella_differs_from_white
+
+from pprint import pprint
 
 import os
 
@@ -80,7 +82,8 @@ if __name__ == "__main__":
         print(f'component_{i}_size_{len(component_bg.bg)}')
         os.makedirs(component_folder, exist_ok=True)
 
-        draw_bp_with_weights(component_bg, bg_tree, component_folder + 'graph.pdf')
+        draw_bp_with_weights(component_bg, bg_tree, component_folder + 'graph_networkx.pdf')
+        # save_pygraphviz(component_bg, component_folder + 'graph_pygraphviz.pdf')
 
         for i_edge, edge in enumerate(component_bg.edges()):
             v1, v2 = edge.vertex1.name, edge.vertex2.name
