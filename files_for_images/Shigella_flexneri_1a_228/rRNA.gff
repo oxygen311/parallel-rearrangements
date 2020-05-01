@@ -1,0 +1,22 @@
+NZ_CP012735.1	cmsearch	rRNA	96789	96904	.	-	.	ID=rna-AOT98_RS01440;Parent=gene-AOT98_RS01440;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=AOT98_RS01440;product=5S ribosomal RNA
+NZ_CP012735.1	RefSeq	rRNA	96988	99912	.	-	.	ID=rna-AOT98_RS01445;Parent=gene-AOT98_RS01445;gbkey=rRNA;locus_tag=AOT98_RS01445;product=23S ribosomal RNA
+NZ_CP012735.1	RefSeq	rRNA	100338	101890	.	-	.	ID=rna-AOT98_RS01460;Parent=gene-AOT98_RS01460;gbkey=rRNA;locus_tag=AOT98_RS01460;product=16S ribosomal RNA
+NZ_CP012735.1	cmsearch	rRNA	702204	702319	.	-	.	ID=rna-AOT98_RS04490;Parent=gene-AOT98_RS04490;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=AOT98_RS04490;product=5S ribosomal RNA
+NZ_CP012735.1	RefSeq	rRNA	702403	705327	.	-	.	ID=rna-AOT98_RS04495;Parent=gene-AOT98_RS04495;gbkey=rRNA;locus_tag=AOT98_RS04495;product=23S ribosomal RNA
+NZ_CP012735.1	RefSeq	rRNA	705661	707214	.	-	.	ID=rna-AOT98_RS04505;Parent=gene-AOT98_RS04505;gbkey=rRNA;locus_tag=AOT98_RS04505;product=16S ribosomal RNA
+NZ_CP012735.1	cmsearch	rRNA	742640	742755	.	-	.	ID=rna-AOT98_RS04690;Parent=gene-AOT98_RS04690;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=AOT98_RS04690;product=5S ribosomal RNA
+NZ_CP012735.1	RefSeq	rRNA	742839	745763	.	-	.	ID=rna-AOT98_RS04695;Parent=gene-AOT98_RS04695;gbkey=rRNA;locus_tag=AOT98_RS04695;product=23S ribosomal RNA
+NZ_CP012735.1	RefSeq	rRNA	746097	747650	.	-	.	ID=rna-AOT98_RS04705;Parent=gene-AOT98_RS04705;gbkey=rRNA;locus_tag=AOT98_RS04705;product=16S ribosomal RNA
+NZ_CP012735.1	cmsearch	rRNA	881937	882052	.	-	.	ID=rna-AOT98_RS05395;Parent=gene-AOT98_RS05395;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=AOT98_RS05395;product=5S ribosomal RNA
+NZ_CP012735.1	RefSeq	rRNA	882136	885060	.	-	.	ID=rna-AOT98_RS05400;Parent=gene-AOT98_RS05400;gbkey=rRNA;locus_tag=AOT98_RS05400;product=23S ribosomal RNA
+NZ_CP012735.1	RefSeq	rRNA	885486	887039	.	-	.	ID=rna-AOT98_RS05415;Parent=gene-AOT98_RS05415;gbkey=rRNA;locus_tag=AOT98_RS05415;product=16S ribosomal RNA
+NZ_CP012735.1	cmsearch	rRNA	979214	979329	.	-	.	ID=rna-AOT98_RS05885;Parent=gene-AOT98_RS05885;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=AOT98_RS05885;product=5S ribosomal RNA
+NZ_CP012735.1	RefSeq	rRNA	979413	982337	.	-	.	ID=rna-AOT98_RS05890;Parent=gene-AOT98_RS05890;gbkey=rRNA;locus_tag=AOT98_RS05890;product=23S ribosomal RNA
+NZ_CP012735.1	RefSeq	rRNA	982671	984224	.	-	.	ID=rna-AOT98_RS05900;Parent=gene-AOT98_RS05900;gbkey=rRNA;locus_tag=AOT98_RS05900;product=16S ribosomal RNA
+NZ_CP012735.1	RefSeq	rRNA	1527653	1529206	.	+	.	ID=rna-AOT98_RS08685;Parent=gene-AOT98_RS08685;gbkey=rRNA;locus_tag=AOT98_RS08685;product=16S ribosomal RNA
+NZ_CP012735.1	RefSeq	rRNA	1529632	1532556	.	+	.	ID=rna-AOT98_RS08700;Parent=gene-AOT98_RS08700;gbkey=rRNA;locus_tag=AOT98_RS08700;product=23S ribosomal RNA
+NZ_CP012735.1	cmsearch	rRNA	1532640	1532755	.	+	.	ID=rna-AOT98_RS08705;Parent=gene-AOT98_RS08705;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=AOT98_RS08705;product=5S ribosomal RNA
+NZ_CP012735.1	cmsearch	rRNA	1532885	1533000	.	+	.	ID=rna-AOT98_RS08715;Parent=gene-AOT98_RS08715;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=AOT98_RS08715;product=5S ribosomal RNA
+NZ_CP012735.1	RefSeq	rRNA	2212242	2213795	.	+	.	ID=rna-AOT98_RS12265;Parent=gene-AOT98_RS12265;gbkey=rRNA;locus_tag=AOT98_RS12265;product=16S ribosomal RNA
+NZ_CP012735.1	RefSeq	rRNA	2214129	2217053	.	+	.	ID=rna-AOT98_RS12275;Parent=gene-AOT98_RS12275;gbkey=rRNA;locus_tag=AOT98_RS12275;product=23S ribosomal RNA
+NZ_CP012735.1	cmsearch	rRNA	2217137	2217252	.	+	.	ID=rna-AOT98_RS12280;Parent=gene-AOT98_RS12280;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=AOT98_RS12280;product=5S ribosomal RNA
