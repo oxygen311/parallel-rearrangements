@@ -1,0 +1,22 @@
+NZ_CP011511.1	RefSeq	rRNA	210328	211881	.	+	.	ID=rna-ABE81_RS01055;Parent=gene-ABE81_RS01055;gbkey=rRNA;locus_tag=ABE81_RS01055;product=16S ribosomal RNA
+NZ_CP011511.1	RefSeq	rRNA	212307	215237	.	+	.	ID=rna-ABE81_RS01070;Parent=gene-ABE81_RS01070;gbkey=rRNA;locus_tag=ABE81_RS01070;product=23S ribosomal RNA
+NZ_CP011511.1	cmsearch	rRNA	215315	215430	.	+	.	ID=rna-ABE81_RS01075;Parent=gene-ABE81_RS01075;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=ABE81_RS01075;product=5S ribosomal RNA
+NZ_CP011511.1	cmsearch	rRNA	2674420	2674535	.	-	.	ID=rna-ABE81_RS14845;Parent=gene-ABE81_RS14845;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=ABE81_RS14845;product=5S ribosomal RNA
+NZ_CP011511.1	RefSeq	rRNA	2674613	2677543	.	-	.	ID=rna-ABE81_RS14850;Parent=gene-ABE81_RS14850;gbkey=rRNA;locus_tag=ABE81_RS14850;product=23S ribosomal RNA
+NZ_CP011511.1	RefSeq	rRNA	2677877	2679430	.	-	.	ID=rna-ABE81_RS14860;Parent=gene-ABE81_RS14860;gbkey=rRNA;locus_tag=ABE81_RS14860;product=16S ribosomal RNA
+NZ_CP011511.1	cmsearch	rRNA	3320055	3320170	.	-	.	ID=rna-ABE81_RS18265;Parent=gene-ABE81_RS18265;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=ABE81_RS18265;product=5S ribosomal RNA
+NZ_CP011511.1	cmsearch	rRNA	3320300	3320415	.	-	.	ID=rna-ABE81_RS18275;Parent=gene-ABE81_RS18275;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=ABE81_RS18275;product=5S ribosomal RNA
+NZ_CP011511.1	RefSeq	rRNA	3320493	3323423	.	-	.	ID=rna-ABE81_RS18280;Parent=gene-ABE81_RS18280;gbkey=rRNA;locus_tag=ABE81_RS18280;product=23S ribosomal RNA
+NZ_CP011511.1	RefSeq	rRNA	3323849	3325402	.	-	.	ID=rna-ABE81_RS18295;Parent=gene-ABE81_RS18295;gbkey=rRNA;locus_tag=ABE81_RS18295;product=16S ribosomal RNA
+NZ_CP011511.1	RefSeq	rRNA	3838380	3839933	.	+	.	ID=rna-ABE81_RS20985;Parent=gene-ABE81_RS20985;gbkey=rRNA;locus_tag=ABE81_RS20985;product=16S ribosomal RNA
+NZ_CP011511.1	RefSeq	rRNA	3840359	3843289	.	+	.	ID=rna-ABE81_RS21000;Parent=gene-ABE81_RS21000;gbkey=rRNA;locus_tag=ABE81_RS21000;product=23S ribosomal RNA
+NZ_CP011511.1	cmsearch	rRNA	3843367	3843482	.	+	.	ID=rna-ABE81_RS21005;Parent=gene-ABE81_RS21005;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=ABE81_RS21005;product=5S ribosomal RNA
+NZ_CP011511.1	RefSeq	rRNA	3937259	3938812	.	+	.	ID=rna-ABE81_RS21505;Parent=gene-ABE81_RS21505;gbkey=rRNA;locus_tag=ABE81_RS21505;product=16S ribosomal RNA
+NZ_CP011511.1	RefSeq	rRNA	3939146	3942076	.	+	.	ID=rna-ABE81_RS21515;Parent=gene-ABE81_RS21515;gbkey=rRNA;locus_tag=ABE81_RS21515;product=23S ribosomal RNA
+NZ_CP011511.1	cmsearch	rRNA	3942154	3942269	.	+	.	ID=rna-ABE81_RS21520;Parent=gene-ABE81_RS21520;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=ABE81_RS21520;product=5S ribosomal RNA
+NZ_CP011511.1	RefSeq	rRNA	4074915	4076468	.	+	.	ID=rna-ABE81_RS22210;Parent=gene-ABE81_RS22210;gbkey=rRNA;locus_tag=ABE81_RS22210;product=16S ribosomal RNA
+NZ_CP011511.1	RefSeq	rRNA	4076802	4079732	.	+	.	ID=rna-ABE81_RS22220;Parent=gene-ABE81_RS22220;gbkey=rRNA;locus_tag=ABE81_RS22220;product=23S ribosomal RNA
+NZ_CP011511.1	cmsearch	rRNA	4079810	4079925	.	+	.	ID=rna-ABE81_RS22225;Parent=gene-ABE81_RS22225;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=ABE81_RS22225;product=5S ribosomal RNA
+NZ_CP011511.1	RefSeq	rRNA	4116133	4117686	.	+	.	ID=rna-ABE81_RS22420;Parent=gene-ABE81_RS22420;gbkey=rRNA;locus_tag=ABE81_RS22420;product=16S ribosomal RNA
+NZ_CP011511.1	RefSeq	rRNA	4118020	4120950	.	+	.	ID=rna-ABE81_RS22430;Parent=gene-ABE81_RS22430;gbkey=rRNA;locus_tag=ABE81_RS22430;product=23S ribosomal RNA
+NZ_CP011511.1	cmsearch	rRNA	4121028	4121143	.	+	.	ID=rna-ABE81_RS22435;Parent=gene-ABE81_RS22435;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=ABE81_RS22435;product=5S ribosomal RNA
