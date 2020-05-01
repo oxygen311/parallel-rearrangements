@@ -1,0 +1,22 @@
+NZ_CP010121.1	cmsearch	rRNA	124802	124917	.	-	.	ID=rna-RG27_RS00625;Parent=gene-RG27_RS00625;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=RG27_RS00625;product=5S ribosomal RNA
+NZ_CP010121.1	RefSeq	rRNA	125000	127924	.	-	.	ID=rna-RG27_RS00630;Parent=gene-RG27_RS00630;gbkey=rRNA;locus_tag=RG27_RS00630;product=23S ribosomal RNA
+NZ_CP010121.1	RefSeq	rRNA	128349	129902	.	-	.	ID=rna-RG27_RS00645;Parent=gene-RG27_RS00645;gbkey=rRNA;locus_tag=RG27_RS00645;product=16S ribosomal RNA
+NZ_CP010121.1	cmsearch	rRNA	224844	224959	.	-	.	ID=rna-RG27_RS01135;Parent=gene-RG27_RS01135;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=RG27_RS01135;product=5S ribosomal RNA
+NZ_CP010121.1	RefSeq	rRNA	225042	227966	.	-	.	ID=rna-RG27_RS01140;Parent=gene-RG27_RS01140;gbkey=rRNA;locus_tag=RG27_RS01140;product=23S ribosomal RNA
+NZ_CP010121.1	RefSeq	rRNA	228391	229944	.	-	.	ID=rna-RG27_RS01155;Parent=gene-RG27_RS01155;gbkey=rRNA;locus_tag=RG27_RS01155;product=16S ribosomal RNA
+NZ_CP010121.1	RefSeq	rRNA	771071	772624	.	+	.	ID=rna-RG27_RS03910;Parent=gene-RG27_RS03910;gbkey=rRNA;locus_tag=RG27_RS03910;product=16S ribosomal RNA
+NZ_CP010121.1	RefSeq	rRNA	773049	775974	.	+	.	ID=rna-RG27_RS03925;Parent=gene-RG27_RS03925;gbkey=rRNA;locus_tag=RG27_RS03925;product=23S ribosomal RNA
+NZ_CP010121.1	cmsearch	rRNA	776058	776173	.	+	.	ID=rna-RG27_RS03930;Parent=gene-RG27_RS03930;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=RG27_RS03930;product=5S ribosomal RNA
+NZ_CP010121.1	cmsearch	rRNA	776303	776418	.	+	.	ID=rna-RG27_RS03940;Parent=gene-RG27_RS03940;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=RG27_RS03940;product=5S ribosomal RNA
+NZ_CP010121.1	RefSeq	rRNA	1497521	1499074	.	+	.	ID=rna-RG27_RS07690;Parent=gene-RG27_RS07690;gbkey=rRNA;locus_tag=RG27_RS07690;product=16S ribosomal RNA
+NZ_CP010121.1	RefSeq	rRNA	1499499	1502424	.	+	.	ID=rna-RG27_RS07705;Parent=gene-RG27_RS07705;gbkey=rRNA;locus_tag=RG27_RS07705;product=23S ribosomal RNA
+NZ_CP010121.1	cmsearch	rRNA	1502507	1502622	.	+	.	ID=rna-RG27_RS07710;Parent=gene-RG27_RS07710;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=RG27_RS07710;product=5S ribosomal RNA
+NZ_CP010121.1	cmsearch	rRNA	4221340	4221455	.	-	.	ID=rna-RG27_RS21770;Parent=gene-RG27_RS21770;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=RG27_RS21770;product=5S ribosomal RNA
+NZ_CP010121.1	RefSeq	rRNA	4221538	4224462	.	-	.	ID=rna-RG27_RS21775;Parent=gene-RG27_RS21775;gbkey=rRNA;locus_tag=RG27_RS21775;product=23S ribosomal RNA
+NZ_CP010121.1	RefSeq	rRNA	4224887	4226440	.	-	.	ID=rna-RG27_RS21790;Parent=gene-RG27_RS21790;gbkey=rRNA;locus_tag=RG27_RS21790;product=16S ribosomal RNA
+NZ_CP010121.1	cmsearch	rRNA	4944087	4944202	.	-	.	ID=rna-RG27_RS25385;Parent=gene-RG27_RS25385;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=RG27_RS25385;product=5S ribosomal RNA
+NZ_CP010121.1	RefSeq	rRNA	4944285	4947209	.	-	.	ID=rna-RG27_RS25390;Parent=gene-RG27_RS25390;gbkey=rRNA;locus_tag=RG27_RS25390;product=23S ribosomal RNA
+NZ_CP010121.1	RefSeq	rRNA	4947634	4949187	.	-	.	ID=rna-RG27_RS25405;Parent=gene-RG27_RS25405;gbkey=rRNA;locus_tag=RG27_RS25405;product=16S ribosomal RNA
+NZ_CP010121.1	cmsearch	rRNA	4985268	4985383	.	-	.	ID=rna-RG27_RS25610;Parent=gene-RG27_RS25610;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=RG27_RS25610;product=5S ribosomal RNA
+NZ_CP010121.1	RefSeq	rRNA	4985467	4988391	.	-	.	ID=rna-RG27_RS25615;Parent=gene-RG27_RS25615;gbkey=rRNA;locus_tag=RG27_RS25615;product=23S ribosomal RNA
+NZ_CP010121.1	RefSeq	rRNA	4988725	4990278	.	-	.	ID=rna-RG27_RS25625;Parent=gene-RG27_RS25625;gbkey=rRNA;locus_tag=RG27_RS25625;product=16S ribosomal RNA

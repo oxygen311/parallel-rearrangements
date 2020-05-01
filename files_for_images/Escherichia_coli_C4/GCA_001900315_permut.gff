@@ -1,0 +1,6 @@
+NZ_CP010121.1	bed2gff	feature1	256274	259346	0	+	.	group1;
+NZ_CP010121.1	bed2gff	feature2	265362	269957	0	+	.	group2;
+NZ_CP010121.1	bed2gff	feature3	3776362	3777959	0	+	.	group3;
+NZ_CP010121.1	bed2gff	feature4	3805323	3807528	0	+	.	group4;
+NZ_CP010121.1	bed2gff	feature5	4871744	4873593	0	+	.	group5;
+NZ_CP010121.1	bed2gff	feature6	4878706	4882222	0	+	.	group6;
