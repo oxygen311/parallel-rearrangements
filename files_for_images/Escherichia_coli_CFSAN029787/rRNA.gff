@@ -1,0 +1,22 @@
+NZ_CP011416.1	cmsearch	rRNA	936061	936176	.	-	.	ID=rna-AA102_RS04895;Parent=gene-AA102_RS04895;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=AA102_RS04895;product=5S ribosomal RNA
+NZ_CP011416.1	RefSeq	rRNA	936254	939183	.	-	.	ID=rna-AA102_RS04900;Parent=gene-AA102_RS04900;gbkey=rRNA;locus_tag=AA102_RS04900;product=23S ribosomal RNA
+NZ_CP011416.1	RefSeq	rRNA	939517	941070	.	-	.	ID=rna-AA102_RS04910;Parent=gene-AA102_RS04910;gbkey=rRNA;locus_tag=AA102_RS04910;product=16S ribosomal RNA
+NZ_CP011416.1	cmsearch	rRNA	1657413	1657528	.	-	.	ID=rna-AA102_RS08500;Parent=gene-AA102_RS08500;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=AA102_RS08500;product=5S ribosomal RNA
+NZ_CP011416.1	cmsearch	rRNA	1657658	1657773	.	-	.	ID=rna-AA102_RS08510;Parent=gene-AA102_RS08510;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=AA102_RS08510;product=5S ribosomal RNA
+NZ_CP011416.1	RefSeq	rRNA	1657856	1660779	.	-	.	ID=rna-AA102_RS08515;Parent=gene-AA102_RS08515;gbkey=rRNA;locus_tag=AA102_RS08515;product=23S ribosomal RNA
+NZ_CP011416.1	RefSeq	rRNA	1661205	1662758	.	-	.	ID=rna-AA102_RS08530;Parent=gene-AA102_RS08530;gbkey=rRNA;locus_tag=AA102_RS08530;product=16S ribosomal RNA
+NZ_CP011416.1	RefSeq	rRNA	2167497	2169050	.	+	.	ID=rna-AA102_RS11025;Parent=gene-AA102_RS11025;gbkey=rRNA;locus_tag=AA102_RS11025;product=16S ribosomal RNA
+NZ_CP011416.1	RefSeq	rRNA	2169384	2172307	.	+	.	ID=rna-AA102_RS11035;Parent=gene-AA102_RS11035;gbkey=rRNA;locus_tag=AA102_RS11035;product=23S ribosomal RNA
+NZ_CP011416.1	cmsearch	rRNA	2172391	2172506	.	+	.	ID=rna-AA102_RS11040;Parent=gene-AA102_RS11040;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=AA102_RS11040;product=5S ribosomal RNA
+NZ_CP011416.1	RefSeq	rRNA	2264802	2266355	.	+	.	ID=rna-AA102_RS11510;Parent=gene-AA102_RS11510;gbkey=rRNA;locus_tag=AA102_RS11510;product=16S ribosomal RNA
+NZ_CP011416.1	RefSeq	rRNA	2266781	2269703	.	+	.	ID=rna-AA102_RS11525;Parent=gene-AA102_RS11525;gbkey=rRNA;locus_tag=AA102_RS11525;product=23S ribosomal RNA
+NZ_CP011416.1	cmsearch	rRNA	2269787	2269902	.	+	.	ID=rna-AA102_RS11530;Parent=gene-AA102_RS11530;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=AA102_RS11530;product=5S ribosomal RNA
+NZ_CP011416.1	RefSeq	rRNA	2403295	2404848	.	+	.	ID=rna-AA102_RS12180;Parent=gene-AA102_RS12180;gbkey=rRNA;locus_tag=AA102_RS12180;product=16S ribosomal RNA
+NZ_CP011416.1	RefSeq	rRNA	2405182	2408111	.	+	.	ID=rna-AA102_RS12190;Parent=gene-AA102_RS12190;gbkey=rRNA;locus_tag=AA102_RS12190;product=23S ribosomal RNA
+NZ_CP011416.1	cmsearch	rRNA	2408189	2408304	.	+	.	ID=rna-AA102_RS12195;Parent=gene-AA102_RS12195;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=AA102_RS12195;product=5S ribosomal RNA
+NZ_CP011416.1	RefSeq	rRNA	2444669	2446222	.	+	.	ID=rna-AA102_RS12390;Parent=gene-AA102_RS12390;gbkey=rRNA;locus_tag=AA102_RS12390;product=16S ribosomal RNA
+NZ_CP011416.1	RefSeq	rRNA	2446556	2449486	.	+	.	ID=rna-AA102_RS12400;Parent=gene-AA102_RS12400;gbkey=rRNA;locus_tag=AA102_RS12400;product=23S ribosomal RNA
+NZ_CP011416.1	cmsearch	rRNA	2449564	2449679	.	+	.	ID=rna-AA102_RS12405;Parent=gene-AA102_RS12405;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=AA102_RS12405;product=5S ribosomal RNA
+NZ_CP011416.1	RefSeq	rRNA	3081083	3082636	.	+	.	ID=rna-AA102_RS15445;Parent=gene-AA102_RS15445;gbkey=rRNA;locus_tag=AA102_RS15445;product=16S ribosomal RNA
+NZ_CP011416.1	RefSeq	rRNA	3083062	3085993	.	+	.	ID=rna-AA102_RS15460;Parent=gene-AA102_RS15460;gbkey=rRNA;locus_tag=AA102_RS15460;product=23S ribosomal RNA
+NZ_CP011416.1	cmsearch	rRNA	3086072	3086187	.	+	.	ID=rna-AA102_RS15465;Parent=gene-AA102_RS15465;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=AA102_RS15465;product=5S ribosomal RNA
