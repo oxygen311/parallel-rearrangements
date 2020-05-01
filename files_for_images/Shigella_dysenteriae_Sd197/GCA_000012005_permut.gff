@@ -1,0 +1,6 @@
+NC_007606.1	bed2gff	feature1	3751117	3754189	0	+	.	group1;
+NC_007606.1	bed2gff	feature2	3756794	3761521	0	+	.	group2;
+NC_007606.1	bed2gff	feature3	269568	271165	0	+	.	group3;
+NC_007606.1	bed2gff	feature4	392130	394335	0	+	.	group4;
+NC_007606.1	bed2gff	feature5	4213141	4214984	0	+	.	group5;
+NC_007606.1	bed2gff	feature6	4219410	4222925	0	+	.	group6;

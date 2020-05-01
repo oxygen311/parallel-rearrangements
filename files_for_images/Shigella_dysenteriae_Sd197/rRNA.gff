@@ -1,0 +1,22 @@
+NC_007606.1	RefSeq	rRNA	224744	226297	.	+	.	ID=rna-SDY_RS01085;Parent=gene-SDY_RS01085;gbkey=rRNA;locus_tag=SDY_RS01085;product=16S ribosomal RNA
+NC_007606.1	RefSeq	rRNA	226714	229636	.	+	.	ID=rna-SDY_RS01100;Parent=gene-SDY_RS01100;gbkey=rRNA;locus_tag=SDY_RS01100;product=23S ribosomal RNA
+NC_007606.1	cmsearch	rRNA	229719	229834	.	+	.	ID=rna-SDY_RS01105;Parent=gene-SDY_RS01105;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=SDY_RS01105;product=5S ribosomal RNA
+NC_007606.1	cmsearch	rRNA	2621926	2622041	.	-	.	ID=rna-SDY_RS13915;Parent=gene-SDY_RS13915;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=SDY_RS13915;product=5S ribosomal RNA
+NC_007606.1	RefSeq	rRNA	2622124	2625046	.	-	.	ID=rna-SDY_RS13920;Parent=gene-SDY_RS13920;gbkey=rRNA;locus_tag=SDY_RS13920;product=23S ribosomal RNA
+NC_007606.1	RefSeq	rRNA	2625372	2626925	.	-	.	ID=rna-SDY_RS13930;Parent=gene-SDY_RS13930;gbkey=rRNA;locus_tag=SDY_RS13930;product=16S ribosomal RNA
+NC_007606.1	cmsearch	rRNA	3205864	3205979	.	-	.	ID=rna-SDY_RS16975;Parent=gene-SDY_RS16975;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=SDY_RS16975;product=5S ribosomal RNA
+NC_007606.1	cmsearch	rRNA	3206109	3206224	.	-	.	ID=rna-SDY_RS16985;Parent=gene-SDY_RS16985;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=SDY_RS16985;product=5S ribosomal RNA
+NC_007606.1	RefSeq	rRNA	3206307	3209229	.	-	.	ID=rna-SDY_RS16990;Parent=gene-SDY_RS16990;gbkey=rRNA;locus_tag=SDY_RS16990;product=23S ribosomal RNA
+NC_007606.1	RefSeq	rRNA	3209646	3211199	.	-	.	ID=rna-SDY_RS17005;Parent=gene-SDY_RS17005;gbkey=rRNA;locus_tag=SDY_RS17005;product=16S ribosomal RNA
+NC_007606.1	cmsearch	rRNA	3444786	3444901	.	-	.	ID=rna-SDY_RS18300;Parent=gene-SDY_RS18300;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=SDY_RS18300;product=5S ribosomal RNA
+NC_007606.1	RefSeq	rRNA	3444984	3447906	.	-	.	ID=rna-SDY_RS18305;Parent=gene-SDY_RS18305;gbkey=rRNA;locus_tag=SDY_RS18305;product=23S ribosomal RNA
+NC_007606.1	RefSeq	rRNA	3448232	3449785	.	-	.	ID=rna-SDY_RS18315;Parent=gene-SDY_RS18315;gbkey=rRNA;locus_tag=SDY_RS18315;product=16S ribosomal RNA
+NC_007606.1	cmsearch	rRNA	3486748	3486863	.	-	.	ID=rna-SDY_RS18505;Parent=gene-SDY_RS18505;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=SDY_RS18505;product=5S ribosomal RNA
+NC_007606.1	RefSeq	rRNA	3486946	3489868	.	-	.	ID=rna-SDY_RS18510;Parent=gene-SDY_RS18510;gbkey=rRNA;locus_tag=SDY_RS18510;product=23S ribosomal RNA
+NC_007606.1	RefSeq	rRNA	3490194	3491747	.	-	.	ID=rna-SDY_RS18520;Parent=gene-SDY_RS18520;gbkey=rRNA;locus_tag=SDY_RS18520;product=16S ribosomal RNA
+NC_007606.1	cmsearch	rRNA	3619841	3619956	.	-	.	ID=rna-SDY_RS19160;Parent=gene-SDY_RS19160;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=SDY_RS19160;product=5S ribosomal RNA
+NC_007606.1	RefSeq	rRNA	3620039	3622961	.	-	.	ID=rna-SDY_RS19165;Parent=gene-SDY_RS19165;gbkey=rRNA;locus_tag=SDY_RS19165;product=23S ribosomal RNA
+NC_007606.1	RefSeq	rRNA	3623378	3624931	.	-	.	ID=rna-SDY_RS19180;Parent=gene-SDY_RS19180;gbkey=rRNA;locus_tag=SDY_RS19180;product=16S ribosomal RNA
+NC_007606.1	cmsearch	rRNA	3719010	3719125	.	-	.	ID=rna-SDY_RS19660;Parent=gene-SDY_RS19660;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=SDY_RS19660;product=5S ribosomal RNA
+NC_007606.1	RefSeq	rRNA	3719208	3722130	.	-	.	ID=rna-SDY_RS19665;Parent=gene-SDY_RS19665;gbkey=rRNA;locus_tag=SDY_RS19665;product=23S ribosomal RNA
+NC_007606.1	RefSeq	rRNA	3722456	3724009	.	-	.	ID=rna-SDY_RS19675;Parent=gene-SDY_RS19675;gbkey=rRNA;locus_tag=SDY_RS19675;product=16S ribosomal RNA
