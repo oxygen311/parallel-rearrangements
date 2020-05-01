@@ -1,0 +1,22 @@
+NZ_CP034067.1	cmsearch	rRNA	800359	800474	.	-	.	ID=rna-EGX92_RS04615;Parent=gene-EGX92_RS04615;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=EGX92_RS04615;product=5S ribosomal RNA
+NZ_CP034067.1	RefSeq	rRNA	800557	803477	.	-	.	ID=rna-EGX92_RS04620;Parent=gene-EGX92_RS04620;gbkey=rRNA;locus_tag=EGX92_RS04620;product=23S ribosomal RNA
+NZ_CP034067.1	RefSeq	rRNA	803903	805456	.	-	.	ID=rna-EGX92_RS04635;Parent=gene-EGX92_RS04635;gbkey=rRNA;locus_tag=EGX92_RS04635;product=16S ribosomal RNA
+NZ_CP034067.1	cmsearch	rRNA	1440575	1440690	.	-	.	ID=rna-EGX92_RS07710;Parent=gene-EGX92_RS07710;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=EGX92_RS07710;product=5S ribosomal RNA
+NZ_CP034067.1	RefSeq	rRNA	1440767	1443694	.	-	.	ID=rna-EGX92_RS07715;Parent=gene-EGX92_RS07715;gbkey=rRNA;locus_tag=EGX92_RS07715;product=23S ribosomal RNA
+NZ_CP034067.1	RefSeq	rRNA	1444027	1445579	.	-	.	ID=rna-EGX92_RS07725;Parent=gene-EGX92_RS07725;gbkey=rRNA;locus_tag=EGX92_RS07725;product=16S ribosomal RNA
+NZ_CP034067.1	cmsearch	rRNA	1480864	1480979	.	-	.	ID=rna-EGX92_RS07900;Parent=gene-EGX92_RS07900;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=EGX92_RS07900;product=5S ribosomal RNA
+NZ_CP034067.1	RefSeq	rRNA	1481062	1483985	.	-	.	ID=rna-EGX92_RS07905;Parent=gene-EGX92_RS07905;gbkey=rRNA;locus_tag=EGX92_RS07905;product=23S ribosomal RNA
+NZ_CP034067.1	RefSeq	rRNA	1484319	1485872	.	-	.	ID=rna-EGX92_RS07915;Parent=gene-EGX92_RS07915;gbkey=rRNA;locus_tag=EGX92_RS07915;product=16S ribosomal RNA
+NZ_CP034067.1	cmsearch	rRNA	1614121	1614236	.	-	.	ID=rna-EGX92_RS08520;Parent=gene-EGX92_RS08520;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=EGX92_RS08520;product=5S ribosomal RNA
+NZ_CP034067.1	RefSeq	rRNA	1614319	1617242	.	-	.	ID=rna-EGX92_RS08525;Parent=gene-EGX92_RS08525;gbkey=rRNA;locus_tag=EGX92_RS08525;product=23S ribosomal RNA
+NZ_CP034067.1	RefSeq	rRNA	1617668	1619221	.	-	.	ID=rna-EGX92_RS08540;Parent=gene-EGX92_RS08540;gbkey=rRNA;locus_tag=EGX92_RS08540;product=16S ribosomal RNA
+NZ_CP034067.1	cmsearch	rRNA	1718778	1718893	.	-	.	ID=rna-EGX92_RS09070;Parent=gene-EGX92_RS09070;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=EGX92_RS09070;product=5S ribosomal RNA
+NZ_CP034067.1	RefSeq	rRNA	1718976	1721895	.	-	.	ID=rna-EGX92_RS09075;Parent=gene-EGX92_RS09075;gbkey=rRNA;locus_tag=EGX92_RS09075;product=23S ribosomal RNA
+NZ_CP034067.1	RefSeq	rRNA	1722229	1723779	.	-	.	ID=rna-EGX92_RS09085;Parent=gene-EGX92_RS09085;gbkey=rRNA;locus_tag=EGX92_RS09085;product=16S ribosomal RNA
+NZ_CP034067.1	RefSeq	rRNA	2269991	2271543	.	+	.	ID=rna-EGX92_RS11890;Parent=gene-EGX92_RS11890;gbkey=rRNA;locus_tag=EGX92_RS11890;product=16S ribosomal RNA
+NZ_CP034067.1	RefSeq	rRNA	2271969	2274891	.	+	.	ID=rna-EGX92_RS11905;Parent=gene-EGX92_RS11905;gbkey=rRNA;locus_tag=EGX92_RS11905;product=23S ribosomal RNA
+NZ_CP034067.1	cmsearch	rRNA	2274974	2275089	.	+	.	ID=rna-EGX92_RS11910;Parent=gene-EGX92_RS11910;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=EGX92_RS11910;product=5S ribosomal RNA
+NZ_CP034067.1	cmsearch	rRNA	2275219	2275334	.	+	.	ID=rna-EGX92_RS11920;Parent=gene-EGX92_RS11920;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=EGX92_RS11920;product=5S ribosomal RNA
+NZ_CP034067.1	RefSeq	rRNA	2997088	2998640	.	+	.	ID=rna-EGX92_RS15660;Parent=gene-EGX92_RS15660;gbkey=rRNA;locus_tag=EGX92_RS15660;product=16S ribosomal RNA
+NZ_CP034067.1	RefSeq	rRNA	2998974	3001897	.	+	.	ID=rna-EGX92_RS15670;Parent=gene-EGX92_RS15670;gbkey=rRNA;locus_tag=EGX92_RS15670;product=23S ribosomal RNA
+NZ_CP034067.1	cmsearch	rRNA	3001980	3002095	.	+	.	ID=rna-EGX92_RS15675;Parent=gene-EGX92_RS15675;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=EGX92_RS15675;product=5S ribosomal RNA
