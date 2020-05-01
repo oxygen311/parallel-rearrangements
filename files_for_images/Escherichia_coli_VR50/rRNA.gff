@@ -1,0 +1,22 @@
+NZ_CP011134.1	RefSeq	rRNA	230775	232328	.	+	.	ID=rna-ECVR50_RS01055;Parent=gene-ECVR50_RS01055;gbkey=rRNA;locus_tag=ECVR50_RS01055;product=16S ribosomal RNA
+NZ_CP011134.1	RefSeq	rRNA	232754	235684	.	+	.	ID=rna-ECVR50_RS01070;Parent=gene-ECVR50_RS01070;gbkey=rRNA;locus_tag=ECVR50_RS01070;product=23S ribosomal RNA
+NZ_CP011134.1	cmsearch	rRNA	235762	235877	.	+	.	ID=rna-ECVR50_RS01075;Parent=gene-ECVR50_RS01075;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=ECVR50_RS01075;product=5S ribosomal RNA
+NZ_CP011134.1	cmsearch	rRNA	2906872	2906987	.	-	.	ID=rna-ECVR50_RS14505;Parent=gene-ECVR50_RS14505;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=ECVR50_RS14505;product=5S ribosomal RNA
+NZ_CP011134.1	RefSeq	rRNA	2907065	2909994	.	-	.	ID=rna-ECVR50_RS14510;Parent=gene-ECVR50_RS14510;gbkey=rRNA;locus_tag=ECVR50_RS14510;product=23S ribosomal RNA
+NZ_CP011134.1	RefSeq	rRNA	2910405	2911958	.	-	.	ID=rna-ECVR50_RS14520;Parent=gene-ECVR50_RS14520;gbkey=rRNA;locus_tag=ECVR50_RS14520;product=16S ribosomal RNA
+NZ_CP011134.1	cmsearch	rRNA	3739980	3740095	.	-	.	ID=rna-ECVR50_RS18730;Parent=gene-ECVR50_RS18730;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=ECVR50_RS18730;product=5S ribosomal RNA
+NZ_CP011134.1	cmsearch	rRNA	3740225	3740340	.	-	.	ID=rna-ECVR50_RS18740;Parent=gene-ECVR50_RS18740;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=ECVR50_RS18740;product=5S ribosomal RNA
+NZ_CP011134.1	RefSeq	rRNA	3740418	3743347	.	-	.	ID=rna-ECVR50_RS18745;Parent=gene-ECVR50_RS18745;gbkey=rRNA;locus_tag=ECVR50_RS18745;product=23S ribosomal RNA
+NZ_CP011134.1	RefSeq	rRNA	3743773	3745326	.	-	.	ID=rna-ECVR50_RS18760;Parent=gene-ECVR50_RS18760;gbkey=rRNA;locus_tag=ECVR50_RS18760;product=16S ribosomal RNA
+NZ_CP011134.1	RefSeq	rRNA	4283243	4284796	.	+	.	ID=rna-ECVR50_RS21410;Parent=gene-ECVR50_RS21410;gbkey=rRNA;locus_tag=ECVR50_RS21410;product=16S ribosomal RNA
+NZ_CP011134.1	RefSeq	rRNA	4285130	4288060	.	+	.	ID=rna-ECVR50_RS21420;Parent=gene-ECVR50_RS21420;gbkey=rRNA;locus_tag=ECVR50_RS21420;product=23S ribosomal RNA
+NZ_CP011134.1	cmsearch	rRNA	4288138	4288253	.	+	.	ID=rna-ECVR50_RS21425;Parent=gene-ECVR50_RS21425;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=ECVR50_RS21425;product=5S ribosomal RNA
+NZ_CP011134.1	RefSeq	rRNA	4378309	4379862	.	+	.	ID=rna-ECVR50_RS21880;Parent=gene-ECVR50_RS21880;gbkey=rRNA;locus_tag=ECVR50_RS21880;product=16S ribosomal RNA
+NZ_CP011134.1	RefSeq	rRNA	4380288	4383217	.	+	.	ID=rna-ECVR50_RS21895;Parent=gene-ECVR50_RS21895;gbkey=rRNA;locus_tag=ECVR50_RS21895;product=23S ribosomal RNA
+NZ_CP011134.1	cmsearch	rRNA	4383295	4383410	.	+	.	ID=rna-ECVR50_RS21900;Parent=gene-ECVR50_RS21900;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=ECVR50_RS21900;product=5S ribosomal RNA
+NZ_CP011134.1	RefSeq	rRNA	4509434	4510987	.	+	.	ID=rna-ECVR50_RS22505;Parent=gene-ECVR50_RS22505;gbkey=rRNA;locus_tag=ECVR50_RS22505;product=16S ribosomal RNA
+NZ_CP011134.1	RefSeq	rRNA	4511321	4514250	.	+	.	ID=rna-ECVR50_RS22515;Parent=gene-ECVR50_RS22515;gbkey=rRNA;locus_tag=ECVR50_RS22515;product=23S ribosomal RNA
+NZ_CP011134.1	cmsearch	rRNA	4514328	4514443	.	+	.	ID=rna-ECVR50_RS22520;Parent=gene-ECVR50_RS22520;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=ECVR50_RS22520;product=5S ribosomal RNA
+NZ_CP011134.1	RefSeq	rRNA	4550836	4552389	.	+	.	ID=rna-ECVR50_RS22715;Parent=gene-ECVR50_RS22715;gbkey=rRNA;locus_tag=ECVR50_RS22715;product=16S ribosomal RNA
+NZ_CP011134.1	RefSeq	rRNA	4552723	4555653	.	+	.	ID=rna-ECVR50_RS22725;Parent=gene-ECVR50_RS22725;gbkey=rRNA;locus_tag=ECVR50_RS22725;product=23S ribosomal RNA
+NZ_CP011134.1	cmsearch	rRNA	4555731	4555846	.	+	.	ID=rna-ECVR50_RS22730;Parent=gene-ECVR50_RS22730;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.1;locus_tag=ECVR50_RS22730;product=5S ribosomal RNA
