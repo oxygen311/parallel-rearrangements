@@ -9,11 +9,13 @@ import urllib.request
 import urllib.error
 
 Entrez.email = 'a.zabelkin@itmo.ru'
-type = 'gbff'
+type = 'fna'
 suffix = '_genomic'
 ids_max = 1000
 
-term = 'Legionella pneumophila'
+term = 'Burkholderia'
+# term = 'Pseudomonas aeruginosa'
+# term = 'Staphylococcus aureus'
 
 def get_assembly_summary(id):
     esummary_handle = Entrez.esummary(db="assembly", id=id, report="full")
@@ -31,11 +33,13 @@ def get_assemblies(term, download=True, base_folder='data/'):
     i = 0
 
     for shift in range(0, len(ids), ids_max):
-        summaries = get_assembly_summary(','.join(ids[shift:shift + ids_max]))
+        summaries = get_assembly_summary(','.join(ids[shift:shift + ids_max]))['DocumentSummarySet']['DocumentSummary']
         print(f'got summaries from {shift} to {min(len(ids), shift + ids_max)}')
 
-        for summary in filter(lambda s: s['AssemblyStatus'] == 'Complete Genome',
-                              summaries['DocumentSummarySet']['DocumentSummary']):
+        print(Counter([s['AssemblyStatus'] for s in summaries]))
+        for summary in filter(lambda s: s['AssemblyStatus'] == 'Complete Genome' or
+                                        s['AssemblyStatus'] == 'Chromosome',
+                              summaries):
             print('Current:', summary['AssemblyName'])
 
             for sp in summary['Biosource']['InfraspeciesList']:
