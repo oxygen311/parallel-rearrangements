@@ -2,6 +2,8 @@ import numpy as np
 import re
 import pandas as pd
 
+from io import StringIO
+
 
 p = "([A-Za-z0-9_\(\)\/\s]+)\.([A-Za-z0-9_\.]+):(\d+)-(\d+) ([+|-]).*"
 pattern = re.compile(p)
@@ -59,3 +61,36 @@ def dist_between_blocks(df):
         df_sp = df_sp.sort_values(by=['chr_beg'])
         ds += (start_ - end_ for start_, end_ in zip(df_sp['chr_beg'][1:], df_sp['chr_end']))
     return ds
+
+
+def ragout_to_infercars(dir, in_file, out_file):
+    sep = '-' * 80
+    split_by_underscore = False
+
+    lines = open(dir + in_file).read().split('\n')[:-1]
+    ls = np.array(lines)
+    bs = np.split(ls, np.where(ls == sep)[0])
+
+    # names of chromosomes
+    df_names = pd.read_csv(StringIO('\n'.join(bs[0])), sep='\t')
+    chr_names = {}
+    for index, row in df_names.iterrows():
+        chr_names[row['Seq_id']] = row['Description']
+
+    # blocks data
+    with open(dir + out_file, 'w') as f:
+        for b in bs[1:-1]:
+            block = b[1].split('#')[1]
+            df_block = pd.read_csv(StringIO('\n'.join(b[2:])), sep='\t')
+
+            print(f'>{block}', file=f)
+            for index, row in df_block.iterrows():
+                chr_name, start, end, strand = chr_names[row['Seq_id']], row['Start'], row['End'], row['Strand']
+                if split_by_underscore:
+                    splitted = chr_name.split('_', 1)
+                    chr = splitted[0] + '.' + splitted[1].split('.')[0]
+                else:
+                    chr = chr_name
+                if not 'alt' in chr:
+                    print(chr + ':' + (f'{start}-{end}' if strand == '+' else f'{end}-{start}') + ' ' + strand, file=f)
+            print(file=f)

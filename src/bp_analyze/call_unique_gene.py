@@ -3,25 +3,27 @@ from bg.tree import BGTree
 from bg.genome import BGGenome
 from bg.vertices import BGVertex
 
-from src.bp_analyze.tree_drawer import TreeDrawer
+from src.bp_analyze.tree_holder import TreeHolder
 from src.bp_analyze.common import get_genomes_contain_blocks, print_species_stats, make_labels_dict
 from src.bp_analyze.common_bg import draw_bp_with_weights, get_colors_by_edge, save_pygraphviz
 from src.bp_analyze.consistency_checker import TreeConsistencyChecker
-from src.bp_analyze.shigella_common import get_class_colors, white_proportion, count_shigella_differs_from_white
 
-from pprint import pprint
+import numpy as np
 
 import os
+import csv
 
-sp_folder = 'data/E_coli/'
-testing = False
-csv_file = sp_folder + 'total_stats.csv'
-scale = 15000
-blocks_folder = sp_folder + 'sibeliaz_out/fine/1000/'
+sp_folder = 'data/Staphylococcus_aureus/'
+csv_file = sp_folder + 'assemblies_chrs.csv'
+scale = 42000
+blocks_folder = sp_folder + 'sibeliaz/fine/1000/'
 grimm_file = blocks_folder + 'genomes_permutations_unique.txt'
-tree_file = sp_folder + 'tree/tree_midpoint_converted.nwk'
+tree_file = sp_folder + 'tree/RAxML_bipartitionsBranchLabels.attepmt_converted_renamed'
 output_folder = blocks_folder + 'bp_unique_block_output/'
+csv_out_file = output_folder + 'stats.csv'
 
+def white_proportion(colors):
+    return np.mean(list(map(lambda c: c == 0, colors)))
 
 def get_genome_colors_by_edge(bg, edge, genomes):
     def get_neighbour_with_genome(v, genome):
@@ -58,60 +60,62 @@ def get_genome_colors_by_edge(bg, edge, genomes):
 
 if __name__ == "__main__":
     labels_dict = make_labels_dict(csv_file)
-    tree_drawer = TreeDrawer(tree_file, scale=scale, labels_dict=labels_dict,
+    tree_holder = TreeHolder(tree_file, scale=scale, labels_dict=labels_dict,
                              colors=(
                                  'White', 'Gainsboro', 'LightGreen', 'LightBlue', 'NavajoWhite', 'LightPink',
                                  'LightCoral', 'Purple', 'Navy', 'Olive', 'Teal', 'SaddleBrown', 'SeaGreen', 'DarkCyan',
                                  'DarkOliveGreen', 'DarkSeaGreen'))
 
     genomes = get_genomes_contain_blocks(grimm_file)[0]
-    print_species_stats(genomes, tree_drawer.get_all_leafs())
+    print_species_stats(genomes, tree_holder.get_all_leafs())
 
     bg = GRIMMReader.get_breakpoint_graph(open(grimm_file))
     bg_tree = BGTree(tree_file)
     print('<bg parsed>')
 
-    consistency_checker = TreeConsistencyChecker(tree_file)
+    trees_folder = output_folder + 'trees/'
+    os.makedirs(trees_folder, exist_ok=True)
+
+    bg_folder = output_folder + 'bg_components/'
+    os.makedirs(bg_folder, exist_ok=True)
+
+    ans = [['vertex1', 'vertex2', 'parallel_rear_score', 'parallel_rear_unique_innovation_count',
+            'parallel_rear_all_innovations_count', 'parallel_breakpoint_score', 'parallel_breakpoint_count']]
+
+    # consistency_checker = TreeConsistencyChecker(tree_file)
     for i, component_bg in enumerate(bg.connected_components_subgraphs()):
         g = component_bg.bg
         nodes_len = len(list(component_bg.nodes()))
         if nodes_len == 2: continue
 
-        # draw graph
-        component_folder = output_folder + f'component_{i}_size_{len(component_bg.bg)}/'
         print(f'component_{i}_size_{len(component_bg.bg)}')
-        os.makedirs(component_folder, exist_ok=True)
 
-        draw_bp_with_weights(component_bg, bg_tree, component_folder + 'graph_networkx.pdf')
+        draw_bp_with_weights(component_bg, bg_tree, bg_folder + f'component_{i}_size_{len(component_bg.bg)}.pdf')
         # save_pygraphviz(component_bg, component_folder + 'graph_pygraphviz.pdf')
 
         for i_edge, edge in enumerate(component_bg.edges()):
             v1, v2 = edge.vertex1.name, edge.vertex2.name
             if v1 > v2: v1, v2 = v2, v1
 
-            print(i_edge, 'of', len(list(component_bg.edges())), ':', v1, v2)
             genome_colors, neighbour_edges = get_genome_colors_by_edge(component_bg, edge, genomes)
 
             # shigella differs?
-            class_colors = get_class_colors(labels_dict, genome_colors)
-            if white_proportion(class_colors['Escherichia coli']) < 0.5: continue
-            shigella_differs = count_shigella_differs_from_white(class_colors)
+            if white_proportion(genome_colors.values()) < 0.5: continue
+            print(i_edge, 'of', len(list(component_bg.edges())), ':', v1, v2)
 
             # consistency
-            type = 'consistent'
-            inconsistent_colors = consistency_checker.check_consistency(genome_colors.copy())
-            if len(inconsistent_colors) == 0:
-                if len(consistency_checker.check_consistency({k: (0 if v == 0 else 1) for k, v in genome_colors.items()})) > 0:
-                    type = 'parallel_breakpoint'
-            else:
-                type = 'parallel_' + \
-                ('breakpoint' if len(inconsistent_colors) == 1 and inconsistent_colors.pop() == 1 else 'rearrangement')
+            tree_holder.count_innovations_fitch(genome_colors)
 
-            curr_output_folder = component_folder + f'{type}__{shigella_differs}_shigells_differ/'
-            os.makedirs(curr_output_folder, exist_ok=True)
+            score_rear, count_rear, count_all_rear = tree_holder.count_parallel_rearrangements(skip_grey=True)
+            score_break, count_break = tree_holder.count_parallel_breakpoints()
+
+            ans.append([v1, v2, score_rear, count_rear, count_all_rear, score_break, count_break])
 
             labels = ['edge exists', 'parallel edge doesn\'t exist'] + [f'parallel edge {v1}-{v2}' for (v1, v2) in
                                                                         neighbour_edges]
 
-            tree_drawer.draw(curr_output_folder + f'edge_{v1}_{v2}.pdf', colors_dict=genome_colors,
-                             legend_labels=labels)
+            tree_holder.draw(trees_folder + f'edge_{v1}_{v2}.pdf', legend_labels=labels, show_branch_support=True)
+
+    with open(csv_out_file, 'w') as f:
+        wtr = csv.writer(f)
+        wtr.writerows(ans)

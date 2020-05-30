@@ -13,8 +13,8 @@ type = 'fna'
 suffix = '_genomic'
 ids_max = 1000
 
-term = 'Burkholderia'
-# term = 'Pseudomonas aeruginosa'
+# term = 'Burkholderia'
+term = 'Pseudomonas aeruginosa'
 # term = 'Staphylococcus aureus'
 
 def get_assembly_summary(id):

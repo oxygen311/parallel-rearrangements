@@ -4,7 +4,7 @@ from collections import Counter
 import matplotlib.pyplot as plt
 import networkx as nx
 
-grimm_file = 'data/E_coli/sibeliaz_out/fine/1000/genomes_permutations.txt'
+grimm_file = 'data/Staphylococcus_aureus/sibeliaz/fine/150/genomes_permutations.txt'
 # grimm_file = 'fine_sibelia_output/Streptococcus_pneumoniae/genomes_permutations.txt'
 
 lines = open(grimm_file).read().split('\n')

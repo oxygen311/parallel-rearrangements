@@ -7,7 +7,7 @@ import os.path
 import csv
 
 
-folder = 'data/Staphylococcus_aureus'
+folder = 'data/Pseudomonas_aeruginosa'
 out_file = 'assemblies_chrs.csv'
 
 ans = [['assembly', 'chromosome', 'description']]
