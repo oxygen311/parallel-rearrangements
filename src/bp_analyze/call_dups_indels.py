@@ -4,7 +4,6 @@ from bg.genome import BGGenome
 
 from src.bp_analyze.tree_holder import TreeHolder
 from src.bp_analyze.common import print_species_stats, make_labels_dict, get_genomes_contain_blocks, get_block_seqs
-from src.bp_analyze.consistency_checker import TreeConsistencyChecker
 from src.bp_analyze.shigella_common import get_class_colors, count_shigella_differs_from_value
 
 from sklearn.cluster import AgglomerativeClustering
@@ -20,12 +19,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-sp_folder = 'data/Streptococcus_pyogenes/'
+sp_folder = 'data/Staphylococcus_aureus/'
 csv_file = sp_folder + 'assemblies_chrs.csv'
-scale = 15000
-blocks_folder = sp_folder + 'sibeliaz_out/fine/5000/'
+scale = 72000
+blocks_folder = sp_folder + 'sibeliaz/fine/1000/'
 grimm_file = blocks_folder + 'genomes_permutations.txt'
-tree_file = sp_folder + 'tree/RAxML_bestTree.concat_alignment.tree'
+tree_file = sp_folder + 'tree/RAxML_bipartitionsBranchLabels.attepmt_converted_renamed_midpoint'
 output_folder = blocks_folder + 'copy_number_variation/'
 csv_out_file = output_folder + 'stats.csv'
 threshold = 0.125

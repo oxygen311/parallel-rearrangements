@@ -6,7 +6,6 @@ from bg.vertices import BGVertex
 from src.bp_analyze.tree_holder import TreeHolder
 from src.bp_analyze.common import get_genomes_contain_blocks, print_species_stats, make_labels_dict
 from src.bp_analyze.common_bg import draw_bp_with_weights, get_colors_by_edge, save_pygraphviz
-from src.bp_analyze.consistency_checker import TreeConsistencyChecker
 
 import numpy as np
 
@@ -15,10 +14,10 @@ import csv
 
 sp_folder = 'data/Staphylococcus_aureus/'
 csv_file = sp_folder + 'assemblies_chrs.csv'
-scale = 42000
+scale = 72000
 blocks_folder = sp_folder + 'sibeliaz/fine/1000/'
 grimm_file = blocks_folder + 'genomes_permutations_unique.txt'
-tree_file = sp_folder + 'tree/RAxML_bipartitionsBranchLabels.attepmt_converted_renamed'
+tree_file = sp_folder + 'tree/RAxML_bipartitionsBranchLabels.attepmt_converted_renamed_midpoint'
 output_folder = blocks_folder + 'bp_unique_block_output/'
 csv_out_file = output_folder + 'stats.csv'
 
@@ -70,7 +69,6 @@ if __name__ == "__main__":
     print_species_stats(genomes, tree_holder.get_all_leafs())
 
     bg = GRIMMReader.get_breakpoint_graph(open(grimm_file))
-    bg_tree = BGTree(tree_file)
     print('<bg parsed>')
 
     trees_folder = output_folder + 'trees/'
@@ -90,7 +88,7 @@ if __name__ == "__main__":
 
         print(f'component_{i}_size_{len(component_bg.bg)}')
 
-        draw_bp_with_weights(component_bg, bg_tree, bg_folder + f'component_{i}_size_{len(component_bg.bg)}.pdf')
+        draw_bp_with_weights(component_bg, bg_folder + f'component_{i}_size_{len(component_bg.bg)}.pdf')
         # save_pygraphviz(component_bg, component_folder + 'graph_pygraphviz.pdf')
 
         for i_edge, edge in enumerate(component_bg.edges()):

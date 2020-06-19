@@ -12,7 +12,7 @@ def make_labels_dict(file, row_from='chromosome', row_to='description'):
     except FileNotFoundError:
         return None
 
-def get_genomes_contain_blocks(grimm_file, skip_unique=False):
+def get_genomes_contain_blocks(grimm_file, skip_unique=False, split_by=None):
     genomes, blocks = set(), set()
 
     with open(grimm_file) as f: ls = f.readlines()
@@ -20,15 +20,20 @@ def get_genomes_contain_blocks(grimm_file, skip_unique=False):
 
     for i in range(0, len(ls), 2):
         name = GRIMMReader.parse_genome_declaration_string(ls[i]).name
+        if split_by is not None:
+            name = name.split(split_by)[0]
         data = GRIMMReader.parse_data_string(ls[i + 1])[1]
         genomes.add(name)
         for _, block in data:
-            blocks.add(block)
-            block_genome_count[block][name] += 1
+            blocks.add(int(block))
+            block_genome_count[int(block)][name] += 1
 
+    print('Got blocks:', len(blocks))
     if skip_unique:
+
         blocks = [block for block in blocks
                   if not all(block_genome_count[block][genome] == 1 for genome in genomes)]
+        print('After skipping unique:', len(blocks))
 
     return genomes, list(sorted(blocks)), block_genome_count
 

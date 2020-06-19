@@ -1,4 +1,4 @@
-from ete3 import Tree, NodeStyle, TreeStyle, TextFace, CircleFace
+from ete3 import Tree, NodeStyle, TreeStyle, TextFace, CircleFace, RectFace
 
 from collections import defaultdict, Counter
 from itertools import combinations
@@ -7,9 +7,8 @@ from src.bp_analyze.common import get_genomes_contain_blocks, print_species_stat
 
 
 class TreeHolder:
-
     def __init__(self, tree, scale=None, labels_dict=None, colors=(
-            'Gainsboro', '#FAFAFA', 'LightGreen', 'LightBlue', 'NavajoWhite', 'LightPink',
+            'Gainsboro', 'White', 'LightGreen', 'LightBlue', 'NavajoWhite', 'LightPink',
             'LightCoral', 'Purple', 'Navy', 'Olive', 'Teal', 'SaddleBrown', 'SeaGreen', 'DarkCyan',
             'DarkOliveGreen', 'DarkSeaGreen'), node_colors=defaultdict(lambda: 'black')):
         self.tree = Tree(tree)
@@ -27,7 +26,7 @@ class TreeHolder:
                 node.add_face(name_face, column=0)
 
     def draw(self, file, color_internal_nodes=True, legend_labels=(), show_branch_support=True,
-             show_scale=True, legend_scale=1, draw_pres=False, mode="c"):
+             show_scale=True, legend_scale=1, draw_pres=False, mode="c", node_colors={}):
         # tree = self.tree.copy()
         for node in self.tree.traverse():
             if not (color_internal_nodes or node.is_leaf()): continue
@@ -47,11 +46,15 @@ class TreeHolder:
         cur_max_color = max(v.color for v in self.tree.traverse())
         current_colors = self.colors[0:cur_max_color + 1]
 
-        for i, (label, color_) in enumerate(zip(legend_labels, current_colors)):
+        for label, color_ in zip(legend_labels, current_colors):
             ts.legend.add_face(CircleFace(24 * legend_scale, color_), column=0)
             ts.legend.add_face(CircleFace(13 * legend_scale, 'White'), column=1)
             ts.legend.add_face(TextFace(label, fsize=53 * legend_scale), column=2)
             ts.legend.add_face(CircleFace(13 * legend_scale, 'White'), column=3)
+
+        for node, color_ in node_colors.items():
+            ts.legend.add_face(CircleFace(24 * legend_scale, 'White'), column=4)
+            ts.legend.add_face(TextFace(node, fsize=53 * legend_scale, fgcolor=color_), column=5)
 
         # self.tree.render("ete_tree.pdf", dpi=300, tree_style=ts)
         self.tree.render(file, w=1000, tree_style=ts)
@@ -128,18 +131,35 @@ class TreeHolder:
         self.tree.render(file, w=1000, tree_style=ts)
 
 
-csv_file = 'data/Streptococcus_pyogenes/assemblies_chrs.csv'
+# csv_file = 'data/Streptococcus_pyogenes/assemblies_chrs.csv'
+# labels_dict = make_labels_dict(csv_file)
+#
+# t = 'data/Staphylococcus_aureus/tree/RAxML_bipartitionsBranchLabels.attepmt_converted_renamed'
+# # t = 'data/Streptococcus_pyogenes/tree/RAxML_bestTree.concat_alignment.tree'
+# th = TreeHolder(t, colors=('#FAFAFA', 'LightGreen'), labels_dict=None)
+#
+# d = defaultdict(int)
+# # d = defaultdict(lambda: 0, {'CP007537': 1, 'CP014027': 1, 'CP008776': 1, 'AP012491': 1, 'AM295007': 1, 'CP008695': 1,
+# #                             'CP007562': 1, 'AE014074': 1, 'BA000034': 1, 'CP007561': 1, 'CP010449': 1, 'CP014139': 1,
+# #                             'CP011535': 1})
+# #
+# th.count_innovations_fitch({genome: d[genome] for genome in th.get_all_leafs()})
+#
+# th.draw('test.pdf', show_branch_support=True, color_internal_nodes=True, draw_pres=False)
+
+csv_file = 'data/Staphylococcus_aureus/assemblies_chrs.csv'
 labels_dict = make_labels_dict(csv_file)
 
 t = 'data/Staphylococcus_aureus/tree/RAxML_bipartitionsBranchLabels.attepmt_converted_renamed'
+t_2 = 'data/Staphylococcus_aureus/tree/RAxML_bipartitionsBranchLabels.attepmt_converted_renamed_midpoint'
 # t = 'data/Streptococcus_pyogenes/tree/RAxML_bestTree.concat_alignment.tree'
-th = TreeHolder(t, colors=('#FAFAFA', 'LightGreen'), labels_dict=None)
+th = TreeHolder(t, colors=('White', 'LightGreen'), labels_dict=labels_dict, scale=72000)
 
 d = defaultdict(int)
-# d = defaultdict(lambda: 0, {'CP007537': 1, 'CP014027': 1, 'CP008776': 1, 'AP012491': 1, 'AM295007': 1, 'CP008695': 1,
-#                             'CP007562': 1, 'AE014074': 1, 'BA000034': 1, 'CP007561': 1, 'CP010449': 1, 'CP014139': 1,
-#                             'CP011535': 1})
-#
-th.count_innovations_fitch({genome: d[genome] for genome in th.get_all_leafs()})
 
+# node = th.tree.get_common_ancestor('NC_017338.1', 'NZ_CP038460.1')
+# th.tree.set_outgroup(node)
+# th.tree.write(outfile=t_2)
+
+th.count_innovations_fitch({genome: d[genome] for genome in th.get_all_leafs()})
 th.draw('test.pdf', show_branch_support=True, color_internal_nodes=True, draw_pres=False)

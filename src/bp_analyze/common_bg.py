@@ -17,9 +17,9 @@ def get_neighbors_subgraph(bg, edge):
     g.add_bgedge(edge)
     return g
 
-def draw_bp_with_weights(g, tree, file=None, color='red', do_show=False):
+def draw_bp_with_weights(g, file=None, color='red', do_show=False):
     def get_color(edge):
-        if not tree.bgedge_is_tree_consistent(edge): return color
+        # if not tree.bgedge_is_tree_consistent(edge): return color
         return 'black'
 
     g_nx = nx.Graph()
