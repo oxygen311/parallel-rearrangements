@@ -1,0 +1,74 @@
+<Running module: Preprocess Data>
+-------------------------------------------------------------------------------- 
+Converting block coords to infercars format
+-------------------------------------------------------------------------------- 
+<Module finished: Preprocess Data>, elapsed 42.52887797355652 seconds
+
+
+<Running module: Parsers and check strains>
+-------------------------------------------------------------------------------- 
+Blocks count: 3642
+Unique one-copy blocks count: 377
+Mean block coverage: 62.48220002103175 %
+Mean unique one-copy blocks coverage: 24.924830019432832 %
+
+Strains in blocks file count: 414
+Strains in tree leafs count: 414
+Intersected strains count: 414
+-------------------------------------------------------------------------------- 
+<Module finished: Parsers and check strains>, elapsed 4.709011077880859 seconds
+
+
+<Running module: Balanced rearrangements characters>
+-------------------------------------------------------------------------------- 
+Breakpoint graph parsed
+Edges in breakpoint graph: 656
+Getting characters from breakpoint graph component, size=192
+Getting characters from breakpoint graph component, size=4
+Getting characters from breakpoint graph component, size=4
+Getting characters from breakpoint graph component, size=4
+-------------------------------------------------------------------------------- 
+<Module finished: Balanced rearrangements characters>, elapsed 44.978529930114746 seconds
+
+
+<Running module: Balanced rearrangements stats>
+-------------------------------------------------------------------------------- 
+Counting distances between unique one-copy blocks, may take a while
+Got characters after breakpoint graph consideration: 102
+Left non-convex characters after filtering: 64
+-------------------------------------------------------------------------------- 
+<Module finished: Balanced rearrangements stats>, elapsed 247.15716409683228 seconds
+
+
+<Running module: Balanced rearrangements output>
+-------------------------------------------------------------------------------- 
+-------------------------------------------------------------------------------- 
+<Module finished: Balanced rearrangements output>, elapsed 43.1849946975708 seconds
+
+
+<Running module: Unbalanced rearrangements characters>
+-------------------------------------------------------------------------------- 
+-------------------------------------------------------------------------------- 
+<Module finished: Unbalanced rearrangements characters>, elapsed 0.38410401344299316 seconds
+
+
+<Running module: Unbalanced rearrangements stats and clustering>
+-------------------------------------------------------------------------------- 
+Got characters after copy number variation consideration: 3642
+Left non-convex characters after filtering: 2561
+Counting distances between non-convex character blocks, may take a while
+Jaccard index matrix constructed
+Proximity matrix constructed
+Clustring is done
+Clusters: 250
+-------------------------------------------------------------------------------- 
+<Module finished: Unbalanced rearrangements stats and clustering>, elapsed 820.332680940628 seconds
+
+
+<Running module: Unbalanced rearrangements output>
+-------------------------------------------------------------------------------- 
+-------------------------------------------------------------------------------- 
+<Module finished: Unbalanced rearrangements output>, elapsed 1407.891288280487 seconds
+
+
+Total elapsed time: 2611.1671760082245
