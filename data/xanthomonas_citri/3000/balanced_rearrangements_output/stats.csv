@@ -1,0 +1,7 @@
+id,vertex1,vertex2,mean_break_length_nucleotide,parallel_rear_score,parallel_rear_unique_innovation_count,parallel_rear_all_innovations_count,parallel_breakpoint_score,parallel_breakpoint_count
+1,60h,72t,191792,0,0,0,0.00285544,3
+2,7h,8t,6388,0,0,0,0.00099555,2
+3,10t,9h,567,0,0,0,0.00099555,2
+4,54h,55t,10498,0,0,0,0.00041642,2
+5,81h,82t,26566,0,0,0,0.00025863,2
+6,45h,46t,6396,0,0,0,0.00025863,2

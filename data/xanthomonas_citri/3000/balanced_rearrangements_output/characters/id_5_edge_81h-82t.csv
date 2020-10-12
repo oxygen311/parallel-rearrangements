@@ -1,0 +1,35 @@
+strain,character_state,character_state_annotation
+CP009010,0,edge exists
+CP009031,1,parallel edge doesn't exist
+CP008989,0,edge exists
+CP018847,0,edge exists
+CP018850,0,edge exists
+CP020885,0,edge exists
+CP009013,0,edge exists
+CP009022,0,edge exists
+CM007619,0,edge exists
+CP018858,0,edge exists
+LN590509,0,edge exists
+AE008923,0,edge exists
+LN606820,0,edge exists
+CP009037,1,parallel edge doesn't exist
+CP008992,0,edge exists
+CP006857,0,edge exists
+CP008998,0,edge exists
+CP009016,0,edge exists
+CP009025,0,edge exists
+CP009028,0,edge exists
+CP009004,0,edge exists
+CP009034,1,parallel edge doesn't exist
+CP008995,0,edge exists
+CP009019,0,edge exists
+CP011827,0,edge exists
+CP009007,0,edge exists
+CM007622,0,edge exists
+CP018854,0,edge exists
+CP003778,1,parallel edge doesn't exist
+CP023285,0,edge exists
+CP020889,2,inversion 81h-82t-45h-46t
+CP009040,1,parallel edge doesn't exist
+CP020882,2,inversion 81h-82t-45h-46t
+CP009001,0,edge exists
