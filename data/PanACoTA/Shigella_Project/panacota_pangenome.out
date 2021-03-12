@@ -1,0 +1,16 @@
+[32m  * [2021-03-12 22:33:05] : INFO [0m PanACoTA version 1.2.0[0m
+[32m  * [2021-03-12 22:33:05] : INFO [0m Command used
+ 	 > PanACoTA pangenome -l 2-annotate_module/LSTINFO-list.lst -n ESCO414 -d 2-annotate_module/Proteins/ -o 3-pangenome_module -i 0.95 --threads 32[0m
+[32m  * [2021-03-12 22:33:05] : INFO [0m build prt bank[0m
+[32m  * [2021-03-12 22:33:05] : INFO [0m Building bank with all proteins to 2-annotate_module/Proteins/ESCO414.All.prt[0m
+[32m  * [2021-03-12 22:33:08] : INFO [0m Will run MMseqs2 with:
+	- minimum sequence identity = 95.0%
+	- cluster mode 1
+	- 32 threads[0m
+[32m  * [2021-03-12 22:33:08] : INFO [0m Creating database[0m
+[32m  * [2021-03-12 22:33:19] : INFO [0m Clustering proteins...[0m
+[32m  * [2021-03-12 22:33:48] : INFO [0m Converting mmseqs results to pangenome file[0m
+[32m  * [2021-03-12 22:33:49] : INFO [0m Pangenome has 52592 families.[0m
+[32m  * [2021-03-12 22:33:52] : INFO [0m Retrieving information from pan families[0m
+[32m  * [2021-03-12 22:33:57] : INFO [0m Generating qualitative and quantitative matrix, and summary file[0m
+[32m  * [2021-03-12 22:34:37] : INFO [0m DONE[0m

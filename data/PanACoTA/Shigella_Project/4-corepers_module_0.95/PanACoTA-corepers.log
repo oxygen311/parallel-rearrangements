@@ -1,0 +1,8 @@
+[2021-03-12 22:42:35] :: INFO :: PanACoTA version 1.2.0
+[2021-03-12 22:42:35] :: INFO :: Command used
+ 	 > PanACoTA corepers -p 3-pangenome_module/PanGenome-ESCO414.All.prt-clust-0.95-mode1-th32_2021-03-12_22-33-08.tsv.lst -o 4-corepers_module_0.95
+[2021-03-12 22:42:35] :: INFO :: Will generate a CoreGenome.
+[2021-03-12 22:42:35] :: INFO :: Retrieving info from binary file
+[2021-03-12 22:42:38] :: INFO :: Generating Persistent genome of a dataset containing 414 genomes
+[2021-03-12 22:42:38] :: INFO :: The core genome contains 477 families, each one having exactly 414 members, from the 414 different genomes.
+[2021-03-12 22:42:38] :: INFO :: Persistent genome step done.

@@ -1,0 +1,5 @@
+[2021-03-12 23:09:37] :: INFO :: PanACoTA version 1.2.0
+[2021-03-12 23:09:37] :: INFO :: Command used
+ 	 > PanACoTA tree -a 5-align_module_0.95/Phylo-ESCO414-0.95/ESCO414-0.95.grp.aln -o 6-tree_module_0.95 --boot 1000 --threads 32
+[2021-03-12 23:09:37] :: INFO :: Running IQtree...
+[2021-03-12 23:39:57] :: INFO :: END

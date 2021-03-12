@@ -1,0 +1,1671 @@
+[33m  !! Your genomes will be filtered, and only the ones with 'L90' <= 100 and 'number of contigs' < 999 will be kept. If you want to change those thresholds, use '--l90' and '--nbcont' options.[0m
+
+[32m  * [2021-03-12 18:44:09] : INFO [0m PanACoTA version 1.2.0[0m
+[32m  * [2021-03-12 18:44:09] : INFO [0m Command used
+ 	 > PanACoTA annotate -d 1-chromosomes -r 2-annotate_module -n ESCO -l Chromosomes_fna/list.txt --cutn 0 --threads 32[0m
+[32m  * [2021-03-12 18:44:09] : INFO [0m Reading genomes[0m
+[32m  * [2021-03-12 18:44:09] : INFO [0m Calculating genome size, number of contigs, L90[0m
+[32m  * [2021-03-12 18:44:24] : INFO [0m Generating distribution of L90 and #contigs graphs.[0m
+[32m  * [2021-03-12 18:44:26] : INFO [0m -> Original sequences folder ('orig_name' column): Chromosomes_fna [0m
+[32m  * [2021-03-12 18:44:26] : INFO [0m 	-> If original sequence not found in Chromosomes_fna, look for it in 2-annotate_module/tmp_files, as it must be a concatenation of several input sequence files.[0m
+[32m  * [2021-03-12 18:44:26] : INFO [0m -> Sequences used for annotation ('to_annotate' column) are the same as the previous ones (original sequences).[0m
+[32m  * [2021-03-12 18:44:26] : INFO [0m Renaming kept genomes according to their quality (414 genomes)[0m
+[32m  * [2021-03-12 18:44:26] : INFO [0m Annotating all genomes with prokka[0m
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000012005.1_ASM1200v1_chromosome.fna-prokkaRes/ESCO.0321.00010.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000012005.1_ASM1200v1_chromosome.fna-prokkaRes/ESCO.0321.00010.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000012025.1_ASM1202v1_chromosome.fna-prokkaRes/ESCO.0321.00011.gbf
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000005845.2_ASM584v2_chromosome.fna-prokkaRes/ESCO.0321.00001.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000012025.1_ASM1202v1_chromosome.fna-prokkaRes/ESCO.0321.00011.sqn
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000005845.2_ASM584v2_chromosome.fna-prokkaRes/ESCO.0321.00001.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000013585.1_ASM1358v1_chromosome.fna-prokkaRes/ESCO.0321.00014.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000013585.1_ASM1358v1_chromosome.fna-prokkaRes/ESCO.0321.00014.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000007405.1_ASM740v1_chromosome.fna-prokkaRes/ESCO.0321.00003.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000007405.1_ASM740v1_chromosome.fna-prokkaRes/ESCO.0321.00003.sqn
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000006925.2_ASM692v2_chromosome.fna-prokkaRes/ESCO.0321.00002.gbf
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000006925.2_ASM692v2_chromosome.fna-prokkaRes/ESCO.0321.00002.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000010485.1_ASM1048v1_chromosome.fna-prokkaRes/ESCO.0321.00007.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000010485.1_ASM1048v1_chromosome.fna-prokkaRes/ESCO.0321.00007.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000013305.1_ASM1330v1_chromosome.fna-prokkaRes/ESCO.0321.00013.gbf
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000010385.1_ASM1038v1_chromosome.fna-prokkaRes/ESCO.0321.00006.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000013305.1_ASM1330v1_chromosome.fna-prokkaRes/ESCO.0321.00013.sqn
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000010385.1_ASM1038v1_chromosome.fna-prokkaRes/ESCO.0321.00006.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000017745.1_ASM1774v1_chromosome.fna-prokkaRes/ESCO.0321.00016.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000017745.1_ASM1774v1_chromosome.fna-prokkaRes/ESCO.0321.00016.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000013265.1_ASM1326v1_chromosome.fna-prokkaRes/ESCO.0321.00012.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000013265.1_ASM1326v1_chromosome.fna-prokkaRes/ESCO.0321.00012.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000014845.1_ASM1484v1_chromosome.fna-prokkaRes/ESCO.0321.00015.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000014845.1_ASM1484v1_chromosome.fna-prokkaRes/ESCO.0321.00015.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000007445.1_ASM744v1_chromosome.fna-prokkaRes/ESCO.0321.00004.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000007445.1_ASM744v1_chromosome.fna-prokkaRes/ESCO.0321.00004.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000010765.1_ASM1076v1_chromosome.fna-prokkaRes/ESCO.0321.00009.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000010765.1_ASM1076v1_chromosome.fna-prokkaRes/ESCO.0321.00009.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000010745.1_ASM1074v1_chromosome.fna-prokkaRes/ESCO.0321.00008.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000010745.1_ASM1074v1_chromosome.fna-prokkaRes/ESCO.0321.00008.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000008865.2_ASM886v2_chromosome.fna-prokkaRes/ESCO.0321.00005.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000008865.2_ASM886v2_chromosome.fna-prokkaRes/ESCO.0321.00005.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000017765.1_ASM1776v1_chromosome.fna-prokkaRes/ESCO.0321.00017.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000017765.1_ASM1776v1_chromosome.fna-prokkaRes/ESCO.0321.00017.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000017985.1_ASM1798v1_chromosome.fna-prokkaRes/ESCO.0321.00018.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000017985.1_ASM1798v1_chromosome.fna-prokkaRes/ESCO.0321.00018.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000023665.1_ASM2366v1_chromosome.fna-prokkaRes/ESCO.0321.00023.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000023665.1_ASM2366v1_chromosome.fna-prokkaRes/ESCO.0321.00023.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000020185.1_ASM2018v1_chromosome.fna-prokkaRes/ESCO.0321.00021.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000020185.1_ASM2018v1_chromosome.fna-prokkaRes/ESCO.0321.00021.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000019385.1_ASM1938v1_chromosome.fna-prokkaRes/ESCO.0321.00019.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000019385.1_ASM1938v1_chromosome.fna-prokkaRes/ESCO.0321.00019.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000022245.1_ASM2224v1_chromosome.fna-prokkaRes/ESCO.0321.00022.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000022245.1_ASM2224v1_chromosome.fna-prokkaRes/ESCO.0321.00022.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000019645.1_ASM1964v1_chromosome.fna-prokkaRes/ESCO.0321.00020.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000019645.1_ASM1964v1_chromosome.fna-prokkaRes/ESCO.0321.00020.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000026265.1_ASM2626v1_chromosome.fna-prokkaRes/ESCO.0321.00026.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000026265.1_ASM2626v1_chromosome.fna-prokkaRes/ESCO.0321.00026.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000026245.1_ASM2624v1_chromosome.fna-prokkaRes/ESCO.0321.00025.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000026245.1_ASM2624v1_chromosome.fna-prokkaRes/ESCO.0321.00025.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000025745.1_ASM2574v1_chromosome.fna-prokkaRes/ESCO.0321.00024.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000025745.1_ASM2574v1_chromosome.fna-prokkaRes/ESCO.0321.00024.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000026285.2_ASM2628v2_chromosome.fna-prokkaRes/ESCO.0321.00027.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000026285.2_ASM2628v2_chromosome.fna-prokkaRes/ESCO.0321.00027.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000026545.1_ASM2654v1_chromosome.fna-prokkaRes/ESCO.0321.00029.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000026545.1_ASM2654v1_chromosome.fna-prokkaRes/ESCO.0321.00029.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000026345.1_ASM2634v1_chromosome.fna-prokkaRes/ESCO.0321.00028.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000026345.1_ASM2634v1_chromosome.fna-prokkaRes/ESCO.0321.00028.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000092525.1_ASM9252v1_chromosome.fna-prokkaRes/ESCO.0321.00032.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000092525.1_ASM9252v1_chromosome.fna-prokkaRes/ESCO.0321.00032.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000027125.1_ASM2712v1_chromosome.fna-prokkaRes/ESCO.0321.00030.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000027125.1_ASM2712v1_chromosome.fna-prokkaRes/ESCO.0321.00030.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000091005.1_ASM9100v1_chromosome.fna-prokkaRes/ESCO.0321.00031.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000091005.1_ASM9100v1_chromosome.fna-prokkaRes/ESCO.0321.00031.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000147855.3_ASM14785v3_chromosome.fna-prokkaRes/ESCO.0321.00033.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000147855.3_ASM14785v3_chromosome.fna-prokkaRes/ESCO.0321.00033.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000183345.1_ASM18334v1_chromosome.fna-prokkaRes/ESCO.0321.00036.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000183345.1_ASM18334v1_chromosome.fna-prokkaRes/ESCO.0321.00036.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000148605.1_ASM14860v1_chromosome.fna-prokkaRes/ESCO.0321.00035.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000148605.1_ASM14860v1_chromosome.fna-prokkaRes/ESCO.0321.00035.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000184185.1_ASM18418v1_chromosome.fna-prokkaRes/ESCO.0321.00037.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000184185.1_ASM18418v1_chromosome.fna-prokkaRes/ESCO.0321.00037.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000148365.1_ASM14836v1_chromosome.fna-prokkaRes/ESCO.0321.00034.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000148365.1_ASM14836v1_chromosome.fna-prokkaRes/ESCO.0321.00034.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000210475.1_ASM21047v1_chromosome.fna-prokkaRes/ESCO.0321.00038.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000210475.1_ASM21047v1_chromosome.fna-prokkaRes/ESCO.0321.00038.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000219515.3_ASM21951v3_chromosome.fna-prokkaRes/ESCO.0321.00040.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000219515.3_ASM21951v3_chromosome.fna-prokkaRes/ESCO.0321.00040.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000212715.2_ASM21271v2_chromosome.fna-prokkaRes/ESCO.0321.00039.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000212715.2_ASM21271v2_chromosome.fna-prokkaRes/ESCO.0321.00039.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000233895.1_ASM23389v1_chromosome.fna-prokkaRes/ESCO.0321.00042.gbf
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000258145.1_ASM25814v1_chromosome.fna-prokkaRes/ESCO.0321.00046.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000233895.1_ASM23389v1_chromosome.fna-prokkaRes/ESCO.0321.00042.sqn
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000258145.1_ASM25814v1_chromosome.fna-prokkaRes/ESCO.0321.00046.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000257275.1_ASM25727v1_chromosome.fna-prokkaRes/ESCO.0321.00044.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000257275.1_ASM25727v1_chromosome.fna-prokkaRes/ESCO.0321.00044.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000258025.1_ASM25802v1_chromosome.fna-prokkaRes/ESCO.0321.00045.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000258025.1_ASM25802v1_chromosome.fna-prokkaRes/ESCO.0321.00045.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000227625.1_ASM22762v1_chromosome.fna-prokkaRes/ESCO.0321.00041.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000227625.1_ASM22762v1_chromosome.fna-prokkaRes/ESCO.0321.00041.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000284495.1_ASM28449v1_chromosome.fna-prokkaRes/ESCO.0321.00047.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000284495.1_ASM28449v1_chromosome.fna-prokkaRes/ESCO.0321.00047.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000245515.1_ASM24551v1_chromosome.fna-prokkaRes/ESCO.0321.00043.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000245515.1_ASM24551v1_chromosome.fna-prokkaRes/ESCO.0321.00043.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000285655.3_EC958.v1_chromosome.fna-prokkaRes/ESCO.0321.00048.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000285655.3_EC958.v1_chromosome.fna-prokkaRes/ESCO.0321.00048.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000332755.1_ASM33275v1_chromosome.fna-prokkaRes/ESCO.0321.00050.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000332755.1_ASM33275v1_chromosome.fna-prokkaRes/ESCO.0321.00050.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000497505.1_ASM49750v1_chromosome.fna-prokkaRes/ESCO.0321.00054.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000497505.1_ASM49750v1_chromosome.fna-prokkaRes/ESCO.0321.00054.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000464955.2_ASM46495v2_chromosome.fna-prokkaRes/ESCO.0321.00051.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000464955.2_ASM46495v2_chromosome.fna-prokkaRes/ESCO.0321.00051.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000468515.1_ASM46851v1_chromosome.fna-prokkaRes/ESCO.0321.00052.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000468515.1_ASM46851v1_chromosome.fna-prokkaRes/ESCO.0321.00052.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000299455.1_ASM29945v1_chromosome.fna-prokkaRes/ESCO.0321.00049.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000299455.1_ASM29945v1_chromosome.fna-prokkaRes/ESCO.0321.00049.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000493755.1_ASM49375v1_chromosome.fna-prokkaRes/ESCO.0321.00053.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000493755.1_ASM49375v1_chromosome.fna-prokkaRes/ESCO.0321.00053.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000599625.1_ASM59962v1_chromosome.fna-prokkaRes/ESCO.0321.00056.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000599625.1_ASM59962v1_chromosome.fna-prokkaRes/ESCO.0321.00056.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000743955.1_ASM74395v1_chromosome.fna-prokkaRes/ESCO.0321.00060.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000743955.1_ASM74395v1_chromosome.fna-prokkaRes/ESCO.0321.00060.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000743995.1_ASM74399v1_chromosome.fna-prokkaRes/ESCO.0321.00061.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000743995.1_ASM74399v1_chromosome.fna-prokkaRes/ESCO.0321.00061.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000783735.2_ASM78373v2_chromosome.fna-prokkaRes/ESCO.0321.00062.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000783735.2_ASM78373v2_chromosome.fna-prokkaRes/ESCO.0321.00062.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000725265.1_ASM72526v1_chromosome.fna-prokkaRes/ESCO.0321.00058.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000725265.1_ASM72526v1_chromosome.fna-prokkaRes/ESCO.0321.00058.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000599665.1_ASM59966v1_chromosome.fna-prokkaRes/ESCO.0321.00057.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000599665.1_ASM59966v1_chromosome.fna-prokkaRes/ESCO.0321.00057.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000743255.1_ASM74325v1_chromosome.fna-prokkaRes/ESCO.0321.00059.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000743255.1_ASM74325v1_chromosome.fna-prokkaRes/ESCO.0321.00059.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000520035.1_ASM52003v1_chromosome.fna-prokkaRes/ESCO.0321.00055.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000520035.1_ASM52003v1_chromosome.fna-prokkaRes/ESCO.0321.00055.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000784925.1_ASM78492v1_chromosome.fna-prokkaRes/ESCO.0321.00063.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000784925.1_ASM78492v1_chromosome.fna-prokkaRes/ESCO.0321.00063.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000800845.2_ASM80084v2_chromosome.fna-prokkaRes/ESCO.0321.00064.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000800845.2_ASM80084v2_chromosome.fna-prokkaRes/ESCO.0321.00064.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000801165.1_ASM80116v1_chromosome.fna-prokkaRes/ESCO.0321.00065.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000801165.1_ASM80116v1_chromosome.fna-prokkaRes/ESCO.0321.00065.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000801185.2_ASM80118v2_chromosome.fna-prokkaRes/ESCO.0321.00066.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000801185.2_ASM80118v2_chromosome.fna-prokkaRes/ESCO.0321.00066.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000814145.2_ASM81414v2_chromosome.fna-prokkaRes/ESCO.0321.00068.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000814145.2_ASM81414v2_chromosome.fna-prokkaRes/ESCO.0321.00068.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000813165.1_ASM81316v1_chromosome.fna-prokkaRes/ESCO.0321.00067.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000813165.1_ASM81316v1_chromosome.fna-prokkaRes/ESCO.0321.00067.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000830035.1_ASM83003v1_chromosome.fna-prokkaRes/ESCO.0321.00071.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000830035.1_ASM83003v1_chromosome.fna-prokkaRes/ESCO.0321.00071.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000819645.1_ASM81964v1_chromosome.fna-prokkaRes/ESCO.0321.00069.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000819645.1_ASM81964v1_chromosome.fna-prokkaRes/ESCO.0321.00069.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000829985.1_ASM82998v1_chromosome.fna-prokkaRes/ESCO.0321.00070.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000829985.1_ASM82998v1_chromosome.fna-prokkaRes/ESCO.0321.00070.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000833145.1_ASM83314v1_chromosome.fna-prokkaRes/ESCO.0321.00073.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000833145.1_ASM83314v1_chromosome.fna-prokkaRes/ESCO.0321.00073.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000953035.1_NCTC1_chromosome.fna-prokkaRes/ESCO.0321.00074.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000953035.1_NCTC1_chromosome.fna-prokkaRes/ESCO.0321.00074.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000831565.1_ASM83156v1_chromosome.fna-prokkaRes/ESCO.0321.00072.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000831565.1_ASM83156v1_chromosome.fna-prokkaRes/ESCO.0321.00072.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000971615.1_ASM97161v1_chromosome.fna-prokkaRes/ESCO.0321.00077.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000971615.1_ASM97161v1_chromosome.fna-prokkaRes/ESCO.0321.00077.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000968515.1_ASM96851v1_chromosome.fna-prokkaRes/ESCO.0321.00076.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000968515.1_ASM96851v1_chromosome.fna-prokkaRes/ESCO.0321.00076.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000988385.1_ASM98838v1_chromosome.fna-prokkaRes/ESCO.0321.00079.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000988385.1_ASM98838v1_chromosome.fna-prokkaRes/ESCO.0321.00079.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000967155.1_HUSEC2011CHR1_chromosome.fna-prokkaRes/ESCO.0321.00075.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000967155.1_HUSEC2011CHR1_chromosome.fna-prokkaRes/ESCO.0321.00075.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000987875.1_ASM98787v1_chromosome.fna-prokkaRes/ESCO.0321.00078.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_000987875.1_ASM98787v1_chromosome.fna-prokkaRes/ESCO.0321.00078.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001007915.1_ASM100791v1_chromosome.fna-prokkaRes/ESCO.0321.00080.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001007915.1_ASM100791v1_chromosome.fna-prokkaRes/ESCO.0321.00080.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001021595.1_ASM102159v1_chromosome.fna-prokkaRes/ESCO.0321.00081.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001021595.1_ASM102159v1_chromosome.fna-prokkaRes/ESCO.0321.00081.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001027225.1_ASM102722v1_chromosome.fna-prokkaRes/ESCO.0321.00085.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001027225.1_ASM102722v1_chromosome.fna-prokkaRes/ESCO.0321.00085.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001021855.1_ASM102185v1_chromosome.fna-prokkaRes/ESCO.0321.00084.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001021855.1_ASM102185v1_chromosome.fna-prokkaRes/ESCO.0321.00084.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001039415.1_ASM103941v1_chromosome.fna-prokkaRes/ESCO.0321.00087.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001039415.1_ASM103941v1_chromosome.fna-prokkaRes/ESCO.0321.00087.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001029125.1_ASM102912v1_chromosome.fna-prokkaRes/ESCO.0321.00086.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001029125.1_ASM102912v1_chromosome.fna-prokkaRes/ESCO.0321.00086.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001021615.1_APECO18_chromosome.fna-prokkaRes/ESCO.0321.00082.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001021615.1_APECO18_chromosome.fna-prokkaRes/ESCO.0321.00082.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001021635.2_ASM102163v2_chromosome.fna-prokkaRes/ESCO.0321.00083.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001021635.2_ASM102163v2_chromosome.fna-prokkaRes/ESCO.0321.00083.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001276585.2_ASM127658v2_chromosome.fna-prokkaRes/ESCO.0321.00089.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001276585.2_ASM127658v2_chromosome.fna-prokkaRes/ESCO.0321.00089.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001051135.1_ASM105113v1_chromosome.fna-prokkaRes/ESCO.0321.00088.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001051135.1_ASM105113v1_chromosome.fna-prokkaRes/ESCO.0321.00088.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001280325.1_ASM128032v1_chromosome.fna-prokkaRes/ESCO.0321.00090.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001280325.1_ASM128032v1_chromosome.fna-prokkaRes/ESCO.0321.00090.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001308125.1_ASM130812v1_chromosome.fna-prokkaRes/ESCO.0321.00094.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001308125.1_ASM130812v1_chromosome.fna-prokkaRes/ESCO.0321.00094.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001280385.1_ASM128038v1_chromosome.fna-prokkaRes/ESCO.0321.00092.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001280385.1_ASM128038v1_chromosome.fna-prokkaRes/ESCO.0321.00092.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001280345.1_ASM128034v1_chromosome.fna-prokkaRes/ESCO.0321.00091.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001280345.1_ASM128034v1_chromosome.fna-prokkaRes/ESCO.0321.00091.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001280405.1_ASM128040v1_chromosome.fna-prokkaRes/ESCO.0321.00093.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001280405.1_ASM128040v1_chromosome.fna-prokkaRes/ESCO.0321.00093.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001420935.1_ASM142093v1_chromosome.fna-prokkaRes/ESCO.0321.00095.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001420935.1_ASM142093v1_chromosome.fna-prokkaRes/ESCO.0321.00095.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001420955.1_ASM142095v1_chromosome.fna-prokkaRes/ESCO.0321.00096.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001420955.1_ASM142095v1_chromosome.fna-prokkaRes/ESCO.0321.00096.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001442495.1_ASM144249v1_chromosome.fna-prokkaRes/ESCO.0321.00097.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001442495.1_ASM144249v1_chromosome.fna-prokkaRes/ESCO.0321.00097.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001518855.1_ASM151885v1_chromosome.fna-prokkaRes/ESCO.0321.00101.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001518855.1_ASM151885v1_chromosome.fna-prokkaRes/ESCO.0321.00101.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001559615.2_ASM155961v2_chromosome.fna-prokkaRes/ESCO.0321.00104.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001559615.2_ASM155961v2_chromosome.fna-prokkaRes/ESCO.0321.00104.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001542675.2_ASM154267v2_chromosome.fna-prokkaRes/ESCO.0321.00102.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001542675.2_ASM154267v2_chromosome.fna-prokkaRes/ESCO.0321.00102.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001515725.1_ASM151572v1_chromosome.fna-prokkaRes/ESCO.0321.00100.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001515725.1_ASM151572v1_chromosome.fna-prokkaRes/ESCO.0321.00100.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001559635.1_ASM155963v1_chromosome.fna-prokkaRes/ESCO.0321.00105.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001559635.1_ASM155963v1_chromosome.fna-prokkaRes/ESCO.0321.00105.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001558295.2_ASM155829v2_chromosome.fna-prokkaRes/ESCO.0321.00103.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001558295.2_ASM155829v2_chromosome.fna-prokkaRes/ESCO.0321.00103.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001485455.1_ASM148545v1_chromosome.fna-prokkaRes/ESCO.0321.00098.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001485455.1_ASM148545v1_chromosome.fna-prokkaRes/ESCO.0321.00098.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001513655.1_ASM151365v1_chromosome.fna-prokkaRes/ESCO.0321.00099.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001513655.1_ASM151365v1_chromosome.fna-prokkaRes/ESCO.0321.00099.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001566615.1_ASM156661v1_chromosome.fna-prokkaRes/ESCO.0321.00106.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001566615.1_ASM156661v1_chromosome.fna-prokkaRes/ESCO.0321.00106.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001566635.1_ASM156663v1_chromosome.fna-prokkaRes/ESCO.0321.00107.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001566635.1_ASM156663v1_chromosome.fna-prokkaRes/ESCO.0321.00107.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001566655.1_ASM156665v1_chromosome.fna-prokkaRes/ESCO.0321.00108.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001566655.1_ASM156665v1_chromosome.fna-prokkaRes/ESCO.0321.00108.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001578125.1_ASM157812v1_chromosome.fna-prokkaRes/ESCO.0321.00110.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001578125.1_ASM157812v1_chromosome.fna-prokkaRes/ESCO.0321.00110.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001577325.1_ASM157732v1_chromosome.fna-prokkaRes/ESCO.0321.00109.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001577325.1_ASM157732v1_chromosome.fna-prokkaRes/ESCO.0321.00109.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001579965.1_ASM157996v1_chromosome.fna-prokkaRes/ESCO.0321.00111.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001579965.1_ASM157996v1_chromosome.fna-prokkaRes/ESCO.0321.00111.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001580175.1_ASM158017v1_chromosome.fna-prokkaRes/ESCO.0321.00112.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001580175.1_ASM158017v1_chromosome.fna-prokkaRes/ESCO.0321.00112.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001596115.1_ASM159611v1_chromosome.fna-prokkaRes/ESCO.0321.00113.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001596115.1_ASM159611v1_chromosome.fna-prokkaRes/ESCO.0321.00113.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001618325.1_ASM161832v1_chromosome.fna-prokkaRes/ESCO.0321.00115.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001618325.1_ASM161832v1_chromosome.fna-prokkaRes/ESCO.0321.00115.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001610755.1_ASM161075v1_chromosome.fna-prokkaRes/ESCO.0321.00114.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001610755.1_ASM161075v1_chromosome.fna-prokkaRes/ESCO.0321.00114.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001644725.1_ASM164472v1_chromosome.fna-prokkaRes/ESCO.0321.00116.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001644725.1_ASM164472v1_chromosome.fna-prokkaRes/ESCO.0321.00116.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001660565.1_ASM166056v1_chromosome.fna-prokkaRes/ESCO.0321.00117.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001660565.1_ASM166056v1_chromosome.fna-prokkaRes/ESCO.0321.00117.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001660585.1_ASM166058v1_chromosome.fna-prokkaRes/ESCO.0321.00118.gbf
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001663475.1_ASM166347v1_chromosome.fna-prokkaRes/ESCO.0321.00119.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001660585.1_ASM166058v1_chromosome.fna-prokkaRes/ESCO.0321.00118.sqn
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001663475.1_ASM166347v1_chromosome.fna-prokkaRes/ESCO.0321.00119.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001675145.1_ASM167514v1_chromosome.fna-prokkaRes/ESCO.0321.00120.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001675145.1_ASM167514v1_chromosome.fna-prokkaRes/ESCO.0321.00120.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001677475.1_ASM167747v1_chromosome.fna-prokkaRes/ESCO.0321.00121.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001677475.1_ASM167747v1_chromosome.fna-prokkaRes/ESCO.0321.00121.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001678925.1_ASM167892v1_chromosome.fna-prokkaRes/ESCO.0321.00124.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001678925.1_ASM167892v1_chromosome.fna-prokkaRes/ESCO.0321.00124.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001682305.2_ASM168230v2_chromosome.fna-prokkaRes/ESCO.0321.00127.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001682305.2_ASM168230v2_chromosome.fna-prokkaRes/ESCO.0321.00127.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001677515.1_ASM167751v1_chromosome.fna-prokkaRes/ESCO.0321.00123.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001677515.1_ASM167751v1_chromosome.fna-prokkaRes/ESCO.0321.00123.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001677495.1_ASM167749v1_chromosome.fna-prokkaRes/ESCO.0321.00122.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001677495.1_ASM167749v1_chromosome.fna-prokkaRes/ESCO.0321.00122.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001679985.1_ASM167998v1_chromosome.fna-prokkaRes/ESCO.0321.00126.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001679985.1_ASM167998v1_chromosome.fna-prokkaRes/ESCO.0321.00126.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001678965.1_ASM167896v1_chromosome.fna-prokkaRes/ESCO.0321.00125.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001678965.1_ASM167896v1_chromosome.fna-prokkaRes/ESCO.0321.00125.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001683435.1_ASM168343v1_chromosome.fna-prokkaRes/ESCO.0321.00128.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001683435.1_ASM168343v1_chromosome.fna-prokkaRes/ESCO.0321.00128.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001693315.1_ASM169331v1_chromosome.fna-prokkaRes/ESCO.0321.00129.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001693315.1_ASM169331v1_chromosome.fna-prokkaRes/ESCO.0321.00129.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001735705.1_ASM173570v1_chromosome.fna-prokkaRes/ESCO.0321.00135.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001735705.1_ASM173570v1_chromosome.fna-prokkaRes/ESCO.0321.00135.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001693635.1_ASM169363v1_chromosome.fna-prokkaRes/ESCO.0321.00130.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001693635.1_ASM169363v1_chromosome.fna-prokkaRes/ESCO.0321.00130.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001721205.1_ASM172120v1_chromosome.fna-prokkaRes/ESCO.0321.00132.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001721205.1_ASM172120v1_chromosome.fna-prokkaRes/ESCO.0321.00132.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001750845.1_ASM175084v1_chromosome.fna-prokkaRes/ESCO.0321.00136.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001750845.1_ASM175084v1_chromosome.fna-prokkaRes/ESCO.0321.00136.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001721225.1_ASM172122v1_chromosome.fna-prokkaRes/ESCO.0321.00133.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001721225.1_ASM172122v1_chromosome.fna-prokkaRes/ESCO.0321.00133.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001721525.1_ASM172152v1_chromosome.fna-prokkaRes/ESCO.0321.00134.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001721525.1_ASM172152v1_chromosome.fna-prokkaRes/ESCO.0321.00134.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001721125.1_ASM172112v1_chromosome.fna-prokkaRes/ESCO.0321.00131.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001721125.1_ASM172112v1_chromosome.fna-prokkaRes/ESCO.0321.00131.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001860505.1_ASM186050v1_chromosome.fna-prokkaRes/ESCO.0321.00137.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001860505.1_ASM186050v1_chromosome.fna-prokkaRes/ESCO.0321.00137.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001886535.1_ASM188653v1_chromosome.fna-prokkaRes/ESCO.0321.00138.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001886535.1_ASM188653v1_chromosome.fna-prokkaRes/ESCO.0321.00138.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001888075.1_ASM188807v1_chromosome.fna-prokkaRes/ESCO.0321.00141.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001888075.1_ASM188807v1_chromosome.fna-prokkaRes/ESCO.0321.00141.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001886935.1_ASM188693v1_chromosome.fna-prokkaRes/ESCO.0321.00140.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001886935.1_ASM188693v1_chromosome.fna-prokkaRes/ESCO.0321.00140.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900295.1_ASM190029v1_chromosome.fna-prokkaRes/ESCO.0321.00143.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900295.1_ASM190029v1_chromosome.fna-prokkaRes/ESCO.0321.00143.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001886895.1_ASM188689v1_chromosome.fna-prokkaRes/ESCO.0321.00139.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001886895.1_ASM188689v1_chromosome.fna-prokkaRes/ESCO.0321.00139.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001890365.1_ASM189036v1_chromosome.fna-prokkaRes/ESCO.0321.00142.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001890365.1_ASM189036v1_chromosome.fna-prokkaRes/ESCO.0321.00142.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900315.1_ASM190031v1_chromosome.fna-prokkaRes/ESCO.0321.00144.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900315.1_ASM190031v1_chromosome.fna-prokkaRes/ESCO.0321.00144.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900335.1_ASM190033v1_chromosome.fna-prokkaRes/ESCO.0321.00145.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900335.1_ASM190033v1_chromosome.fna-prokkaRes/ESCO.0321.00145.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900375.1_ASM190037v1_chromosome.fna-prokkaRes/ESCO.0321.00147.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900375.1_ASM190037v1_chromosome.fna-prokkaRes/ESCO.0321.00147.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900415.1_ASM190041v1_chromosome.fna-prokkaRes/ESCO.0321.00149.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900415.1_ASM190041v1_chromosome.fna-prokkaRes/ESCO.0321.00149.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900435.1_ASM190043v1_chromosome.fna-prokkaRes/ESCO.0321.00150.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900435.1_ASM190043v1_chromosome.fna-prokkaRes/ESCO.0321.00150.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900395.1_ASM190039v1_chromosome.fna-prokkaRes/ESCO.0321.00148.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900395.1_ASM190039v1_chromosome.fna-prokkaRes/ESCO.0321.00148.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900455.1_ASM190045v1_chromosome.fna-prokkaRes/ESCO.0321.00151.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900455.1_ASM190045v1_chromosome.fna-prokkaRes/ESCO.0321.00151.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900355.1_ASM190035v1_chromosome.fna-prokkaRes/ESCO.0321.00146.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900355.1_ASM190035v1_chromosome.fna-prokkaRes/ESCO.0321.00146.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900475.1_ASM190047v1_chromosome.fna-prokkaRes/ESCO.0321.00152.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900475.1_ASM190047v1_chromosome.fna-prokkaRes/ESCO.0321.00152.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900495.1_ASM190049v1_chromosome.fna-prokkaRes/ESCO.0321.00153.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900495.1_ASM190049v1_chromosome.fna-prokkaRes/ESCO.0321.00153.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900575.1_ASM190057v1_chromosome.fna-prokkaRes/ESCO.0321.00157.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900575.1_ASM190057v1_chromosome.fna-prokkaRes/ESCO.0321.00157.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900515.1_ASM190051v1_chromosome.fna-prokkaRes/ESCO.0321.00154.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900515.1_ASM190051v1_chromosome.fna-prokkaRes/ESCO.0321.00154.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900555.1_ASM190055v1_chromosome.fna-prokkaRes/ESCO.0321.00156.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900555.1_ASM190055v1_chromosome.fna-prokkaRes/ESCO.0321.00156.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900615.1_ASM190061v1_chromosome.fna-prokkaRes/ESCO.0321.00159.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900615.1_ASM190061v1_chromosome.fna-prokkaRes/ESCO.0321.00159.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900535.1_ASM190053v1_chromosome.fna-prokkaRes/ESCO.0321.00155.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900535.1_ASM190053v1_chromosome.fna-prokkaRes/ESCO.0321.00155.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900595.1_ASM190059v1_chromosome.fna-prokkaRes/ESCO.0321.00158.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900595.1_ASM190059v1_chromosome.fna-prokkaRes/ESCO.0321.00158.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900635.1_ASM190063v1_chromosome.fna-prokkaRes/ESCO.0321.00160.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900635.1_ASM190063v1_chromosome.fna-prokkaRes/ESCO.0321.00160.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900655.1_ASM190065v1_chromosome.fna-prokkaRes/ESCO.0321.00161.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900655.1_ASM190065v1_chromosome.fna-prokkaRes/ESCO.0321.00161.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900675.1_ASM190067v1_chromosome.fna-prokkaRes/ESCO.0321.00162.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900675.1_ASM190067v1_chromosome.fna-prokkaRes/ESCO.0321.00162.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900695.1_ASM190069v1_chromosome.fna-prokkaRes/ESCO.0321.00163.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900695.1_ASM190069v1_chromosome.fna-prokkaRes/ESCO.0321.00163.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900795.1_ASM190079v1_chromosome.fna-prokkaRes/ESCO.0321.00167.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900795.1_ASM190079v1_chromosome.fna-prokkaRes/ESCO.0321.00167.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900715.1_ASM190071v1_chromosome.fna-prokkaRes/ESCO.0321.00164.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900715.1_ASM190071v1_chromosome.fna-prokkaRes/ESCO.0321.00164.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900775.1_ASM190077v1_chromosome.fna-prokkaRes/ESCO.0321.00166.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900775.1_ASM190077v1_chromosome.fna-prokkaRes/ESCO.0321.00166.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900815.1_ASM190081v1_chromosome.fna-prokkaRes/ESCO.0321.00168.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900815.1_ASM190081v1_chromosome.fna-prokkaRes/ESCO.0321.00168.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900835.1_ASM190083v1_chromosome.fna-prokkaRes/ESCO.0321.00169.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900835.1_ASM190083v1_chromosome.fna-prokkaRes/ESCO.0321.00169.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900735.1_ASM190073v1_chromosome.fna-prokkaRes/ESCO.0321.00165.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900735.1_ASM190073v1_chromosome.fna-prokkaRes/ESCO.0321.00165.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900885.1_ASM190088v1_chromosome.fna-prokkaRes/ESCO.0321.00170.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900885.1_ASM190088v1_chromosome.fna-prokkaRes/ESCO.0321.00170.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900905.1_ASM190090v1_chromosome.fna-prokkaRes/ESCO.0321.00171.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900905.1_ASM190090v1_chromosome.fna-prokkaRes/ESCO.0321.00171.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900925.1_ASM190092v1_chromosome.fna-prokkaRes/ESCO.0321.00172.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900925.1_ASM190092v1_chromosome.fna-prokkaRes/ESCO.0321.00172.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900965.1_ASM190096v1_chromosome.fna-prokkaRes/ESCO.0321.00174.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900965.1_ASM190096v1_chromosome.fna-prokkaRes/ESCO.0321.00174.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900985.1_ASM190098v1_chromosome.fna-prokkaRes/ESCO.0321.00175.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900985.1_ASM190098v1_chromosome.fna-prokkaRes/ESCO.0321.00175.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900945.1_ASM190094v1_chromosome.fna-prokkaRes/ESCO.0321.00173.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001900945.1_ASM190094v1_chromosome.fna-prokkaRes/ESCO.0321.00173.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901005.1_ASM190100v1_chromosome.fna-prokkaRes/ESCO.0321.00176.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901005.1_ASM190100v1_chromosome.fna-prokkaRes/ESCO.0321.00176.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901025.1_ASM190102v1_chromosome.fna-prokkaRes/ESCO.0321.00177.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901025.1_ASM190102v1_chromosome.fna-prokkaRes/ESCO.0321.00177.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901045.1_ASM190104v1_chromosome.fna-prokkaRes/ESCO.0321.00178.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901045.1_ASM190104v1_chromosome.fna-prokkaRes/ESCO.0321.00178.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901085.1_ASM190108v1_chromosome.fna-prokkaRes/ESCO.0321.00180.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901085.1_ASM190108v1_chromosome.fna-prokkaRes/ESCO.0321.00180.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901065.1_ASM190106v1_chromosome.fna-prokkaRes/ESCO.0321.00179.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901065.1_ASM190106v1_chromosome.fna-prokkaRes/ESCO.0321.00179.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901125.1_ASM190112v1_chromosome.fna-prokkaRes/ESCO.0321.00182.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901125.1_ASM190112v1_chromosome.fna-prokkaRes/ESCO.0321.00182.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901105.1_ASM190110v1_chromosome.fna-prokkaRes/ESCO.0321.00181.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901105.1_ASM190110v1_chromosome.fna-prokkaRes/ESCO.0321.00181.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901145.1_ASM190114v1_chromosome.fna-prokkaRes/ESCO.0321.00183.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901145.1_ASM190114v1_chromosome.fna-prokkaRes/ESCO.0321.00183.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901165.1_ASM190116v1_chromosome.fna-prokkaRes/ESCO.0321.00184.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901165.1_ASM190116v1_chromosome.fna-prokkaRes/ESCO.0321.00184.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901185.1_ASM190118v1_chromosome.fna-prokkaRes/ESCO.0321.00185.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901185.1_ASM190118v1_chromosome.fna-prokkaRes/ESCO.0321.00185.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901315.1_ASM190131v1_chromosome.fna-prokkaRes/ESCO.0321.00187.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901315.1_ASM190131v1_chromosome.fna-prokkaRes/ESCO.0321.00187.sqn
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901365.1_ASM190136v1_chromosome.fna-prokkaRes/ESCO.0321.00188.gbf
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901365.1_ASM190136v1_chromosome.fna-prokkaRes/ESCO.0321.00188.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901215.1_ASM190121v1_chromosome.fna-prokkaRes/ESCO.0321.00186.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901215.1_ASM190121v1_chromosome.fna-prokkaRes/ESCO.0321.00186.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901405.1_ASM190140v1_chromosome.fna-prokkaRes/ESCO.0321.00189.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901405.1_ASM190140v1_chromosome.fna-prokkaRes/ESCO.0321.00189.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901445.1_ASM190144v1_chromosome.fna-prokkaRes/ESCO.0321.00191.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901445.1_ASM190144v1_chromosome.fna-prokkaRes/ESCO.0321.00191.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901425.1_ASM190142v1_chromosome.fna-prokkaRes/ESCO.0321.00190.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901425.1_ASM190142v1_chromosome.fna-prokkaRes/ESCO.0321.00190.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901465.1_ASM190146v1_chromosome.fna-prokkaRes/ESCO.0321.00192.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001901465.1_ASM190146v1_chromosome.fna-prokkaRes/ESCO.0321.00192.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001969285.3_ASM196928v3_chromosome.fna-prokkaRes/ESCO.0321.00194.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001969285.3_ASM196928v3_chromosome.fna-prokkaRes/ESCO.0321.00194.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002009315.1_ASM200931v1_chromosome.fna-prokkaRes/ESCO.0321.00196.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002009315.1_ASM200931v1_chromosome.fna-prokkaRes/ESCO.0321.00196.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002007705.1_ASM200770v1_chromosome.fna-prokkaRes/ESCO.0321.00195.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002007705.1_ASM200770v1_chromosome.fna-prokkaRes/ESCO.0321.00195.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001936315.1_ASM193631v1_chromosome.fna-prokkaRes/ESCO.0321.00193.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_001936315.1_ASM193631v1_chromosome.fna-prokkaRes/ESCO.0321.00193.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002012005.1_ASM201200v1_chromosome.fna-prokkaRes/ESCO.0321.00199.gbf
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002011945.1_ASM201194v1_chromosome.fna-prokkaRes/ESCO.0321.00197.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002012005.1_ASM201200v1_chromosome.fna-prokkaRes/ESCO.0321.00199.sqn
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002011945.1_ASM201194v1_chromosome.fna-prokkaRes/ESCO.0321.00197.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002012105.1_ASM201210v1_chromosome.fna-prokkaRes/ESCO.0321.00201.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002012105.1_ASM201210v1_chromosome.fna-prokkaRes/ESCO.0321.00201.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002011985.1_ASM201198v1_chromosome.fna-prokkaRes/ESCO.0321.00198.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002011985.1_ASM201198v1_chromosome.fna-prokkaRes/ESCO.0321.00198.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002012125.1_ASM201212v1_chromosome.fna-prokkaRes/ESCO.0321.00202.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002012125.1_ASM201212v1_chromosome.fna-prokkaRes/ESCO.0321.00202.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002012045.1_ASM201204v1_chromosome.fna-prokkaRes/ESCO.0321.00200.gbf
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002012145.1_ASM201214v1_chromosome.fna-prokkaRes/ESCO.0321.00203.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002012045.1_ASM201204v1_chromosome.fna-prokkaRes/ESCO.0321.00200.sqn
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002012145.1_ASM201214v1_chromosome.fna-prokkaRes/ESCO.0321.00203.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002012185.1_ASM201218v1_chromosome.fna-prokkaRes/ESCO.0321.00204.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002012185.1_ASM201218v1_chromosome.fna-prokkaRes/ESCO.0321.00204.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002012225.1_ASM201222v1_chromosome.fna-prokkaRes/ESCO.0321.00205.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002012225.1_ASM201222v1_chromosome.fna-prokkaRes/ESCO.0321.00205.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002012305.1_ASM201230v1_chromosome.fna-prokkaRes/ESCO.0321.00206.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002012305.1_ASM201230v1_chromosome.fna-prokkaRes/ESCO.0321.00206.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002024865.1_ASM202486v1_chromosome.fna-prokkaRes/ESCO.0321.00207.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002024865.1_ASM202486v1_chromosome.fna-prokkaRes/ESCO.0321.00207.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002055605.1_ASM205560v1_chromosome.fna-prokkaRes/ESCO.0321.00208.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002055605.1_ASM205560v1_chromosome.fna-prokkaRes/ESCO.0321.00208.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002078275.1_ASM207827v1_chromosome.fna-prokkaRes/ESCO.0321.00216.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002078275.1_ASM207827v1_chromosome.fna-prokkaRes/ESCO.0321.00216.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002078295.1_ASM207829v1_chromosome.fna-prokkaRes/ESCO.0321.00217.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002078295.1_ASM207829v1_chromosome.fna-prokkaRes/ESCO.0321.00217.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002056065.1_ASM205606v1_chromosome.fna-prokkaRes/ESCO.0321.00210.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002056065.1_ASM205606v1_chromosome.fna-prokkaRes/ESCO.0321.00210.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002055635.1_ASM205563v1_chromosome.fna-prokkaRes/ESCO.0321.00209.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002055635.1_ASM205563v1_chromosome.fna-prokkaRes/ESCO.0321.00209.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002056145.1_ASM205614v1_chromosome.fna-prokkaRes/ESCO.0321.00211.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002056145.1_ASM205614v1_chromosome.fna-prokkaRes/ESCO.0321.00211.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002057355.1_ASM205735v1_chromosome.fna-prokkaRes/ESCO.0321.00213.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002057355.1_ASM205735v1_chromosome.fna-prokkaRes/ESCO.0321.00213.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002077195.1_ASM207719v1_chromosome.fna-prokkaRes/ESCO.0321.00215.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002077195.1_ASM207719v1_chromosome.fna-prokkaRes/ESCO.0321.00215.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002090355.1_ASM209035v1_chromosome.fna-prokkaRes/ESCO.0321.00219.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002090355.1_ASM209035v1_chromosome.fna-prokkaRes/ESCO.0321.00219.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002079225.1_ASM207922v1_chromosome.fna-prokkaRes/ESCO.0321.00218.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002079225.1_ASM207922v1_chromosome.fna-prokkaRes/ESCO.0321.00218.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002057245.1_ASM205724v1_chromosome.fna-prokkaRes/ESCO.0321.00212.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002057245.1_ASM205724v1_chromosome.fna-prokkaRes/ESCO.0321.00212.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002058765.1_ASM205876v1_chromosome.fna-prokkaRes/ESCO.0321.00214.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002058765.1_ASM205876v1_chromosome.fna-prokkaRes/ESCO.0321.00214.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002105735.1_ASM210573v1_chromosome.fna-prokkaRes/ESCO.0321.00220.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002105735.1_ASM210573v1_chromosome.fna-prokkaRes/ESCO.0321.00220.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002116715.1_ASM211671v1_chromosome.fna-prokkaRes/ESCO.0321.00221.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002116715.1_ASM211671v1_chromosome.fna-prokkaRes/ESCO.0321.00221.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002142635.1_ASM214263v1_chromosome.fna-prokkaRes/ESCO.0321.00222.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002142635.1_ASM214263v1_chromosome.fna-prokkaRes/ESCO.0321.00222.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002142675.1_ASM214267v1_chromosome.fna-prokkaRes/ESCO.0321.00223.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002142675.1_ASM214267v1_chromosome.fna-prokkaRes/ESCO.0321.00223.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002142695.1_ASM214269v1_chromosome.fna-prokkaRes/ESCO.0321.00224.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002142695.1_ASM214269v1_chromosome.fna-prokkaRes/ESCO.0321.00224.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002150905.1_ASM215090v1_chromosome.fna-prokkaRes/ESCO.0321.00226.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002150905.1_ASM215090v1_chromosome.fna-prokkaRes/ESCO.0321.00226.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002163655.1_ASM216365v1_chromosome.fna-prokkaRes/ESCO.0321.00229.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002163655.1_ASM216365v1_chromosome.fna-prokkaRes/ESCO.0321.00229.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002142715.1_ASM214271v1_chromosome.fna-prokkaRes/ESCO.0321.00225.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002142715.1_ASM214271v1_chromosome.fna-prokkaRes/ESCO.0321.00225.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002163695.1_ASM216369v1_chromosome.fna-prokkaRes/ESCO.0321.00230.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002163695.1_ASM216369v1_chromosome.fna-prokkaRes/ESCO.0321.00230.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002163955.1_ASM216395v1_chromosome.fna-prokkaRes/ESCO.0321.00232.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002163955.1_ASM216395v1_chromosome.fna-prokkaRes/ESCO.0321.00232.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002163935.1_ASM216393v1_chromosome.fna-prokkaRes/ESCO.0321.00231.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002163935.1_ASM216393v1_chromosome.fna-prokkaRes/ESCO.0321.00231.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002156825.1_ASM215682v1_chromosome.fna-prokkaRes/ESCO.0321.00227.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002156825.1_ASM215682v1_chromosome.fna-prokkaRes/ESCO.0321.00227.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002156845.1_ASM215684v1_chromosome.fna-prokkaRes/ESCO.0321.00228.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002156845.1_ASM215684v1_chromosome.fna-prokkaRes/ESCO.0321.00228.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002164635.3_ASM216463v3_chromosome.fna-prokkaRes/ESCO.0321.00233.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002164635.3_ASM216463v3_chromosome.fna-prokkaRes/ESCO.0321.00233.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002180055.1_ASM218005v1_chromosome.fna-prokkaRes/ESCO.0321.00235.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002180055.1_ASM218005v1_chromosome.fna-prokkaRes/ESCO.0321.00235.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002164645.2_ASM216464v2_chromosome.fna-prokkaRes/ESCO.0321.00234.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002164645.2_ASM216464v2_chromosome.fna-prokkaRes/ESCO.0321.00234.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002180095.1_ASM218009v1_chromosome.fna-prokkaRes/ESCO.0321.00236.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002180095.1_ASM218009v1_chromosome.fna-prokkaRes/ESCO.0321.00236.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002180135.1_ASM218013v1_chromosome.fna-prokkaRes/ESCO.0321.00237.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002180135.1_ASM218013v1_chromosome.fna-prokkaRes/ESCO.0321.00237.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002180215.1_ASM218021v1_chromosome.fna-prokkaRes/ESCO.0321.00238.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002180215.1_ASM218021v1_chromosome.fna-prokkaRes/ESCO.0321.00238.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002180275.1_ASM218027v1_chromosome.fna-prokkaRes/ESCO.0321.00239.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002180275.1_ASM218027v1_chromosome.fna-prokkaRes/ESCO.0321.00239.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002192275.1_ASM219227v1_chromosome.fna-prokkaRes/ESCO.0321.00240.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002192275.1_ASM219227v1_chromosome.fna-prokkaRes/ESCO.0321.00240.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002192295.1_ASM219229v1_chromosome.fna-prokkaRes/ESCO.0321.00241.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002192295.1_ASM219229v1_chromosome.fna-prokkaRes/ESCO.0321.00241.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002201835.1_ASM220183v1_chromosome.fna-prokkaRes/ESCO.0321.00244.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002201835.1_ASM220183v1_chromosome.fna-prokkaRes/ESCO.0321.00244.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002196495.1_ASM219649v1_chromosome.fna-prokkaRes/ESCO.0321.00243.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002196495.1_ASM219649v1_chromosome.fna-prokkaRes/ESCO.0321.00243.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002196475.1_ASM219647v1_chromosome.fna-prokkaRes/ESCO.0321.00242.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002196475.1_ASM219647v1_chromosome.fna-prokkaRes/ESCO.0321.00242.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002214205.1_ASM221420v1_chromosome.fna-prokkaRes/ESCO.0321.00246.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002214205.1_ASM221420v1_chromosome.fna-prokkaRes/ESCO.0321.00246.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002211725.1_ASM221172v1_chromosome.fna-prokkaRes/ESCO.0321.00245.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002211725.1_ASM221172v1_chromosome.fna-prokkaRes/ESCO.0321.00245.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002215095.1_ASM221509v1_chromosome.fna-prokkaRes/ESCO.0321.00248.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002215095.1_ASM221509v1_chromosome.fna-prokkaRes/ESCO.0321.00248.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002215115.1_ASM221511v1_chromosome.fna-prokkaRes/ESCO.0321.00249.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002215115.1_ASM221511v1_chromosome.fna-prokkaRes/ESCO.0321.00249.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002214745.2_ASM221474v2_chromosome.fna-prokkaRes/ESCO.0321.00247.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002214745.2_ASM221474v2_chromosome.fna-prokkaRes/ESCO.0321.00247.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002224465.1_ASM222446v1_chromosome.fna-prokkaRes/ESCO.0321.00252.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002224465.1_ASM222446v1_chromosome.fna-prokkaRes/ESCO.0321.00252.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002220215.1_ASM222021v1_chromosome.fna-prokkaRes/ESCO.0321.00251.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002220215.1_ASM222021v1_chromosome.fna-prokkaRes/ESCO.0321.00251.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002215155.1_ASM221515v1_chromosome.fna-prokkaRes/ESCO.0321.00250.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002215155.1_ASM221515v1_chromosome.fna-prokkaRes/ESCO.0321.00250.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002224605.1_ASM222460v1_chromosome.fna-prokkaRes/ESCO.0321.00253.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002224605.1_ASM222460v1_chromosome.fna-prokkaRes/ESCO.0321.00253.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002224625.1_ASM222462v1_chromosome.fna-prokkaRes/ESCO.0321.00254.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002224625.1_ASM222462v1_chromosome.fna-prokkaRes/ESCO.0321.00254.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002237285.1_ASM223728v1_chromosome.fna-prokkaRes/ESCO.0321.00255.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002237285.1_ASM223728v1_chromosome.fna-prokkaRes/ESCO.0321.00255.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002237305.1_ASM223730v1_chromosome.fna-prokkaRes/ESCO.0321.00256.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002237305.1_ASM223730v1_chromosome.fna-prokkaRes/ESCO.0321.00256.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002237325.1_ASM223732v1_chromosome.fna-prokkaRes/ESCO.0321.00257.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002237325.1_ASM223732v1_chromosome.fna-prokkaRes/ESCO.0321.00257.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002240075.1_ASM224007v1_chromosome.fna-prokkaRes/ESCO.0321.00258.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002240075.1_ASM224007v1_chromosome.fna-prokkaRes/ESCO.0321.00258.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002240095.1_ASM224009v1_chromosome.fna-prokkaRes/ESCO.0321.00259.gbf
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002240115.1_ASM224011v1_chromosome.fna-prokkaRes/ESCO.0321.00260.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002240095.1_ASM224009v1_chromosome.fna-prokkaRes/ESCO.0321.00259.sqn
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002240115.1_ASM224011v1_chromosome.fna-prokkaRes/ESCO.0321.00260.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002240135.1_ASM224013v1_chromosome.fna-prokkaRes/ESCO.0321.00261.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002240135.1_ASM224013v1_chromosome.fna-prokkaRes/ESCO.0321.00261.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002285755.1_ASM228575v1_chromosome.fna-prokkaRes/ESCO.0321.00263.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002285755.1_ASM228575v1_chromosome.fna-prokkaRes/ESCO.0321.00263.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310555.1_ASM231055v1_chromosome.fna-prokkaRes/ESCO.0321.00266.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310555.1_ASM231055v1_chromosome.fna-prokkaRes/ESCO.0321.00266.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002302335.1_ASM230233v1_chromosome.fna-prokkaRes/ESCO.0321.00265.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002302335.1_ASM230233v1_chromosome.fna-prokkaRes/ESCO.0321.00265.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002302315.1_ASM230231v1_chromosome.fna-prokkaRes/ESCO.0321.00264.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002302315.1_ASM230231v1_chromosome.fna-prokkaRes/ESCO.0321.00264.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002278115.2_ASM227811v2_chromosome.fna-prokkaRes/ESCO.0321.00262.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002278115.2_ASM227811v2_chromosome.fna-prokkaRes/ESCO.0321.00262.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310575.1_ASM231057v1_chromosome.fna-prokkaRes/ESCO.0321.00267.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310575.1_ASM231057v1_chromosome.fna-prokkaRes/ESCO.0321.00267.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310615.1_ASM231061v1_chromosome.fna-prokkaRes/ESCO.0321.00269.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310615.1_ASM231061v1_chromosome.fna-prokkaRes/ESCO.0321.00269.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310595.1_ASM231059v1_chromosome.fna-prokkaRes/ESCO.0321.00268.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310595.1_ASM231059v1_chromosome.fna-prokkaRes/ESCO.0321.00268.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310635.1_ASM231063v1_chromosome.fna-prokkaRes/ESCO.0321.00270.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310635.1_ASM231063v1_chromosome.fna-prokkaRes/ESCO.0321.00270.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310655.1_ASM231065v1_chromosome.fna-prokkaRes/ESCO.0321.00271.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310655.1_ASM231065v1_chromosome.fna-prokkaRes/ESCO.0321.00271.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310675.1_ASM231067v1_chromosome.fna-prokkaRes/ESCO.0321.00272.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310675.1_ASM231067v1_chromosome.fna-prokkaRes/ESCO.0321.00272.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310735.1_ASM231073v1_chromosome.fna-prokkaRes/ESCO.0321.00275.gbf
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310715.1_ASM231071v1_chromosome.fna-prokkaRes/ESCO.0321.00274.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310735.1_ASM231073v1_chromosome.fna-prokkaRes/ESCO.0321.00275.sqn
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310715.1_ASM231071v1_chromosome.fna-prokkaRes/ESCO.0321.00274.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310695.1_ASM231069v1_chromosome.fna-prokkaRes/ESCO.0321.00273.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002310695.1_ASM231069v1_chromosome.fna-prokkaRes/ESCO.0321.00273.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002357875.1_ASM235787v1_chromosome.fna-prokkaRes/ESCO.0321.00276.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002357875.1_ASM235787v1_chromosome.fna-prokkaRes/ESCO.0321.00276.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002357895.1_ASM235789v1_chromosome.fna-prokkaRes/ESCO.0321.00277.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002357895.1_ASM235789v1_chromosome.fna-prokkaRes/ESCO.0321.00277.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002442995.1_ASM244299v1_chromosome.fna-prokkaRes/ESCO.0321.00282.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002442995.1_ASM244299v1_chromosome.fna-prokkaRes/ESCO.0321.00282.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002357915.1_ASM235791v1_chromosome.fna-prokkaRes/ESCO.0321.00278.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002357915.1_ASM235791v1_chromosome.fna-prokkaRes/ESCO.0321.00278.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002442535.1_ASM244253v1_chromosome.fna-prokkaRes/ESCO.0321.00281.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002442535.1_ASM244253v1_chromosome.fna-prokkaRes/ESCO.0321.00281.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002494365.2_ASM249436v2_chromosome.fna-prokkaRes/ESCO.0321.00283.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002494365.2_ASM249436v2_chromosome.fna-prokkaRes/ESCO.0321.00283.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002589795.1_ASM258979v1_chromosome.fna-prokkaRes/ESCO.0321.00284.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002589795.1_ASM258979v1_chromosome.fna-prokkaRes/ESCO.0321.00284.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002393465.1_ASM239346v1_chromosome.fna-prokkaRes/ESCO.0321.00280.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002393465.1_ASM239346v1_chromosome.fna-prokkaRes/ESCO.0321.00280.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002393365.1_ASM239336v1_chromosome.fna-prokkaRes/ESCO.0321.00279.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002393365.1_ASM239336v1_chromosome.fna-prokkaRes/ESCO.0321.00279.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002591135.1_ASM259113v1_chromosome.fna-prokkaRes/ESCO.0321.00285.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002591135.1_ASM259113v1_chromosome.fna-prokkaRes/ESCO.0321.00285.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002716885.1_ASM271688v1_chromosome.fna-prokkaRes/ESCO.0321.00286.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002716885.1_ASM271688v1_chromosome.fna-prokkaRes/ESCO.0321.00286.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002761835.1_ASM276183v1_chromosome.fna-prokkaRes/ESCO.0321.00287.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002761835.1_ASM276183v1_chromosome.fna-prokkaRes/ESCO.0321.00287.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002763515.3_ASM276351v3_chromosome.fna-prokkaRes/ESCO.0321.00288.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002763515.3_ASM276351v3_chromosome.fna-prokkaRes/ESCO.0321.00288.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002786655.1_ASM278665v1_chromosome.fna-prokkaRes/ESCO.0321.00291.gbf
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002764015.1_ASM276401v1_chromosome.fna-prokkaRes/ESCO.0321.00290.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002763995.1_ASM276399v1_chromosome.fna-prokkaRes/ESCO.0321.00289.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002786655.1_ASM278665v1_chromosome.fna-prokkaRes/ESCO.0321.00291.sqn
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002763995.1_ASM276399v1_chromosome.fna-prokkaRes/ESCO.0321.00289.sqn
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002764015.1_ASM276401v1_chromosome.fna-prokkaRes/ESCO.0321.00290.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002787315.1_ASM278731v1_chromosome.fna-prokkaRes/ESCO.0321.00293.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002787315.1_ASM278731v1_chromosome.fna-prokkaRes/ESCO.0321.00293.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002787215.1_ASM278721v1_chromosome.fna-prokkaRes/ESCO.0321.00292.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002787215.1_ASM278721v1_chromosome.fna-prokkaRes/ESCO.0321.00292.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002787545.1_ASM278754v1_chromosome.fna-prokkaRes/ESCO.0321.00294.gbf
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002796445.1_ASM279644v1_chromosome.fna-prokkaRes/ESCO.0321.00299.gbf
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002787645.1_ASM278764v1_chromosome.fna-prokkaRes/ESCO.0321.00295.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002787545.1_ASM278754v1_chromosome.fna-prokkaRes/ESCO.0321.00294.sqn
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002796445.1_ASM279644v1_chromosome.fna-prokkaRes/ESCO.0321.00299.sqn
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002787645.1_ASM278764v1_chromosome.fna-prokkaRes/ESCO.0321.00295.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002788115.1_ASM278811v1_chromosome.fna-prokkaRes/ESCO.0321.00297.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002788115.1_ASM278811v1_chromosome.fna-prokkaRes/ESCO.0321.00297.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002787935.1_ASM278793v1_chromosome.fna-prokkaRes/ESCO.0321.00296.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002787935.1_ASM278793v1_chromosome.fna-prokkaRes/ESCO.0321.00296.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002788295.1_ASM278829v1_chromosome.fna-prokkaRes/ESCO.0321.00298.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002788295.1_ASM278829v1_chromosome.fna-prokkaRes/ESCO.0321.00298.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002803805.2_ASM280380v2_chromosome.fna-prokkaRes/ESCO.0321.00301.gbf
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002796585.1_ASM279658v1_chromosome.fna-prokkaRes/ESCO.0321.00300.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002803805.2_ASM280380v2_chromosome.fna-prokkaRes/ESCO.0321.00301.sqn
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002796585.1_ASM279658v1_chromosome.fna-prokkaRes/ESCO.0321.00300.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002803905.1_ASM280390v1_chromosome.fna-prokkaRes/ESCO.0321.00302.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002803905.1_ASM280390v1_chromosome.fna-prokkaRes/ESCO.0321.00302.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002811555.2_ASM281155v2_chromosome.fna-prokkaRes/ESCO.0321.00303.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002811555.2_ASM281155v2_chromosome.fna-prokkaRes/ESCO.0321.00303.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002812545.1_ASM281254v1_chromosome.fna-prokkaRes/ESCO.0321.00304.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002812545.1_ASM281254v1_chromosome.fna-prokkaRes/ESCO.0321.00304.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002844685.1_ASM284468v1_chromosome.fna-prokkaRes/ESCO.0321.00306.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002844685.1_ASM284468v1_chromosome.fna-prokkaRes/ESCO.0321.00306.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002850675.4_ASM285067v4_chromosome.fna-prokkaRes/ESCO.0321.00308.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002850675.4_ASM285067v4_chromosome.fna-prokkaRes/ESCO.0321.00308.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002846135.1_ASM284613v1_chromosome.fna-prokkaRes/ESCO.0321.00307.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002846135.1_ASM284613v1_chromosome.fna-prokkaRes/ESCO.0321.00307.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002844165.1_ASM284416v1_chromosome.fna-prokkaRes/ESCO.0321.00305.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002844165.1_ASM284416v1_chromosome.fna-prokkaRes/ESCO.0321.00305.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002853805.1_ASM285380v1_chromosome.fna-prokkaRes/ESCO.0321.00311.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002853805.1_ASM285380v1_chromosome.fna-prokkaRes/ESCO.0321.00311.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002854065.1_ASM285406v1_chromosome.fna-prokkaRes/ESCO.0321.00313.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002854065.1_ASM285406v1_chromosome.fna-prokkaRes/ESCO.0321.00313.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002853655.1_ASM285365v1_chromosome.fna-prokkaRes/ESCO.0321.00309.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002853655.1_ASM285365v1_chromosome.fna-prokkaRes/ESCO.0321.00309.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002853715.1_ASM285371v1_chromosome.fna-prokkaRes/ESCO.0321.00310.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002853715.1_ASM285371v1_chromosome.fna-prokkaRes/ESCO.0321.00310.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002853965.1_ASM285396v1_chromosome.fna-prokkaRes/ESCO.0321.00312.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002853965.1_ASM285396v1_chromosome.fna-prokkaRes/ESCO.0321.00312.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002855325.1_ASM285532v1_chromosome.fna-prokkaRes/ESCO.0321.00314.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002855325.1_ASM285532v1_chromosome.fna-prokkaRes/ESCO.0321.00314.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002855415.1_ASM285541v1_chromosome.fna-prokkaRes/ESCO.0321.00315.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002855415.1_ASM285541v1_chromosome.fna-prokkaRes/ESCO.0321.00315.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002860085.1_ASM286008v1_chromosome.fna-prokkaRes/ESCO.0321.00316.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002860085.1_ASM286008v1_chromosome.fna-prokkaRes/ESCO.0321.00316.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002860105.1_ASM286010v1_chromosome.fna-prokkaRes/ESCO.0321.00317.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002860105.1_ASM286010v1_chromosome.fna-prokkaRes/ESCO.0321.00317.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002863665.1_ASM286366v1_chromosome.fna-prokkaRes/ESCO.0321.00318.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002863665.1_ASM286366v1_chromosome.fna-prokkaRes/ESCO.0321.00318.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002863685.1_ASM286368v1_chromosome.fna-prokkaRes/ESCO.0321.00319.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002863685.1_ASM286368v1_chromosome.fna-prokkaRes/ESCO.0321.00319.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002863845.1_ASM286384v1_chromosome.fna-prokkaRes/ESCO.0321.00320.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002863845.1_ASM286384v1_chromosome.fna-prokkaRes/ESCO.0321.00320.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002863885.1_ASM286388v1_chromosome.fna-prokkaRes/ESCO.0321.00321.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002863885.1_ASM286388v1_chromosome.fna-prokkaRes/ESCO.0321.00321.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002870165.1_ASM287016v1_chromosome.fna-prokkaRes/ESCO.0321.00322.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002870165.1_ASM287016v1_chromosome.fna-prokkaRes/ESCO.0321.00322.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002879975.1_ASM287997v1_chromosome.fna-prokkaRes/ESCO.0321.00323.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002879975.1_ASM287997v1_chromosome.fna-prokkaRes/ESCO.0321.00323.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002893905.2_ASM289390v2_chromosome.fna-prokkaRes/ESCO.0321.00324.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002893905.2_ASM289390v2_chromosome.fna-prokkaRes/ESCO.0321.00324.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002899475.1_ASM289947v1_chromosome.fna-prokkaRes/ESCO.0321.00325.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002899475.1_ASM289947v1_chromosome.fna-prokkaRes/ESCO.0321.00325.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002903125.1_ASM290312v1_chromosome.fna-prokkaRes/ESCO.0321.00327.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002903125.1_ASM290312v1_chromosome.fna-prokkaRes/ESCO.0321.00327.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002903105.1_ASM290310v1_chromosome.fna-prokkaRes/ESCO.0321.00326.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002903105.1_ASM290310v1_chromosome.fna-prokkaRes/ESCO.0321.00326.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002925525.1_YDC107_chromosome.fna-prokkaRes/ESCO.0321.00328.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002925525.1_YDC107_chromosome.fna-prokkaRes/ESCO.0321.00328.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002945135.2_ASM294513v2_chromosome.fna-prokkaRes/ESCO.0321.00331.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002945135.2_ASM294513v2_chromosome.fna-prokkaRes/ESCO.0321.00331.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002944935.1_ASM294493v1_chromosome.fna-prokkaRes/ESCO.0321.00330.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002944935.1_ASM294493v1_chromosome.fna-prokkaRes/ESCO.0321.00330.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002934895.1_ASM293489v1_chromosome.fna-prokkaRes/ESCO.0321.00329.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002934895.1_ASM293489v1_chromosome.fna-prokkaRes/ESCO.0321.00329.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002951855.1_ASM295185v1_chromosome.fna-prokkaRes/ESCO.0321.00333.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002951855.1_ASM295185v1_chromosome.fna-prokkaRes/ESCO.0321.00333.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002948655.1_ASM294865v1_chromosome.fna-prokkaRes/ESCO.0321.00332.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002948655.1_ASM294865v1_chromosome.fna-prokkaRes/ESCO.0321.00332.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002952695.1_ASM295269v1_chromosome.fna-prokkaRes/ESCO.0321.00334.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002952695.1_ASM295269v1_chromosome.fna-prokkaRes/ESCO.0321.00334.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002953435.1_ASM295343v1_chromosome.fna-prokkaRes/ESCO.0321.00335.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002953435.1_ASM295343v1_chromosome.fna-prokkaRes/ESCO.0321.00335.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002953455.1_ASM295345v1_chromosome.fna-prokkaRes/ESCO.0321.00336.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002953455.1_ASM295345v1_chromosome.fna-prokkaRes/ESCO.0321.00336.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002966755.1_ASM296675v1_chromosome.fna-prokkaRes/ESCO.0321.00337.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002966755.1_ASM296675v1_chromosome.fna-prokkaRes/ESCO.0321.00337.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002968715.1_ASM296871v1_chromosome.fna-prokkaRes/ESCO.0321.00338.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002968715.1_ASM296871v1_chromosome.fna-prokkaRes/ESCO.0321.00338.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002993265.1_ASM299326v1_chromosome.fna-prokkaRes/ESCO.0321.00340.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002993265.1_ASM299326v1_chromosome.fna-prokkaRes/ESCO.0321.00340.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003013205.1_ASM301320v1_chromosome.fna-prokkaRes/ESCO.0321.00343.gbf
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002996665.1_ASM299666v1_chromosome.fna-prokkaRes/ESCO.0321.00341.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003013205.1_ASM301320v1_chromosome.fna-prokkaRes/ESCO.0321.00343.sqn
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002996665.1_ASM299666v1_chromosome.fna-prokkaRes/ESCO.0321.00341.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002968735.1_ASM296873v1_chromosome.fna-prokkaRes/ESCO.0321.00339.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002968735.1_ASM296873v1_chromosome.fna-prokkaRes/ESCO.0321.00339.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002999075.1_ASM299907v1_chromosome.fna-prokkaRes/ESCO.0321.00342.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_002999075.1_ASM299907v1_chromosome.fna-prokkaRes/ESCO.0321.00342.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003030025.1_ASM303002v1_chromosome.fna-prokkaRes/ESCO.0321.00345.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003030025.1_ASM303002v1_chromosome.fna-prokkaRes/ESCO.0321.00345.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003031225.1_ASM303122v1_chromosome.fna-prokkaRes/ESCO.0321.00348.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003031225.1_ASM303122v1_chromosome.fna-prokkaRes/ESCO.0321.00348.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003033905.1_ASM303390v1_chromosome.fna-prokkaRes/ESCO.0321.00349.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003033905.1_ASM303390v1_chromosome.fna-prokkaRes/ESCO.0321.00349.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003030365.1_ASM303036v1_chromosome.fna-prokkaRes/ESCO.0321.00347.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003030365.1_ASM303036v1_chromosome.fna-prokkaRes/ESCO.0321.00347.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003020885.1_ASM302088v1_chromosome.fna-prokkaRes/ESCO.0321.00344.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003020885.1_ASM302088v1_chromosome.fna-prokkaRes/ESCO.0321.00344.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003030245.1_ASM303024v1_chromosome.fna-prokkaRes/ESCO.0321.00346.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003030245.1_ASM303024v1_chromosome.fna-prokkaRes/ESCO.0321.00346.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003043915.1_ASM304391v1_chromosome.fna-prokkaRes/ESCO.0321.00350.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003043915.1_ASM304391v1_chromosome.fna-prokkaRes/ESCO.0321.00350.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003044015.1_ASM304401v1_chromosome.fna-prokkaRes/ESCO.0321.00351.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003044015.1_ASM304401v1_chromosome.fna-prokkaRes/ESCO.0321.00351.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003051985.2_ASM305198v2_chromosome.fna-prokkaRes/ESCO.0321.00352.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003051985.2_ASM305198v2_chromosome.fna-prokkaRes/ESCO.0321.00352.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003073815.1_ASM307381v1_chromosome.fna-prokkaRes/ESCO.0321.00353.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003073815.1_ASM307381v1_chromosome.fna-prokkaRes/ESCO.0321.00353.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003073835.1_ASM307383v1_chromosome.fna-prokkaRes/ESCO.0321.00354.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003073835.1_ASM307383v1_chromosome.fna-prokkaRes/ESCO.0321.00354.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003073875.1_ASM307387v1_chromosome.fna-prokkaRes/ESCO.0321.00355.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003073875.1_ASM307387v1_chromosome.fna-prokkaRes/ESCO.0321.00355.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003111785.1_ASM311178v1_chromosome.fna-prokkaRes/ESCO.0321.00358.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003111785.1_ASM311178v1_chromosome.fna-prokkaRes/ESCO.0321.00358.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003073955.1_ASM307395v1_chromosome.fna-prokkaRes/ESCO.0321.00356.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003073955.1_ASM307395v1_chromosome.fna-prokkaRes/ESCO.0321.00356.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003095635.1_ASM309563v1_chromosome.fna-prokkaRes/ESCO.0321.00357.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003095635.1_ASM309563v1_chromosome.fna-prokkaRes/ESCO.0321.00357.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003112145.1_ASM311214v1_chromosome.fna-prokkaRes/ESCO.0321.00359.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003112145.1_ASM311214v1_chromosome.fna-prokkaRes/ESCO.0321.00359.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003122105.1_ASM312210v1_chromosome.fna-prokkaRes/ESCO.0321.00365.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003122105.1_ASM312210v1_chromosome.fna-prokkaRes/ESCO.0321.00365.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003112205.1_ASM311220v1_chromosome.fna-prokkaRes/ESCO.0321.00362.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003112205.1_ASM311220v1_chromosome.fna-prokkaRes/ESCO.0321.00362.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003112245.1_ASM311224v1_chromosome.fna-prokkaRes/ESCO.0321.00364.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003112245.1_ASM311224v1_chromosome.fna-prokkaRes/ESCO.0321.00364.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003112165.1_ASM311216v1_chromosome.fna-prokkaRes/ESCO.0321.00360.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003112165.1_ASM311216v1_chromosome.fna-prokkaRes/ESCO.0321.00360.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003112185.1_ASM311218v1_chromosome.fna-prokkaRes/ESCO.0321.00361.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003112185.1_ASM311218v1_chromosome.fna-prokkaRes/ESCO.0321.00361.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003112225.1_ASM311222v1_chromosome.fna-prokkaRes/ESCO.0321.00363.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003112225.1_ASM311222v1_chromosome.fna-prokkaRes/ESCO.0321.00363.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003176855.1_ASM317685v1_chromosome.fna-prokkaRes/ESCO.0321.00366.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003176855.1_ASM317685v1_chromosome.fna-prokkaRes/ESCO.0321.00366.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003180975.1_ASM318097v1_chromosome.fna-prokkaRes/ESCO.0321.00367.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003180975.1_ASM318097v1_chromosome.fna-prokkaRes/ESCO.0321.00367.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003180995.1_ASM318099v1_chromosome.fna-prokkaRes/ESCO.0321.00368.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003180995.1_ASM318099v1_chromosome.fna-prokkaRes/ESCO.0321.00368.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003181035.1_ASM318103v1_chromosome.fna-prokkaRes/ESCO.0321.00369.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003181035.1_ASM318103v1_chromosome.fna-prokkaRes/ESCO.0321.00369.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003231115.1_ASM323111v1_chromosome.fna-prokkaRes/ESCO.0321.00373.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003231115.1_ASM323111v1_chromosome.fna-prokkaRes/ESCO.0321.00373.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003204155.1_ASM320415v1_chromosome.fna-prokkaRes/ESCO.0321.00371.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003204155.1_ASM320415v1_chromosome.fna-prokkaRes/ESCO.0321.00371.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003203755.1_ASM320375v1_chromosome.fna-prokkaRes/ESCO.0321.00370.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003203755.1_ASM320375v1_chromosome.fna-prokkaRes/ESCO.0321.00370.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003254065.1_ASM325406v1_chromosome.fna-prokkaRes/ESCO.0321.00374.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003254065.1_ASM325406v1_chromosome.fna-prokkaRes/ESCO.0321.00374.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003204955.1_ASM320495v1_chromosome.fna-prokkaRes/ESCO.0321.00372.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003204955.1_ASM320495v1_chromosome.fna-prokkaRes/ESCO.0321.00372.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003265245.1_ASM326524v1_chromosome.fna-prokkaRes/ESCO.0321.00375.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003265245.1_ASM326524v1_chromosome.fna-prokkaRes/ESCO.0321.00375.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003268695.1_ASM326869v1_chromosome.fna-prokkaRes/ESCO.0321.00376.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003268695.1_ASM326869v1_chromosome.fna-prokkaRes/ESCO.0321.00376.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003287245.1_ASM328724v1_chromosome.fna-prokkaRes/ESCO.0321.00377.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003287245.1_ASM328724v1_chromosome.fna-prokkaRes/ESCO.0321.00377.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003288275.1_ASM328827v1_chromosome.fna-prokkaRes/ESCO.0321.00378.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003288275.1_ASM328827v1_chromosome.fna-prokkaRes/ESCO.0321.00378.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003288415.1_ASM328841v1_chromosome.fna-prokkaRes/ESCO.0321.00380.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003288415.1_ASM328841v1_chromosome.fna-prokkaRes/ESCO.0321.00380.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003288295.1_ASM328829v1_chromosome.fna-prokkaRes/ESCO.0321.00379.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003288295.1_ASM328829v1_chromosome.fna-prokkaRes/ESCO.0321.00379.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003325975.1_ASM332597v1_chromosome.fna-prokkaRes/ESCO.0321.00381.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003325975.1_ASM332597v1_chromosome.fna-prokkaRes/ESCO.0321.00381.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003336405.1_ASM333640v1_chromosome.fna-prokkaRes/ESCO.0321.00382.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003336405.1_ASM333640v1_chromosome.fna-prokkaRes/ESCO.0321.00382.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003342715.1_ASM334271v1_chromosome.fna-prokkaRes/ESCO.0321.00383.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003342715.1_ASM334271v1_chromosome.fna-prokkaRes/ESCO.0321.00383.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003344465.1_ASM334446v1_chromosome.fna-prokkaRes/ESCO.0321.00384.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003344465.1_ASM334446v1_chromosome.fna-prokkaRes/ESCO.0321.00384.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003346835.1_ASM334683v1_chromosome.fna-prokkaRes/ESCO.0321.00385.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003346835.1_ASM334683v1_chromosome.fna-prokkaRes/ESCO.0321.00385.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003351385.1_ASM335138v1_chromosome.fna-prokkaRes/ESCO.0321.00386.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003351385.1_ASM335138v1_chromosome.fna-prokkaRes/ESCO.0321.00386.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003352425.1_ASM335242v1_chromosome.fna-prokkaRes/ESCO.0321.00387.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003352425.1_ASM335242v1_chromosome.fna-prokkaRes/ESCO.0321.00387.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003355175.1_ASM335517v1_chromosome.fna-prokkaRes/ESCO.0321.00388.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003355175.1_ASM335517v1_chromosome.fna-prokkaRes/ESCO.0321.00388.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003410275.1_ASM341027v1_chromosome.fna-prokkaRes/ESCO.0321.00390.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003410275.1_ASM341027v1_chromosome.fna-prokkaRes/ESCO.0321.00390.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003402955.1_ASM340295v1_chromosome.fna-prokkaRes/ESCO.0321.00389.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003402955.1_ASM340295v1_chromosome.fna-prokkaRes/ESCO.0321.00389.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003413625.1_ASM341362v1_chromosome.fna-prokkaRes/ESCO.0321.00391.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003413625.1_ASM341362v1_chromosome.fna-prokkaRes/ESCO.0321.00391.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003443795.1_ASM344379v1_chromosome.fna-prokkaRes/ESCO.0321.00393.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003443795.1_ASM344379v1_chromosome.fna-prokkaRes/ESCO.0321.00393.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003433275.1_ASM343327v1_chromosome.fna-prokkaRes/ESCO.0321.00392.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003433275.1_ASM343327v1_chromosome.fna-prokkaRes/ESCO.0321.00392.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003443815.1_ASM344381v1_chromosome.fna-prokkaRes/ESCO.0321.00394.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003443815.1_ASM344381v1_chromosome.fna-prokkaRes/ESCO.0321.00394.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003491165.1_ASM349116v1_chromosome.fna-prokkaRes/ESCO.0321.00395.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003491165.1_ASM349116v1_chromosome.fna-prokkaRes/ESCO.0321.00395.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003570765.1_ASM357076v1_chromosome.fna-prokkaRes/ESCO.0321.00398.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003570765.1_ASM357076v1_chromosome.fna-prokkaRes/ESCO.0321.00398.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003546975.1_ASM354697v1_chromosome.fna-prokkaRes/ESCO.0321.00397.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003546975.1_ASM354697v1_chromosome.fna-prokkaRes/ESCO.0321.00397.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003491265.1_ASM349126v1_chromosome.fna-prokkaRes/ESCO.0321.00396.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003491265.1_ASM349126v1_chromosome.fna-prokkaRes/ESCO.0321.00396.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003571685.1_ASM357168v1_chromosome.fna-prokkaRes/ESCO.0321.00399.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003571685.1_ASM357168v1_chromosome.fna-prokkaRes/ESCO.0321.00399.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003571765.1_ASM357176v1_chromosome.fna-prokkaRes/ESCO.0321.00400.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003571765.1_ASM357176v1_chromosome.fna-prokkaRes/ESCO.0321.00400.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003571825.1_ASM357182v1_chromosome.fna-prokkaRes/ESCO.0321.00402.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003571825.1_ASM357182v1_chromosome.fna-prokkaRes/ESCO.0321.00402.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003571785.1_ASM357178v1_chromosome.fna-prokkaRes/ESCO.0321.00401.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003571785.1_ASM357178v1_chromosome.fna-prokkaRes/ESCO.0321.00401.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003591595.1_ASM359159v1_chromosome.fna-prokkaRes/ESCO.0321.00404.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003591595.1_ASM359159v1_chromosome.fna-prokkaRes/ESCO.0321.00404.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003586045.1_E.coli_isolate_chromosome.fna-prokkaRes/ESCO.0321.00403.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003586045.1_E.coli_isolate_chromosome.fna-prokkaRes/ESCO.0321.00403.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003855115.1_ASM385511v1_chromosome.fna-prokkaRes/ESCO.0321.00405.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003855115.1_ASM385511v1_chromosome.fna-prokkaRes/ESCO.0321.00405.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003855135.1_ASM385513v1_chromosome.fna-prokkaRes/ESCO.0321.00406.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_003855135.1_ASM385513v1_chromosome.fna-prokkaRes/ESCO.0321.00406.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_900174625.1_WI1-reUpload_chromosome.fna-prokkaRes/ESCO.0321.00408.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_900174625.1_WI1-reUpload_chromosome.fna-prokkaRes/ESCO.0321.00408.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_900092615.1_PRJEB14041_chromosome.fna-prokkaRes/ESCO.0321.00407.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_900092615.1_PRJEB14041_chromosome.fna-prokkaRes/ESCO.0321.00407.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_900174635.1_WI2_chromosome.fna-prokkaRes/ESCO.0321.00409.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_900174635.1_WI2_chromosome.fna-prokkaRes/ESCO.0321.00409.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_900184875.1_Unitig_chromosome.fna-prokkaRes/ESCO.0321.00410.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_900184875.1_Unitig_chromosome.fna-prokkaRes/ESCO.0321.00410.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_900186905.1_49923_G01_chromosome.fna-prokkaRes/ESCO.0321.00411.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_900186905.1_49923_G01_chromosome.fna-prokkaRes/ESCO.0321.00411.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_900474445.1_39641_B02_chromosome.fna-prokkaRes/ESCO.0321.00412.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_900474445.1_39641_B02_chromosome.fna-prokkaRes/ESCO.0321.00412.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_900474495.1_38344_F01_chromosome.fna-prokkaRes/ESCO.0321.00413.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_900474495.1_38344_F01_chromosome.fna-prokkaRes/ESCO.0321.00413.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_900474625.1_39888_E01_chromosome.fna-prokkaRes/ESCO.0321.00414.gbf
+[tbl2asn-forever] Correcting dates in 2-annotate_module/tmp_files/GCA_900474625.1_39888_E01_chromosome.fna-prokkaRes/ESCO.0321.00414.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 12-MAR-2021
+[32m  * [2021-03-12 22:17:22] : INFO [0m Formatting all genomes[0m
+[32m  * [2021-03-12 22:17:56] : INFO [0m Annotation step done.[0m

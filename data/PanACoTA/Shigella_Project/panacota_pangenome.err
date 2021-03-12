@@ -1,0 +1,300 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+Building bank:                             0/414 (N/A%) - Elapsed Time: 0:00:00
+Building bank: █                          16/414 (  3%) - Elapsed Time: 0:00:00
+Building bank: ██                         32/414 (  7%) - Elapsed Time: 0:00:00
+Building bank: ██                         42/414 ( 10%) - Elapsed Time: 0:00:00
+Building bank: ███                        53/414 ( 12%) - Elapsed Time: 0:00:00
+Building bank: ████                       69/414 ( 16%) - Elapsed Time: 0:00:00
+Building bank: ████                       79/414 ( 19%) - Elapsed Time: 0:00:00
+Building bank: █████                      95/414 ( 22%) - Elapsed Time: 0:00:00
+Building bank: ██████                    111/414 ( 26%) - Elapsed Time: 0:00:00
+Building bank: ███████                   126/414 ( 30%) - Elapsed Time: 0:00:00
+Building bank: ████████                  142/414 ( 34%) - Elapsed Time: 0:00:00
+Building bank: █████████                 158/414 ( 38%) - Elapsed Time: 0:00:00
+Building bank: ██████████                173/414 ( 41%) - Elapsed Time: 0:00:00
+Building bank: ███████████               189/414 ( 45%) - Elapsed Time: 0:00:00
+Building bank: ████████████              205/414 ( 49%) - Elapsed Time: 0:00:00
+Building bank: █████████████             221/414 ( 53%) - Elapsed Time: 0:00:00
+Building bank: ██████████████            236/414 ( 57%) - Elapsed Time: 0:00:01
+Building bank: ███████████████           252/414 ( 60%) - Elapsed Time: 0:00:01
+Building bank: ████████████████          268/414 ( 64%) - Elapsed Time: 0:00:01
+Building bank: █████████████████         283/414 ( 68%) - Elapsed Time: 0:00:01
+Building bank: ██████████████████        299/414 ( 72%) - Elapsed Time: 0:00:01
+Building bank: ███████████████████       315/414 ( 76%) - Elapsed Time: 0:00:01
+Building bank: ███████████████████       331/414 ( 79%) - Elapsed Time: 0:00:01
+Building bank: ████████████████████      346/414 ( 83%) - Elapsed Time: 0:00:01
+Building bank: █████████████████████     362/414 ( 87%) - Elapsed Time: 0:00:01
+Building bank: ██████████████████████    378/414 ( 91%) - Elapsed Time: 0:00:01
+Building bank: ███████████████████████   394/414 ( 95%) - Elapsed Time: 0:00:01
+Building bank: █████████████████████████ 414/414 (100%) - Elapsed Time: 0:00:02
+|◓                     |  -  Elapsed Time: 0:00:00
+| ◑                    |  -  Elapsed Time: 0:00:00
+|  ◒                   |  -  Elapsed Time: 0:00:00
+|   ◐                  |  -  Elapsed Time: 0:00:00
+|    ◓                 |  -  Elapsed Time: 0:00:00
+|     ◑                |  -  Elapsed Time: 0:00:00
+|      ◒               |  -  Elapsed Time: 0:00:00
+|       ◐              |  -  Elapsed Time: 0:00:00
+|        ◓             |  -  Elapsed Time: 0:00:00
+|         ◑            |  -  Elapsed Time: 0:00:00
+|          ◒           |  -  Elapsed Time: 0:00:01
+|           ◐          |  -  Elapsed Time: 0:00:01
+|            ◓         |  -  Elapsed Time: 0:00:01
+|             ◑        |  -  Elapsed Time: 0:00:01
+|              ◒       |  -  Elapsed Time: 0:00:01
+|               ◐      |  -  Elapsed Time: 0:00:01
+|                ◓     |  -  Elapsed Time: 0:00:01
+|                 ◑    |  -  Elapsed Time: 0:00:01
+|                  ◒   |  -  Elapsed Time: 0:00:01
+|                   ◐  |  -  Elapsed Time: 0:00:01
+|                    ◓ |  -  Elapsed Time: 0:00:02
+|                     ◑|  -  Elapsed Time: 0:00:02
+|                     ◒|  -  Elapsed Time: 0:00:02
+|                    ◐ |  -  Elapsed Time: 0:00:02
+|                   ◓  |  -  Elapsed Time: 0:00:02
+|                  ◑   |  -  Elapsed Time: 0:00:02
+|                 ◒    |  -  Elapsed Time: 0:00:02
+|                ◐     |  -  Elapsed Time: 0:00:02
+|               ◓      |  -  Elapsed Time: 0:00:02
+|              ◑       |  -  Elapsed Time: 0:00:02
+|             ◒        |  -  Elapsed Time: 0:00:03
+|            ◐         |  -  Elapsed Time: 0:00:03
+|           ◓          |  -  Elapsed Time: 0:00:03
+|          ◑           |  -  Elapsed Time: 0:00:03
+|         ◒            |  -  Elapsed Time: 0:00:03
+|        ◐             |  -  Elapsed Time: 0:00:03
+|       ◓              |  -  Elapsed Time: 0:00:03
+|      ◑               |  -  Elapsed Time: 0:00:03
+|     ◒                |  -  Elapsed Time: 0:00:03
+|    ◐                 |  -  Elapsed Time: 0:00:03
+|   ◓                  |  -  Elapsed Time: 0:00:04
+|  ◑                   |  -  Elapsed Time: 0:00:04
+| ◒                    |  -  Elapsed Time: 0:00:04
+|◐                     |  -  Elapsed Time: 0:00:04
+|◓                     |  -  Elapsed Time: 0:00:04
+| ◑                    |  -  Elapsed Time: 0:00:04
+|  ◒                   |  -  Elapsed Time: 0:00:04
+|   ◐                  |  -  Elapsed Time: 0:00:04
+|    ◓                 |  -  Elapsed Time: 0:00:04
+|     ◑                |  -  Elapsed Time: 0:00:04
+|      ◒               |  -  Elapsed Time: 0:00:05
+|       ◐              |  -  Elapsed Time: 0:00:05
+|        ◓             |  -  Elapsed Time: 0:00:05
+|         ◑            |  -  Elapsed Time: 0:00:05
+|          ◒           |  -  Elapsed Time: 0:00:05
+|           ◐          |  -  Elapsed Time: 0:00:05
+|            ◓         |  -  Elapsed Time: 0:00:05
+|             ◑        |  -  Elapsed Time: 0:00:05
+|              ◒       |  -  Elapsed Time: 0:00:05
+|               ◐      |  -  Elapsed Time: 0:00:05
+|                ◓     |  -  Elapsed Time: 0:00:06
+|                 ◑    |  -  Elapsed Time: 0:00:06
+|                  ◒   |  -  Elapsed Time: 0:00:06
+|                   ◐  |  -  Elapsed Time: 0:00:06
+|                    ◓ |  -  Elapsed Time: 0:00:06
+|                     ◑|  -  Elapsed Time: 0:00:06
+|                     ◒|  -  Elapsed Time: 0:00:06
+|                    ◐ |  -  Elapsed Time: 0:00:06
+|                   ◓  |  -  Elapsed Time: 0:00:06
+|                  ◑   |  -  Elapsed Time: 0:00:06
+|                 ◒    |  -  Elapsed Time: 0:00:07
+|                ◐     |  -  Elapsed Time: 0:00:07
+|               ◓      |  -  Elapsed Time: 0:00:07
+|              ◑       |  -  Elapsed Time: 0:00:07
+|             ◒        |  -  Elapsed Time: 0:00:07
+|            ◐         |  -  Elapsed Time: 0:00:07
+|           ◓          |  -  Elapsed Time: 0:00:07
+|          ◑           |  -  Elapsed Time: 0:00:07
+|         ◒            |  -  Elapsed Time: 0:00:07
+|        ◐             |  -  Elapsed Time: 0:00:07
+|       ◓              |  -  Elapsed Time: 0:00:08
+|      ◑               |  -  Elapsed Time: 0:00:08
+|     ◒                |  -  Elapsed Time: 0:00:08
+|    ◐                 |  -  Elapsed Time: 0:00:08
+|   ◓                  |  -  Elapsed Time: 0:00:08
+|  ◑                   |  -  Elapsed Time: 0:00:08
+| ◒                    |  -  Elapsed Time: 0:00:08
+|◐                     |  -  Elapsed Time: 0:00:08
+|◓                     |  -  Elapsed Time: 0:00:08
+| ◑                    |  -  Elapsed Time: 0:00:08
+|  ◒                   |  -  Elapsed Time: 0:00:09
+|   ◐                  |  -  Elapsed Time: 0:00:09
+|    ◓                 |  -  Elapsed Time: 0:00:09
+|     ◑                |  -  Elapsed Time: 0:00:09
+|      ◒               |  -  Elapsed Time: 0:00:09
+|       ◐              |  -  Elapsed Time: 0:00:09
+|        ◓             |  -  Elapsed Time: 0:00:09
+|         ◑            |  -  Elapsed Time: 0:00:09
+|          ◒           |  -  Elapsed Time: 0:00:09
+|           ◐          |  -  Elapsed Time: 0:00:09
+|            ◓         |  -  Elapsed Time: 0:00:10
+|             ◑        |  -  Elapsed Time: 0:00:10
+|              ◒       |  -  Elapsed Time: 0:00:10
+|               ◐      |  -  Elapsed Time: 0:00:10
+|                ◓     |  -  Elapsed Time: 0:00:10
+|                 ◑    |  -  Elapsed Time: 0:00:10
+|                  ◒   |  -  Elapsed Time: 0:00:10
+|                   ◐  |  -  Elapsed Time: 0:00:10
+|                    ◓ |  -  Elapsed Time: 0:00:10
+|                     ◑|  -  Elapsed Time: 0:00:10
+|                     ◒|  -  Elapsed Time: 0:00:11
+|                    ◐ |  -  Elapsed Time: 0:00:11
+|                   ◓  |  -  Elapsed Time: 0:00:11
+|                  ◑   |  -  Elapsed Time: 0:00:11
+|                 ◒    |  -  Elapsed Time: 0:00:11
+|                ◐     |  -  Elapsed Time: 0:00:11
+|               ◓      |  -  Elapsed Time: 0:00:11
+|              ◑       |  -  Elapsed Time: 0:00:11
+|             ◒        |  -  Elapsed Time: 0:00:11
+|            ◐         |  -  Elapsed Time: 0:00:11
+|           ◓          |  -  Elapsed Time: 0:00:12
+|          ◑           |  -  Elapsed Time: 0:00:12
+|         ◒            |  -  Elapsed Time: 0:00:12
+|        ◐             |  -  Elapsed Time: 0:00:12
+|       ◓              |  -  Elapsed Time: 0:00:12
+|      ◑               |  -  Elapsed Time: 0:00:12
+|     ◒                |  -  Elapsed Time: 0:00:12
+|    ◐                 |  -  Elapsed Time: 0:00:12
+|   ◓                  |  -  Elapsed Time: 0:00:12
+|  ◑                   |  -  Elapsed Time: 0:00:12
+| ◒                    |  -  Elapsed Time: 0:00:13
+|◐                     |  -  Elapsed Time: 0:00:13
+|◓                     |  -  Elapsed Time: 0:00:13
+| ◑                    |  -  Elapsed Time: 0:00:13
+|  ◒                   |  -  Elapsed Time: 0:00:13
+|   ◐                  |  -  Elapsed Time: 0:00:13
+|    ◓                 |  -  Elapsed Time: 0:00:13
+|     ◑                |  -  Elapsed Time: 0:00:13
+|      ◒               |  -  Elapsed Time: 0:00:13
+|       ◐              |  -  Elapsed Time: 0:00:13
+|        ◓             |  -  Elapsed Time: 0:00:14
+|         ◑            |  -  Elapsed Time: 0:00:14
+|          ◒           |  -  Elapsed Time: 0:00:14
+|           ◐          |  -  Elapsed Time: 0:00:14
+|            ◓         |  -  Elapsed Time: 0:00:14
+|             ◑        |  -  Elapsed Time: 0:00:14
+|              ◒       |  -  Elapsed Time: 0:00:14
+|               ◐      |  -  Elapsed Time: 0:00:14
+|                ◓     |  -  Elapsed Time: 0:00:14
+|                 ◑    |  -  Elapsed Time: 0:00:14
+|                  ◒   |  -  Elapsed Time: 0:00:15
+|                   ◐  |  -  Elapsed Time: 0:00:15
+|                    ◓ |  -  Elapsed Time: 0:00:15
+|                     ◑|  -  Elapsed Time: 0:00:15
+|                     ◒|  -  Elapsed Time: 0:00:15
+|                    ◐ |  -  Elapsed Time: 0:00:15
+|                   ◓  |  -  Elapsed Time: 0:00:15
+|                  ◑   |  -  Elapsed Time: 0:00:15
+|                 ◒    |  -  Elapsed Time: 0:00:15
+|                ◐     |  -  Elapsed Time: 0:00:15
+|               ◓      |  -  Elapsed Time: 0:00:16
+|              ◑       |  -  Elapsed Time: 0:00:16
+|             ◒        |  -  Elapsed Time: 0:00:16
+|            ◐         |  -  Elapsed Time: 0:00:16
+|           ◓          |  -  Elapsed Time: 0:00:16
+|          ◑           |  -  Elapsed Time: 0:00:16
+|         ◒            |  -  Elapsed Time: 0:00:16
+|        ◐             |  -  Elapsed Time: 0:00:16
+|       ◓              |  -  Elapsed Time: 0:00:16
+|      ◑               |  -  Elapsed Time: 0:00:16
+|     ◒                |  -  Elapsed Time: 0:00:17
+|    ◐                 |  -  Elapsed Time: 0:00:17
+|   ◓                  |  -  Elapsed Time: 0:00:17
+|  ◑                   |  -  Elapsed Time: 0:00:17
+| ◒                    |  -  Elapsed Time: 0:00:17
+|◐                     |  -  Elapsed Time: 0:00:17
+|◓                     |  -  Elapsed Time: 0:00:17
+| ◑                    |  -  Elapsed Time: 0:00:17
+|  ◒                   |  -  Elapsed Time: 0:00:17
+|   ◐                  |  -  Elapsed Time: 0:00:17
+|    ◓                 |  -  Elapsed Time: 0:00:18
+|     ◑                |  -  Elapsed Time: 0:00:18
+|      ◒               |  -  Elapsed Time: 0:00:18
+|       ◐              |  -  Elapsed Time: 0:00:18
+|        ◓             |  -  Elapsed Time: 0:00:18
+|         ◑            |  -  Elapsed Time: 0:00:18
+|          ◒           |  -  Elapsed Time: 0:00:18
+|           ◐          |  -  Elapsed Time: 0:00:18
+|            ◓         |  -  Elapsed Time: 0:00:18
+|             ◑        |  -  Elapsed Time: 0:00:18
+|              ◒       |  -  Elapsed Time: 0:00:19
+|               ◐      |  -  Elapsed Time: 0:00:19
+|                ◓     |  -  Elapsed Time: 0:00:19
+|                 ◑    |  -  Elapsed Time: 0:00:19
+|                  ◒   |  -  Elapsed Time: 0:00:19
+|                   ◐  |  -  Elapsed Time: 0:00:19
+|                    ◓ |  -  Elapsed Time: 0:00:19
+|                     ◑|  -  Elapsed Time: 0:00:19
+|                     ◒|  -  Elapsed Time: 0:00:19
+|                    ◐ |  -  Elapsed Time: 0:00:19
+|                   ◓  |  -  Elapsed Time: 0:00:20
+|                  ◑   |  -  Elapsed Time: 0:00:20
+|                 ◒    |  -  Elapsed Time: 0:00:20
+|                ◐     |  -  Elapsed Time: 0:00:20
+|               ◓      |  -  Elapsed Time: 0:00:20
+|              ◑       |  -  Elapsed Time: 0:00:20
+|             ◒        |  -  Elapsed Time: 0:00:20
+|            ◐         |  -  Elapsed Time: 0:00:20
+|           ◓          |  -  Elapsed Time: 0:00:20
+|          ◑           |  -  Elapsed Time: 0:00:20
+|         ◒            |  -  Elapsed Time: 0:00:21
+|        ◐             |  -  Elapsed Time: 0:00:21
+|       ◓              |  -  Elapsed Time: 0:00:21
+|      ◑               |  -  Elapsed Time: 0:00:21
+|     ◒                |  -  Elapsed Time: 0:00:21
+|    ◐                 |  -  Elapsed Time: 0:00:21
+|   ◓                  |  -  Elapsed Time: 0:00:21
+|  ◑                   |  -  Elapsed Time: 0:00:21
+| ◒                    |  -  Elapsed Time: 0:00:21
+|◐                     |  -  Elapsed Time: 0:00:21
+|◓                     |  -  Elapsed Time: 0:00:22
+| ◑                    |  -  Elapsed Time: 0:00:22
+|  ◒                   |  -  Elapsed Time: 0:00:22
+|   ◐                  |  -  Elapsed Time: 0:00:22
+|    ◓                 |  -  Elapsed Time: 0:00:22
+|     ◑                |  -  Elapsed Time: 0:00:22
+|      ◒               |  -  Elapsed Time: 0:00:22
+|       ◐              |  -  Elapsed Time: 0:00:22
+|        ◓             |  -  Elapsed Time: 0:00:22
+|         ◑            |  -  Elapsed Time: 0:00:22
+|          ◒           |  -  Elapsed Time: 0:00:23
+|           ◐          |  -  Elapsed Time: 0:00:23
+|            ◓         |  -  Elapsed Time: 0:00:23
+|             ◑        |  -  Elapsed Time: 0:00:23
+|              ◒       |  -  Elapsed Time: 0:00:23
+|               ◐      |  -  Elapsed Time: 0:00:23
+|                ◓     |  -  Elapsed Time: 0:00:23
+|                 ◑    |  -  Elapsed Time: 0:00:23
+|                  ◒   |  -  Elapsed Time: 0:00:23
+|                   ◐  |  -  Elapsed Time: 0:00:23
+|                    ◓ |  -  Elapsed Time: 0:00:24
+|                     ◑|  -  Elapsed Time: 0:00:24
+|                     ◒|  -  Elapsed Time: 0:00:24
+|                    ◐ |  -  Elapsed Time: 0:00:24
+|                   ◓  |  -  Elapsed Time: 0:00:24
+|                  ◑   |  -  Elapsed Time: 0:00:24
+|                 ◒    |  -  Elapsed Time: 0:00:24
+|                ◐     |  -  Elapsed Time: 0:00:24
+|               ◓      |  -  Elapsed Time: 0:00:24
+|              ◑       |  -  Elapsed Time: 0:00:24
+|             ◒        |  -  Elapsed Time: 0:00:25
+|            ◐         |  -  Elapsed Time: 0:00:25
+|           ◓          |  -  Elapsed Time: 0:00:25
+|          ◑           |  -  Elapsed Time: 0:00:25
+|         ◒            |  -  Elapsed Time: 0:00:25
+|        ◐             |  -  Elapsed Time: 0:00:25
+|       ◓              |  -  Elapsed Time: 0:00:25
+|      ◑               |  -  Elapsed Time: 0:00:25
+|     ◒                |  -  Elapsed Time: 0:00:25
+|    ◐                 |  -  Elapsed Time: 0:00:25
+|   ◓                  |  -  Elapsed Time: 0:00:26
+|  ◑                   |  -  Elapsed Time: 0:00:26
+| ◒                    |  -  Elapsed Time: 0:00:26
+|◐                     |  -  Elapsed Time: 0:00:26
+|◓                     |  -  Elapsed Time: 0:00:26
+| ◑                    |  -  Elapsed Time: 0:00:26
+|  ◒                   |  -  Elapsed Time: 0:00:26
+|   ◐                  |  -  Elapsed Time: 0:00:26
+|    ◓                 |  -  Elapsed Time: 0:00:26
+|     ◐                |  -  Elapsed Time: 0:00:26
