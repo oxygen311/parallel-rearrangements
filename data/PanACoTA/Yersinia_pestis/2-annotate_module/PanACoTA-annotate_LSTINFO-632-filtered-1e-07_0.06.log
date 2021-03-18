@@ -1,0 +1,11 @@
+[2021-02-20 13:20:21] :: INFO :: PanACoTA version 1.2.0
+[2021-02-20 13:20:21] :: INFO :: Command used
+ 	 > PanACoTA annotate
+[2021-02-20 13:20:21] :: INFO :: Reading given information on your genomes in Yersinia_pestis/1-prepare_module/LSTINFO-632-filtered-1e-07_0.06.txt
+[2021-02-20 13:20:21] :: WARNING :: For genome to_annotate, at least one of your columns 'gsize', 'nb_conts' or 'L90' contains a non numeric value. This genome will be ignored.
+[2021-02-20 13:20:21] :: INFO :: Found 58 genomes in total
+[2021-02-20 13:20:21] :: INFO :: Generating distribution of L90 and #contigs graphs.
+[2021-02-20 13:20:22] :: INFO :: Renaming kept genomes according to their quality (58 genomes)
+[2021-02-20 13:20:22] :: INFO :: Annotating all genomes with prokka
+[2021-02-20 13:50:12] :: INFO :: Formatting all genomes
+[2021-02-20 13:50:29] :: INFO :: Annotation step done.

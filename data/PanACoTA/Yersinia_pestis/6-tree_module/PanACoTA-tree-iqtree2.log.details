@@ -1,0 +1,6 @@
+[2021-02-20 15:18:53] :: INFO :: PanACoTA version 1.2.0
+[2021-02-20 15:18:53] :: INFO :: Command used
+ 	 > PanACoTA tree
+[2021-02-20 15:18:53] :: INFO :: Running IQtree...
+[2021-02-20 15:18:53] :: DETAIL :: IQtree command: iqtree2 -s Yersinia_pestis/5-align_module/Phylo-YEPE_58/YEPE_58.grp.aln -T 32 -m GTR    --seqtype DNA --prefix Yersinia_pestis/6-tree_module/YEPE_58.grp.aln.iqtree_tree --quiet 
+[2021-02-20 15:19:18] :: INFO :: END

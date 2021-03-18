@@ -1,0 +1,154 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Linux 64-bit built Oct 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    orthrus-1 (AVX512, FMA3, 1006 GB RAM)
+Command: iqtree2 -s Yersinia_pestis/5-align_module/Phylo-YEPE_58/YEPE_58.grp.aln -T 32 -m GTR --seqtype DNA --prefix Yersinia_pestis/6-tree_module/YEPE_58.grp.aln.iqtree_tree --quiet
+Seed:    531703 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Feb 20 15:18:53 2021
+Kernel:  AVX+FMA - 32 threads (32 CPU cores detected)
+
+Reading alignment file Yersinia_pestis/5-align_module/Phylo-YEPE_58/YEPE_58.grp.aln ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 58 sequences with 2396394 columns, 2444 distinct patterns
+3597 parsimony-informative, 3564 singleton sites, 2389233 constant sites
+                 Gap/Ambiguity  Composition  p-value
+   1  YEPE.0221.00001    0.31%    passed     99.99%
+   2  YEPE.0221.00002    0.34%    passed    100.00%
+   3  YEPE.0221.00003    0.32%    passed     99.97%
+   4  YEPE.0221.00004    0.30%    passed     99.99%
+   5  YEPE.0221.00005    0.31%    passed     99.95%
+   6  YEPE.0221.00006    0.31%    passed    100.00%
+   7  YEPE.0221.00007    0.33%    passed     99.99%
+   8  YEPE.0221.00008    0.38%    passed     99.93%
+   9  YEPE.0221.00009    0.35%    passed     99.99%
+  10  YEPE.0221.00010    0.33%    passed     99.98%
+  11  YEPE.0221.00011    0.28%    passed     99.98%
+  12  YEPE.0221.00012    0.41%    passed     99.97%
+  13  YEPE.0221.00013    0.37%    passed     99.90%
+  14  YEPE.0221.00014    0.38%    passed     99.93%
+  15  YEPE.0221.00015    0.33%    passed     99.97%
+  16  YEPE.0221.00016    0.40%    passed     99.28%
+  17  YEPE.0221.00017    0.28%    passed     99.99%
+  18  YEPE.0221.00018    0.33%    passed     99.97%
+  19  YEPE.0221.00019    0.26%    passed     99.96%
+  20  YEPE.0221.00020    0.29%    passed     99.98%
+  21  YEPE.0221.00021    0.29%    passed     99.96%
+  22  YEPE.0221.00022    0.32%    passed     99.97%
+  23  YEPE.0221.00023    0.26%    passed     99.97%
+  24  YEPE.0221.00024    0.33%    passed     99.99%
+  25  YEPE.0221.00025    0.32%    passed     99.99%
+  26  YEPE.0221.00026    0.31%    passed     99.98%
+  27  YEPE.0221.00027    0.28%    passed     99.95%
+  28  YEPE.0221.00028    0.28%    passed     99.95%
+  29  YEPE.0221.00029    0.27%    passed     99.96%
+  30  YEPE.0221.00030    0.33%    passed    100.00%
+  31  YEPE.0221.00031    0.27%    passed     99.96%
+  32  YEPE.0221.00032    0.28%    passed     99.98%
+  33  YEPE.0221.00033    0.39%    passed     99.95%
+  34  YEPE.0221.00034    0.29%    passed     99.98%
+  35  YEPE.0221.00035    0.55%    passed     99.88%
+  36  YEPE.0221.00036    0.30%    passed    100.00%
+  37  YEPE.0221.00037    0.34%    passed     99.87%
+  38  YEPE.0221.00038    0.34%    passed     99.97%
+  39  YEPE.0221.00039    0.40%    passed     98.97%
+  40  YEPE.0221.00040    0.35%    passed    100.00%
+  41  YEPE.0221.00041    0.32%    passed     99.99%
+  42  YEPE.0221.00042    0.31%    passed     99.98%
+  43  YEPE.0221.00043    0.41%    passed     99.87%
+  44  YEPE.0221.00044    0.41%    passed     99.96%
+  45  YEPE.0221.00045    0.32%    passed     99.98%
+  46  YEPE.0221.00046    0.32%    passed     99.97%
+  47  YEPE.0221.00047    0.39%    passed     99.80%
+  48  YEPE.0221.00048    0.41%    passed     99.98%
+  49  YEPE.0221.00049    0.38%    passed     99.94%
+  50  YEPE.0221.00050    0.34%    passed    100.00%
+  51  YEPE.0221.00051    0.32%    passed     99.99%
+  52  YEPE.0221.00052    0.29%    passed     99.99%
+  53  YEPE.0221.00053    0.30%    passed    100.00%
+  54  YEPE.0221.00054    0.31%    passed     99.97%
+  55  YEPE.0221.00055    0.28%    passed    100.00%
+  56  YEPE.0221.00056    0.32%    passed    100.00%
+  57  YEPE.0221.00057    0.28%    passed    100.00%
+  58  YEPE.0221.00058    0.32%    passed     99.98%
+****  TOTAL              0.33%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000041729 for long alignment
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.018 seconds
+
+NOTE: 4 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -3412654.809
+2. Current log-likelihood: -3412506.909
+3. Current log-likelihood: -3412479.435
+4. Current log-likelihood: -3412479.226
+5. Current log-likelihood: -3412475.005
+6. Current log-likelihood: -3412472.612
+7. Current log-likelihood: -3412472.186
+Optimal log-likelihood: -3412472.133
+Rate parameters:  A-C: 1.12515  A-G: 1.42185  A-T: 0.88987  C-G: 0.97109  C-T: 1.35357  G-T: 1.00000
+Base frequencies:  A: 0.251  C: 0.229  G: 0.260  T: 0.260
+Parameters optimization took 7 rounds (0.050 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.002291 sec (of wall-clock time) 0.073275 sec(of CPU time)
+Computing RapidNJ tree took 0.006825 sec (of wall-clock time) 0.059699 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -3414024.860
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.598 second
+Computing log-likelihood of 98 initial trees ... 0.484 seconds
+Current best score: -3412356.055
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -3412355.913
+UPDATE BEST LOG-LIKELIHOOD: -3412355.912
+BETTER TREE FOUND at iteration 4: -3412355.912
+UPDATE BEST LOG-LIKELIHOOD: -3412355.912
+Iteration 10 / LogL: -3412355.913 / Time: 0h:0m:4s
+Iteration 20 / LogL: -3412355.912 / Time: 0h:0m:5s
+Finish initializing candidate tree set (3)
+Current best tree score: -3412355.912 / CPU time: 5.154
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -3412356.419 / Time: 0h:0m:6s (0h:0m:17s left)
+Iteration 40 / LogL: -3412357.879 / Time: 0h:0m:7s (0h:0m:13s left)
+Iteration 50 / LogL: -3412394.375 / Time: 0h:0m:9s (0h:0m:10s left)
+Iteration 60 / LogL: -3412544.074 / Time: 0h:0m:10s (0h:0m:7s left)
+Iteration 70 / LogL: -3412357.946 / Time: 0h:0m:11s (0h:0m:5s left)
+UPDATE BEST LOG-LIKELIHOOD: -3412355.906
+Iteration 80 / LogL: -3412357.766 / Time: 0h:0m:13s (0h:0m:3s left)
+Iteration 90 / LogL: -3412356.427 / Time: 0h:0m:14s (0h:0m:2s left)
+Iteration 100 / LogL: -3412356.778 / Time: 0h:0m:15s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 105 ITERATIONS / Time: 0h:0m:16s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3412355.906
+Optimal log-likelihood: -3412355.903
+Rate parameters:  A-C: 1.13034  A-G: 1.42021  A-T: 0.88324  C-G: 0.97546  C-T: 1.33968  G-T: 1.00000
+Base frequencies:  A: 0.251  C: 0.229  G: 0.260  T: 0.260
+Parameters optimization took 1 rounds (0.013 sec)
+BEST SCORE FOUND : -3412355.903
+Total tree length: 0.003
+
+Total number of iterations: 105
+CPU time used for tree search: 506.797 sec (0h:8m:26s)
+Wall-clock time used for tree search: 15.976 sec (0h:0m:15s)
+Total CPU time used: 516.555 sec (0h:8m:36s)
+Total wall-clock time used: 16.350 sec (0h:0m:16s)
+
+Analysis results written to: 
+  IQ-TREE report:                Yersinia_pestis/6-tree_module/YEPE_58.grp.aln.iqtree_tree.iqtree
+  Maximum-likelihood tree:       Yersinia_pestis/6-tree_module/YEPE_58.grp.aln.iqtree_tree.treefile
+  Likelihood distances:          Yersinia_pestis/6-tree_module/YEPE_58.grp.aln.iqtree_tree.mldist
+  Screen log file:               Yersinia_pestis/6-tree_module/YEPE_58.grp.aln.iqtree_tree.log
+
+Date and Time: Sat Feb 20 15:19:18 2021
