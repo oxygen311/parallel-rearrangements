@@ -1,0 +1,53 @@
+[2021-03-30 14:16:20,197] INFO - <Running module: Preprocess Data>
+[2021-03-30 14:16:20,275] INFO - Converting block coords to infercars format
+[2021-03-30 14:16:22,530] INFO - <Module finished: Preprocess Data>, elapsed 2.332381010055542 seconds
+[2021-03-30 14:16:22,530] INFO - <Running module: Parsers and check strains>
+[2021-03-30 14:16:24,370] INFO - Blocks count: 287
+[2021-03-30 14:16:24,370] INFO - Unique one-copy blocks count: 157
+[2021-03-30 14:16:24,379] INFO - NumExpr defaulting to 8 threads.
+[2021-03-30 14:16:24,417] INFO - Mean block coverage: 64.49433040217006 %
+[2021-03-30 14:16:24,457] INFO - Mean common one-copy blocks coverage: 56.9359772740886 %
+[2021-03-30 14:16:24,498] INFO - Mean 80 % rate one-copy blocks coverage: 59.615987389265534 %
+[2021-03-30 14:16:24,555] INFO - Strains in blocks file count: 96
+[2021-03-30 14:16:24,555] INFO - Strains in tree leafs count: 97
+[2021-03-30 14:16:24,555] INFO - Intersected strains count: 96
+[2021-03-30 14:16:24,556] WARNING - PRUNING TREE
+[2021-03-30 14:16:24,556] WARNING - Those strains are thrown away from tree because there were not found in blocks data: STPN.0321.00096
+[2021-03-30 14:16:24,561] INFO - <Module finished: Parsers and check strains>, elapsed 2.030766010284424 seconds
+[2021-03-30 14:16:24,561] INFO - <Running module: Balanced rearrangements characters>
+[2021-03-30 14:16:26,566] INFO - Breakpoint graph parsed
+[2021-03-30 14:16:26,569] INFO - Edges in breakpoint graph: 249
+[2021-03-30 14:16:26,586] INFO - Getting characters from breakpoint graph component, size=66
+[2021-03-30 14:16:27,110] INFO - Getting characters from breakpoint graph component, size=6
+[2021-03-30 14:16:27,122] INFO - Getting characters from breakpoint graph component, size=4
+[2021-03-30 14:16:27,128] INFO - Getting characters from breakpoint graph component, size=6
+[2021-03-30 14:16:27,141] INFO - Getting characters from breakpoint graph component, size=4
+[2021-03-30 14:16:27,151] INFO - Getting characters from breakpoint graph component, size=8
+[2021-03-30 14:16:27,218] INFO - Getting characters from breakpoint graph component, size=4
+[2021-03-30 14:16:27,250] INFO - Getting characters from breakpoint graph component, size=4
+[2021-03-30 14:16:27,281] INFO - Getting characters from breakpoint graph component, size=4
+[2021-03-30 14:16:27,313] INFO - Getting characters from breakpoint graph component, size=4
+[2021-03-30 14:16:27,332] INFO - <Module finished: Balanced rearrangements characters>, elapsed 2.7704062461853027 seconds
+[2021-03-30 14:16:27,332] INFO - <Running module: Balanced rearrangements stats>
+[2021-03-30 14:16:27,332] INFO - Counting distances between unique one-copy blocks, may take a while
+[2021-03-30 14:16:40,706] INFO - Got characters after breakpoint graph consideration: 55
+[2021-03-30 14:16:40,706] INFO - Percentage of consistent rearrangements (balanced): 69.0909090909091 %
+[2021-03-30 14:16:40,915] INFO - <Module finished: Balanced rearrangements stats>, elapsed 13.582534313201904 seconds
+[2021-03-30 14:16:40,915] INFO - <Running module: Balanced rearrangements output>
+[2021-03-30 14:16:53,487] INFO - <Module finished: Balanced rearrangements output>, elapsed 12.571790218353271 seconds
+[2021-03-30 14:16:53,487] INFO - <Running module: Unbalanced rearrangements characters>
+[2021-03-30 14:16:53,494] INFO - <Module finished: Unbalanced rearrangements characters>, elapsed 0.006959199905395508 seconds
+[2021-03-30 14:16:53,494] INFO - <Running module: Unbalanced rearrangements stats and clustering>
+[2021-03-30 14:16:53,913] INFO - Got characters after copy number variation consideration: 287
+[2021-03-30 14:16:53,914] INFO - Percentage of consistent rearrangements (unbalanced): 65.20034843205575 %
+[2021-03-30 14:16:53,914] INFO - Counting distances between non-convex character blocks, may take a while
+[2021-03-30 14:17:12,579] INFO - Jaccard index matrix constructed
+[2021-03-30 14:17:16,794] INFO - Proximity matrix constructed
+[2021-03-30 14:17:16,805] INFO - Clustring is done
+[2021-03-30 14:17:16,805] INFO - Clusters: 103
+[2021-03-30 14:17:17,073] INFO - <Module finished: Unbalanced rearrangements stats and clustering>, elapsed 23.578282117843628 seconds
+[2021-03-30 14:17:17,073] INFO - <Running module: Unbalanced rearrangements output>
+[2021-03-30 14:17:37,786] INFO - <Module finished: Unbalanced rearrangements output>, elapsed 20.713470935821533 seconds
+[2021-03-30 14:17:37,787] INFO - <Running module: Visualize neighbours output>
+[2021-03-30 14:18:21,522] INFO - <Module finished: Visualize neighbours output>, elapsed 43.73513388633728 seconds
+[2021-03-30 14:18:21,522] INFO - Total elapsed time: 121.44272589683533 seconds

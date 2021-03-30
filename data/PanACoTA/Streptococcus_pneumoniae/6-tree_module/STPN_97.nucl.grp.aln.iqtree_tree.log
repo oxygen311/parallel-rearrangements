@@ -1,0 +1,200 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Linux 64-bit built Oct 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    orthrus-2 (AVX512, FMA3, 1006 GB RAM)
+Command: iqtree2 -s Streptococcus_pneumoniae/5-align_module/Phylo-STPN_97/STPN_97.nucl.grp.aln -T 32 -m GTR --seqtype DNA --prefix Streptococcus_pneumoniae/6-tree_module/STPN_97.nucl.grp.aln.iqtree_tree --quiet
+Seed:    269824 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Mar 29 16:33:30 2021
+Kernel:  AVX+FMA - 32 threads (32 CPU cores detected)
+
+Reading alignment file Streptococcus_pneumoniae/5-align_module/Phylo-STPN_97/STPN_97.nucl.grp.aln ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 97 sequences with 962352 columns, 32288 distinct patterns
+46367 parsimony-informative, 26943 singleton sites, 889042 constant sites
+                 Gap/Ambiguity  Composition  p-value
+   1  STPN.0321.00001    0.45%    passed     99.77%
+   2  STPN.0321.00002    0.42%    passed     98.78%
+   3  STPN.0321.00003    0.47%    passed     99.77%
+   4  STPN.0321.00004    0.46%    passed     99.39%
+   5  STPN.0321.00005    0.49%    passed     99.88%
+   6  STPN.0321.00006    0.52%    passed     97.71%
+   7  STPN.0321.00007    0.46%    passed     99.75%
+   8  STPN.0321.00008    0.45%    passed     99.56%
+   9  STPN.0321.00009    0.51%    passed     99.91%
+  10  STPN.0321.00010    0.46%    passed     99.70%
+  11  STPN.0321.00011    0.53%    passed     99.95%
+  12  STPN.0321.00012    0.47%    passed     99.96%
+  13  STPN.0321.00013    0.45%    passed     99.72%
+  14  STPN.0321.00014    0.41%    passed     99.99%
+  15  STPN.0321.00015    0.46%    passed     99.65%
+  16  STPN.0321.00016    0.48%    passed     99.51%
+  17  STPN.0321.00017    0.43%    passed    100.00%
+  18  STPN.0321.00018    0.41%    passed     99.99%
+  19  STPN.0321.00019    0.45%    passed     99.66%
+  20  STPN.0321.00020    0.41%    passed     99.09%
+  21  STPN.0321.00021    0.43%    passed     99.98%
+  22  STPN.0321.00022    0.43%    passed     99.84%
+  23  STPN.0321.00023    0.48%    passed     99.77%
+  24  STPN.0321.00024    0.40%    passed     99.53%
+  25  STPN.0321.00025    0.43%    passed     99.82%
+  26  STPN.0321.00026    0.48%    passed     99.43%
+  27  STPN.0321.00027    0.44%    passed     99.47%
+  28  STPN.0321.00028    0.50%    passed     99.85%
+  29  STPN.0321.00029    0.51%    passed     99.60%
+  30  STPN.0321.00030    0.48%    passed     99.59%
+  31  STPN.0321.00031    0.43%    passed     99.44%
+  32  STPN.0321.00032    0.53%    passed     99.97%
+  33  STPN.0321.00033    0.47%    passed     99.39%
+  34  STPN.0321.00034    0.53%    passed     99.95%
+  35  STPN.0321.00035    0.45%    passed     99.76%
+  36  STPN.0321.00036    0.39%    passed     99.98%
+  37  STPN.0321.00037    0.42%    passed     99.49%
+  38  STPN.0321.00038    0.47%    passed     99.98%
+  39  STPN.0321.00039    0.53%    passed     98.74%
+  40  STPN.0321.00040    0.46%    passed     99.68%
+  41  STPN.0321.00041    0.44%    passed     96.14%
+  42  STPN.0321.00042    0.42%    passed     98.18%
+  43  STPN.0321.00043    0.51%    passed     99.88%
+  44  STPN.0321.00044    0.44%    passed     99.94%
+  45  STPN.0321.00045    0.42%    passed     99.85%
+  46  STPN.0321.00046    0.44%    passed     99.97%
+  47  STPN.0321.00047    0.44%    passed    100.00%
+  48  STPN.0321.00048    0.43%    passed     99.64%
+  49  STPN.0321.00049    0.46%    passed     99.67%
+  50  STPN.0321.00050    0.47%    passed     99.82%
+  51  STPN.0321.00051    0.47%    passed     99.53%
+  52  STPN.0321.00052    0.43%    passed     99.76%
+  53  STPN.0321.00053    0.48%    passed     99.78%
+  54  STPN.0321.00054    0.41%    passed     99.41%
+  55  STPN.0321.00055    0.42%    passed     99.51%
+  56  STPN.0321.00056    0.49%    passed     99.79%
+  57  STPN.0321.00057    0.43%    passed     99.84%
+  58  STPN.0321.00058    0.45%    passed     99.97%
+  59  STPN.0321.00059    0.47%    passed     96.77%
+  60  STPN.0321.00060    0.41%    passed     99.96%
+  61  STPN.0321.00061    0.54%    passed     99.94%
+  62  STPN.0321.00062    0.44%    passed     99.85%
+  63  STPN.0321.00063    0.45%    passed    100.00%
+  64  STPN.0321.00064    0.43%    passed     99.99%
+  65  STPN.0321.00065    0.49%    passed     99.32%
+  66  STPN.0321.00066    0.43%    passed     97.99%
+  67  STPN.0321.00067    0.42%    passed     99.70%
+  68  STPN.0321.00068    0.48%    passed     99.98%
+  69  STPN.0321.00069    0.42%    passed     99.75%
+  70  STPN.0321.00070    0.44%    passed     99.97%
+  71  STPN.0321.00071    0.41%    passed     99.99%
+  72  STPN.0321.00072    0.46%    passed     99.66%
+  73  STPN.0321.00073    0.43%    passed     99.31%
+  74  STPN.0321.00074    0.45%    passed     99.72%
+  75  STPN.0321.00075    0.44%    passed     99.81%
+  76  STPN.0321.00076    0.44%    passed     99.51%
+  77  STPN.0321.00077    0.47%    passed     99.77%
+  78  STPN.0321.00078    0.47%    passed     99.75%
+  79  STPN.0321.00079    0.51%    passed     99.66%
+  80  STPN.0321.00080    0.52%    passed     98.45%
+  81  STPN.0321.00081    0.46%    passed     99.54%
+  82  STPN.0321.00082    0.44%    passed     99.41%
+  83  STPN.0321.00083    0.46%    passed     99.10%
+  84  STPN.0321.00084    0.49%    passed     99.88%
+  85  STPN.0321.00085    0.54%    passed     99.96%
+  86  STPN.0321.00086    0.45%    passed     99.51%
+  87  STPN.0321.00087    0.44%    passed     97.76%
+  88  STPN.0321.00088    0.46%    passed     99.74%
+  89  STPN.0321.00089    0.58%    passed     99.94%
+  90  STPN.0321.00090    0.54%    passed     99.99%
+  91  STPN.0321.00091    0.53%    passed     98.34%
+  92  STPN.0321.00092    0.43%    passed     98.64%
+  93  STPN.0321.00093    0.43%    passed     99.64%
+  94  STPN.0321.00094    0.46%    passed     99.62%
+  95  STPN.0321.00095    0.44%    passed     99.92%
+  96  STPN.0321.00096    0.43%    passed     99.98%
+  97  STPN.0321.00097    0.47%    passed     97.94%
+****  TOTAL              0.46%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000103912 for long alignment
+NOTE: STPN.0321.00074 is identical to STPN.0321.00013 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.859 seconds
+
+NOTE: 101 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -3598232.414
+2. Current log-likelihood: -3490469.838
+3. Current log-likelihood: -3490468.842
+4. Current log-likelihood: -3490468.729
+Optimal log-likelihood: -3490468.695
+Rate parameters:  A-C: 1.33446  A-G: 4.20655  A-T: 0.93064  C-G: 0.73089  C-T: 7.10712  G-T: 1.00000
+Base frequencies:  A: 0.293  C: 0.196  G: 0.226  T: 0.286
+Parameters optimization took 4 rounds (0.898 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.048873 sec (of wall-clock time) 1.545315 sec(of CPU time)
+Computing RapidNJ tree took 0.020343 sec (of wall-clock time) 0.230958 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -3502830.907
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 86.095 second
+Computing log-likelihood of 98 initial trees ... 3.975 seconds
+Current best score: -3484766.964
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -3484725.798
+Iteration 10 / LogL: -3486247.889 / Time: 0h:1m:35s
+Iteration 20 / LogL: -3486932.819 / Time: 0h:1m:37s
+Finish initializing candidate tree set (20)
+Current best tree score: -3484725.798 / CPU time: 95.918
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -3491070.842 / Time: 0h:1m:45s (0h:4m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -3484717.612
+Iteration 40 / LogL: -3484989.792 / Time: 0h:1m:52s (0h:4m:23s left)
+Iteration 50 / LogL: -3484746.306 / Time: 0h:1m:59s (0h:3m:18s left)
+Iteration 60 / LogL: -3485380.524 / Time: 0h:2m:6s (0h:2m:33s left)
+Iteration 70 / LogL: -3485466.700 / Time: 0h:2m:14s (0h:1m:59s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 76: -3484717.476
+Iteration 80 / LogL: -3484814.545 / Time: 0h:2m:20s (0h:2m:49s left)
+Iteration 90 / LogL: -3485798.623 / Time: 0h:2m:27s (0h:2m:21s left)
+Iteration 100 / LogL: -3484717.937 / Time: 0h:2m:34s (0h:1m:58s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -3484717.420
+Iteration 110 / LogL: -3484726.150 / Time: 0h:2m:42s (0h:1m:37s left)
+Iteration 120 / LogL: -3485829.712 / Time: 0h:2m:48s (0h:1m:19s left)
+Iteration 130 / LogL: -3487349.838 / Time: 0h:2m:55s (0h:1m:2s left)
+Iteration 140 / LogL: -3485756.128 / Time: 0h:3m:3s (0h:0m:47s left)
+Iteration 150 / LogL: -3485717.485 / Time: 0h:3m:10s (0h:0m:32s left)
+Iteration 160 / LogL: -3487381.735 / Time: 0h:3m:17s (0h:0m:19s left)
+Iteration 170 / LogL: -3486760.745 / Time: 0h:3m:24s (0h:0m:7s left)
+TREE SEARCH COMPLETED AFTER 177 ITERATIONS / Time: 0h:3m:29s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3484717.420
+Optimal log-likelihood: -3484717.418
+Rate parameters:  A-C: 1.33421  A-G: 4.21193  A-T: 0.92798  C-G: 0.72923  C-T: 7.10821  G-T: 1.00000
+Base frequencies:  A: 0.293  C: 0.196  G: 0.226  T: 0.286
+Parameters optimization took 1 rounds (0.150 sec)
+BEST SCORE FOUND : -3484717.418
+Total tree length: 0.302
+
+Total number of iterations: 177
+CPU time used for tree search: 4652.463 sec (1h:17m:32s)
+Wall-clock time used for tree search: 207.281 sec (0h:3m:27s)
+Total CPU time used: 4702.635 sec (1h:18m:22s)
+Total wall-clock time used: 209.787 sec (0h:3m:29s)
+
+Analysis results written to: 
+  IQ-TREE report:                Streptococcus_pneumoniae/6-tree_module/STPN_97.nucl.grp.aln.iqtree_tree.iqtree
+  Maximum-likelihood tree:       Streptococcus_pneumoniae/6-tree_module/STPN_97.nucl.grp.aln.iqtree_tree.treefile
+  Likelihood distances:          Streptococcus_pneumoniae/6-tree_module/STPN_97.nucl.grp.aln.iqtree_tree.mldist
+  Screen log file:               Streptococcus_pneumoniae/6-tree_module/STPN_97.nucl.grp.aln.iqtree_tree.log
+
+Date and Time: Mon Mar 29 16:37:05 2021

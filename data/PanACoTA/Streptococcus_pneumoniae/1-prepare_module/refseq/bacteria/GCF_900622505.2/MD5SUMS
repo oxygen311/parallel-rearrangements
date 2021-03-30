@@ -1,0 +1,14 @@
+1b80a66402a6b6a946ab6db0227c3eb0  ./annotation_hashes.txt
+8f04846cda3d35277389d8ff66cc3d4d  ./GCF_900622505.2_Spn4559_assembly_report.txt
+ec3075b5dca7a66f87048c9c09436d41  ./GCF_900622505.2_Spn4559_assembly_stats.txt
+0d71334699a087f3fe6e9d4643f514cb  ./GCF_900622505.2_Spn4559_cds_from_genomic.fna.gz
+da628e1d576426641e9994060d92277c  ./GCF_900622505.2_Spn4559_feature_count.txt.gz
+6cd897c091f36b31d854468329244fa1  ./GCF_900622505.2_Spn4559_feature_table.txt.gz
+eeccc169ebefc1536617e7f41a9605e1  ./GCF_900622505.2_Spn4559_genomic.fna.gz
+017c824ede18195b1ab6f18f6291795a  ./GCF_900622505.2_Spn4559_genomic.gbff.gz
+60390f68d6cff459e2f8fc4557a22b07  ./GCF_900622505.2_Spn4559_genomic.gff.gz
+5579c8853b27a71426765b896911e179  ./GCF_900622505.2_Spn4559_genomic.gtf.gz
+104fa7af3bab6c40c5cc9f9d52f1fe77  ./GCF_900622505.2_Spn4559_protein.faa.gz
+03b00ebb0ca0df857af05b7c8ae1a809  ./GCF_900622505.2_Spn4559_protein.gpff.gz
+33341483c411ec6807a224515f39e4c7  ./GCF_900622505.2_Spn4559_rna_from_genomic.fna.gz
+529c20f98b74202a479942da26fad978  ./GCF_900622505.2_Spn4559_translated_cds.faa.gz

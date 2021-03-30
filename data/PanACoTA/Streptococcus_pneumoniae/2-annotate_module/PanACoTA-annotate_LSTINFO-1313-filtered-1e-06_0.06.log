@@ -1,0 +1,11 @@
+[2021-03-29 15:55:08] :: INFO :: PanACoTA version 1.2.0-dev3
+[2021-03-29 15:55:08] :: INFO :: Command used
+ 	 > PanACoTA annotate
+[2021-03-29 15:55:08] :: INFO :: Reading given information on your genomes in Streptococcus_pneumoniae/1-prepare_module/LSTINFO-1313-filtered-1e-06_0.06.txt
+[2021-03-29 15:55:08] :: WARNING :: For genome to_annotate, at least one of your columns 'gsize', 'nb_conts' or 'L90' contains a non numeric value. This genome will be ignored.
+[2021-03-29 15:55:08] :: INFO :: Found 97 genomes in total
+[2021-03-29 15:55:08] :: INFO :: Generating distribution of L90 and #contigs graphs.
+[2021-03-29 15:55:08] :: INFO :: Renaming kept genomes according to their quality (97 genomes)
+[2021-03-29 15:55:08] :: INFO :: Annotating all genomes with prokka
+[2021-03-29 16:19:40] :: INFO :: Formatting all genomes
+[2021-03-29 16:19:46] :: INFO :: Annotation step done.

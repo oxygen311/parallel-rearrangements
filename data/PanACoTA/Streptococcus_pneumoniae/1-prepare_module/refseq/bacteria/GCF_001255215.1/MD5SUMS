@@ -1,0 +1,14 @@
+b7b93d7e85e5c48de2e9505b7fc4ed7b  ./annotation_hashes.txt
+256019af4519482aac47fefaafc9eb75  ./GCF_001255215.1_S_pneumo_A66_v1_assembly_report.txt
+0a57755646598356b83c9e0a84de4512  ./GCF_001255215.1_S_pneumo_A66_v1_assembly_stats.txt
+9c4cc51f67039c38f820af14736464a6  ./GCF_001255215.1_S_pneumo_A66_v1_cds_from_genomic.fna.gz
+2aaa1fe26461eac1e0bb283612971b67  ./GCF_001255215.1_S_pneumo_A66_v1_feature_count.txt.gz
+96a9079ce8c98fcfe695b80c0ce920bf  ./GCF_001255215.1_S_pneumo_A66_v1_feature_table.txt.gz
+b0ede21f76fcc970e1c0f59bbfab848d  ./GCF_001255215.1_S_pneumo_A66_v1_genomic.fna.gz
+f153ba1ae4ddd2566f31fcb61dd01218  ./GCF_001255215.1_S_pneumo_A66_v1_genomic.gbff.gz
+63d385d6c387c49ab95a646cdf453e97  ./GCF_001255215.1_S_pneumo_A66_v1_genomic.gff.gz
+4f2171ecb438c36569b0a4a2a2ce596b  ./GCF_001255215.1_S_pneumo_A66_v1_genomic.gtf.gz
+1cce941d50b68af337e4e7562c0b1994  ./GCF_001255215.1_S_pneumo_A66_v1_protein.faa.gz
+0824e08244688d62355cc8f137a4fa66  ./GCF_001255215.1_S_pneumo_A66_v1_protein.gpff.gz
+f419595aeca1a6f3648a58ab2690068e  ./GCF_001255215.1_S_pneumo_A66_v1_rna_from_genomic.fna.gz
+37903d17ca7736661544f4893af51ccd  ./GCF_001255215.1_S_pneumo_A66_v1_translated_cds.faa.gz
