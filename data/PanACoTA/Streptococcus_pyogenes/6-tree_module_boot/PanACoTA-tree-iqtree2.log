@@ -1,0 +1,5 @@
+[2021-03-31 14:40:06] :: INFO :: PanACoTA version 1.2.0-dev3
+[2021-03-31 14:40:06] :: INFO :: Command used
+ 	 > PanACoTA tree -a 5-align_module/Phylo-STPY_219/STPY_219.nucl.grp.aln -o 6-tree_module_boot --boot 1000 --threads 32
+[2021-03-31 14:40:06] :: INFO :: Running IQtree...
+[2021-03-31 14:56:44] :: INFO :: END

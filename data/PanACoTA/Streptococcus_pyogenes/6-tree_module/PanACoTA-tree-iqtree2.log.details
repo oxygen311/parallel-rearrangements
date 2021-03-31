@@ -1,0 +1,6 @@
+[2021-03-29 17:52:52] :: INFO :: PanACoTA version 1.2.0-dev3
+[2021-03-29 17:52:52] :: INFO :: Command used
+ 	 > PanACoTA tree
+[2021-03-29 17:52:52] :: INFO :: Running IQtree...
+[2021-03-29 17:52:52] :: DETAIL :: IQtree command: iqtree2 -s Streptococcus_pyogenes/5-align_module/Phylo-STPY_219/STPY_219.nucl.grp.aln -T 32 -m GTR    --seqtype DNA --prefix Streptococcus_pyogenes/6-tree_module/STPY_219.nucl.grp.aln.iqtree_tree --quiet 
+[2021-03-29 18:08:07] :: INFO :: END

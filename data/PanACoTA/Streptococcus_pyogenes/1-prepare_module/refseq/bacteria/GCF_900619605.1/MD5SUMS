@@ -1,0 +1,14 @@
+6b5b33aa4ce0f33fefdc3e5e1f08d7d8  ./annotation_hashes.txt
+b31dd2ab9c0e415429962d1b8da276f7  ./GCF_900619605.1_HKU419_assembly_report.txt
+bf659544d19634eb8310c0863c8c511d  ./GCF_900619605.1_HKU419_assembly_stats.txt
+7d8629d3e0487a5ddcd771cf9f3bdb79  ./GCF_900619605.1_HKU419_cds_from_genomic.fna.gz
+7a645f92ea029b07c047536099b8d2cc  ./GCF_900619605.1_HKU419_feature_count.txt.gz
+38b185ea70d381059b943dc5ce679695  ./GCF_900619605.1_HKU419_feature_table.txt.gz
+163a6e1e38349f99265664de6ea81bc5  ./GCF_900619605.1_HKU419_genomic.fna.gz
+f65298f45c028040a1ec5511019f9fc5  ./GCF_900619605.1_HKU419_genomic.gbff.gz
+fc41006a263a04db5fd3ddb32f2f9d92  ./GCF_900619605.1_HKU419_genomic.gff.gz
+7310ccc00a786824241b56c080e494e7  ./GCF_900619605.1_HKU419_genomic.gtf.gz
+98822939b8710fabdf2d66a82caad68c  ./GCF_900619605.1_HKU419_protein.faa.gz
+bebf4ed6e899222b608f505bbdf21601  ./GCF_900619605.1_HKU419_protein.gpff.gz
+91c3de0d5550cefca61c964f6a96bcbb  ./GCF_900619605.1_HKU419_rna_from_genomic.fna.gz
+ef1ffc13dc93bbc7cb5af571c0317c34  ./GCF_900619605.1_HKU419_translated_cds.faa.gz

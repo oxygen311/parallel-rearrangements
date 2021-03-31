@@ -1,0 +1,2 @@
+genome_name	problem_compared_with	dist
+GCF_002055535.1_NCTC8198_genomic.fna	GCF_004028355.1_ASM402835v1_genomic.fna	0.0
