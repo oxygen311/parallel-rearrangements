@@ -1,0 +1,59 @@
+strain,character_state,character_state_annotation
+YEPE.0221.00022,1,parallel edge doesn't exist
+YEPE.0221.00039,0,edge exists
+YEPE.0221.00047,0,edge exists
+YEPE.0221.00033,0,edge exists
+YEPE.0221.00043,1,parallel edge doesn't exist
+YEPE.0221.00032,0,edge exists
+YEPE.0221.00045,1,parallel edge doesn't exist
+YEPE.0221.00046,1,parallel edge doesn't exist
+YEPE.0221.00056,0,edge exists
+YEPE.0221.00011,0,edge exists
+YEPE.0221.00017,3,inversion between 202h-203t and 140h-141t
+YEPE.0221.00044,0,edge exists
+YEPE.0221.00058,1,parallel edge doesn't exist
+YEPE.0221.00019,0,edge exists
+YEPE.0221.00030,0,edge exists
+YEPE.0221.00050,4,inversion between 202h-203t and 159h-160t
+YEPE.0221.00031,0,edge exists
+YEPE.0221.00054,0,edge exists
+YEPE.0221.00048,0,edge exists
+YEPE.0221.00002,0,edge exists
+YEPE.0221.00016,0,edge exists
+YEPE.0221.00052,0,edge exists
+YEPE.0221.00029,0,edge exists
+YEPE.0221.00021,5,inversion between 202h-203t and 233t-222h
+YEPE.0221.00042,0,edge exists
+YEPE.0221.00020,0,edge exists
+YEPE.0221.00023,0,edge exists
+YEPE.0221.00036,0,edge exists
+YEPE.0221.00037,1,parallel edge doesn't exist
+YEPE.0221.00013,0,edge exists
+YEPE.0221.00005,0,edge exists
+YEPE.0221.00018,1,parallel edge doesn't exist
+YEPE.0221.00012,0,edge exists
+YEPE.0221.00038,1,parallel edge doesn't exist
+YEPE.0221.00006,5,inversion between 202h-203t and 233t-222h
+YEPE.0221.00010,1,parallel edge doesn't exist
+YEPE.0221.00057,6,inversion between 202h-203t and 210t-208h
+YEPE.0221.00024,1,parallel edge doesn't exist
+YEPE.0221.00014,0,edge exists
+YEPE.0221.00003,7,inversion between 202h-203t and 174h-175t
+YEPE.0221.00007,0,edge exists
+YEPE.0221.00015,0,edge exists
+YEPE.0221.00055,0,edge exists
+YEPE.0221.00049,0,edge exists
+YEPE.0221.00035,4,inversion between 202h-203t and 159h-160t
+YEPE.0221.00051,0,edge exists
+YEPE.0221.00009,0,edge exists
+YEPE.0221.00026,1,parallel edge doesn't exist
+YEPE.0221.00040,0,edge exists
+YEPE.0221.00001,0,edge exists
+YEPE.0221.00025,0,edge exists
+YEPE.0221.00034,5,inversion between 202h-203t and 233t-222h
+YEPE.0221.00004,0,edge exists
+YEPE.0221.00008,8,inversion between 202h-203t and 158h-159t
+YEPE.0221.00028,0,edge exists
+YEPE.0221.00041,0,edge exists
+YEPE.0221.00027,0,edge exists
+YEPE.0221.00053,8,inversion between 202h-203t and 158h-159t
