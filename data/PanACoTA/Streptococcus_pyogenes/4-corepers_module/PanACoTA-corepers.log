@@ -1,0 +1,8 @@
+[2021-03-29 17:24:48] :: INFO :: PanACoTA version 1.2.0-dev3
+[2021-03-29 17:24:48] :: INFO :: Command used
+ 	 > PanACoTA corepers
+[2021-03-29 17:24:48] :: INFO :: Will generate a CoreGenome.
+[2021-03-29 17:24:48] :: INFO :: Retrieving info from binary file
+[2021-03-29 17:24:49] :: INFO :: Generating Persistent genome of a dataset containing 219 genomes
+[2021-03-29 17:24:49] :: INFO :: The core genome contains 956 families, each one having exactly 219 members, from the 219 different genomes.
+[2021-03-29 17:24:50] :: INFO :: Persistent genome step done.

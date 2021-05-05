@@ -1,0 +1,301 @@
+createdb Streptococcus_pyogenes/2-annotate_module/Proteins/STPY_219.All.prt Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/STPY_219.All.prt-msDB 
+
+MMseqs Version:       	12.113e3
+Database type         	0
+Shuffle input database	true
+Createdb mode         	0
+Write lookup file     	1
+Offset of numeric ids 	0
+Compressed            	0
+Verbosity             	3
+
+Converting sequences
+[======================================
+Time for merging to STPY_219.All.prt-msDB_h: 0h 0m 0s 276ms
+Time for merging to STPY_219.All.prt-msDB: 0h 0m 0s 460ms
+Database type: Aminoacid
+Time for processing: 0h 0m 3s 781ms
+cluster Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/STPY_219.All.prt-msDB Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/STPY_219.All.prt-clust-0.8-mode1-th32 Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32 --min-seq-id 0.8 --threads 32 --cluster-mode 1 
+
+MMseqs Version:                     	12.113e3
+Substitution matrix                 	nucl:nucleotide.out,aa:blosum62.out
+Seed substitution matrix            	nucl:nucleotide.out,aa:VTML80.out
+Sensitivity                         	4
+k-mer length                        	0
+k-score                             	2147483647
+Alphabet size                       	nucl:5,aa:21
+Max sequence length                 	65535
+Max results per query               	20
+Split database                      	0
+Split mode                          	2
+Split memory limit                  	0
+Coverage threshold                  	0.8
+Coverage mode                       	0
+Compositional bias                  	1
+Diagonal scoring                    	true
+Exact k-mer matching                	0
+Mask residues                       	1
+Mask lower case residues            	0
+Minimum diagonal score              	15
+Include identical seq. id.          	false
+Spaced k-mers                       	1
+Preload mode                        	0
+Pseudo count a                      	1
+Pseudo count b                      	1.5
+Spaced k-mer pattern                	
+Local temporary path                	
+Threads                             	32
+Compressed                          	0
+Verbosity                           	3
+Add backtrace                       	false
+Alignment mode                      	3
+Allow wrapped scoring               	false
+E-value threshold                   	0.001
+Seq. id. threshold                  	0.8
+Min alignment length                	0
+Seq. id. mode                       	0
+Alternative alignments              	0
+Realign hits                        	false
+Max reject                          	2147483647
+Max accept                          	2147483647
+Score bias                          	0
+Gap open cost                       	nucl:5,aa:11
+Gap extension cost                  	nucl:2,aa:1
+Zdrop                               	40
+Rescore mode                        	0
+Remove hits by seq. id. and coverage	false
+Sort results                        	0
+Cluster mode                        	1
+Max connected component depth       	1000
+Similarity type                     	2
+Single step clustering              	false
+Cascaded clustering steps           	3
+Cluster reassign                    	false
+Remove temporary files              	false
+Force restart with latest tmp       	false
+MPI runner                          	
+k-mers per sequence                 	21
+Scale k-mers per sequence           	nucl:0.200,aa:0.000
+Adjust k-mer length                 	false
+Shift hash                          	67
+Include only extendable             	false
+Skip repeating k-mers               	false
+
+Set cluster sensitivity to -s 1.000000
+Connected component clustering produces less clusters in a single step clustering.
+Please use --single-step-clusterkmermatcher Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/STPY_219.All.prt-msDB Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/pref --sub-mat nucl:nucleotide.out,aa:blosum62.out --alph-size nucl:5,aa:13 --min-seq-id 0.8 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale nucl:0.200,aa:0.000 --adjust-kmer-len 0 --mask 0 --mask-lower-case 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 32 --compressed 0 -v 3 
+
+kmermatcher Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/STPY_219.All.prt-msDB Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/pref --sub-mat nucl:nucleotide.out,aa:blosum62.out --alph-size nucl:5,aa:13 --min-seq-id 0.8 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale nucl:0.200,aa:0.000 --adjust-kmer-len 0 --mask 0 --mask-lower-case 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 32 --compressed 0 -v 3 
+
+Database size: 385509 type: Aminoacid
+Reduced amino acid alphabet: (A S T) (C) (D B N) (E Q Z) (F Y) (G) (H) (I V) (K R) (L J M) (P) (W) (X) 
+
+Generate k-mers list for 1 split
+[=================================================================] 385.51K 0s 317ms
+Sort kmer 0h 0m 0s 150ms
+Sort by rep. sequence 0h 0m 0s 106ms
+Time for fill: 0h 0m 0s 71ms
+Time for merging to pref: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 950ms
+rescorediagonal Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/STPY_219.All.prt-msDB Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/STPY_219.All.prt-msDB Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/pref Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/pref_rescore1 --sub-mat nucl:nucleotide.out,aa:blosum62.out --rescore-mode 0 --wrapped-scoring 0 --filter-hits 0 -e 0.001 -c 0.8 -a 0 --cov-mode 0 --min-seq-id 0.8 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 32 --compressed 0 -v 3 
+
+[=================================================================] 385.51K 0s 92ms
+Time for merging to pref_rescore1: 0h 0m 0s 228ms
+Time for processing: 0h 0m 0s 813ms
+clust Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/STPY_219.All.prt-msDB Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/pref_rescore1 Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/pre_clust --cluster-mode 1 --max-iterations 1000 --similarity-type 2 --threads 32 --compressed 0 -v 3 
+
+Clustering mode: Connected Component
+[=================================================================] 385.51K 0s 21ms
+Sort entries
+Find missing connections
+Found 738966 new connections.
+Reconstruct initial order
+[=================================================================] 385.51K 0s 25ms
+Add missing connections
+[=================================================================] 385.51K 0s 17ms
+
+Time for read in: 0h 0m 0s 170ms
+connected component mode
+Total time: 0h 0m 0s 286ms
+
+Size of the sequence database: 385509
+Size of the alignment database: 385509
+Number of clusters: 7720
+
+Writing results 0h 0m 0s 13ms
+Time for merging to pre_clust: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 442ms
+createsubdb Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/order_redundancy Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/STPY_219.All.prt-msDB Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/input_step_redundancy -v 3 --subdb-mode 1 
+
+Time for merging to input_step_redundancy: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 67ms
+createsubdb Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/order_redundancy Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/pref Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/pref_filter1 -v 3 --subdb-mode 1 
+
+Time for merging to pref_filter1: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 80ms
+filterdb Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/pref_filter1 Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/pref_filter2 --filter-file Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/order_redundancy --threads 32 --compressed 0 -v 3 
+
+Filtering using file(s)
+[=================================================================] 7.72K 0s 21ms
+Time for merging to pref_filter2: 0h 0m 0s 42ms
+Time for processing: 0h 0m 2s 32ms
+rescorediagonal Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/input_step_redundancy Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/input_step_redundancy Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/pref_filter2 Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/pref_rescore2 --sub-mat nucl:nucleotide.out,aa:blosum62.out --rescore-mode 1 --wrapped-scoring 0 --filter-hits 1 -e 0.001 -c 0.8 -a 0 --cov-mode 0 --min-seq-id 0.8 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 32 --compressed 0 -v 3 
+
+[=================================================================] 7.72K 0s 14ms
+Time for merging to pref_rescore2: 0h 0m 2s 61ms
+Time for processing: 0h 0m 10s 714ms
+align Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/input_step_redundancy Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/input_step_redundancy Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/pref_rescore2 Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/aln --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 3 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.8 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 0 --realign 0 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 32 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 7720 type: Aminoacid
+Target database size: 7720 type: Aminoacid
+Calculation of alignments
+[=================================================================] 7.72K 1s 76ms
+Time for merging to aln: 0h 0m 1s 821ms
+
+11374 alignments calculated.
+9498 sequence pairs passed the thresholds (0.835062 of overall calculated).
+1.230311 hits per query sequence.
+Time for processing: 0h 0m 9s 248ms
+clust Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/input_step_redundancy Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/aln Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/clust --cluster-mode 1 --max-iterations 1000 --similarity-type 2 --threads 32 --compressed 0 -v 3 
+
+Clustering mode: Connected Component
+[=================================================================] 7.72K 0s 11ms
+Sort entries
+Find missing connections
+Found 1778 new connections.
+Reconstruct initial order
+[=================================================================] 7.72K 0s 11ms
+Add missing connections
+[=================================================================] 7.72K 0s 0ms
+
+Time for read in: 0h 0m 0s 197ms
+connected component mode
+Total time: 0h 0m 0s 331ms
+
+Size of the sequence database: 7720
+Size of the alignment database: 7720
+Number of clusters: 6456
+
+Writing results 0h 0m 0s 1ms
+Time for merging to clust: 0h 0m 0s 140ms
+Time for processing: 0h 0m 0s 975ms
+mergeclusters Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/STPY_219.All.prt-msDB Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/clu_redundancy Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/pre_clust Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/linclust/17615106516207976013/clust --threads 32 --compressed 0 -v 3 
+
+Clustering step 1
+[=================================================================] 7.72K 0s 72ms
+Clustering step 2
+[=================================================================] 6.46K 0s 193ms
+Write merged clustering
+[=================================================================] 385.51K 1s 280ms
+Time for merging to clu_redundancy: 0h 0m 2s 536ms
+Time for processing: 0h 0m 8s 724ms
+createsubdb Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/clu_redundancy Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/STPY_219.All.prt-msDB Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/input_step_redundancy -v 3 --subdb-mode 1 
+
+Time for merging to input_step_redundancy: 0h 0m 0s 4ms
+Time for processing: 0h 0m 0s 122ms
+prefilter Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/input_step_redundancy Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/input_step_redundancy Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/pref_step0 --sub-mat nucl:nucleotide.out,aa:blosum62.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -s 1 -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 0 --comp-bias-corr 0 --diag-score 0 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 0 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 32 --compressed 0 -v 3 
+
+Query database size: 6456 type: Aminoacid
+Estimated memory consumption: 998M
+Target database size: 6456 type: Aminoacid
+Index table k-mer threshold: 154 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 6.46K 0s 34ms
+Index table: Masked residues: 78963
+Index table: fill
+[=================================================================] 6.46K 0s 9ms
+Index statistics
+Entries:          642315
+DB size:          491 MB
+Avg k-mer size:   0.010036
+Top 10 k-mers
+    LPTENP	280
+    TGTNFT	142
+    ATCAGT	116
+    NKQQNQ	108
+    TPADRQ	107
+    HDHQAT	107
+    RQPTTT	107
+    GTLMPV	107
+    TPVQDT	88
+    TGQNFT	66
+Time for index table init: 0h 0m 0s 572ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 154
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 6456
+Target db start 1 to 6456
+[=================================================================] 6.46K 0s 25ms
+
+1.360357 k-mers per position
+502 DB matches per sequence
+0 overflows
+0 queries produce too many hits (truncated result)
+5 sequences passed prefiltering per query sequence
+3 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step0: 0h 0m 0s 226ms
+Time for processing: 0h 0m 7s 496ms
+align Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/input_step_redundancy Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/input_step_redundancy Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/pref_step0 Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/aln_step0 --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 3 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.8 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 0 --realign 0 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 32 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 6456 type: Aminoacid
+Target database size: 6456 type: Aminoacid
+Calculation of alignments
+[=================================================================] 6.46K 0s 913ms
+Time for merging to aln_step0: 0h 0m 0s 42ms
+
+21218 alignments calculated.
+9413 sequence pairs passed the thresholds (0.443633 of overall calculated).
+1.458024 hits per query sequence.
+Time for processing: 0h 0m 1s 89ms
+clust Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/input_step_redundancy Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/aln_step0 Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/clu_step0 --cluster-mode 1 --max-iterations 1000 --similarity-type 2 --threads 32 --compressed 0 -v 3 
+
+Clustering mode: Connected Component
+[=================================================================] 6.46K 0s 9ms
+Sort entries
+Find missing connections
+Found 309 new connections.
+Reconstruct initial order
+[=================================================================] 6.46K 0s 4ms
+Add missing connections
+[=================================================================] 6.46K 0s 0ms
+
+Time for read in: 0h 0m 0s 65ms
+connected component mode
+Total time: 0h 0m 0s 100ms
+
+Size of the sequence database: 6456
+Size of the alignment database: 6456
+Number of clusters: 5984
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clu_step0: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 115ms
+mergeclusters Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/STPY_219.All.prt-msDB Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/STPY_219.All.prt-clust-0.8-mode1-th32 Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/clu_redundancy Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/448865089773925820/clu_step0 --threads 32 --compressed 0 -v 3 
+
+Clustering step 1
+[=================================================================] 6.46K 0s 27ms
+Clustering step 2
+[=================================================================] 5.98K 0s 45ms
+Write merged clustering
+[=================================================================] 385.51K 0s 113ms
+Time for merging to STPY_219.All.prt-clust-0.8-mode1-th32: 0h 0m 0s 107ms
+Time for processing: 0h 0m 0s 481ms
+createtsv Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/STPY_219.All.prt-msDB Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/STPY_219.All.prt-msDB Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/STPY_219.All.prt-clust-0.8-mode1-th32 Streptococcus_pyogenes/3-pangenome_module/tmp_STPY_219.All.prt_0.8-mode1-th32/STPY_219.All.prt-clust-0.8-mode1-th32.tsv 
+
+MMseqs Version:                 	12.113e3
+First sequence as representative	false
+Target column                   	1
+Add full header                 	false
+Sequence source                 	0
+Database output                 	false
+Threads                         	64
+Compressed                      	0
+Verbosity                       	3
+
+Time for merging to STPY_219.All.prt-clust-0.8-mode1-th32.tsv: 0h 0m 0s 299ms
+Time for processing: 0h 0m 2s 631ms
+End: 2021-03-29_17-24-44

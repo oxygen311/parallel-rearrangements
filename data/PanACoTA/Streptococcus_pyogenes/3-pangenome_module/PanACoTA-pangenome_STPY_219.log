@@ -1,0 +1,15 @@
+[2021-03-29 17:23:52] :: INFO :: PanACoTA version 1.2.0-dev3
+[2021-03-29 17:23:52] :: INFO :: Command used
+ 	 > PanACoTA pangenome
+[2021-03-29 17:23:52] :: INFO :: Building bank with all proteins to Streptococcus_pyogenes/2-annotate_module/Proteins/STPY_219.All.prt
+[2021-03-29 17:23:53] :: INFO :: Will run MMseqs2 with:
+	- minimum sequence identity = 80.0%
+	- cluster mode 1
+	- 32 threads
+[2021-03-29 17:23:53] :: INFO :: Creating database
+[2021-03-29 17:23:57] :: INFO :: Clustering proteins...
+[2021-03-29 17:24:43] :: INFO :: Converting mmseqs results to pangenome file
+[2021-03-29 17:24:44] :: INFO :: Pangenome has 5984 families.
+[2021-03-29 17:24:44] :: INFO :: Retrieving information from pan families
+[2021-03-29 17:24:45] :: INFO :: Generating qualitative and quantitative matrix, and summary file
+[2021-03-29 17:24:48] :: INFO :: DONE

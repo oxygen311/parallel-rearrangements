@@ -1,0 +1,55 @@
+[2021-04-28 14:42:01,397] INFO - <Running module: Preprocess Data>
+[2021-04-28 14:42:01,497] INFO - Converting block coords to infercars format
+[2021-04-28 14:42:04,514] INFO - <Module finished: Preprocess Data>, elapsed 3.1173508167266846 seconds
+[2021-04-28 14:42:04,514] INFO - <Running module: Parsers and check strains>
+[2021-04-28 14:42:07,167] INFO - Blocks count: 217
+[2021-04-28 14:42:07,167] INFO - Unique one-copy blocks count: 125
+[2021-04-28 14:42:07,184] INFO - NumExpr defaulting to 8 threads.
+[2021-04-28 14:42:07,250] INFO - Mean block coverage: 77.40723362525112 %
+[2021-04-28 14:42:07,323] INFO - Mean common one-copy blocks coverage: 68.25079478567572 %
+[2021-04-28 14:42:07,397] INFO - Mean 80 % rate one-copy blocks coverage: 71.16868232101604 %
+[2021-04-28 14:42:07,475] INFO - Strains in blocks file count: 219
+[2021-04-28 14:42:07,475] INFO - Strains in tree leafs count: 52
+[2021-04-28 14:42:07,475] INFO - Intersected strains count: 52
+[2021-04-28 14:42:07,475] WARNING - FILTERING GENOMES IN BLOCKS
+[2021-04-28 14:42:07,475] WARNING - Those strains are thrown away from blocks because there were not found in tree leafs: STPY.0321.00133, STPY.0321.00152, STPY.0321.00061, STPY.0321.00189, STPY.0321.00011, STPY.0321.00150, STPY.0321.00141, STPY.0321.00041, STPY.0321.00122, STPY.0321.00138, STPY.0321.00057, STPY.0321.00216, STPY.0321.00075, STPY.0321.00118, STPY.0321.00199, STPY.0321.00206, STPY.0321.00062, STPY.0321.00021, STPY.0321.00125, STPY.0321.00211, STPY.0321.00192, STPY.0321.00013, STPY.0321.00094, STPY.0321.00071, STPY.0321.00044, STPY.0321.00015, STPY.0321.00155, STPY.0321.00077, STPY.0321.00136, STPY.0321.00024, STPY.0321.00140, STPY.0321.00129, STPY.0321.00179, STPY.0321.00066, STPY.0321.00054, STPY.0321.00120, STPY.0321.00123, STPY.0321.00142, STPY.0321.00191, STPY.0321.00082, STPY.0321.00010, STPY.0321.00145, STPY.0321.00165, STPY.0321.00042, STPY.0321.00033, STPY.0321.00096, STPY.0321.00181, STPY.0321.00073, STPY.0321.00065, STPY.0321.00114, STPY.0321.00200, STPY.0321.00170, STPY.0321.00003, STPY.0321.00190, STPY.0321.00002, STPY.0321.00124, STPY.0321.00083, STPY.0321.00148, STPY.0321.00159, STPY.0321.00064, STPY.0321.00093, STPY.0321.00207, STPY.0321.00018, STPY.0321.00046, STPY.0321.00078, STPY.0321.00079, STPY.0321.00012, STPY.0321.00139, STPY.0321.00154, STPY.0321.00037, STPY.0321.00056, STPY.0321.00215, STPY.0321.00055, STPY.0321.00108, STPY.0321.00043, STPY.0321.00045, STPY.0321.00069, STPY.0321.00175, STPY.0321.00006, STPY.0321.00017, STPY.0321.00060, STPY.0321.00081, STPY.0321.00119, STPY.0321.00167, STPY.0321.00068, STPY.0321.00076, STPY.0321.00048, STPY.0321.00030, STPY.0321.00005, STPY.0321.00074, STPY.0321.00203, STPY.0321.00022, STPY.0321.00132, STPY.0321.00137, STPY.0321.00052, STPY.0321.00109, STPY.0321.00182, STPY.0321.00053, STPY.0321.00156, STPY.0321.00070, STPY.0321.00169, STPY.0321.00151, STPY.0321.00092, STPY.0321.00085, STPY.0321.00160, STPY.0321.00217, STPY.0321.00174, STPY.0321.00128, STPY.0321.00020, STPY.0321.00063, STPY.0321.00172, STPY.0321.00001, STPY.0321.00051, STPY.0321.00112, STPY.0321.00197, STPY.0321.00009, STPY.0321.00007, STPY.0321.00050, STPY.0321.00058, STPY.0321.00113, STPY.0321.00019, STPY.0321.00166, STPY.0321.00158, STPY.0321.00202, STPY.0321.00205, STPY.0321.00210, STPY.0321.00164, STPY.0321.00196, STPY.0321.00016, STPY.0321.00039, STPY.0321.00204, STPY.0321.00032, STPY.0321.00067, STPY.0321.00183, STPY.0321.00134, STPY.0321.00059, STPY.0321.00193, STPY.0321.00103, STPY.0321.00047, STPY.0321.00031, STPY.0321.00091, STPY.0321.00146, STPY.0321.00049, STPY.0321.00143, STPY.0321.00126, STPY.0321.00219, STPY.0321.00130, STPY.0321.00040, STPY.0321.00198, STPY.0321.00162, STPY.0321.00153, STPY.0321.00072, STPY.0321.00173, STPY.0321.00023, STPY.0321.00144, STPY.0321.00086, STPY.0321.00178, STPY.0321.00107, STPY.0321.00014, STPY.0321.00027, STPY.0321.00212, STPY.0321.00176, STPY.0321.00121, STPY.0321.00106, STPY.0321.00187, STPY.0321.00095, STPY.0321.00008
+[2021-04-28 14:42:07,476] INFO - <Module finished: Parsers and check strains>, elapsed 2.9619791507720947 seconds
+[2021-04-28 14:42:07,476] INFO - <Running module: Balanced rearrangements characters>
+[2021-04-28 14:42:11,504] INFO - Breakpoint graph parsed
+[2021-04-28 14:42:11,505] INFO - Edges in breakpoint graph: 188
+[2021-04-28 14:42:11,508] INFO - Getting characters from breakpoint graph component, size=14
+[2021-04-28 14:42:11,568] INFO - Getting characters from breakpoint graph component, size=22
+[2021-04-28 14:42:11,692] INFO - Getting characters from breakpoint graph component, size=6
+[2021-04-28 14:42:11,721] INFO - Getting characters from breakpoint graph component, size=4
+[2021-04-28 14:42:11,737] INFO - Getting characters from breakpoint graph component, size=6
+[2021-04-28 14:42:11,747] INFO - Getting characters from breakpoint graph component, size=6
+[2021-04-28 14:42:11,754] INFO - Getting characters from breakpoint graph component, size=4
+[2021-04-28 14:42:11,770] INFO - Getting characters from breakpoint graph component, size=4
+[2021-04-28 14:42:11,774] INFO - Getting characters from breakpoint graph component, size=4
+[2021-04-28 14:42:11,779] INFO - Getting characters from breakpoint graph component, size=4
+[2021-04-28 14:42:11,792] INFO - Getting characters from breakpoint graph component, size=4
+[2021-04-28 14:42:11,807] INFO - Getting characters from breakpoint graph component, size=4
+[2021-04-28 14:42:11,811] INFO - <Module finished: Balanced rearrangements characters>, elapsed 4.334335088729858 seconds
+[2021-04-28 14:42:11,811] INFO - <Running module: Balanced rearrangements stats>
+[2021-04-28 14:42:11,811] INFO - Counting distances between unique one-copy blocks, may take a while
+[2021-04-28 14:42:31,244] INFO - Got characters after breakpoint graph consideration: 41
+[2021-04-28 14:42:31,244] INFO - Percentage of consistent rearrangements (balanced): 90.2439024390244 %
+[2021-04-28 14:42:31,543] INFO - <Module finished: Balanced rearrangements stats>, elapsed 19.73170828819275 seconds
+[2021-04-28 14:42:31,543] INFO - <Running module: Balanced rearrangements output>
+[2021-04-28 14:42:37,500] INFO - <Module finished: Balanced rearrangements output>, elapsed 5.95733904838562 seconds
+[2021-04-28 14:42:37,501] INFO - <Running module: Unbalanced rearrangements characters>
+[2021-04-28 14:42:37,503] INFO - <Module finished: Unbalanced rearrangements characters>, elapsed 0.0028128623962402344 seconds
+[2021-04-28 14:42:37,504] INFO - <Running module: Unbalanced rearrangements stats and clustering>
+[2021-04-28 14:42:37,614] INFO - Got characters after copy number variation consideration: 217
+[2021-04-28 14:42:37,614] INFO - Percentage of consistent rearrangements (unbalanced): 72.27047146401986 %
+[2021-04-28 14:42:37,615] INFO - Counting distances between non-convex character blocks, may take a while
+[2021-04-28 14:42:59,669] INFO - Jaccard index matrix constructed
+[2021-04-28 14:43:02,022] INFO - Proximity matrix constructed
+[2021-04-28 14:43:02,044] INFO - Clustring is done
+[2021-04-28 14:43:02,044] INFO - Clusters: 42
+[2021-04-28 14:43:02,407] INFO - <Module finished: Unbalanced rearrangements stats and clustering>, elapsed 24.90376377105713 seconds
+[2021-04-28 14:43:02,408] INFO - <Running module: Unbalanced rearrangements output>
+[2021-04-28 14:43:10,194] INFO - <Module finished: Unbalanced rearrangements output>, elapsed 7.786233901977539 seconds
+[2021-04-28 14:43:10,194] INFO - <Running module: Visualize neighbours output>
+[2021-04-28 14:43:33,841] INFO - <Module finished: Visualize neighbours output>, elapsed 23.64725112915039 seconds
+[2021-04-28 14:43:33,842] INFO - Total elapsed time: 92.44549918174744 seconds
