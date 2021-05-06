@@ -1,9 +1,20 @@
+import os
+
 import pandas as pd
 
 from Bio import SeqIO
+from glob import glob
 
-gembase_file = 'Streptococcus_pyogenes/2-annotate_module/LSTINFO-LSTINFO-1314-filtered-1e-06_0.06.lst'
-output_file = 'Streptococcus_pyogenes/7-sibeliaz/for_sibeliaz.fna'
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--folder', '-f', required=True, help='Folder with PanACoTA output.')
+args = parser.parse_args()
+folder = args.folder if args.folder[-1] == '/' else args.folder + '/'
+
+gembase_file = glob(folder + '2-annotate_module/LSTINFO-LSTINFO*')[0]
+output_file = folder + '7-sibeliaz/for_sibeliaz.fna'
+os.makedirs(folder + '7-sibeliaz/', exist_ok=True)
 
 gembase_df = pd.read_csv(gembase_file, sep='\t')
 all_contigs = []

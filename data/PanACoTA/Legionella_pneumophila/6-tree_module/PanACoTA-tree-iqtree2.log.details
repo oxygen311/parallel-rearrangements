@@ -1,0 +1,6 @@
+[2021-05-06 01:28:08] :: INFO :: PanACoTA version 1.3.0
+[2021-05-06 01:28:08] :: INFO :: Command used
+ 	 > PanACoTA tree
+[2021-05-06 01:28:08] :: INFO :: Running IQtree...
+[2021-05-06 01:28:08] :: DETAIL :: IQtree command: iqtree2 -s Legionella_pneumophila/5-align_module/Phylo-LEPN_22/LEPN_22.nucl.grp.aln -T 32 -m GTR    --seqtype DNA --prefix Legionella_pneumophila/6-tree_module/LEPN_22.nucl.grp.aln.iqtree_tree --quiet 
+[2021-05-06 01:29:01] :: INFO :: END

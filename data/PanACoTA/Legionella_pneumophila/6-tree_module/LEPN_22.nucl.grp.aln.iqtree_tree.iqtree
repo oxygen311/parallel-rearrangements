@@ -1,0 +1,129 @@
+IQ-TREE 2.1.2 COVID-edition built Oct 22 2020
+
+Input file name: Legionella_pneumophila/5-align_module/Phylo-LEPN_22/LEPN_22.nucl.grp.aln
+Type of analysis: tree reconstruction
+Random seed number: 342110
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 22 sequences with 2221035 nucleotide sites
+Number of constant sites: 2.02156e+06 (= 91.019% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 2.02156e+06 (= 91.019% of all sites)
+Number of parsimony informative sites: 172087
+Number of distinct site patterns: 14073
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F
+
+Rate parameter R:
+
+  A-C: 1.5370
+  A-G: 4.6769
+  A-T: 0.8207
+  C-G: 1.1335
+  C-T: 6.2363
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3113
+  pi(C) = 0.1825
+  pi(G) = 0.2092
+  pi(T) = 0.297
+
+Rate matrix Q:
+
+  A   -0.8245    0.1539    0.5369    0.1337
+  C    0.2626    -1.409    0.1301     1.016
+  G    0.7989    0.1135    -1.075     0.163
+  T    0.1402    0.6245    0.1148   -0.8795
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -4990017.0968 (s.e. 4460.7286)
+Unconstrained log-likelihood (without tree): -4894629.8656
+Number of free parameters (#branches + #model parameters): 49
+Akaike information criterion (AIC) score: 9980132.1937
+Corrected Akaike information criterion (AICc) score: 9980132.1959
+Bayesian information criterion (BIC) score: 9980750.2544
+
+Total tree length (sum of branch lengths): 0.1385
+Sum of internal branch lengths: 0.0936 (67.6355% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'LEPN.0521.00001' is drawn at root
+
++---LEPN.0521.00001
+|
+|                                         +----LEPN.0521.00002
+|                                      +--|
+|                                      |  |  +--LEPN.0521.00012
+|                                      |  +--|
+|                                      |     +--LEPN.0521.00020
+|                                   +--|
+|                                   |  +--LEPN.0521.00017
+|                                +--|
+|                                |  +--LEPN.0521.00013
+|                            +---|
+|                            |   |  +---LEPN.0521.00011
+|                            |   +--|
+|                            |      |  +--LEPN.0521.00014
+|                            |      +--|
+|                            |         +--LEPN.0521.00021
+|                       +----|
+|                       |    |  +--LEPN.0521.00015
+|                       |    +--|
+|                       |       +----LEPN.0521.00016
+|             +---------|
+|             |         +--------LEPN.0521.00005
+|  +----------|
+|  |          |                                              +--LEPN.0521.00006
+|  |          |                                           +--|
+|  |          |                                           |  +--LEPN.0521.00008
+|  |          +-------------------------------------------|
+|  |                                                      |  +--LEPN.0521.00007
+|  |                                                      +--|
+|  |                                                         |  +**LEPN.0521.00009
+|  |                                                         +**|
+|  |                                                            +**LEPN.0521.00010
++--|
+|  |     +--LEPN.0521.00003
+|  +-----|
+|        +**LEPN.0521.00004
+|
+|         +--LEPN.0521.00018
+|  +------|
+|  |      +--LEPN.0521.00022
++--|
+   +---LEPN.0521.00019
+
+Tree in newick format:
+
+(LEPN.0521.00001:0.0043987450,((((((((LEPN.0521.00002:0.0052849105,(LEPN.0521.00012:0.0025152359,LEPN.0521.00020:0.0033270213):0.0011939828):0.0007910422,LEPN.0521.00017:0.0008277574):0.0002457836,LEPN.0521.00013:0.0015676211):0.0007292324,(LEPN.0521.00011:0.0038668949,(LEPN.0521.00014:0.0007078467,LEPN.0521.00021:0.0018436106):0.0010375635):0.0002258305):0.0037852599,(LEPN.0521.00015:0.0025452081,LEPN.0521.00016:0.0049335278):0.0019881719):0.0050471101,LEPN.0521.00005:0.0088047257):0.0090760430,((LEPN.0521.00006:0.0000022965,LEPN.0521.00008:0.0000022512):0.0017151804,(LEPN.0521.00007:0.0000197848,(LEPN.0521.00009:0.0000004502,LEPN.0521.00010:0.0000004502):0.0000000972):0.0012478809):0.0399536904):0.0104251813,(LEPN.0521.00003:0.0000054029,LEPN.0521.00004:0.0000004502):0.0057727125):0.0014142059,((LEPN.0521.00018:0.0001675838,LEPN.0521.00022:0.0001205614):0.0069299168,LEPN.0521.00019:0.0038676824):0.0020653952);
+
+TIME STAMP
+----------
+
+Date and time: Thu May  6 01:29:01 2021
+Total CPU time used: 1225.15432 seconds (0h:20m:25s)
+Total wall-clock time used: 50.1860759 seconds (0h:0m:50s)
+

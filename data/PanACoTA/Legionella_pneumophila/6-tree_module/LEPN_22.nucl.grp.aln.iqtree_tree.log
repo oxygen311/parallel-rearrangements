@@ -1,0 +1,118 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Linux 64-bit built Oct 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    orthrus-2 (AVX512, FMA3, 1006 GB RAM)
+Command: iqtree2 -s Legionella_pneumophila/5-align_module/Phylo-LEPN_22/LEPN_22.nucl.grp.aln -T 32 -m GTR --seqtype DNA --prefix Legionella_pneumophila/6-tree_module/LEPN_22.nucl.grp.aln.iqtree_tree --quiet
+Seed:    342110 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu May  6 01:28:08 2021
+Kernel:  AVX+FMA - 32 threads (32 CPU cores detected)
+
+Reading alignment file Legionella_pneumophila/5-align_module/Phylo-LEPN_22/LEPN_22.nucl.grp.aln ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 22 sequences with 2221035 columns, 14073 distinct patterns
+172087 parsimony-informative, 27385 singleton sites, 2021563 constant sites
+                 Gap/Ambiguity  Composition  p-value
+   1  LEPN.0521.00001    0.27%    passed     71.53%
+   2  LEPN.0521.00002    0.32%    passed     75.52%
+   3  LEPN.0521.00003    0.27%    passed     83.58%
+   4  LEPN.0521.00004    0.27%    passed     83.45%
+   5  LEPN.0521.00005    0.32%    passed     68.03%
+   6  LEPN.0521.00006    0.33%    failed      0.18%
+   7  LEPN.0521.00007    0.34%    failed      0.15%
+   8  LEPN.0521.00008    0.33%    failed      0.18%
+   9  LEPN.0521.00009    0.32%    failed      0.14%
+  10  LEPN.0521.00010    0.32%    failed      0.14%
+  11  LEPN.0521.00011    0.31%    passed     69.36%
+  12  LEPN.0521.00012    0.31%    passed     63.51%
+  13  LEPN.0521.00013    0.32%    passed     69.70%
+  14  LEPN.0521.00014    0.30%    passed     70.75%
+  15  LEPN.0521.00015    0.34%    passed     74.55%
+  16  LEPN.0521.00016    0.33%    passed     79.62%
+  17  LEPN.0521.00017    0.32%    passed     66.69%
+  18  LEPN.0521.00018    0.46%    passed     63.10%
+  19  LEPN.0521.00019    0.39%    passed     52.64%
+  20  LEPN.0521.00020    0.32%    passed     70.82%
+  21  LEPN.0521.00021    0.31%    passed     63.05%
+  22  LEPN.0521.00022    0.37%    passed     71.24%
+****  TOTAL              0.33%  5 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000045024 for long alignment
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.162 seconds
+
+NOTE: 10 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -5099052.307
+2. Current log-likelihood: -4999402.492
+3. Current log-likelihood: -4999395.504
+4. Current log-likelihood: -4999394.419
+5. Current log-likelihood: -4999394.260
+Optimal log-likelihood: -4999394.235
+Rate parameters:  A-C: 1.53818  A-G: 4.68757  A-T: 0.82255  C-G: 1.13577  C-T: 6.24705  G-T: 1.00000
+Base frequencies:  A: 0.311  C: 0.183  G: 0.209  T: 0.297
+Parameters optimization took 5 rounds (0.150 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.002241 sec (of wall-clock time) 0.066920 sec(of CPU time)
+Computing RapidNJ tree took 0.003777 sec (of wall-clock time) 0.037738 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -5001571.953
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 29.878 second
+Computing log-likelihood of 98 initial trees ... 1.234 seconds
+Current best score: -4990342.656
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -4990017.214
+Iteration 10 / LogL: -4990020.307 / Time: 0h:0m:33s
+Iteration 20 / LogL: -4990017.456 / Time: 0h:0m:34s
+Finish initializing candidate tree set (6)
+Current best tree score: -4990017.214 / CPU time: 34.460
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -4990258.631 / Time: 0h:0m:37s (0h:1m:30s left)
+Iteration 40 / LogL: -4990017.277 / Time: 0h:0m:39s (0h:1m:1s left)
+Iteration 50 / LogL: -5020598.811 / Time: 0h:0m:41s (0h:0m:43s left)
+Iteration 60 / LogL: -4990017.287 / Time: 0h:0m:43s (0h:0m:30s left)
+Iteration 70 / LogL: -4990030.286 / Time: 0h:0m:46s (0h:0m:20s left)
+Iteration 80 / LogL: -4990018.125 / Time: 0h:0m:47s (0h:0m:12s left)
+Iteration 90 / LogL: -4990017.382 / Time: 0h:0m:48s (0h:0m:6s left)
+Iteration 100 / LogL: -4990296.481 / Time: 0h:0m:49s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:50s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4990017.214
+2. Current log-likelihood: -4990017.198
+3. Current log-likelihood: -4990017.179
+4. Current log-likelihood: -4990017.165
+5. Current log-likelihood: -4990017.145
+6. Current log-likelihood: -4990017.128
+7. Current log-likelihood: -4990017.113
+8. Current log-likelihood: -4990017.102
+Optimal log-likelihood: -4990017.097
+Rate parameters:  A-C: 1.53696  A-G: 4.67691  A-T: 0.82072  C-G: 1.13352  C-T: 6.23633  G-T: 1.00000
+Base frequencies:  A: 0.311  C: 0.183  G: 0.209  T: 0.297
+Parameters optimization took 8 rounds (0.060 sec)
+BEST SCORE FOUND : -4990017.097
+Total tree length: 0.138
+
+Total number of iterations: 102
+CPU time used for tree search: 1214.324 sec (0h:20m:14s)
+Wall-clock time used for tree search: 49.652 sec (0h:0m:49s)
+Total CPU time used: 1225.154 sec (0h:20m:25s)
+Total wall-clock time used: 50.184 sec (0h:0m:50s)
+
+Analysis results written to: 
+  IQ-TREE report:                Legionella_pneumophila/6-tree_module/LEPN_22.nucl.grp.aln.iqtree_tree.iqtree
+  Maximum-likelihood tree:       Legionella_pneumophila/6-tree_module/LEPN_22.nucl.grp.aln.iqtree_tree.treefile
+  Likelihood distances:          Legionella_pneumophila/6-tree_module/LEPN_22.nucl.grp.aln.iqtree_tree.mldist
+  Screen log file:               Legionella_pneumophila/6-tree_module/LEPN_22.nucl.grp.aln.iqtree_tree.log
+
+Date and Time: Thu May  6 01:29:01 2021

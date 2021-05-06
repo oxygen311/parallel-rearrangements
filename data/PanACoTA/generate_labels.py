@@ -1,14 +1,22 @@
 import pandas as pd
 
 from Bio import SeqIO
+from glob import glob
 
-summary_file = 'Streptococcus_pyogenes/1-prepare_module/assembly_summary-1314.txt'
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--folder', '-f', required=True, help='Folder with PanACoTA output.')
+args = parser.parse_args()
+folder = args.folder if args.folder[-1] == '/' else args.folder + '/'
+
+summary_file = glob(folder + '1-prepare_module/assembly_summary*')[0]
 summary_df = pd.read_csv(summary_file, sep='\t')
 
-gembase_file = 'Streptococcus_pyogenes/2-annotate_module/LSTINFO-LSTINFO-1314-filtered-1e-06_0.06.lst'
+gembase_file = glob(folder + '2-annotate_module/LSTINFO-LSTINFO*')[0]
 gembase_df = pd.read_csv(gembase_file, sep='\t')
 
-outfile = 'Streptococcus_pyogenes/labels.csv'
+outfile = folder + 'labels.csv'
 
 # print(summary_df.columns)
 
