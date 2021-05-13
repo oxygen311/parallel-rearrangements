@@ -1,0 +1,12 @@
+Constructing the graph...
+Threads = 16
+Vertex length = 15
+Hash functions = 5
+Filter size = 17179869184
+Capacity = 1
+Files: 
+for_sibeliaz.fna
+--------------------------------------------------------------------------------
+Round 0, 0:17179869184
+Pass	Filling	Filtering
+slurmstepd-kraken: error: *** JOB 2795430 ON kraken CANCELLED AT 2021-05-13T12:30:36 ***

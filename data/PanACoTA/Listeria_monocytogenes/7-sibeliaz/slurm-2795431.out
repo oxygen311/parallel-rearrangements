@@ -1,0 +1,32 @@
+Constructing the graph...
+Threads = 16
+Vertex length = 15
+Hash functions = 5
+Filter size = 17179869184
+Capacity = 1
+Files: 
+for_sibeliaz.fna
+--------------------------------------------------------------------------------
+Round 0, 0:17179869184
+Pass	Filling	Filtering
+1	47	74	
+2	27	0
+True junctions count = 912274
+False junctions count = 106
+Hash table size = 912380
+Candidate marks count = 138411530
+--------------------------------------------------------------------------------
+Reallocating bifurcations time: 1
+True marks count: 138407265
+Edges construction time: 32
+--------------------------------------------------------------------------------
+Distinct junctions = 912274
+
+TwoPaco: 183.03 seconds elapsed, 3066576 KB memory used
+Loading the graph...
+Analyzing the graph...
+[..................................................]
+Generating the output...
+Blocks found: 9205
+Coverage: 0.99
+SibeliaZ-LCB: 732.52 seconds elapsed, 7619728 KB memory used

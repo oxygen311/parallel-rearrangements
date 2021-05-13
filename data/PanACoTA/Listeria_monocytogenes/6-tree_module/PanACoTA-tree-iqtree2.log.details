@@ -1,0 +1,6 @@
+[2021-05-06 03:15:51] :: INFO :: PanACoTA version 1.3.0
+[2021-05-06 03:15:51] :: INFO :: Command used
+ 	 > PanACoTA tree
+[2021-05-06 03:15:51] :: INFO :: Running IQtree...
+[2021-05-06 03:15:51] :: DETAIL :: IQtree command: iqtree2 -s Listeria_monocytogenes/5-align_module/Phylo-LIMO_259/LIMO_259.nucl.grp.aln -T 32 -m GTR    --seqtype DNA --prefix Listeria_monocytogenes/6-tree_module/LIMO_259.nucl.grp.aln.iqtree_tree --quiet 
+[2021-05-06 03:32:01] :: INFO :: END
