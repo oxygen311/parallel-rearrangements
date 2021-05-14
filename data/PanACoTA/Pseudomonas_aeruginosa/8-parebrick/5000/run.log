@@ -1,0 +1,48 @@
+[2021-05-14 12:43:31,677] INFO - <Running module: Preprocess Data>
+[2021-05-14 12:43:32,212] INFO - Converting block coords to infercars format
+[2021-05-14 12:43:44,813] INFO - <Module finished: Preprocess Data>, elapsed 13.135658979415894 seconds
+[2021-05-14 12:43:44,813] INFO - <Running module: Parsers and check strains>
+[2021-05-14 12:43:55,716] INFO - Blocks count: 714
+[2021-05-14 12:43:55,717] INFO - Unique one-copy blocks count: 181
+[2021-05-14 12:43:55,754] INFO - NumExpr defaulting to 8 threads.
+[2021-05-14 12:43:55,955] INFO - Mean block coverage: 43.47690667139133 %
+[2021-05-14 12:43:56,133] INFO - Mean common one-copy blocks coverage: 29.148366777393576 %
+[2021-05-14 12:43:56,359] INFO - Mean 80 % rate one-copy blocks coverage: 39.39268068265009 %
+[2021-05-14 12:43:56,712] INFO - Strains in blocks file count: 327
+[2021-05-14 12:43:56,712] INFO - Strains in tree leafs count: 328
+[2021-05-14 12:43:56,713] INFO - Intersected strains count: 327
+[2021-05-14 12:43:56,713] WARNING - PRUNING TREE
+[2021-05-14 12:43:56,713] WARNING - Those strains are thrown away from tree because there were not found in blocks data: PSAE.0521.00314
+[2021-05-14 12:43:56,752] INFO - <Module finished: Parsers and check strains>, elapsed 11.939131259918213 seconds
+[2021-05-14 12:43:56,753] INFO - <Running module: Balanced rearrangements characters>
+[2021-05-14 12:44:33,216] INFO - Breakpoint graph parsed
+[2021-05-14 12:44:33,227] INFO - Edges in breakpoint graph: 509
+[2021-05-14 12:44:33,321] INFO - Getting characters from breakpoint graph component, size=220
+[2021-05-14 12:44:50,169] INFO - Getting characters from breakpoint graph component, size=6
+[2021-05-14 12:44:50,350] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:44:50,400] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:44:50,445] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:44:50,471] INFO - <Module finished: Balanced rearrangements characters>, elapsed 53.718514919281006 seconds
+[2021-05-14 12:44:50,472] INFO - <Running module: Balanced rearrangements stats>
+[2021-05-14 12:44:50,472] INFO - Counting distances between unique one-copy blocks, may take a while
+[2021-05-14 12:48:18,428] INFO - Got characters after breakpoint graph consideration: 119
+[2021-05-14 12:48:18,428] INFO - Percentage of consistent rearrangements (balanced): 62.18487394957983 %
+[2021-05-14 12:48:20,511] INFO - <Module finished: Balanced rearrangements stats>, elapsed 210.0392348766327 seconds
+[2021-05-14 12:48:20,511] INFO - <Running module: Balanced rearrangements output>
+[2021-05-14 12:49:54,428] INFO - <Module finished: Balanced rearrangements output>, elapsed 93.9171531200409 seconds
+[2021-05-14 12:49:54,429] INFO - <Running module: Unbalanced rearrangements characters>
+[2021-05-14 12:49:54,514] INFO - <Module finished: Unbalanced rearrangements characters>, elapsed 0.08491802215576172 seconds
+[2021-05-14 12:49:54,514] INFO - <Running module: Unbalanced rearrangements stats and clustering>
+[2021-05-14 12:49:57,170] INFO - Got characters after copy number variation consideration: 714
+[2021-05-14 12:49:57,172] INFO - Percentage of consistent rearrangements (unbalanced): 40.16995177275803 %
+[2021-05-14 12:49:57,172] INFO - Counting distances between non-convex character blocks, may take a while
+[2021-05-14 12:53:06,338] INFO - Jaccard index matrix constructed
+[2021-05-14 12:53:31,658] INFO - Proximity matrix constructed
+[2021-05-14 12:53:31,688] INFO - Clustring is done
+[2021-05-14 12:53:31,690] INFO - Clusters: 246
+[2021-05-14 12:53:34,168] INFO - <Module finished: Unbalanced rearrangements stats and clustering>, elapsed 219.65416288375854 seconds
+[2021-05-14 12:53:34,168] INFO - <Running module: Unbalanced rearrangements output>
+[2021-05-14 13:00:04,032] INFO - <Module finished: Unbalanced rearrangements output>, elapsed 389.8636610507965 seconds
+[2021-05-14 13:00:04,032] INFO - <Running module: Visualize neighbours output>
+[2021-05-14 13:08:18,895] INFO - <Module finished: Visualize neighbours output>, elapsed 494.8626432418823 seconds
+[2021-05-14 13:08:18,897] INFO - Total elapsed time: 1487.2213690280914 seconds

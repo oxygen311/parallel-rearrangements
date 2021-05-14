@@ -1,0 +1,439 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Linux 64-bit built Oct 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    orthrus-2 (AVX512, FMA3, 1006 GB RAM)
+Command: iqtree2 -s Pseudomonas_aeruginosa/5-align_module/Phylo-PSAE_328/PSAE_328.nucl.grp.aln -T 32 -m GTR --seqtype DNA --prefix Pseudomonas_aeruginosa/6-tree_module/PSAE_328.nucl.grp.aln.iqtree_tree --quiet
+Seed:    959094 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu May  6 08:06:19 2021
+Kernel:  AVX+FMA - 32 threads (32 CPU cores detected)
+
+Reading alignment file Pseudomonas_aeruginosa/5-align_module/Phylo-PSAE_328/PSAE_328.nucl.grp.aln ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 2 sites contain only gaps or ambiguous characters.
+Alignment has 328 sequences with 1303953 columns, 51219 distinct patterns
+111077 parsimony-informative, 41494 singleton sites, 1151382 constant sites
+                 Gap/Ambiguity  Composition  p-value
+   1  PSAE.0521.00001    1.05%    passed     97.68%
+   2  PSAE.0521.00002    1.02%    passed     98.31%
+   3  PSAE.0521.00003    1.00%    passed     93.49%
+   4  PSAE.0521.00004    1.00%    passed     99.03%
+   5  PSAE.0521.00005    1.03%    passed     97.85%
+   6  PSAE.0521.00006    1.00%    passed     95.19%
+   7  PSAE.0521.00007    1.02%    passed     99.36%
+   8  PSAE.0521.00008    0.97%    passed     97.16%
+   9  PSAE.0521.00009    1.10%    passed     96.72%
+  10  PSAE.0521.00010    1.00%    passed     95.24%
+  11  PSAE.0521.00011    1.01%    passed     98.85%
+  12  PSAE.0521.00012    1.00%    passed     95.19%
+  13  PSAE.0521.00013    1.01%    passed     99.63%
+  14  PSAE.0521.00014    1.04%    passed     97.78%
+  15  PSAE.0521.00015    1.01%    passed     98.68%
+  16  PSAE.0521.00016    1.00%    passed     95.19%
+  17  PSAE.0521.00017    1.03%    passed     99.35%
+  18  PSAE.0521.00018    1.00%    passed     95.19%
+  19  PSAE.0521.00019    1.07%    passed     98.74%
+  20  PSAE.0521.00020    1.02%    passed     97.62%
+  21  PSAE.0521.00021    1.02%    passed     97.03%
+  22  PSAE.0521.00022    1.16%    passed     97.31%
+  23  PSAE.0521.00023    1.04%    passed     99.05%
+  24  PSAE.0521.00024    1.00%    passed     98.19%
+  25  PSAE.0521.00025    1.06%    passed     99.89%
+  26  PSAE.0521.00026    1.00%    passed     98.22%
+  27  PSAE.0521.00027    1.04%    passed     99.60%
+  28  PSAE.0521.00028    1.01%    passed     98.07%
+  29  PSAE.0521.00029    1.01%    passed     97.01%
+  30  PSAE.0521.00030    1.01%    passed     97.37%
+  31  PSAE.0521.00031    1.06%    passed     80.10%
+  32  PSAE.0521.00032    0.99%    passed     98.19%
+  33  PSAE.0521.00033    1.02%    passed     97.79%
+  34  PSAE.0521.00034    1.01%    passed     98.42%
+  35  PSAE.0521.00035    1.05%    passed     97.81%
+  36  PSAE.0521.00036    1.04%    passed     99.68%
+  37  PSAE.0521.00037    1.02%    passed     96.31%
+  38  PSAE.0521.00038    1.05%    passed     97.81%
+  39  PSAE.0521.00039    1.02%    passed     99.01%
+  40  PSAE.0521.00040    1.01%    passed     99.32%
+  41  PSAE.0521.00041    1.03%    passed     98.38%
+  42  PSAE.0521.00042    0.99%    passed     96.60%
+  43  PSAE.0521.00043    1.03%    passed     96.83%
+  44  PSAE.0521.00044    1.01%    passed     94.38%
+  45  PSAE.0521.00045    1.01%    passed     82.26%
+  46  PSAE.0521.00046    1.00%    passed     94.26%
+  47  PSAE.0521.00047    1.01%    passed     82.24%
+  48  PSAE.0521.00048    1.00%    passed     97.72%
+  49  PSAE.0521.00049    1.03%    passed     97.91%
+  50  PSAE.0521.00050    1.07%    passed     99.09%
+  51  PSAE.0521.00051    1.00%    passed     96.95%
+  52  PSAE.0521.00052    1.05%    passed     99.09%
+  53  PSAE.0521.00053    1.01%    passed     93.48%
+  54  PSAE.0521.00054    1.01%    passed     91.86%
+  55  PSAE.0521.00055    1.00%    passed     99.24%
+  56  PSAE.0521.00056    1.00%    passed     93.39%
+  57  PSAE.0521.00057    1.03%    passed     82.71%
+  58  PSAE.0521.00058    1.07%    passed     97.84%
+  59  PSAE.0521.00059    1.00%    passed     92.60%
+  60  PSAE.0521.00060    1.26%    passed     91.66%
+  61  PSAE.0521.00061    1.06%    passed     99.08%
+  62  PSAE.0521.00062    1.00%    passed     92.81%
+  63  PSAE.0521.00063    1.00%    passed     96.07%
+  64  PSAE.0521.00064    1.00%    passed     96.02%
+  65  PSAE.0521.00065    1.01%    passed     94.16%
+  66  PSAE.0521.00066    1.02%    passed     96.52%
+  67  PSAE.0521.00067    1.01%    passed     97.52%
+  68  PSAE.0521.00068    0.99%    passed     63.39%
+  69  PSAE.0521.00069    1.01%    passed     96.56%
+  70  PSAE.0521.00070    1.03%    passed     97.18%
+  71  PSAE.0521.00071    1.03%    passed     97.10%
+  72  PSAE.0521.00072    1.04%    passed     97.06%
+  73  PSAE.0521.00073    1.01%    passed     98.16%
+  74  PSAE.0521.00074    1.03%    passed     97.92%
+  75  PSAE.0521.00075    1.00%    passed     97.84%
+  76  PSAE.0521.00076    1.01%    passed     96.46%
+  77  PSAE.0521.00077    1.00%    passed     97.33%
+  78  PSAE.0521.00078    1.00%    passed     94.91%
+  79  PSAE.0521.00079    1.01%    passed     97.91%
+  80  PSAE.0521.00080    1.00%    passed     97.75%
+  81  PSAE.0521.00081    0.98%    passed     96.99%
+  82  PSAE.0521.00082    0.99%    passed     97.65%
+  83  PSAE.0521.00083    1.00%    passed     96.80%
+  84  PSAE.0521.00084    1.00%    passed     97.02%
+  85  PSAE.0521.00085    1.01%    passed     34.96%
+  86  PSAE.0521.00086    1.03%    passed     98.13%
+  87  PSAE.0521.00087    1.00%    passed     97.68%
+  88  PSAE.0521.00088    1.08%    passed     98.72%
+  89  PSAE.0521.00089    1.01%    passed     97.05%
+  90  PSAE.0521.00090    1.03%    passed     97.66%
+  91  PSAE.0521.00091    1.04%    passed     97.50%
+  92  PSAE.0521.00092    1.01%    passed     96.09%
+  93  PSAE.0521.00093    1.02%    passed     99.64%
+  94  PSAE.0521.00094    0.98%    passed     96.61%
+  95  PSAE.0521.00095    1.01%    passed     98.20%
+  96  PSAE.0521.00096    1.00%    passed     97.56%
+  97  PSAE.0521.00097    1.02%    passed     97.56%
+  98  PSAE.0521.00098    1.04%    passed     96.54%
+  99  PSAE.0521.00099    0.98%    passed     98.36%
+ 100  PSAE.0521.00100    1.00%    passed     96.78%
+ 101  PSAE.0521.00101    1.11%    passed     98.46%
+ 102  PSAE.0521.00102    1.00%    passed     97.16%
+ 103  PSAE.0521.00103    1.05%    passed     98.26%
+ 104  PSAE.0521.00104    1.00%    passed     98.57%
+ 105  PSAE.0521.00105    1.01%    passed     95.56%
+ 106  PSAE.0521.00106    1.01%    passed     92.69%
+ 107  PSAE.0521.00107    0.99%    passed     97.42%
+ 108  PSAE.0521.00108    1.00%    passed     97.33%
+ 109  PSAE.0521.00109    0.99%    passed     99.13%
+ 110  PSAE.0521.00110    1.07%    passed     98.86%
+ 111  PSAE.0521.00111    1.18%    passed     99.50%
+ 112  PSAE.0521.00112    1.03%    passed     97.57%
+ 113  PSAE.0521.00113    1.08%    passed     98.98%
+ 114  PSAE.0521.00114    1.01%    passed     96.89%
+ 115  PSAE.0521.00115    1.04%    passed     86.43%
+ 116  PSAE.0521.00116    1.02%    passed     97.62%
+ 117  PSAE.0521.00117    1.00%    passed     97.34%
+ 118  PSAE.0521.00118    1.00%    passed     98.11%
+ 119  PSAE.0521.00119    1.01%    passed     97.34%
+ 120  PSAE.0521.00120    1.00%    passed     92.63%
+ 121  PSAE.0521.00121    1.01%    passed     96.45%
+ 122  PSAE.0521.00122    1.02%    passed     98.18%
+ 123  PSAE.0521.00123    1.00%    passed     45.14%
+ 124  PSAE.0521.00124    1.02%    passed     96.41%
+ 125  PSAE.0521.00125    1.08%    passed     95.29%
+ 126  PSAE.0521.00126    1.06%    passed     99.61%
+ 127  PSAE.0521.00127    1.01%    passed     97.54%
+ 128  PSAE.0521.00128    1.04%    passed     99.54%
+ 129  PSAE.0521.00129    1.03%    passed     94.73%
+ 130  PSAE.0521.00130    0.99%    passed     98.33%
+ 131  PSAE.0521.00131    1.01%    passed     98.08%
+ 132  PSAE.0521.00132    1.03%    passed     96.66%
+ 133  PSAE.0521.00133    1.18%    passed     84.35%
+ 134  PSAE.0521.00134    1.04%    passed     96.55%
+ 135  PSAE.0521.00135    1.38%    passed     84.10%
+ 136  PSAE.0521.00136    1.01%    passed     99.57%
+ 137  PSAE.0521.00137    1.01%    passed     99.57%
+ 138  PSAE.0521.00138    1.03%    passed     97.35%
+ 139  PSAE.0521.00139    1.01%    passed     98.99%
+ 140  PSAE.0521.00140    1.01%    passed     99.66%
+ 141  PSAE.0521.00141    0.98%    passed     97.11%
+ 142  PSAE.0521.00142    1.04%    passed     95.28%
+ 143  PSAE.0521.00143    1.00%    passed     98.55%
+ 144  PSAE.0521.00144    1.00%    passed     97.00%
+ 145  PSAE.0521.00145    1.01%    passed     99.52%
+ 146  PSAE.0521.00146    1.04%    passed     95.50%
+ 147  PSAE.0521.00147    1.02%    passed     98.38%
+ 148  PSAE.0521.00148    1.00%    failed      1.63%
+ 149  PSAE.0521.00149    1.01%    passed     98.03%
+ 150  PSAE.0521.00150    1.24%    passed     97.38%
+ 151  PSAE.0521.00151    0.99%    passed     91.18%
+ 152  PSAE.0521.00152    1.13%    passed     74.60%
+ 153  PSAE.0521.00153    1.04%    passed     98.15%
+ 154  PSAE.0521.00154    1.01%    passed     95.42%
+ 155  PSAE.0521.00155    1.01%    passed     99.95%
+ 156  PSAE.0521.00156    0.99%    passed     98.68%
+ 157  PSAE.0521.00157    1.00%    passed     97.49%
+ 158  PSAE.0521.00158    1.01%    passed     97.54%
+ 159  PSAE.0521.00159    1.08%    passed     95.81%
+ 160  PSAE.0521.00160    1.03%    passed     98.65%
+ 161  PSAE.0521.00161    1.17%    passed     93.98%
+ 162  PSAE.0521.00162    0.99%    passed     92.31%
+ 163  PSAE.0521.00163    1.04%    passed     96.93%
+ 164  PSAE.0521.00164    1.02%    passed     99.52%
+ 165  PSAE.0521.00165    1.00%    passed     98.49%
+ 166  PSAE.0521.00166    1.05%    passed     97.15%
+ 167  PSAE.0521.00167    1.00%    passed     97.65%
+ 168  PSAE.0521.00168    1.03%    passed     98.37%
+ 169  PSAE.0521.00169    1.01%    passed     97.34%
+ 170  PSAE.0521.00170    0.99%    passed     97.80%
+ 171  PSAE.0521.00171    1.01%    passed     98.27%
+ 172  PSAE.0521.00172    1.04%    passed     98.26%
+ 173  PSAE.0521.00173    1.03%    passed     98.94%
+ 174  PSAE.0521.00174    1.01%    passed     98.08%
+ 175  PSAE.0521.00175    1.01%    passed     97.76%
+ 176  PSAE.0521.00176    1.00%    passed     98.23%
+ 177  PSAE.0521.00177    1.01%    passed     66.82%
+ 178  PSAE.0521.00178    1.00%    passed     98.91%
+ 179  PSAE.0521.00179    1.03%    passed     98.40%
+ 180  PSAE.0521.00180    0.99%    passed     99.11%
+ 181  PSAE.0521.00181    1.00%    passed     97.85%
+ 182  PSAE.0521.00182    0.99%    passed     97.91%
+ 183  PSAE.0521.00183    1.00%    passed     99.02%
+ 184  PSAE.0521.00184    1.00%    passed     99.24%
+ 185  PSAE.0521.00185    1.04%    passed     98.13%
+ 186  PSAE.0521.00186    1.01%    passed     97.25%
+ 187  PSAE.0521.00187    1.02%    passed     99.84%
+ 188  PSAE.0521.00188    1.01%    passed     97.54%
+ 189  PSAE.0521.00189    1.01%    passed     97.54%
+ 190  PSAE.0521.00190    1.01%    passed     97.54%
+ 191  PSAE.0521.00191    1.01%    passed     97.54%
+ 192  PSAE.0521.00192    1.02%    passed     99.58%
+ 193  PSAE.0521.00193    1.04%    passed     97.76%
+ 194  PSAE.0521.00194    1.01%    passed     99.84%
+ 195  PSAE.0521.00195    1.01%    passed     99.84%
+ 196  PSAE.0521.00196    1.01%    passed     66.37%
+ 197  PSAE.0521.00197    1.00%    passed     96.04%
+ 198  PSAE.0521.00198    1.00%    passed     98.63%
+ 199  PSAE.0521.00199    1.04%    passed     97.50%
+ 200  PSAE.0521.00200    1.00%    passed     97.68%
+ 201  PSAE.0521.00201    1.02%    passed     98.49%
+ 202  PSAE.0521.00202    1.00%    passed     97.52%
+ 203  PSAE.0521.00203    1.04%    passed     98.69%
+ 204  PSAE.0521.00204    1.03%    passed     98.64%
+ 205  PSAE.0521.00205    1.00%    passed     97.32%
+ 206  PSAE.0521.00206    0.99%    passed     97.57%
+ 207  PSAE.0521.00207    1.00%    passed     98.76%
+ 208  PSAE.0521.00208    0.99%    passed     97.65%
+ 209  PSAE.0521.00209    1.03%    passed     98.86%
+ 210  PSAE.0521.00210    1.00%    passed     78.56%
+ 211  PSAE.0521.00211    1.01%    passed     97.54%
+ 212  PSAE.0521.00212    1.00%    passed     99.20%
+ 213  PSAE.0521.00213    1.03%    passed     97.25%
+ 214  PSAE.0521.00214    1.03%    passed     63.04%
+ 215  PSAE.0521.00215    1.00%    failed      0.00%
+ 216  PSAE.0521.00216    1.05%    passed     98.28%
+ 217  PSAE.0521.00217    0.98%    passed     98.68%
+ 218  PSAE.0521.00218    1.01%    passed     97.16%
+ 219  PSAE.0521.00219    1.03%    passed     98.31%
+ 220  PSAE.0521.00220    0.99%    passed     97.78%
+ 221  PSAE.0521.00221    1.01%    passed     97.51%
+ 222  PSAE.0521.00222    1.00%    passed     97.17%
+ 223  PSAE.0521.00223    0.99%    passed     98.74%
+ 224  PSAE.0521.00224    1.00%    passed     97.55%
+ 225  PSAE.0521.00225    0.99%    passed     99.71%
+ 226  PSAE.0521.00226    1.00%    passed     99.69%
+ 227  PSAE.0521.00227    1.04%    passed     41.87%
+ 228  PSAE.0521.00228    1.00%    passed     97.49%
+ 229  PSAE.0521.00229    1.00%    passed     92.74%
+ 230  PSAE.0521.00230    1.02%    passed     98.26%
+ 231  PSAE.0521.00231    1.06%    passed     95.73%
+ 232  PSAE.0521.00232    1.02%    passed     97.36%
+ 233  PSAE.0521.00233    1.01%    passed     97.33%
+ 234  PSAE.0521.00234    1.01%    passed     97.76%
+ 235  PSAE.0521.00235    1.01%    passed     92.61%
+ 236  PSAE.0521.00236    1.04%    passed     92.39%
+ 237  PSAE.0521.00237    1.02%    passed     97.89%
+ 238  PSAE.0521.00238    1.02%    passed     97.67%
+ 239  PSAE.0521.00239    1.02%    passed     97.89%
+ 240  PSAE.0521.00240    1.02%    passed     96.70%
+ 241  PSAE.0521.00241    1.00%    passed     99.18%
+ 242  PSAE.0521.00242    1.05%    passed     95.33%
+ 243  PSAE.0521.00243    1.01%    passed     95.80%
+ 244  PSAE.0521.00244    1.02%    passed     98.05%
+ 245  PSAE.0521.00245    1.01%    passed     92.24%
+ 246  PSAE.0521.00246    1.01%    passed     97.06%
+ 247  PSAE.0521.00247    1.07%    passed     98.68%
+ 248  PSAE.0521.00248    1.00%    passed     96.71%
+ 249  PSAE.0521.00249    1.00%    passed     92.87%
+ 250  PSAE.0521.00250    1.02%    passed     92.73%
+ 251  PSAE.0521.00251    1.02%    passed     97.52%
+ 252  PSAE.0521.00252    1.02%    passed     97.52%
+ 253  PSAE.0521.00253    0.97%    failed      0.00%
+ 254  PSAE.0521.00254    1.01%    passed     96.99%
+ 255  PSAE.0521.00255    1.01%    passed     97.93%
+ 256  PSAE.0521.00256    1.02%    passed     98.80%
+ 257  PSAE.0521.00257    1.02%    passed     97.68%
+ 258  PSAE.0521.00258    1.17%    passed     88.92%
+ 259  PSAE.0521.00259    1.01%    passed     97.45%
+ 260  PSAE.0521.00260    1.01%    passed     97.33%
+ 261  PSAE.0521.00261    1.05%    passed     98.30%
+ 262  PSAE.0521.00262    1.00%    passed     98.21%
+ 263  PSAE.0521.00263    1.01%    passed     97.28%
+ 264  PSAE.0521.00264    1.00%    passed     93.03%
+ 265  PSAE.0521.00265    1.02%    passed     99.18%
+ 266  PSAE.0521.00266    1.02%    passed     98.80%
+ 267  PSAE.0521.00267    1.01%    passed     99.63%
+ 268  PSAE.0521.00268    1.01%    passed     99.63%
+ 269  PSAE.0521.00269    1.01%    passed     99.20%
+ 270  PSAE.0521.00270    1.02%    passed     97.31%
+ 271  PSAE.0521.00271    1.04%    passed     99.34%
+ 272  PSAE.0521.00272    1.02%    passed     97.59%
+ 273  PSAE.0521.00273    1.07%    passed     99.60%
+ 274  PSAE.0521.00274    1.00%    passed     97.44%
+ 275  PSAE.0521.00275    1.00%    passed     97.70%
+ 276  PSAE.0521.00276    1.01%    passed     97.82%
+ 277  PSAE.0521.00277    1.01%    passed     98.12%
+ 278  PSAE.0521.00278    1.01%    passed     97.70%
+ 279  PSAE.0521.00279    1.01%    passed     97.79%
+ 280  PSAE.0521.00280    1.01%    passed     97.84%
+ 281  PSAE.0521.00281    1.00%    passed     97.76%
+ 282  PSAE.0521.00282    1.01%    passed     96.62%
+ 283  PSAE.0521.00283    1.02%    passed     97.29%
+ 284  PSAE.0521.00284    1.00%    passed     97.90%
+ 285  PSAE.0521.00285    1.01%    passed     98.15%
+ 286  PSAE.0521.00286    1.01%    passed     97.05%
+ 287  PSAE.0521.00287    1.00%    passed     96.12%
+ 288  PSAE.0521.00288    1.00%    passed     98.26%
+ 289  PSAE.0521.00289    1.03%    passed     97.96%
+ 290  PSAE.0521.00290    0.99%    passed     97.57%
+ 291  PSAE.0521.00291    1.02%    passed     99.60%
+ 292  PSAE.0521.00292    1.02%    passed     99.59%
+ 293  PSAE.0521.00293    0.99%    passed     84.17%
+ 294  PSAE.0521.00294    1.12%    failed      0.00%
+ 295  PSAE.0521.00295    0.99%    passed     97.35%
+ 296  PSAE.0521.00296    0.99%    passed     97.47%
+ 297  PSAE.0521.00297    0.99%    passed     98.08%
+ 298  PSAE.0521.00298    0.99%    passed     97.52%
+ 299  PSAE.0521.00299    1.02%    passed     99.95%
+ 300  PSAE.0521.00300    1.01%    passed     99.73%
+ 301  PSAE.0521.00301    1.01%    passed     98.21%
+ 302  PSAE.0521.00302    0.99%    failed      0.00%
+ 303  PSAE.0521.00303    1.01%    passed     95.66%
+ 304  PSAE.0521.00304    1.01%    passed     99.92%
+ 305  PSAE.0521.00305    1.01%    passed     97.78%
+ 306  PSAE.0521.00306    1.03%    passed     97.40%
+ 307  PSAE.0521.00307    1.02%    passed     97.25%
+ 308  PSAE.0521.00308    1.04%    passed     98.89%
+ 309  PSAE.0521.00309    1.00%    passed     97.20%
+ 310  PSAE.0521.00310    1.03%    passed     99.68%
+ 311  PSAE.0521.00311    0.98%    passed     97.69%
+ 312  PSAE.0521.00312    1.01%    passed     97.14%
+ 313  PSAE.0521.00313    1.00%    passed     96.97%
+ 314  PSAE.0521.00314    1.01%    passed     98.36%
+ 315  PSAE.0521.00315    1.01%    passed     99.17%
+ 316  PSAE.0521.00316    0.99%    passed     99.03%
+ 317  PSAE.0521.00317    1.00%    passed     96.99%
+ 318  PSAE.0521.00318    1.00%    passed     96.03%
+ 319  PSAE.0521.00319    1.00%    passed     96.10%
+ 320  PSAE.0521.00320    0.98%    passed     97.32%
+ 321  PSAE.0521.00321    1.00%    passed     97.56%
+ 322  PSAE.0521.00322    0.98%    passed     98.95%
+ 323  PSAE.0521.00323    1.07%    passed     97.99%
+ 324  PSAE.0521.00324    0.99%    passed     97.43%
+ 325  PSAE.0521.00325    1.00%    passed     96.95%
+ 326  PSAE.0521.00326    0.98%    passed     95.68%
+ 327  PSAE.0521.00327    1.01%    passed     97.51%
+ 328  PSAE.0521.00328    0.99%    passed     95.26%
+****  TOTAL              1.02%  5 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000076690 for long alignment
+NOTE: PSAE.0521.00012 is identical to PSAE.0521.00006 but kept for subsequent analysis
+NOTE: PSAE.0521.00267 is identical to PSAE.0521.00013 but kept for subsequent analysis
+NOTE: PSAE.0521.00038 is identical to PSAE.0521.00035 but kept for subsequent analysis
+NOTE: PSAE.0521.00158 is identical to PSAE.0521.00127 but kept for subsequent analysis
+NOTE: PSAE.0521.00228 is identical to PSAE.0521.00157 but kept for subsequent analysis
+NOTE: PSAE.0521.00195 is identical to PSAE.0521.00194 but kept for subsequent analysis
+NOTE: PSAE.0521.00239 is identical to PSAE.0521.00237 but kept for subsequent analysis
+NOTE: PSAE.0521.00252 is identical to PSAE.0521.00251 but kept for subsequent analysis
+NOTE: 7 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: PSAE.0521.00016 (identical to PSAE.0521.00006) is ignored but added at the end
+NOTE: PSAE.0521.00018 (identical to PSAE.0521.00006) is ignored but added at the end
+NOTE: PSAE.0521.00188 (identical to PSAE.0521.00127) is ignored but added at the end
+NOTE: PSAE.0521.00189 (identical to PSAE.0521.00127) is ignored but added at the end
+NOTE: PSAE.0521.00190 (identical to PSAE.0521.00127) is ignored but added at the end
+NOTE: PSAE.0521.00191 (identical to PSAE.0521.00127) is ignored but added at the end
+NOTE: PSAE.0521.00211 (identical to PSAE.0521.00127) is ignored but added at the end
+Alignment was printed to Pseudomonas_aeruginosa/6-tree_module/PSAE_328.nucl.grp.aln.iqtree_tree.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to Pseudomonas_aeruginosa/6-tree_module/PSAE_328.nucl.grp.aln.iqtree_tree.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 10.147 seconds
+
+NOTE: 533 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -5735711.883
+2. Current log-likelihood: -5509947.681
+3. Current log-likelihood: -5509932.822
+4. Current log-likelihood: -5509931.792
+Optimal log-likelihood: -5509931.758
+Rate parameters:  A-C: 1.11054  A-G: 5.86095  A-T: 0.67361  C-G: 1.06107  C-T: 9.03996  G-T: 1.00000
+Base frequencies:  A: 0.177  C: 0.344  G: 0.319  T: 0.161
+Parameters optimization took 4 rounds (8.821 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.445965 sec (of wall-clock time) 14.225813 sec(of CPU time)
+Computing RapidNJ tree took 0.066731 sec (of wall-clock time) 1.012149 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -5522562.784
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1015.273 second
+Computing log-likelihood of 98 initial trees ... 25.663 seconds
+Current best score: -5508747.802
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -5508565.092
+Iteration 10 / LogL: -5510165.092 / Time: 0h:18m:17s
+Iteration 20 / LogL: -5510387.940 / Time: 0h:18m:50s
+Finish initializing candidate tree set (20)
+Current best tree score: -5508565.092 / CPU time: 1107.297
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -5508944.112 / Time: 0h:19m:57s (0h:48m:23s left)
+Iteration 40 / LogL: -5512429.056 / Time: 0h:20m:48s (0h:32m:14s left)
+Iteration 50 / LogL: -5508665.061 / Time: 0h:21m:46s (0h:22m:27s left)
+Iteration 60 / LogL: -5510773.657 / Time: 0h:22m:35s (0h:15m:33s left)
+Iteration 70 / LogL: -5511669.110 / Time: 0h:23m:16s (0h:10m:22s left)
+Iteration 80 / LogL: -5509504.783 / Time: 0h:23m:56s (0h:6m:18s left)
+Iteration 90 / LogL: -5513904.969 / Time: 0h:24m:38s (0h:3m:1s left)
+Iteration 100 / LogL: -5513048.895 / Time: 0h:25m:22s (0h:0m:15s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:25m:31s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -5508565.092
+2. Current log-likelihood: -5508565.029
+3. Current log-likelihood: -5508565.009
+4. Current log-likelihood: -5508564.992
+Optimal log-likelihood: -5508564.982
+Rate parameters:  A-C: 1.10910  A-G: 5.86638  A-T: 0.67074  C-G: 1.05767  C-T: 9.03426  G-T: 1.00000
+Base frequencies:  A: 0.177  C: 0.344  G: 0.319  T: 0.161
+Parameters optimization took 4 rounds (2.766 sec)
+BEST SCORE FOUND : -5508564.982
+Total tree length: 0.377
+
+Total number of iterations: 102
+CPU time used for tree search: 19427.932 sec (5h:23m:47s)
+Wall-clock time used for tree search: 1508.309 sec (0h:25m:8s)
+Total CPU time used: 19925.883 sec (5h:32m:5s)
+Total wall-clock time used: 1534.284 sec (0h:25m:34s)
+
+Analysis results written to: 
+  IQ-TREE report:                Pseudomonas_aeruginosa/6-tree_module/PSAE_328.nucl.grp.aln.iqtree_tree.iqtree
+  Maximum-likelihood tree:       Pseudomonas_aeruginosa/6-tree_module/PSAE_328.nucl.grp.aln.iqtree_tree.treefile
+  Likelihood distances:          Pseudomonas_aeruginosa/6-tree_module/PSAE_328.nucl.grp.aln.iqtree_tree.mldist
+  Screen log file:               Pseudomonas_aeruginosa/6-tree_module/PSAE_328.nucl.grp.aln.iqtree_tree.log
+
+Date and Time: Thu May  6 08:32:39 2021

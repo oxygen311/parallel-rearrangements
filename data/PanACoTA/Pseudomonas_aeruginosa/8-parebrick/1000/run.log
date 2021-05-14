@@ -1,0 +1,153 @@
+[2021-05-14 12:43:53,164] INFO - <Running module: Preprocess Data>
+[2021-05-14 12:44:05,491] INFO - Converting block coords to infercars format
+[2021-05-14 12:46:21,823] INFO - <Module finished: Preprocess Data>, elapsed 148.65770888328552 seconds
+[2021-05-14 12:46:21,823] INFO - <Running module: Parsers and check strains>
+[2021-05-14 12:47:19,788] INFO - Blocks count: 3925
+[2021-05-14 12:47:19,792] INFO - Unique one-copy blocks count: 678
+[2021-05-14 12:47:20,065] INFO - NumExpr defaulting to 8 threads.
+[2021-05-14 12:47:20,420] INFO - Mean block coverage: 68.11555071283505 %
+[2021-05-14 12:47:20,858] INFO - Mean common one-copy blocks coverage: 36.903807001344 %
+[2021-05-14 12:47:21,481] INFO - Mean 80 % rate one-copy blocks coverage: 56.22186240476328 %
+[2021-05-14 12:47:23,506] INFO - Strains in blocks file count: 327
+[2021-05-14 12:47:23,507] INFO - Strains in tree leafs count: 328
+[2021-05-14 12:47:23,507] INFO - Intersected strains count: 327
+[2021-05-14 12:47:23,508] WARNING - PRUNING TREE
+[2021-05-14 12:47:23,508] WARNING - Those strains are thrown away from tree because there were not found in blocks data: PSAE.0521.00314
+[2021-05-14 12:47:23,601] INFO - <Module finished: Parsers and check strains>, elapsed 61.77744793891907 seconds
+[2021-05-14 12:47:23,601] INFO - <Running module: Balanced rearrangements characters>
+[2021-05-14 12:50:10,326] INFO - Breakpoint graph parsed
+[2021-05-14 12:50:10,373] INFO - Edges in breakpoint graph: 1688
+[2021-05-14 12:50:10,516] INFO - Getting characters from breakpoint graph component, size=392
+[2021-05-14 12:50:24,753] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:25,161] INFO - Getting characters from breakpoint graph component, size=16
+[2021-05-14 12:50:25,829] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:26,165] INFO - Getting characters from breakpoint graph component, size=12
+[2021-05-14 12:50:26,358] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:26,792] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:27,464] INFO - Getting characters from breakpoint graph component, size=8
+[2021-05-14 12:50:28,699] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:28,770] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:28,824] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:28,873] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:29,324] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:29,395] INFO - Getting characters from breakpoint graph component, size=6
+[2021-05-14 12:50:29,511] INFO - Getting characters from breakpoint graph component, size=8
+[2021-05-14 12:50:29,662] INFO - Getting characters from breakpoint graph component, size=8
+[2021-05-14 12:50:29,845] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:29,899] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:29,954] INFO - Getting characters from breakpoint graph component, size=6
+[2021-05-14 12:50:30,042] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:30,091] INFO - Getting characters from breakpoint graph component, size=8
+[2021-05-14 12:50:30,239] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:30,291] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:30,349] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:30,407] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:30,454] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:30,520] INFO - Getting characters from breakpoint graph component, size=6
+[2021-05-14 12:50:30,895] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:31,306] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:31,374] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:31,434] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:31,473] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:31,522] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:31,562] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:31,604] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:31,645] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:31,693] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:31,969] INFO - Getting characters from breakpoint graph component, size=8
+[2021-05-14 12:50:32,059] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:32,088] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:32,116] INFO - Getting characters from breakpoint graph component, size=6
+[2021-05-14 12:50:32,162] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:32,187] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:32,214] INFO - Getting characters from breakpoint graph component, size=6
+[2021-05-14 12:50:32,259] INFO - Getting characters from breakpoint graph component, size=10
+[2021-05-14 12:50:32,575] INFO - Getting characters from breakpoint graph component, size=8
+[2021-05-14 12:50:33,049] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:33,086] INFO - Getting characters from breakpoint graph component, size=6
+[2021-05-14 12:50:33,145] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:33,189] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:33,471] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:33,502] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:33,749] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:33,773] INFO - Getting characters from breakpoint graph component, size=6
+[2021-05-14 12:50:33,822] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:33,847] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:33,871] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:34,086] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:34,109] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:34,147] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:34,180] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:34,208] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:34,233] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:34,260] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:34,283] INFO - Getting characters from breakpoint graph component, size=6
+[2021-05-14 12:50:34,327] INFO - Getting characters from breakpoint graph component, size=8
+[2021-05-14 12:50:34,391] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:34,584] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:34,858] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:35,265] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:35,338] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:35,381] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:35,622] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:35,656] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:35,686] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:35,723] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:35,988] INFO - Getting characters from breakpoint graph component, size=6
+[2021-05-14 12:50:36,289] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:36,311] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:36,507] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:36,728] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:36,749] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:36,941] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:36,961] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:36,982] INFO - Getting characters from breakpoint graph component, size=6
+[2021-05-14 12:50:37,034] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:37,057] INFO - Getting characters from breakpoint graph component, size=6
+[2021-05-14 12:50:37,108] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:37,317] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:37,345] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:37,372] INFO - Getting characters from breakpoint graph component, size=6
+[2021-05-14 12:50:37,408] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:37,449] INFO - Getting characters from breakpoint graph component, size=6
+[2021-05-14 12:50:37,917] INFO - Getting characters from breakpoint graph component, size=8
+[2021-05-14 12:50:38,000] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:38,024] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:38,058] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:38,410] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:38,441] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:38,666] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:38,999] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:39,040] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:39,097] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:39,181] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:39,522] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:39,832] INFO - Getting characters from breakpoint graph component, size=6
+[2021-05-14 12:50:39,882] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:39,950] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:39,993] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:40,022] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-14 12:50:40,242] INFO - <Module finished: Balanced rearrangements characters>, elapsed 196.64124393463135 seconds
+[2021-05-14 12:50:40,243] INFO - <Running module: Balanced rearrangements stats>
+[2021-05-14 12:50:40,243] INFO - Counting distances between unique one-copy blocks, may take a while
+[2021-05-14 13:38:11,162] INFO - Got characters after breakpoint graph consideration: 457
+[2021-05-14 13:38:11,170] INFO - Percentage of consistent rearrangements (balanced): 89.71553610503283 %
+[2021-05-14 13:39:16,295] INFO - <Module finished: Balanced rearrangements stats>, elapsed 2916.0514481067657 seconds
+[2021-05-14 13:39:16,297] INFO - <Running module: Balanced rearrangements output>
+[2021-05-14 13:42:37,501] INFO - <Module finished: Balanced rearrangements output>, elapsed 201.20443630218506 seconds
+[2021-05-14 13:42:37,501] INFO - <Running module: Unbalanced rearrangements characters>
+[2021-05-14 13:42:37,814] INFO - <Module finished: Unbalanced rearrangements characters>, elapsed 0.31264591217041016 seconds
+[2021-05-14 13:42:37,814] INFO - <Running module: Unbalanced rearrangements stats and clustering>
+[2021-05-14 13:42:49,018] INFO - Got characters after copy number variation consideration: 3925
+[2021-05-14 13:42:49,023] INFO - Percentage of consistent rearrangements (unbalanced): 38.549328970178614 %
+[2021-05-14 13:42:49,023] INFO - Counting distances between non-convex character blocks, may take a while
+[2021-05-14 16:54:44,664] INFO - Jaccard index matrix constructed
+[2021-05-14 18:06:25,243] INFO - Proximity matrix constructed
+[2021-05-14 18:06:28,714] INFO - Clustring is done
+[2021-05-14 18:06:28,772] INFO - Clusters: 611
+[2021-05-14 18:10:02,552] INFO - <Module finished: Unbalanced rearrangements stats and clustering>, elapsed 16044.733896970749 seconds
+[2021-05-14 18:10:02,555] INFO - <Running module: Unbalanced rearrangements output>
+[2021-05-14 18:24:16,052] INFO - <Module finished: Unbalanced rearrangements output>, elapsed 853.4964580535889 seconds
+[2021-05-14 18:24:16,055] INFO - <Running module: Visualize neighbours output>
+[2021-05-14 18:49:26,419] INFO - <Module finished: Visualize neighbours output>, elapsed 1510.3643908500671 seconds
+[2021-05-14 18:49:26,419] INFO - Total elapsed time: 21933.25627017021 seconds
