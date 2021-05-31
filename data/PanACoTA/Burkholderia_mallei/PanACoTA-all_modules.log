@@ -1,0 +1,10 @@
+[2021-05-28 17:04:41] :: INFO :: PanACoTA version 1.3.0
+[2021-05-28 17:04:41] :: INFO :: Command used
+ 	 > PanACoTA all -o Burkholderia_mallei --cutn 125 -n BUMA --threads 32 -T 13373 -l complete,chromosome --l90 2 --soft iqtree2 -c configfile.ini
+[2021-05-28 17:04:41] :: INFO :: prepare step
+[2021-05-28 17:05:04] :: INFO :: annotate step
+[2021-05-28 17:25:34] :: INFO :: pangenome step
+[2021-05-28 17:25:46] :: INFO :: corepers step
+[2021-05-28 17:25:47] :: INFO :: align step
+[2021-05-28 17:31:48] :: INFO :: tree step
+[2021-05-28 17:32:00] :: INFO :: All modules of PanACOTA are finished.

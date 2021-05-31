@@ -1,0 +1,19 @@
+[2021-05-28 17:25:34] :: INFO :: PanACoTA version 1.3.0
+[2021-05-28 17:25:34] :: INFO :: Command used
+ 	 > PanACoTA pangenome
+[2021-05-28 17:25:34] :: INFO :: Building bank with all proteins to Burkholderia_mallei/2-annotate_module/Proteins/BUMA_32.All.prt
+[2021-05-28 17:25:34] :: INFO :: Will run MMseqs2 with:
+	- minimum sequence identity = 80.0%
+	- cluster mode 1
+	- 32 threads
+[2021-05-28 17:25:34] :: INFO :: Creating database
+[2021-05-28 17:25:34] :: DETAIL :: MMseqs command: mmseqs createdb Burkholderia_mallei/2-annotate_module/Proteins/BUMA_32.All.prt Burkholderia_mallei/3-pangenome_module/tmp_BUMA_32.All.prt_0.8-mode1-th32/BUMA_32.All.prt-msDB
+[2021-05-28 17:25:36] :: INFO :: Clustering proteins...
+[2021-05-28 17:25:36] :: DETAIL :: MMseqs command: mmseqs cluster Burkholderia_mallei/3-pangenome_module/tmp_BUMA_32.All.prt_0.8-mode1-th32/BUMA_32.All.prt-msDB Burkholderia_mallei/3-pangenome_module/tmp_BUMA_32.All.prt_0.8-mode1-th32/BUMA_32.All.prt-clust-0.8-mode1-th32 Burkholderia_mallei/3-pangenome_module/tmp_BUMA_32.All.prt_0.8-mode1-th32 --min-seq-id 0.8 --threads 32 --cluster-mode 1
+[2021-05-28 17:25:44] :: DETAIL :: MMseqs command: mmseqs createtsv Burkholderia_mallei/3-pangenome_module/tmp_BUMA_32.All.prt_0.8-mode1-th32/BUMA_32.All.prt-msDB Burkholderia_mallei/3-pangenome_module/tmp_BUMA_32.All.prt_0.8-mode1-th32/BUMA_32.All.prt-msDB Burkholderia_mallei/3-pangenome_module/tmp_BUMA_32.All.prt_0.8-mode1-th32/BUMA_32.All.prt-clust-0.8-mode1-th32 Burkholderia_mallei/3-pangenome_module/tmp_BUMA_32.All.prt_0.8-mode1-th32/BUMA_32.All.prt-clust-0.8-mode1-th32.tsv
+[2021-05-28 17:25:45] :: INFO :: Converting mmseqs results to pangenome file
+[2021-05-28 17:25:45] :: INFO :: Pangenome has 5616 families.
+[2021-05-28 17:25:45] :: INFO :: Retrieving information from pan families
+[2021-05-28 17:25:46] :: DETAIL :: Saving all information to a binary file for later use
+[2021-05-28 17:25:46] :: INFO :: Generating qualitative and quantitative matrix, and summary file
+[2021-05-28 17:25:46] :: INFO :: DONE

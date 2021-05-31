@@ -1,0 +1,6 @@
+[2021-05-28 17:31:48] :: INFO :: PanACoTA version 1.3.0
+[2021-05-28 17:31:48] :: INFO :: Command used
+ 	 > PanACoTA tree
+[2021-05-28 17:31:48] :: INFO :: Running IQtree...
+[2021-05-28 17:31:48] :: DETAIL :: IQtree command: iqtree2 -s Burkholderia_mallei/5-align_module/Phylo-BUMA_32/BUMA_32.nucl.grp.aln -T 32 -m GTR    --seqtype DNA --prefix Burkholderia_mallei/6-tree_module/BUMA_32.nucl.grp.aln.iqtree_tree --quiet 
+[2021-05-28 17:32:00] :: INFO :: END

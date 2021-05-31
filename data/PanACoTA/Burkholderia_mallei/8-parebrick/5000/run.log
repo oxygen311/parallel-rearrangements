@@ -1,0 +1,28 @@
+[2021-05-31 12:55:02,714] INFO - <Running module: Preprocess Data>
+[2021-05-31 12:55:02,740] INFO - Converting block coords to infercars format
+[2021-05-31 12:55:03,674] INFO - <Module finished: Preprocess Data>, elapsed 0.9594769477844238 seconds
+[2021-05-31 12:55:03,674] INFO - <Running module: Parsers and check strains>
+[2021-05-31 12:55:04,201] INFO - Blocks count: 220
+[2021-05-31 12:55:04,201] INFO - Unique one-copy blocks count: 132
+[2021-05-31 12:55:04,208] INFO - NumExpr defaulting to 8 threads.
+[2021-05-31 12:55:04,219] INFO - Mean block coverage: 90.27674929513879 %
+[2021-05-31 12:55:04,231] INFO - Mean common one-copy blocks coverage: 61.82113678052203 %
+[2021-05-31 12:55:04,243] INFO - Mean 80 % rate one-copy blocks coverage: 77.3297331155814 %
+[2021-05-31 12:55:04,298] INFO - Strains in blocks file count: 32
+[2021-05-31 12:55:04,299] INFO - Strains in tree leafs count: 32
+[2021-05-31 12:55:04,299] INFO - Intersected strains count: 32
+[2021-05-31 12:55:04,299] INFO - <Module finished: Parsers and check strains>, elapsed 0.6249539852142334 seconds
+[2021-05-31 12:55:04,299] INFO - <Running module: Balanced rearrangements characters>
+[2021-05-31 12:55:04,741] INFO - Breakpoint graph parsed
+[2021-05-31 12:55:04,744] INFO - Edges in breakpoint graph: 407
+[2021-05-31 12:55:04,755] INFO - Getting characters from breakpoint graph component, size=44
+[2021-05-31 12:55:04,966] INFO - Getting characters from breakpoint graph component, size=8
+[2021-05-31 12:55:04,990] INFO - Getting characters from breakpoint graph component, size=10
+[2021-05-31 12:55:05,021] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-31 12:55:05,035] INFO - Getting characters from breakpoint graph component, size=4
+[2021-05-31 12:55:05,046] INFO - Getting characters from breakpoint graph component, size=24
+[2021-05-31 12:55:05,158] INFO - Getting characters from breakpoint graph component, size=94
+[2021-05-31 12:55:05,674] INFO - Getting characters from breakpoint graph component, size=6
+[2021-05-31 12:55:05,693] INFO - <Module finished: Balanced rearrangements characters>, elapsed 1.3939237594604492 seconds
+[2021-05-31 12:55:05,693] INFO - <Running module: Balanced rearrangements stats>
+[2021-05-31 12:55:05,693] INFO - Counting distances between unique one-copy blocks, may take a while

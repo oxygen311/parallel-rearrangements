@@ -1,0 +1,62 @@
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 32768 kb
+rescale = 1
+All-to-all alignment.
+    0 / 32    1 / 32    2 / 32    3 / 32    4 / 32    5 / 32    6 / 32    7 / 32    8 / 32    9 / 32   10 / 32   11 / 32   12 / 32   13 / 32   14 / 32   15 / 32   16 / 32   17 / 32   18 / 32   19 / 32   20 / 32   21 / 32   22 / 32   23 / 32   24 / 32   25 / 32   26 / 32   27 / 32   28 / 32   29 / 32   30 / 32tbfast-pair (aa) Version 7.475
+alg=L, model=BLOSUM62, 2.00, -0.10, +0.10, noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 32   10 / 32   20 / 32   30 / 32
+done.
+
+Progressive alignment ... 
+STEP     1 /31 STEP     2 /31 STEP     3 /31 STEP     4 /31 STEP     5 /31 STEP     6 /31 STEP     7 /31 STEP     8 /31 STEP     9 /31 STEP    10 /31 STEP    11 /31 STEP    12 /31 STEP    13 /31 STEP    14 /31 STEP    15 /31 STEP    16 /31 STEP    17 /31 STEP    18 /31 STEP    19 /31 STEP    20 /31 STEP    21 /31 STEP    22 /31 STEP    23 /31 STEP    24 /31 STEP    25 /31 STEP    26 /31 STEP    27 /31 STEP    28 /31 STEP    29 /31 STEP    30 /31 STEP    31 /31 
+done.
+tbfast (aa) Version 7.475
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+rescale = 1
+
+    0 / 32   10 / 32   20 / 32   30 / 32
+Segment   1/  1    1-  81
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-0  identical.   STEP 001-004-1  identical.   STEP 001-005-0  identical.   STEP 001-005-1  identical.   STEP 001-006-0  identical.   STEP 001-006-1  identical.   STEP 001-007-0  identical.   STEP 001-007-1  identical.   STEP 001-008-0  identical.   STEP 001-008-1  identical.   STEP 001-009-0  identical.   STEP 001-009-1  identical.   STEP 001-010-0  identical.   STEP 001-010-1  identical.   STEP 001-011-0  identical.   STEP 001-011-1  identical.   STEP 001-012-0  identical.   STEP 001-012-1  identical.   STEP 001-013-0  identical.   STEP 001-013-1  identical.   STEP 001-014-0  identical.   STEP 001-014-1  identical.   STEP 001-015-0  identical.   STEP 001-015-1  identical.   STEP 001-016-0  identical.   STEP 001-016-1  identical.   STEP 001-017-0  identical.   STEP 001-017-1  identical.   STEP 001-018-0  identical.   STEP 001-018-1  identical.   STEP 001-019-0  identical.   STEP 001-019-1  identical.   STEP 001-020-0  identical.   STEP 001-020-1  identical.   STEP 001-021-0  identical.   STEP 001-021-1  identical.   STEP 001-022-0  identical.   STEP 001-022-1  identical.   STEP 001-023-0  identical.   STEP 001-023-1  identical.   STEP 001-024-0  identical.   STEP 001-024-1  identical.   STEP 001-025-0  identical.   STEP 001-025-1  identical.   STEP 001-026-0  identical.   STEP 001-026-1  identical.   STEP 001-027-0  identical.   STEP 001-027-1  identical.   STEP 001-028-0  identical.   STEP 001-028-1  identical.   STEP 001-029-0  identical.   STEP 001-029-1  identical.   STEP 001-030-0  identical.   STEP 001-030-1  identical.   STEP 001-031-1  identical.   STEP 002-031-1  identical.   STEP 002-030-0  identical.   STEP 002-030-1  identical.   
+Converged.
+
+done
+dvtditr (aa) Version 7.475
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
