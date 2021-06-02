@@ -1,33 +1,33 @@
 strain,character_state,character_state_annotation
-BUMA.0521.00012,3,inversion between 507h-715h and 508t-721t
-BUMA.0521.00014,0,adjacency exists
-BUMA.0521.00023,0,adjacency exists
-BUMA.0521.00019,0,adjacency exists
-BUMA.0521.00017,0,adjacency exists
-BUMA.0521.00010,0,adjacency exists
-BUMA.0521.00029,0,adjacency exists
-BUMA.0521.00022,0,adjacency exists
-BUMA.0521.00027,0,adjacency exists
-BUMA.0521.00018,0,adjacency exists
-BUMA.0521.00006,0,adjacency exists
-BUMA.0521.00024,0,adjacency exists
-BUMA.0521.00005,0,adjacency exists
-BUMA.0521.00003,0,adjacency exists
-BUMA.0521.00020,0,adjacency exists
-BUMA.0521.00028,0,adjacency exists
-BUMA.0521.00025,0,adjacency exists
-BUMA.0521.00008,3,inversion between 507h-715h and 508t-721t
-BUMA.0521.00026,0,adjacency exists
-BUMA.0521.00004,0,adjacency exists
-BUMA.0521.00032,0,adjacency exists
-BUMA.0521.00011,2,some block is not presented
-BUMA.0521.00015,0,adjacency exists
-BUMA.0521.00031,0,adjacency exists
-BUMA.0521.00007,2,some block is not presented
-BUMA.0521.00002,0,adjacency exists
-BUMA.0521.00001,0,adjacency exists
-BUMA.0521.00021,0,adjacency exists
 BUMA.0521.00016,0,adjacency exists
-BUMA.0521.00030,0,adjacency exists
+BUMA.0521.00014,0,adjacency exists
+BUMA.0521.00003,0,adjacency exists
+BUMA.0521.00018,0,adjacency exists
+BUMA.0521.00023,0,adjacency exists
+BUMA.0521.00020,0,adjacency exists
+BUMA.0521.00022,0,adjacency exists
 BUMA.0521.00013,0,adjacency exists
+BUMA.0521.00002,0,adjacency exists
+BUMA.0521.00024,0,adjacency exists
+BUMA.0521.00010,0,adjacency exists
+BUMA.0521.00028,0,adjacency exists
+BUMA.0521.00029,0,adjacency exists
+BUMA.0521.00017,0,adjacency exists
+BUMA.0521.00026,0,adjacency exists
+BUMA.0521.00027,0,adjacency exists
+BUMA.0521.00012,3,inversion between 507h-715h and 508t-721t
+BUMA.0521.00011,2,some block is not presented
+BUMA.0521.00032,0,adjacency exists
+BUMA.0521.00004,0,adjacency exists
+BUMA.0521.00006,0,adjacency exists
+BUMA.0521.00001,0,adjacency exists
+BUMA.0521.00008,3,inversion between 507h-715h and 508t-721t
+BUMA.0521.00015,0,adjacency exists
 BUMA.0521.00009,0,adjacency exists
+BUMA.0521.00030,0,adjacency exists
+BUMA.0521.00031,0,adjacency exists
+BUMA.0521.00019,0,adjacency exists
+BUMA.0521.00021,0,adjacency exists
+BUMA.0521.00005,0,adjacency exists
+BUMA.0521.00025,0,adjacency exists
+BUMA.0521.00007,2,some block is not presented
