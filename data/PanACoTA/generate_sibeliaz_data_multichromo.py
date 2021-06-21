@@ -21,6 +21,8 @@ os.makedirs(folder + '7-sibeliaz/', exist_ok=True)
 
 gembase_df = pd.read_csv(gembase_file, sep='\t')
 all_contigs = []
+from collections import Counter
+cnt = Counter()
 
 for _, row in gembase_df.iterrows():
     print(row['gembase_name'], row['orig_name'])
@@ -31,8 +33,11 @@ for _, row in gembase_df.iterrows():
         # print(contig.id, contig.name, contig.description)
         contigs[i].id = row['gembase_name'] + '.' + str(i + 1) + ' ' + contig.description
 
-    assert len(contigs) == args.contigs
+    print(len(contigs))
+    # assert len(contigs) == args.contigs
+    cnt[len(contigs)] += 1
 
     all_contigs += contigs
 
+print(cnt)
 SeqIO.write(all_contigs, open(output_file, 'w'), 'fasta')

@@ -1,0 +1,441 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Linux 64-bit built Oct 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    orthrus-1 (AVX512, FMA3, 1006 GB RAM)
+Command: iqtree2 -s Vibrio/5-align_module/Phylo-VIBR_314/VIBR_314.nucl.grp.aln -T 32 -m GTR -B 1000 --seqtype DNA --prefix Vibrio/6-tree_module/VIBR_314.nucl.grp.aln.iqtree_tree --quiet
+Seed:    74178 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun 18 21:11:41 2021
+Kernel:  AVX+FMA - 32 threads (32 CPU cores detected)
+
+Reading alignment file Vibrio/5-align_module/Phylo-VIBR_314/VIBR_314.nucl.grp.aln ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 314 sequences with 230406 columns, 116941 distinct patterns
+117920 parsimony-informative, 10748 singleton sites, 101738 constant sites
+                 Gap/Ambiguity  Composition  p-value
+   1  VIBR.0621.00001    6.61%    failed      0.00%
+   2  VIBR.0621.00002    6.66%    failed      0.00%
+   3  VIBR.0621.00003    6.53%    failed      0.00%
+   4  VIBR.0621.00004    6.52%    failed      0.00%
+   5  VIBR.0621.00005    6.61%    failed      0.00%
+   6  VIBR.0621.00006    6.69%    failed      0.00%
+   7  VIBR.0621.00007    6.61%    failed      0.00%
+   8  VIBR.0621.00008    6.61%    failed      0.00%
+   9  VIBR.0621.00009    6.65%    failed      0.00%
+  10  VIBR.0621.00010    6.61%    failed      0.00%
+  11  VIBR.0621.00011    6.61%    failed      0.00%
+  12  VIBR.0621.00012    6.42%    failed      0.00%
+  13  VIBR.0621.00013    6.58%    failed      0.00%
+  14  VIBR.0621.00014    6.61%    failed      0.00%
+  15  VIBR.0621.00015    6.61%    failed      0.00%
+  16  VIBR.0621.00016    6.62%    failed      0.00%
+  17  VIBR.0621.00017    6.70%    failed      0.00%
+  18  VIBR.0621.00018    6.58%    failed      0.00%
+  19  VIBR.0621.00019    6.73%    failed      0.00%
+  20  VIBR.0621.00020    6.61%    failed      0.00%
+  21  VIBR.0621.00021    6.73%    failed      0.00%
+  22  VIBR.0621.00022    6.57%    failed      0.00%
+  23  VIBR.0621.00023    6.75%    failed      0.00%
+  24  VIBR.0621.00024    6.54%    failed      0.00%
+  25  VIBR.0621.00025    6.51%    failed      0.00%
+  26  VIBR.0621.00026    6.62%    failed      0.00%
+  27  VIBR.0621.00027    6.51%    failed      0.00%
+  28  VIBR.0621.00028    6.69%    failed      0.00%
+  29  VIBR.0621.00029    6.74%    failed      0.00%
+  30  VIBR.0621.00030    6.71%    failed      0.00%
+  31  VIBR.0621.00031    6.61%    failed      0.00%
+  32  VIBR.0621.00032    6.72%    failed      0.00%
+  33  VIBR.0621.00033    6.55%    failed      0.00%
+  34  VIBR.0621.00034    6.54%    failed      0.00%
+  35  VIBR.0621.00035    6.57%    failed      0.00%
+  36  VIBR.0621.00036    6.61%    failed      0.00%
+  37  VIBR.0621.00037    6.69%    failed      0.00%
+  38  VIBR.0621.00038    6.61%    failed      0.00%
+  39  VIBR.0621.00039    6.60%    failed      0.00%
+  40  VIBR.0621.00040    6.68%    failed      0.00%
+  41  VIBR.0621.00041    6.61%    failed      0.00%
+  42  VIBR.0621.00042    6.61%    failed      0.00%
+  43  VIBR.0621.00043    6.61%    failed      0.00%
+  44  VIBR.0621.00044    6.62%    failed      0.00%
+  45  VIBR.0621.00045    6.61%    failed      0.00%
+  46  VIBR.0621.00046    6.61%    failed      0.00%
+  47  VIBR.0621.00047    6.51%    failed      0.00%
+  48  VIBR.0621.00048    6.61%    failed      0.00%
+  49  VIBR.0621.00049    6.60%    failed      0.00%
+  50  VIBR.0621.00050    6.64%    failed      0.00%
+  51  VIBR.0621.00051    6.56%    failed      0.00%
+  52  VIBR.0621.00052    6.64%    failed      0.00%
+  53  VIBR.0621.00053    6.60%    failed      0.00%
+  54  VIBR.0621.00054    6.57%    failed      0.00%
+  55  VIBR.0621.00055    6.61%    failed      0.00%
+  56  VIBR.0621.00056    6.56%    failed      0.00%
+  57  VIBR.0621.00057    6.53%    failed      0.00%
+  58  VIBR.0621.00058    6.49%    failed      0.00%
+  59  VIBR.0621.00059    6.52%    failed      0.00%
+  60  VIBR.0621.00060    6.52%    failed      0.00%
+  61  VIBR.0621.00061    6.50%    failed      0.00%
+  62  VIBR.0621.00062    6.61%    failed      0.00%
+  63  VIBR.0621.00063    6.56%    failed      0.00%
+  64  VIBR.0621.00064    6.57%    failed      0.00%
+  65  VIBR.0621.00065    6.56%    failed      0.00%
+  66  VIBR.0621.00066    6.56%    failed      0.00%
+  67  VIBR.0621.00067    6.56%    failed      0.00%
+  68  VIBR.0621.00068    6.56%    failed      0.00%
+  69  VIBR.0621.00069    6.56%    failed      0.00%
+  70  VIBR.0621.00070    6.57%    failed      0.00%
+  71  VIBR.0621.00071    6.56%    failed      0.00%
+  72  VIBR.0621.00072    6.62%    failed      0.00%
+  73  VIBR.0621.00073    6.68%    failed      0.00%
+  74  VIBR.0621.00074    6.58%    failed      0.00%
+  75  VIBR.0621.00075    6.56%    failed      0.00%
+  76  VIBR.0621.00076    6.57%    failed      0.00%
+  77  VIBR.0621.00077    6.60%    failed      0.00%
+  78  VIBR.0621.00078    6.49%    failed      0.00%
+  79  VIBR.0621.00079    6.56%    failed      0.00%
+  80  VIBR.0621.00080    6.57%    failed      0.00%
+  81  VIBR.0621.00081    6.55%    failed      0.00%
+  82  VIBR.0621.00082    6.56%    failed      0.00%
+  83  VIBR.0621.00083    6.56%    failed      0.00%
+  84  VIBR.0621.00084    6.57%    failed      0.00%
+  85  VIBR.0621.00085    6.57%    failed      0.00%
+  86  VIBR.0621.00086    6.88%    failed      0.00%
+  87  VIBR.0621.00087    6.56%    failed      0.00%
+  88  VIBR.0621.00088    6.57%    failed      0.00%
+  89  VIBR.0621.00089    6.47%    failed      0.00%
+  90  VIBR.0621.00090    6.56%    failed      0.00%
+  91  VIBR.0621.00091    6.54%    failed      0.00%
+  92  VIBR.0621.00092    6.57%    failed      0.00%
+  93  VIBR.0621.00093    6.49%    failed      0.00%
+  94  VIBR.0621.00094    6.49%    failed      0.00%
+  95  VIBR.0621.00095    6.56%    failed      0.00%
+  96  VIBR.0621.00096    6.49%    failed      0.00%
+  97  VIBR.0621.00097    6.57%    failed      0.00%
+  98  VIBR.0621.00098    6.56%    failed      0.00%
+  99  VIBR.0621.00099    6.48%    failed      0.00%
+ 100  VIBR.0621.00100    6.70%    failed      3.23%
+ 101  VIBR.0621.00101    6.65%    failed      2.78%
+ 102  VIBR.0621.00102    6.66%    failed      3.25%
+ 103  VIBR.0621.00103    6.68%    failed      4.91%
+ 104  VIBR.0621.00104    6.67%    failed      2.14%
+ 105  VIBR.0621.00105    6.61%    failed      4.96%
+ 106  VIBR.0621.00106    6.72%    failed      2.77%
+ 107  VIBR.0621.00107    6.67%    failed      4.18%
+ 108  VIBR.0621.00108    6.68%    failed      4.18%
+ 109  VIBR.0621.00109    6.61%    failed      4.48%
+ 110  VIBR.0621.00110    6.68%    failed      3.81%
+ 111  VIBR.0621.00111    6.61%    failed      2.25%
+ 112  VIBR.0621.00112    6.61%    failed      0.00%
+ 113  VIBR.0621.00113    6.63%    failed      0.00%
+ 114  VIBR.0621.00114    6.67%    failed      0.00%
+ 115  VIBR.0621.00115    6.58%    failed      0.00%
+ 116  VIBR.0621.00116    6.81%    failed      0.00%
+ 117  VIBR.0621.00117    6.65%    failed      0.00%
+ 118  VIBR.0621.00118    6.71%    failed      0.00%
+ 119  VIBR.0621.00119    6.77%    failed      0.00%
+ 120  VIBR.0621.00120    6.59%    failed      0.00%
+ 121  VIBR.0621.00121    6.80%    failed      0.00%
+ 122  VIBR.0621.00122    6.71%    failed      0.00%
+ 123  VIBR.0621.00123    6.74%    failed      0.00%
+ 124  VIBR.0621.00124    6.76%    failed      0.00%
+ 125  VIBR.0621.00125    6.65%    failed      0.00%
+ 126  VIBR.0621.00126    6.71%    failed      0.00%
+ 127  VIBR.0621.00127    6.71%    failed      0.00%
+ 128  VIBR.0621.00128    6.71%    failed      0.00%
+ 129  VIBR.0621.00129    6.65%    failed      0.00%
+ 130  VIBR.0621.00130    6.71%    failed      0.00%
+ 131  VIBR.0621.00131    6.96%    failed      0.00%
+ 132  VIBR.0621.00132    6.71%    failed      0.00%
+ 133  VIBR.0621.00133    6.67%    failed      0.00%
+ 134  VIBR.0621.00134    6.64%    failed      0.00%
+ 135  VIBR.0621.00135    6.61%    failed      0.00%
+ 136  VIBR.0621.00136    6.61%    failed      0.00%
+ 137  VIBR.0621.00137    6.61%    failed      0.00%
+ 138  VIBR.0621.00138    6.61%    failed      0.00%
+ 139  VIBR.0621.00139    6.50%    failed      0.00%
+ 140  VIBR.0621.00140    6.53%    failed      0.00%
+ 141  VIBR.0621.00141    6.52%    failed      0.00%
+ 142  VIBR.0621.00142    6.55%    failed      0.00%
+ 143  VIBR.0621.00143    6.48%    failed      0.00%
+ 144  VIBR.0621.00144    6.47%    failed      0.00%
+ 145  VIBR.0621.00145    6.63%    failed      0.44%
+ 146  VIBR.0621.00146    6.54%    failed      0.00%
+ 147  VIBR.0621.00147    6.76%    failed      0.00%
+ 148  VIBR.0621.00148    6.73%    failed      0.00%
+ 149  VIBR.0621.00149    6.53%    failed      0.00%
+ 150  VIBR.0621.00150    6.70%    failed      0.00%
+ 151  VIBR.0621.00151    6.92%    failed      0.00%
+ 152  VIBR.0621.00152    6.64%    failed      0.00%
+ 153  VIBR.0621.00153    6.43%    failed      0.00%
+ 154  VIBR.0621.00154    6.34%    failed      0.00%
+ 155  VIBR.0621.00155    6.61%    failed      0.00%
+ 156  VIBR.0621.00156    6.66%    failed      0.00%
+ 157  VIBR.0621.00157    6.64%    failed      0.00%
+ 158  VIBR.0621.00158    6.52%    failed      0.00%
+ 159  VIBR.0621.00159    6.41%    failed      0.00%
+ 160  VIBR.0621.00160    6.51%    failed      0.00%
+ 161  VIBR.0621.00161    6.51%    failed      0.00%
+ 162  VIBR.0621.00162    6.51%    failed      0.00%
+ 163  VIBR.0621.00163    6.67%    failed      0.00%
+ 164  VIBR.0621.00164    6.67%    failed      0.00%
+ 165  VIBR.0621.00165    7.01%    failed      0.00%
+ 166  VIBR.0621.00166    6.63%    failed      0.00%
+ 167  VIBR.0621.00167    6.63%    failed      0.00%
+ 168  VIBR.0621.00168    6.62%    failed      0.00%
+ 169  VIBR.0621.00169    6.61%    failed      0.00%
+ 170  VIBR.0621.00170    6.61%    failed      0.00%
+ 171  VIBR.0621.00171    6.45%    failed      0.00%
+ 172  VIBR.0621.00172    6.65%    failed      0.00%
+ 173  VIBR.0621.00173    6.60%    failed      0.00%
+ 174  VIBR.0621.00174    6.53%    failed      0.00%
+ 175  VIBR.0621.00175    6.67%    failed      2.90%
+ 176  VIBR.0621.00176    6.51%    failed      0.00%
+ 177  VIBR.0621.00177    6.71%    failed      0.00%
+ 178  VIBR.0621.00178    6.50%    failed      0.00%
+ 179  VIBR.0621.00179    6.50%    failed      0.00%
+ 180  VIBR.0621.00180    6.50%    failed      0.00%
+ 181  VIBR.0621.00181    6.61%    failed      0.00%
+ 182  VIBR.0621.00182    6.61%    failed      3.71%
+ 183  VIBR.0621.00183    6.68%    failed      0.00%
+ 184  VIBR.0621.00184    6.55%    failed      0.00%
+ 185  VIBR.0621.00185    6.57%    failed      0.00%
+ 186  VIBR.0621.00186    6.61%    failed      0.00%
+ 187  VIBR.0621.00187    6.65%    failed      0.00%
+ 188  VIBR.0621.00188    6.68%    failed      0.00%
+ 189  VIBR.0621.00189    6.46%    failed      0.00%
+ 190  VIBR.0621.00190    6.46%    failed      0.00%
+ 191  VIBR.0621.00191    6.48%    failed      0.00%
+ 192  VIBR.0621.00192    6.56%    passed     49.01%
+ 193  VIBR.0621.00193    6.63%    failed      0.00%
+ 194  VIBR.0621.00194    7.55%    failed      0.00%
+ 195  VIBR.0621.00195    6.29%    failed      0.00%
+ 196  VIBR.0621.00196    6.44%    failed      0.00%
+ 197  VIBR.0621.00197    6.58%    failed      0.00%
+ 198  VIBR.0621.00198    6.40%    failed      0.00%
+ 199  VIBR.0621.00199    6.64%    failed      0.00%
+ 200  VIBR.0621.00200    6.77%    failed      0.00%
+ 201  VIBR.0621.00201    6.59%    failed      0.00%
+ 202  VIBR.0621.00202    6.55%    failed      0.00%
+ 203  VIBR.0621.00203    7.21%    failed      0.00%
+ 204  VIBR.0621.00204    6.57%    failed      0.00%
+ 205  VIBR.0621.00205    6.61%    failed      0.00%
+ 206  VIBR.0621.00206    6.69%    failed      0.00%
+ 207  VIBR.0621.00207    6.43%    failed      0.00%
+ 208  VIBR.0621.00208    6.65%    failed      0.00%
+ 209  VIBR.0621.00209    7.00%    failed      0.00%
+ 210  VIBR.0621.00210    6.71%    failed      0.00%
+ 211  VIBR.0621.00211    6.61%    failed      0.00%
+ 212  VIBR.0621.00212    6.56%    failed      0.00%
+ 213  VIBR.0621.00213    6.74%    failed      0.00%
+ 214  VIBR.0621.00214    6.74%    failed      0.00%
+ 215  VIBR.0621.00215    6.61%    failed      0.00%
+ 216  VIBR.0621.00216    6.61%    failed      0.00%
+ 217  VIBR.0621.00217    6.70%    failed      0.00%
+ 218  VIBR.0621.00218    6.61%    failed      0.00%
+ 219  VIBR.0621.00219    6.61%    failed      0.00%
+ 220  VIBR.0621.00220    6.57%    failed      0.00%
+ 221  VIBR.0621.00221    6.55%    failed      0.00%
+ 222  VIBR.0621.00222    6.49%    failed      0.00%
+ 223  VIBR.0621.00223    6.50%    failed      0.00%
+ 224  VIBR.0621.00224    6.55%    failed      0.00%
+ 225  VIBR.0621.00225    6.56%    failed      0.00%
+ 226  VIBR.0621.00226    6.68%    failed      1.36%
+ 227  VIBR.0621.00227    6.67%    failed      3.30%
+ 228  VIBR.0621.00228    6.65%    failed      2.87%
+ 229  VIBR.0621.00229    6.63%    failed      4.90%
+ 230  VIBR.0621.00230    6.62%    failed      3.39%
+ 231  VIBR.0621.00231    6.67%    failed      1.87%
+ 232  VIBR.0621.00232    6.72%    failed      0.00%
+ 233  VIBR.0621.00233    6.61%    failed      0.00%
+ 234  VIBR.0621.00234    6.59%    failed      0.00%
+ 235  VIBR.0621.00235    6.41%    failed      0.00%
+ 236  VIBR.0621.00236    6.65%    failed      0.00%
+ 237  VIBR.0621.00237    6.72%    failed      0.00%
+ 238  VIBR.0621.00238    6.51%    failed      0.00%
+ 239  VIBR.0621.00239    6.57%    failed      0.00%
+ 240  VIBR.0621.00240    6.61%    failed      0.00%
+ 241  VIBR.0621.00241    6.66%    failed      0.00%
+ 242  VIBR.0621.00242    6.67%    failed      0.00%
+ 243  VIBR.0621.00243    6.52%    failed      0.00%
+ 244  VIBR.0621.00244    6.53%    failed      0.00%
+ 245  VIBR.0621.00245    6.52%    failed      0.00%
+ 246  VIBR.0621.00246    6.50%    failed      0.00%
+ 247  VIBR.0621.00247    6.52%    failed      0.00%
+ 248  VIBR.0621.00248    6.52%    failed      0.00%
+ 249  VIBR.0621.00249    6.52%    failed      0.00%
+ 250  VIBR.0621.00250    6.53%    failed      0.00%
+ 251  VIBR.0621.00251    6.69%    failed      0.00%
+ 252  VIBR.0621.00252    6.56%    failed      0.00%
+ 253  VIBR.0621.00253    6.60%    failed      0.01%
+ 254  VIBR.0621.00254    6.56%    failed      0.00%
+ 255  VIBR.0621.00255    6.63%    failed      0.00%
+ 256  VIBR.0621.00256    6.70%    failed      3.49%
+ 257  VIBR.0621.00257    6.60%    failed      0.00%
+ 258  VIBR.0621.00258    6.72%    failed      0.00%
+ 259  VIBR.0621.00259    6.66%    failed      0.00%
+ 260  VIBR.0621.00260    6.59%    failed      0.00%
+ 261  VIBR.0621.00261    6.59%    failed      0.00%
+ 262  VIBR.0621.00262    6.64%    failed      0.00%
+ 263  VIBR.0621.00263    6.52%    failed      0.00%
+ 264  VIBR.0621.00264    6.96%    failed      0.00%
+ 265  VIBR.0621.00265    6.60%    failed      0.00%
+ 266  VIBR.0621.00266    6.63%    failed      0.00%
+ 267  VIBR.0621.00267    6.57%    failed      0.00%
+ 268  VIBR.0621.00268    6.49%    failed      0.00%
+ 269  VIBR.0621.00269    6.41%    failed      0.00%
+ 270  VIBR.0621.00270    6.57%    failed      0.00%
+ 271  VIBR.0621.00271    6.92%    failed      0.00%
+ 272  VIBR.0621.00272    6.02%    failed      0.00%
+ 273  VIBR.0621.00273    6.46%    failed      0.00%
+ 274  VIBR.0621.00274    6.66%    failed      0.00%
+ 275  VIBR.0621.00275    6.61%    failed      0.00%
+ 276  VIBR.0621.00276    6.58%    failed      0.00%
+ 277  VIBR.0621.00277    6.50%    failed      0.00%
+ 278  VIBR.0621.00278    6.56%    failed      0.00%
+ 279  VIBR.0621.00279    7.02%    failed      0.00%
+ 280  VIBR.0621.00280    6.48%    failed      0.00%
+ 281  VIBR.0621.00281    6.57%    failed      0.00%
+ 282  VIBR.0621.00282    6.63%    failed      0.00%
+ 283  VIBR.0621.00283    6.56%    failed      0.00%
+ 284  VIBR.0621.00284    6.57%    failed      0.00%
+ 285  VIBR.0621.00285    6.57%    failed      0.00%
+ 286  VIBR.0621.00286    6.56%    failed      0.00%
+ 287  VIBR.0621.00287    6.56%    failed      0.00%
+ 288  VIBR.0621.00288    6.66%    failed      0.00%
+ 289  VIBR.0621.00289    6.64%    failed      0.00%
+ 290  VIBR.0621.00290    6.24%    failed      0.00%
+ 291  VIBR.0621.00291    6.50%    failed      0.00%
+ 292  VIBR.0621.00292    6.52%    failed      0.00%
+ 293  VIBR.0621.00293    6.52%    failed      0.00%
+ 294  VIBR.0621.00294    6.62%    failed      0.00%
+ 295  VIBR.0621.00295    6.59%    failed      0.00%
+ 296  VIBR.0621.00296    6.62%    failed      0.00%
+ 297  VIBR.0621.00297    6.43%    failed      0.00%
+ 298  VIBR.0621.00298    6.76%    failed      0.00%
+ 299  VIBR.0621.00299    6.90%    failed      0.00%
+ 300  VIBR.0621.00300    6.49%    failed      0.00%
+ 301  VIBR.0621.00301    6.57%    failed      0.00%
+ 302  VIBR.0621.00302    6.77%    failed      0.00%
+ 303  VIBR.0621.00303    6.56%    failed      0.00%
+ 304  VIBR.0621.00304    6.54%    failed      0.00%
+ 305  VIBR.0621.00305    6.62%    failed      0.00%
+ 306  VIBR.0621.00306    6.27%    failed      0.00%
+ 307  VIBR.0621.00307    6.57%    failed      0.00%
+ 308  VIBR.0621.00308    6.61%    failed      0.00%
+ 309  VIBR.0621.00309    6.57%    failed      0.00%
+ 310  VIBR.0621.00310    6.88%    failed      0.00%
+ 311  VIBR.0621.00311    6.58%    failed      0.00%
+ 312  VIBR.0621.00312    6.67%    failed      0.43%
+ 313  VIBR.0621.00313    6.63%    failed      0.00%
+ 314  VIBR.0621.00314    6.56%    failed      0.00%
+****  TOTAL              6.61%  313 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000434016 for long alignment
+NOTE: VIBR.0621.00263 is identical to VIBR.0621.00004 but kept for subsequent analysis
+NOTE: VIBR.0621.00208 is identical to VIBR.0621.00009 but kept for subsequent analysis
+NOTE: VIBR.0621.00138 is identical to VIBR.0621.00038 but kept for subsequent analysis
+NOTE: VIBR.0621.00215 is identical to VIBR.0621.00137 but kept for subsequent analysis
+NOTE: VIBR.0621.00180 is identical to VIBR.0621.00179 but kept for subsequent analysis
+NOTE: VIBR.0621.00275 is identical to VIBR.0621.00218 but kept for subsequent analysis
+NOTE: VIBR.0621.00248 is identical to VIBR.0621.00247 but kept for subsequent analysis
+NOTE: VIBR.0621.00261 is identical to VIBR.0621.00260 but kept for subsequent analysis
+NOTE: VIBR.0621.00293 is identical to VIBR.0621.00292 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 7.564 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 74178)...
+
+NOTE: 1636 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -8274145.247
+2. Current log-likelihood: -7967731.075
+3. Current log-likelihood: -7967314.741
+4. Current log-likelihood: -7967314.235
+Optimal log-likelihood: -7967314.229
+Rate parameters:  A-C: 1.04147  A-G: 2.59315  A-T: 1.22293  C-G: 0.83192  C-T: 4.52073  G-T: 1.00000
+Base frequencies:  A: 0.273  C: 0.224  G: 0.252  T: 0.250
+Parameters optimization took 4 rounds (22.277 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 1.163476 sec (of wall-clock time) 36.989958 sec(of CPU time)
+Computing RapidNJ tree took 0.037689 sec (of wall-clock time) 0.433112 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -7990698.402
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 772.243 second
+Computing log-likelihood of 98 initial trees ... 67.387 seconds
+Current best score: -7964958.177
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -7963614.942
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -7963613.194
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -7963490.138
+Iteration 10 / LogL: -7963811.798 / Time: 0h:16m:54s
+Iteration 20 / LogL: -7964056.046 / Time: 0h:18m:48s
+Finish initializing candidate tree set (20)
+Current best tree score: -7963490.138 / CPU time: 1086.036
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -7965229.276 / Time: 0h:20m:41s (0h:51m:39s left)
+Iteration 40 / LogL: -7965314.505 / Time: 0h:22m:35s (0h:36m:14s left)
+Iteration 50 / LogL: -7965209.476 / Time: 0h:24m:30s (0h:26m:19s left)
+Log-likelihood cutoff on original alignment: -7964289.151
+Iteration 60 / LogL: -7963986.545 / Time: 0h:26m:24s (0h:19m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 63: -7963333.220
+Iteration 70 / LogL: -7964999.596 / Time: 0h:28m:24s (0h:38m:3s left)
+Iteration 80 / LogL: -7990408.977 / Time: 0h:30m:16s (0h:31m:37s left)
+Iteration 90 / LogL: -7965652.933 / Time: 0h:32m:10s (0h:26m:15s left)
+Iteration 100 / LogL: -7965596.332 / Time: 0h:34m:2s (0h:21m:33s left)
+Log-likelihood cutoff on original alignment: -7964289.151
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Iteration 110 / LogL: -7993499.952 / Time: 0h:35m:56s (0h:29m:32s left)
+Iteration 120 / LogL: -7967858.315 / Time: 0h:37m:45s (0h:25m:16s left)
+Iteration 130 / LogL: -7964332.503 / Time: 0h:39m:35s (0h:21m:23s left)
+Iteration 140 / LogL: -7965417.822 / Time: 0h:41m:26s (0h:17m:48s left)
+Iteration 150 / LogL: -7965591.854 / Time: 0h:43m:20s (0h:14m:29s left)
+Log-likelihood cutoff on original alignment: -7964289.151
+Iteration 160 / LogL: -7985953.864 / Time: 0h:45m:13s (0h:11m:20s left)
+TREE SEARCH COMPLETED AFTER 164 ITERATIONS / Time: 0h:45m:56s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -7963333.219
+Optimal log-likelihood: -7963333.210
+Rate parameters:  A-C: 1.04027  A-G: 2.58761  A-T: 1.22512  C-G: 0.82914  C-T: 4.52664  G-T: 1.00000
+Base frequencies:  A: 0.273  C: 0.224  G: 0.252  T: 0.250
+Parameters optimization took 1 rounds (3.438 sec)
+BEST SCORE FOUND : -7963333.210
+Creating bootstrap support values...
+Split supports printed to NEXUS file Vibrio/6-tree_module/VIBR_314.nucl.grp.aln.iqtree_tree.splits.nex
+Total tree length: 7.755
+
+Total number of iterations: 164
+CPU time used for tree search: 68457.736 sec (19h:0m:57s)
+Wall-clock time used for tree search: 2714.171 sec (0h:45m:14s)
+Total CPU time used: 69585.002 sec (19h:19m:45s)
+Total wall-clock time used: 2761.005 sec (0h:46m:1s)
+
+Computing bootstrap consensus tree...
+Reading input file Vibrio/6-tree_module/VIBR_314.nucl.grp.aln.iqtree_tree.splits.nex...
+314 taxa and 1530 splits.
+Consensus tree written to Vibrio/6-tree_module/VIBR_314.nucl.grp.aln.iqtree_tree.contree
+Reading input trees file Vibrio/6-tree_module/VIBR_314.nucl.grp.aln.iqtree_tree.contree
+Log-likelihood of consensus tree: -7963138.406
+
+Analysis results written to: 
+  IQ-TREE report:                Vibrio/6-tree_module/VIBR_314.nucl.grp.aln.iqtree_tree.iqtree
+  Maximum-likelihood tree:       Vibrio/6-tree_module/VIBR_314.nucl.grp.aln.iqtree_tree.treefile
+  Likelihood distances:          Vibrio/6-tree_module/VIBR_314.nucl.grp.aln.iqtree_tree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Vibrio/6-tree_module/VIBR_314.nucl.grp.aln.iqtree_tree.splits.nex
+  Consensus tree:                Vibrio/6-tree_module/VIBR_314.nucl.grp.aln.iqtree_tree.contree
+  Screen log file:               Vibrio/6-tree_module/VIBR_314.nucl.grp.aln.iqtree_tree.log
+
+Date and Time: Fri Jun 18 21:57:54 2021
