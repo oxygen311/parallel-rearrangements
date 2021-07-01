@@ -62,6 +62,12 @@ def dist_between_blocks(df):
         ds += (start_ - end_ for start_, end_ in zip(df_sp['chr_beg'][1:], df_sp['chr_end']))
     return ds
 
+def blocks_length_dist(df):
+    return [end_ - start_ for start_, end_ in zip(df['chr_beg'], df['chr_end'])]
+
+def number_of_genomes_dist(df):
+    return [len(df_block.species.unique()) for _, df_block in df.groupby('block')]
+
 
 def ragout_to_infercars(dir, in_file, out_file):
     sep = '-' * 80

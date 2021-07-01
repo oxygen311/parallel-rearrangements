@@ -15,6 +15,7 @@ for file in glob(folder + '*.gb'):
     records = SeqIO.parse(file, "genbank")
 
     for i, seq_record in enumerate(records):
+        print(seq_record.id, seq_record.name, seq_record.description)
         seq_record.id = epecname + '.contig_' + str(i)
         seq_record.description = ''
         seqs.append(seq_record)
