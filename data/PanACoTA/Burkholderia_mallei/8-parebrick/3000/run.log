@@ -1,57 +1,56 @@
-[2021-06-02 13:36:07,021] INFO - <Running module: Preprocess Data>
-[2021-06-02 13:36:07,050] INFO - Converting block coords to infercars format
-[2021-06-02 13:36:08,163] INFO - <Module finished: Preprocess Data>, elapsed 1.1413519382476807 seconds
-[2021-06-02 13:36:08,163] INFO - <Running module: Parsers and check strains>
-[2021-06-02 13:36:08,893] INFO - Blocks count: 247
-[2021-06-02 13:36:08,893] INFO - Unique one-copy blocks count: 142
-[2021-06-02 13:36:08,900] INFO - NumExpr defaulting to 8 threads.
-[2021-06-02 13:36:08,913] INFO - Mean block coverage: 92.1279966711595 %
-[2021-06-02 13:36:08,925] INFO - Mean common one-copy blocks coverage: 62.507901392414745 %
-[2021-06-02 13:36:08,938] INFO - Mean 80 % rate one-copy blocks coverage: 78.58447800532021 %
-[2021-06-02 13:36:08,963] INFO - Strains in blocks file count: 32
-[2021-06-02 13:36:08,963] INFO - Strains in tree leafs count: 32
-[2021-06-02 13:36:08,963] INFO - Intersected strains count: 32
-[2021-06-02 13:36:08,964] INFO - <Module finished: Parsers and check strains>, elapsed 0.800926923751831 seconds
-[2021-06-02 13:36:08,964] INFO - <Running module: Balanced rearrangements characters>
-[2021-06-02 13:36:09,502] INFO - Breakpoint graph parsed
-[2021-06-02 13:36:09,506] INFO - Edges in breakpoint graph: 437
-[2021-06-02 13:36:09,519] INFO - Getting characters from breakpoint graph component, size=44
-[2021-06-02 13:36:09,696] INFO - Getting characters from breakpoint graph component, size=10
-[2021-06-02 13:36:09,725] INFO - Getting characters from breakpoint graph component, size=10
-[2021-06-02 13:36:09,760] INFO - Getting characters from breakpoint graph component, size=4
-[2021-06-02 13:36:09,781] INFO - Getting characters from breakpoint graph component, size=4
-[2021-06-02 13:36:09,800] INFO - Getting characters from breakpoint graph component, size=28
-[2021-06-02 13:36:09,940] INFO - Getting characters from breakpoint graph component, size=100
-[2021-06-02 13:36:10,764] INFO - Getting characters from breakpoint graph component, size=6
-[2021-06-02 13:36:10,786] INFO - <Module finished: Balanced rearrangements characters>, elapsed 1.8215789794921875 seconds
-[2021-06-02 13:36:10,786] INFO - <Running module: Balanced rearrangements stats>
-[2021-06-02 13:36:10,786] INFO - Counting distances between unique one-copy blocks, may take a while
-[2021-06-02 13:36:13,947] INFO - Got characters after breakpoint graph consideration: 92
-[2021-06-02 13:36:13,947] INFO - Percentage of consistent rearrangements (balanced): 46.73913043478261 %
-[2021-06-02 13:36:13,985] INFO - <Module finished: Balanced rearrangements stats>, elapsed 3.1990108489990234 seconds
-[2021-06-02 13:36:13,985] INFO - <Running module: Balanced rearrangements output>
-[2021-06-02 13:36:21,269] INFO - <Module finished: Balanced rearrangements output>, elapsed 7.283578157424927 seconds
-[2021-06-02 13:36:21,269] INFO - <Running module: Unbalanced rearrangements characters>
-[2021-06-02 13:36:21,270] INFO - <Module finished: Unbalanced rearrangements characters>, elapsed 0.0015590190887451172 seconds
-[2021-06-02 13:36:21,270] INFO - <Running module: Unbalanced rearrangements stats and clustering>
-[2021-06-02 13:36:21,323] INFO - Got characters after copy number variation consideration: 247
-[2021-06-02 13:36:21,323] INFO - Percentage of consistent rearrangements (unbalanced): 94.96457489878543 %
-[2021-06-02 13:36:21,323] INFO - Counting distances between non-convex character blocks, may take a while
-[2021-06-02 13:36:25,080] INFO - Jaccard index matrix constructed
-[2021-06-02 13:36:26,823] INFO - Proximity matrix constructed
-[2021-06-02 13:36:26,831] INFO - Clustring is done
-[2021-06-02 13:36:26,832] INFO - Clusters: 52
-[2021-06-02 13:36:26,897] INFO - <Module finished: Unbalanced rearrangements stats and clustering>, elapsed 5.626444101333618 seconds
-[2021-06-02 13:36:26,897] INFO - <Running module: Unbalanced rearrangements output>
-[2021-06-02 13:36:32,295] INFO - <Module finished: Unbalanced rearrangements output>, elapsed 5.397759914398193 seconds
-[2021-06-02 13:36:32,295] INFO - <Running module: Which chromosome characters>
-[2021-06-02 13:36:34,925] INFO - <Module finished: Which chromosome characters>, elapsed 2.6297287940979004 seconds
-[2021-06-02 13:36:34,925] INFO - <Running module: Which chromosome stats and clustering>
-[2021-06-02 13:36:34,977] INFO - Got characters after which chromosome consideration: 247
-[2021-06-02 13:36:34,980] INFO - Percentage of consistent rearrangements (unbalanced): 80.16194331983806 %
-[2021-06-02 13:36:34,980] INFO - <Module finished: Which chromosome stats and clustering>, elapsed 0.054833173751831055 seconds
-[2021-06-02 13:36:34,980] INFO - <Running module: Which chromosome output>
-[2021-06-02 13:36:54,905] INFO - <Module finished: Which chromosome output>, elapsed 19.924795150756836 seconds
-[2021-06-02 13:36:54,905] INFO - <Running module: Visualize neighbours output>
-[2021-06-02 13:37:17,584] INFO - <Module finished: Visualize neighbours output>, elapsed 22.678834915161133 seconds
-[2021-06-02 13:37:17,584] INFO - Total elapsed time: 70.66805815696716 seconds
+[2021-07-06 16:52:48,664] INFO - <Running module: Preprocess Data>
+[2021-07-06 16:52:48,681] INFO - Converting block coords to infercars format
+[2021-07-06 16:52:48,934] INFO - <Module finished: Preprocess Data>, elapsed 0.2695963382720947 seconds
+[2021-07-06 16:52:48,934] INFO - <Running module: Parsers and check strains>
+[2021-07-06 16:52:49,095] INFO - Blocks count: 247
+[2021-07-06 16:52:49,095] INFO - Unique one-copy blocks count: 142
+[2021-07-06 16:52:49,098] INFO - Mean block coverage: 92.1279966711595 %
+[2021-07-06 16:52:49,101] INFO - Mean common one-copy blocks coverage: 62.507901392414745 %
+[2021-07-06 16:52:49,103] INFO - Mean 80 % rate one-copy blocks coverage: 78.58447800532021 %
+[2021-07-06 16:52:49,113] INFO - Strains in blocks file count: 32
+[2021-07-06 16:52:49,113] INFO - Strains in tree leafs count: 32
+[2021-07-06 16:52:49,113] INFO - Intersected strains count: 32
+[2021-07-06 16:52:49,113] INFO - <Module finished: Parsers and check strains>, elapsed 0.17870163917541504 seconds
+[2021-07-06 16:52:49,113] INFO - <Running module: Balanced rearrangements characters>
+[2021-07-06 16:52:49,313] INFO - Breakpoint graph parsed
+[2021-07-06 16:52:49,315] INFO - Edges in breakpoint graph: 437
+[2021-07-06 16:52:49,320] INFO - Getting characters from breakpoint graph component, size=44
+[2021-07-06 16:52:49,378] INFO - Getting characters from breakpoint graph component, size=10
+[2021-07-06 16:52:49,384] INFO - Getting characters from breakpoint graph component, size=10
+[2021-07-06 16:52:49,392] INFO - Getting characters from breakpoint graph component, size=4
+[2021-07-06 16:52:49,396] INFO - Getting characters from breakpoint graph component, size=4
+[2021-07-06 16:52:49,400] INFO - Getting characters from breakpoint graph component, size=28
+[2021-07-06 16:52:49,438] INFO - Getting characters from breakpoint graph component, size=100
+[2021-07-06 16:52:49,598] INFO - Getting characters from breakpoint graph component, size=6
+[2021-07-06 16:52:49,603] INFO - <Module finished: Balanced rearrangements characters>, elapsed 0.4903531074523926 seconds
+[2021-07-06 16:52:49,603] INFO - <Running module: Balanced rearrangements stats>
+[2021-07-06 16:52:49,603] INFO - Counting distances between unique one-copy blocks, may take a while
+[2021-07-06 16:52:50,463] INFO - Got characters after breakpoint graph consideration: 92
+[2021-07-06 16:52:50,464] INFO - Percentage of consistent rearrangements (balanced): 46.73913043478261 %
+[2021-07-06 16:52:50,468] INFO - <Module finished: Balanced rearrangements stats>, elapsed 0.8646078109741211 seconds
+[2021-07-06 16:52:50,468] INFO - <Running module: Balanced rearrangements output>
+[2021-07-06 16:52:53,362] INFO - <Module finished: Balanced rearrangements output>, elapsed 2.894449234008789 seconds
+[2021-07-06 16:52:53,362] INFO - <Running module: Unbalanced rearrangements characters>
+[2021-07-06 16:52:53,363] INFO - <Module finished: Unbalanced rearrangements characters>, elapsed 0.0007829666137695312 seconds
+[2021-07-06 16:52:53,363] INFO - <Running module: Unbalanced rearrangements stats and clustering>
+[2021-07-06 16:52:53,390] INFO - Got characters after copy number variation consideration: 247
+[2021-07-06 16:52:53,390] INFO - Percentage of consistent rearrangements (unbalanced): 94.96457489878543 %
+[2021-07-06 16:52:53,390] INFO - Counting distances between non-convex character blocks, may take a while
+[2021-07-06 16:52:54,808] INFO - Jaccard index matrix constructed
+[2021-07-06 16:52:55,368] INFO - Proximity matrix constructed
+[2021-07-06 16:52:55,378] INFO - Clustring is done
+[2021-07-06 16:52:55,378] INFO - Clusters: 52
+[2021-07-06 16:52:55,385] INFO - <Module finished: Unbalanced rearrangements stats and clustering>, elapsed 2.0219850540161133 seconds
+[2021-07-06 16:52:55,385] INFO - <Running module: Unbalanced rearrangements output>
+[2021-07-06 16:52:57,297] INFO - <Module finished: Unbalanced rearrangements output>, elapsed 1.9114608764648438 seconds
+[2021-07-06 16:52:57,297] INFO - <Running module: Which chromosome characters>
+[2021-07-06 16:52:57,903] INFO - <Module finished: Which chromosome characters>, elapsed 0.6063721179962158 seconds
+[2021-07-06 16:52:57,903] INFO - <Running module: Which chromosome stats and clustering>
+[2021-07-06 16:52:57,927] INFO - Got characters after which chromosome consideration: 247
+[2021-07-06 16:52:57,927] INFO - Percentage of consistent rearrangements (unbalanced): 80.16194331983806 %
+[2021-07-06 16:52:57,927] INFO - <Module finished: Which chromosome stats and clustering>, elapsed 0.024054765701293945 seconds
+[2021-07-06 16:52:57,927] INFO - <Running module: Which chromosome output>
+[2021-07-06 16:53:04,472] INFO - <Module finished: Which chromosome output>, elapsed 6.544060230255127 seconds
+[2021-07-06 16:53:04,472] INFO - <Running module: Visualize neighbours output>
+[2021-07-06 16:53:12,176] INFO - <Module finished: Visualize neighbours output>, elapsed 7.704613208770752 seconds
+[2021-07-06 16:53:12,176] INFO - Total elapsed time: 23.512304067611694 seconds
