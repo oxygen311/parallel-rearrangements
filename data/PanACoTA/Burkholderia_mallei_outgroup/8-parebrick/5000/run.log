@@ -1,0 +1,50 @@
+[2021-07-13 19:08:23,944] INFO - <Running module: Preprocess Data>
+[2021-07-13 19:08:23,960] INFO - Converting block coords to infercars format
+[2021-07-13 19:08:24,222] INFO - <Module finished: Preprocess Data>, elapsed 0.2781038284301758 seconds
+[2021-07-13 19:08:24,222] INFO - <Running module: Parsers and check strains>
+[2021-07-13 19:08:24,389] INFO - Blocks count: 236
+[2021-07-13 19:08:24,389] INFO - Unique one-copy blocks count: 143
+[2021-07-13 19:08:24,392] INFO - Mean block coverage: 88.38146173046859 %
+[2021-07-13 19:08:24,395] INFO - Mean common one-copy blocks coverage: 60.97366119983869 %
+[2021-07-13 19:08:24,398] INFO - Mean 80 % rate one-copy blocks coverage: 76.02428608080834 %
+[2021-07-13 19:08:24,407] INFO - Strains in blocks file count: 32
+[2021-07-13 19:08:24,407] INFO - Strains in tree leafs count: 32
+[2021-07-13 19:08:24,407] INFO - Intersected strains count: 32
+[2021-07-13 19:08:24,407] INFO - <Module finished: Parsers and check strains>, elapsed 0.18479681015014648 seconds
+[2021-07-13 19:08:24,407] INFO - <Running module: Balanced rearrangements characters>
+[2021-07-13 19:08:24,606] INFO - Breakpoint graph parsed
+[2021-07-13 19:08:24,608] INFO - Edges in breakpoint graph: 449
+[2021-07-13 19:08:24,627] INFO - Getting characters from breakpoint graph component, size=164
+[2021-07-13 19:08:24,876] INFO - Getting characters from breakpoint graph component, size=28
+[2021-07-13 19:08:24,909] INFO - <Module finished: Balanced rearrangements characters>, elapsed 0.5022921562194824 seconds
+[2021-07-13 19:08:24,909] INFO - <Running module: Balanced rearrangements stats>
+[2021-07-13 19:08:24,909] INFO - Counting distances between unique one-copy blocks, may take a while
+[2021-07-13 19:08:25,738] INFO - Got characters after breakpoint graph consideration: 86
+[2021-07-13 19:08:25,739] INFO - Percentage of consistent rearrangements (balanced): 37.2093023255814 %
+[2021-07-13 19:08:25,743] INFO - <Module finished: Balanced rearrangements stats>, elapsed 0.8335278034210205 seconds
+[2021-07-13 19:08:25,743] INFO - <Running module: Balanced rearrangements output>
+[2021-07-13 19:08:29,007] INFO - <Module finished: Balanced rearrangements output>, elapsed 3.264434814453125 seconds
+[2021-07-13 19:08:29,007] INFO - <Running module: Unbalanced rearrangements characters>
+[2021-07-13 19:08:29,008] INFO - <Module finished: Unbalanced rearrangements characters>, elapsed 0.000823974609375 seconds
+[2021-07-13 19:08:29,008] INFO - <Running module: Unbalanced rearrangements stats and clustering>
+[2021-07-13 19:08:29,035] INFO - Got characters after copy number variation consideration: 236
+[2021-07-13 19:08:29,035] INFO - Percentage of consistent rearrangements (unbalanced): 94.09427966101694 %
+[2021-07-13 19:08:29,035] INFO - Counting distances between non-convex character blocks, may take a while
+[2021-07-13 19:08:30,374] INFO - Jaccard index matrix constructed
+[2021-07-13 19:08:30,825] INFO - Proximity matrix constructed
+[2021-07-13 19:08:30,835] INFO - Clustring is done
+[2021-07-13 19:08:30,835] INFO - Clusters: 52
+[2021-07-13 19:08:30,842] INFO - <Module finished: Unbalanced rearrangements stats and clustering>, elapsed 1.8339979648590088 seconds
+[2021-07-13 19:08:30,842] INFO - <Running module: Unbalanced rearrangements output>
+[2021-07-13 19:08:33,513] INFO - <Module finished: Unbalanced rearrangements output>, elapsed 2.6706700325012207 seconds
+[2021-07-13 19:08:33,513] INFO - <Running module: Which chromosome characters>
+[2021-07-13 19:08:34,172] INFO - <Module finished: Which chromosome characters>, elapsed 0.658491849899292 seconds
+[2021-07-13 19:08:34,172] INFO - <Running module: Which chromosome stats and clustering>
+[2021-07-13 19:08:34,197] INFO - Got characters after which chromosome consideration: 236
+[2021-07-13 19:08:34,197] INFO - Percentage of consistent rearrangements (unbalanced): 80.9322033898305 %
+[2021-07-13 19:08:34,197] INFO - <Module finished: Which chromosome stats and clustering>, elapsed 0.02541637420654297 seconds
+[2021-07-13 19:08:34,197] INFO - <Running module: Which chromosome output>
+[2021-07-13 19:08:42,707] INFO - <Module finished: Which chromosome output>, elapsed 8.509099960327148 seconds
+[2021-07-13 19:08:42,707] INFO - <Running module: Visualize neighbours output>
+[2021-07-13 19:08:50,844] INFO - <Module finished: Visualize neighbours output>, elapsed 8.136993169784546 seconds
+[2021-07-13 19:08:50,844] INFO - Total elapsed time: 26.943629026412964 seconds

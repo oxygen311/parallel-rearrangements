@@ -1,0 +1,5 @@
+[2021-07-13 19:46:18] :: INFO :: PanACoTA version 1.3.1.dev1
+[2021-07-13 19:46:18] :: INFO :: Command used
+ 	 > PanACoTA tree -a 5-align_module/Phylo-BUMA/BUMA.nucl.grp.aln -b 1000 -o 6-tree_module -s iqtree2 --threads 32
+[2021-07-13 19:46:18] :: INFO :: Running IQtree...
+[2021-07-13 19:46:33] :: INFO :: END

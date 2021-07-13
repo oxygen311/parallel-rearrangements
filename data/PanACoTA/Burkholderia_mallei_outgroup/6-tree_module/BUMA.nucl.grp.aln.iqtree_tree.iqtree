@@ -1,0 +1,237 @@
+IQ-TREE 2.1.2 COVID-edition built Oct 22 2020
+
+Input file name: 5-align_module/Phylo-BUMA/BUMA.nucl.grp.aln
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 433380
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 32 sequences with 2739531 nucleotide sites
+Number of constant sites: 2.7283e+06 (= 99.5901% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 2.7283e+06 (= 99.5901% of all sites)
+Number of parsimony informative sites: 1690
+Number of distinct site patterns: 1108
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F
+
+Rate parameter R:
+
+  A-C: 1.1745
+  A-G: 4.6025
+  A-T: 0.7264
+  C-G: 1.1486
+  C-T: 5.1413
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.1581
+  pi(C) = 0.3394
+  pi(G) = 0.3469
+  pi(T) = 0.1556
+
+Rate matrix Q:
+
+  A    -1.328     0.251     1.006   0.07118
+  C    0.1169   -0.8717    0.2509    0.5038
+  G    0.4581    0.2455   -0.8015   0.09799
+  T    0.0723     1.099    0.2185     -1.39
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -3701698.6530 (s.e. 1061.5318)
+Unconstrained log-likelihood (without tree): -3948760.5047
+Number of free parameters (#branches + #model parameters): 69
+Akaike information criterion (AIC) score: 7403535.3060
+Corrected Akaike information criterion (AICc) score: 7403535.3095
+Bayesian information criterion (BIC) score: 7404420.1135
+
+Total tree length (sum of branch lengths): 0.0042
+Sum of internal branch lengths: 0.0006 (14.2663% of tree length)
+
+WARNING: 6 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'BUMA.0721.00001' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--BUMA.0721.00001
+|
+|                 +**BUMA.0721.00002
+|              +--| (100)
+|              |  +--BUMA.0721.00010
+|           +--| (100)
+|           |  +--BUMA.0721.00011
+|        +--| (100)
+|        |  |              +--BUMA.0721.00003
+|        |  |           +--| (100)
+|        |  |           |  +--BUMA.0721.00009
+|        |  |        +--| (100)
+|        |  |        |  +--------------------------------------------------------BUMA.0721.00028
+|        |  |     +--| (100)
+|        |  |     |  |     +--BUMA.0721.00004
+|        |  |     |  |  +--| (100)
+|        |  |     |  |  |  +**BUMA.0721.00005
+|        |  |     |  +--| (100)
+|        |  |     |     |        +--BUMA.0721.00006
+|        |  |     |     |     +--| (95)
+|        |  |     |     |     |  |  +**BUMA.0721.00031
+|        |  |     |     |     |  +--| (100)
+|        |  |     |     |     |     +--BUMA.0721.00032
+|        |  |     |     |  +--| (100)
+|        |  |     |     |  |  +--BUMA.0721.00007
+|        |  |     |     +--| (100)
+|        |  |     |        |                    +--BUMA.0721.00013
+|        |  |     |        |                 +**| (43)
+|        |  |     |        |                 |  +**BUMA.0721.00015
+|        |  |     |        |              +--| (99)
+|        |  |     |        |              |  |  +**BUMA.0721.00022
+|        |  |     |        |              |  +**| (42)
+|        |  |     |        |              |     +--BUMA.0721.00025
+|        |  |     |        |           +--| (92)
+|        |  |     |        |           |  +**BUMA.0721.00014
+|        |  |     |        |        +**| (62)
+|        |  |     |        |        |  +--BUMA.0721.00017
+|        |  |     |        |     +**| (76)
+|        |  |     |        |     |  |  +**BUMA.0721.00018
+|        |  |     |        |     |  +--| (100)
+|        |  |     |        |     |     +**BUMA.0721.00019
+|        |  |     |        |  +--| (92)
+|        |  |     |        |  |  |  +--BUMA.0721.00020
+|        |  |     |        |  |  +--| (100)
+|        |  |     |        |  |     +--BUMA.0721.00021
+|        |  |     |        +--| (100)
+|        |  |     |           +--BUMA.0721.00024
+|        |  |  +--| (100)
+|        |  |  |  +--BUMA.0721.00012
+|        |  +--| (100)
+|        |     |  +--BUMA.0721.00008
+|        |     +--| (100)
+|        |        |  +--BUMA.0721.00026
+|        |        +--| (100)
+|        |           +**BUMA.0721.00030
+|     +**| (76)
+|     |  +**BUMA.0721.00023
+|  +**| (88)
+|  |  +**BUMA.0721.00027
++--| (76)
+|  +--BUMA.0721.00029
+|
++**BUMA.0721.00016
+
+Tree in newick format:
+
+(BUMA.0721.00001:0.0000007301,((((((BUMA.0721.00002:0.0000000365,BUMA.0721.00010:0.0000018251)100:0.0000234817,BUMA.0721.00011:0.0000403876)100:0.0000154134,(((((BUMA.0721.00003:0.0000488749,BUMA.0721.00009:0.0000474278)100:0.0001332211,BUMA.0721.00028:0.0030213359)100:0.0000575445,((BUMA.0721.00004:0.0000425452,BUMA.0721.00005:0.0000003650)100:0.0000539111,(((BUMA.0721.00006:0.0000098975,(BUMA.0721.00031:0.0000003650,BUMA.0721.00032:0.0000007301)100:0.0000058642)95:0.0000011741,BUMA.0721.00007:0.0000132001)100:0.0000145795,(((((((BUMA.0721.00013:0.0000231053,BUMA.0721.00015:0.0000000365)43:0.0000000365,(BUMA.0721.00022:0.0000003650,BUMA.0721.00025:0.0000297025)42:0.0000000365)99:0.0000010951,BUMA.0721.00014:0.0000003650)92:0.0000014106,BUMA.0721.00017:0.0000069355)62:0.0000000365,(BUMA.0721.00018:0.0000003650,BUMA.0721.00019:0.0000000365)100:0.0000014601)76:0.0000000365,(BUMA.0721.00020:0.0000154008,BUMA.0721.00021:0.0000025552)100:0.0000216344)92:0.0000007301,BUMA.0721.00024:0.0000007301)100:0.0000502410)100:0.0000325553)100:0.0000209542)100:0.0000157586,BUMA.0721.00012:0.0001577049)100:0.0000036598,(BUMA.0721.00008:0.0000032981,(BUMA.0721.00026:0.0000117358,BUMA.0721.00030:0.0000000365)100:0.0000036654)100:0.0000586597)100:0.0000253065)100:0.0000520812,BUMA.0721.00023:0.0000000365)76:0.0000000365,BUMA.0721.00027:0.0000000365)88:0.0000000365,BUMA.0721.00029:0.0000953838)76:0.0000003650,BUMA.0721.00016:0.0000000365);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -3701699.967527170
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++**BUMA.0721.00001
+|
+|                 +**BUMA.0721.00002
+|              +--| (100)
+|              |  +**BUMA.0721.00010
+|           +--| (100)
+|           |  +--BUMA.0721.00011
+|        +--| (100)
+|        |  |              +--BUMA.0721.00003
+|        |  |           +--| (100)
+|        |  |           |  +--BUMA.0721.00009
+|        |  |        +--| (100)
+|        |  |        |  +--------------------------------------------------------BUMA.0721.00028
+|        |  |     +--| (100)
+|        |  |     |  |     +--BUMA.0721.00004
+|        |  |     |  |  +--| (100)
+|        |  |     |  |  |  +**BUMA.0721.00005
+|        |  |     |  +--| (100)
+|        |  |     |     |        +--BUMA.0721.00006
+|        |  |     |     |     +**| (95)
+|        |  |     |     |     |  |  +**BUMA.0721.00031
+|        |  |     |     |     |  +--| (100)
+|        |  |     |     |     |     +**BUMA.0721.00032
+|        |  |     |     |  +--| (100)
+|        |  |     |     |  |  +--BUMA.0721.00007
+|        |  |     |     +--| (100)
+|        |  |     |        |                       +--BUMA.0721.00013
+|        |  |     |        |                    +**| (47)
+|        |  |     |        |                    |  +--BUMA.0721.00025
+|        |  |     |        |                 +**| (35)
+|        |  |     |        |                 |  +**BUMA.0721.00015
+|        |  |     |        |              +**| (99)
+|        |  |     |        |              |  +**BUMA.0721.00022
+|        |  |     |        |           +**| (92)
+|        |  |     |        |           |  +**BUMA.0721.00014
+|        |  |     |        |        +**| (62)
+|        |  |     |        |        |  +--BUMA.0721.00017
+|        |  |     |        |     +**| (76)
+|        |  |     |        |     |  |  +**BUMA.0721.00018
+|        |  |     |        |     |  +**| (100)
+|        |  |     |        |     |     +**BUMA.0721.00019
+|        |  |     |        |  +**| (92)
+|        |  |     |        |  |  |  +--BUMA.0721.00020
+|        |  |     |        |  |  +--| (100)
+|        |  |     |        |  |     +--BUMA.0721.00021
+|        |  |     |        +--| (100)
+|        |  |     |           +**BUMA.0721.00024
+|        |  |  +--| (100)
+|        |  |  |  +--BUMA.0721.00012
+|        |  +--| (100)
+|        |     |  +--BUMA.0721.00008
+|        |     +--| (100)
+|        |        |  +--BUMA.0721.00026
+|        |        +--| (100)
+|        |           +**BUMA.0721.00030
+|     +**| (76)
+|     |  +**BUMA.0721.00023
+|  +**| (88)
+|  |  +**BUMA.0721.00027
++**| (76)
+|  +--BUMA.0721.00029
+|
++**BUMA.0721.00016
+
+
+Consensus tree in newick format: 
+
+(BUMA.0721.00001:0.0000007301,((((((BUMA.0721.00002:0.0000000776,BUMA.0721.00010:0.0000018251)100:0.0000234817,BUMA.0721.00011:0.0000403885)100:0.0000154040,(((((BUMA.0721.00003:0.0000489152,BUMA.0721.00009:0.0000474282)100:0.0001332112,BUMA.0721.00028:0.0030213056)100:0.0000575219,((BUMA.0721.00004:0.0000425451,BUMA.0721.00005:0.0000003650)100:0.0000539095,(((BUMA.0721.00006:0.0000098985,(BUMA.0721.00031:0.0000003650,BUMA.0721.00032:0.0000007301)100:0.0000058404)95:0.0000011769,BUMA.0721.00007:0.0000132001)100:0.0000145794,((((((((BUMA.0721.00013:0.0000231053,BUMA.0721.00025:0.0000297025)47:0.0000000776,BUMA.0721.00015:0.0000000776)35:0.0000000776,BUMA.0721.00022:0.0000003650)99:0.0000010951,BUMA.0721.00014:0.0000003650)92:0.0000013024,BUMA.0721.00017:0.0000069355)62:0.0000001027,(BUMA.0721.00018:0.0000003650,BUMA.0721.00019:0.0000000776)100:0.0000014601)76:0.0000000823,(BUMA.0721.00020:0.0000154009,BUMA.0721.00021:0.0000025552)100:0.0000216345)92:0.0000007301,BUMA.0721.00024:0.0000007301)100:0.0000502371)100:0.0000325522)100:0.0000209398)100:0.0000157621,BUMA.0721.00012:0.0001576990)100:0.0000036648,(BUMA.0721.00008:0.0000032852,(BUMA.0721.00026:0.0000117358,BUMA.0721.00030:0.0000000776)100:0.0000036503)100:0.0000586756)100:0.0000253161)100:0.0000520802,BUMA.0721.00023:0.0000000776)76:0.0000000776,BUMA.0721.00027:0.0000000776)88:0.0000000776,BUMA.0721.00029:0.0000953838)76:0.0000003650,BUMA.0721.00016:0.0000000776);
+
+TIME STAMP
+----------
+
+Date and time: Tue Jul 13 19:46:33 2021
+Total CPU time used: 266.243265 seconds (0h:4m:26s)
+Total wall-clock time used: 8.548941851 seconds (0h:0m:8s)
+
