@@ -1,0 +1,1 @@
+[2021-11-12 13:28:24] :: WARNING :: For genome to_annotate, at least one of your columns 'gsize', 'nb_conts' or 'L90' contains a non numeric value. This genome will be ignored.

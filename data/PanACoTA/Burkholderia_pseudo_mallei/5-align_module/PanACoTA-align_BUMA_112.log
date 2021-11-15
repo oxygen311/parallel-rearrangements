@@ -1,0 +1,11 @@
+[2021-11-12 15:30:58] :: INFO :: PanACoTA version 1.3.1-dev3
+[2021-11-12 15:30:58] :: INFO :: Command used
+ 	 > PanACoTA align
+[2021-11-12 15:30:58] :: INFO :: Found 112 genomes.
+[2021-11-12 15:30:58] :: INFO :: Reading PersGenome and constructing lists of missing genomes in each family.
+[2021-11-12 15:30:58] :: INFO :: Getting all persistent proteins and classify by strain.
+[2021-11-12 15:31:05] :: INFO :: Extracting proteins and genes from all genomes
+[2021-11-12 15:43:46] :: INFO :: Starting alignment of all families: protein alignment, back-translation to nucleotides, and add missing genomes in the family
+[2021-11-12 16:42:25] :: INFO :: Concatenating all nucl alignment files
+[2021-11-12 16:42:29] :: INFO :: Grouping nucleic alignments per genome
+[2021-11-12 16:42:37] :: INFO :: END

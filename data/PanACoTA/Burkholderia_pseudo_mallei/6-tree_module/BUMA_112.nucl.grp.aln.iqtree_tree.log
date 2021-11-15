@@ -1,0 +1,230 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Linux 64-bit built Oct 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    kraken (AVX, FMA3, 472 GB RAM)
+Command: iqtree2 -s Burkholderia_pseudo_mallei/5-align_module/Phylo-BUMA_112/BUMA_112.nucl.grp.aln -T 32 -m GTR -B 1000 --seqtype DNA --prefix Burkholderia_pseudo_mallei/6-tree_module/BUMA_112.nucl.grp.aln.iqtree_tree --quiet
+Seed:    225540 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Nov 12 16:42:38 2021
+Kernel:  AVX+FMA - 32 threads (32 CPU cores detected)
+
+Reading alignment file Burkholderia_pseudo_mallei/5-align_module/Phylo-BUMA_112/BUMA_112.nucl.grp.aln ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 112 sequences with 2083404 columns, 23942 distinct patterns
+26697 parsimony-informative, 22692 singleton sites, 2034015 constant sites
+                 Gap/Ambiguity  Composition  p-value
+   1  BUMA.1121.00001    1.02%    passed     99.30%
+   2  BUMA.1121.00002    1.16%    passed     91.55%
+   3  BUMA.1121.00003    1.01%    passed     98.17%
+   4  BUMA.1121.00004    1.17%    passed     93.13%
+   5  BUMA.1121.00005    1.06%    passed     98.76%
+   6  BUMA.1121.00006    1.18%    passed     91.46%
+   7  BUMA.1121.00007    1.02%    passed     99.97%
+   8  BUMA.1121.00008    1.17%    passed     92.43%
+   9  BUMA.1121.00009    1.00%    passed     97.85%
+  10  BUMA.1121.00010    1.17%    passed     92.17%
+  11  BUMA.1121.00011    1.01%    passed     95.26%
+  12  BUMA.1121.00012    1.00%    passed     99.62%
+  13  BUMA.1121.00013    1.15%    passed     92.90%
+  14  BUMA.1121.00014    1.03%    passed     99.10%
+  15  BUMA.1121.00015    1.19%    passed     90.44%
+  16  BUMA.1121.00016    1.02%    passed     99.45%
+  17  BUMA.1121.00017    1.16%    passed     93.56%
+  18  BUMA.1121.00018    1.00%    passed     99.31%
+  19  BUMA.1121.00019    1.17%    passed     93.26%
+  20  BUMA.1121.00020    1.15%    passed     91.84%
+  21  BUMA.1121.00021    1.02%    passed     97.88%
+  22  BUMA.1121.00022    1.16%    passed     92.79%
+  23  BUMA.1121.00023    1.02%    passed     99.11%
+  24  BUMA.1121.00024    1.15%    passed     93.20%
+  25  BUMA.1121.00025    1.01%    passed     99.24%
+  26  BUMA.1121.00026    1.12%    passed     94.06%
+  27  BUMA.1121.00027    1.15%    passed     99.62%
+  28  BUMA.1121.00028    1.17%    passed     93.05%
+  29  BUMA.1121.00029    1.02%    passed     99.65%
+  30  BUMA.1121.00030    1.16%    passed     93.15%
+  31  BUMA.1121.00031    1.02%    passed     98.33%
+  32  BUMA.1121.00032    1.16%    passed     93.28%
+  33  BUMA.1121.00033    1.09%    passed     99.20%
+  34  BUMA.1121.00034    1.16%    passed     92.94%
+  35  BUMA.1121.00035    1.01%    passed     99.42%
+  36  BUMA.1121.00036    1.16%    passed     93.89%
+  37  BUMA.1121.00037    1.00%    passed     99.72%
+  38  BUMA.1121.00038    1.18%    passed     89.81%
+  39  BUMA.1121.00039    1.03%    passed     99.78%
+  40  BUMA.1121.00040    1.15%    passed     93.55%
+  41  BUMA.1121.00041    1.00%    passed     98.61%
+  42  BUMA.1121.00042    1.17%    passed     93.27%
+  43  BUMA.1121.00043    1.01%    passed     99.13%
+  44  BUMA.1121.00044    1.16%    passed     93.22%
+  45  BUMA.1121.00045    1.02%    passed     99.95%
+  46  BUMA.1121.00046    1.21%    passed     91.19%
+  47  BUMA.1121.00047    1.01%    passed     97.97%
+  48  BUMA.1121.00048    1.19%    passed     91.53%
+  49  BUMA.1121.00049    0.99%    passed     99.59%
+  50  BUMA.1121.00050    1.22%    passed     91.72%
+  51  BUMA.1121.00051    0.99%    passed     96.56%
+  52  BUMA.1121.00052    1.17%    passed     93.56%
+  53  BUMA.1121.00053    1.05%    passed     99.86%
+  54  BUMA.1121.00054    1.19%    passed     92.28%
+  55  BUMA.1121.00055    1.01%    passed     99.05%
+  56  BUMA.1121.00056    1.02%    passed     96.98%
+  57  BUMA.1121.00057    1.03%    passed     99.74%
+  58  BUMA.1121.00058    0.98%    passed     99.33%
+  59  BUMA.1121.00059    1.00%    passed     99.29%
+  60  BUMA.1121.00060    1.01%    passed     99.94%
+  61  BUMA.1121.00061    1.03%    passed     99.42%
+  62  BUMA.1121.00062    1.02%    passed     99.30%
+  63  BUMA.1121.00063    1.04%    passed     99.29%
+  64  BUMA.1121.00064    1.02%    passed     98.53%
+  65  BUMA.1121.00065    1.04%    passed     98.96%
+  66  BUMA.1121.00066    1.04%    passed     99.53%
+  67  BUMA.1121.00067    1.00%    passed     98.78%
+  68  BUMA.1121.00068    0.99%    passed     99.26%
+  69  BUMA.1121.00069    1.01%    passed     98.64%
+  70  BUMA.1121.00070    1.04%    passed     99.82%
+  71  BUMA.1121.00071    1.03%    passed     99.67%
+  72  BUMA.1121.00072    1.02%    passed     98.21%
+  73  BUMA.1121.00073    1.03%    passed     99.77%
+  74  BUMA.1121.00074    1.02%    passed     98.66%
+  75  BUMA.1121.00075    1.05%    passed     98.75%
+  76  BUMA.1121.00076    1.03%    passed     98.50%
+  77  BUMA.1121.00077    1.08%    passed     99.11%
+  78  BUMA.1121.00078    1.01%    passed     99.86%
+  79  BUMA.1121.00079    1.08%    passed     99.31%
+  80  BUMA.1121.00080    1.02%    passed     97.75%
+  81  BUMA.1121.00081    1.19%    passed     91.53%
+  82  BUMA.1121.00082    1.01%    passed     99.69%
+  83  BUMA.1121.00083    1.02%    passed     99.63%
+  84  BUMA.1121.00084    1.01%    passed     97.61%
+  85  BUMA.1121.00085    1.16%    passed     92.88%
+  86  BUMA.1121.00086    1.17%    passed     92.44%
+  87  BUMA.1121.00087    1.20%    passed     93.92%
+  88  BUMA.1121.00088    1.00%    passed     98.88%
+  89  BUMA.1121.00089    1.00%    passed     97.48%
+  90  BUMA.1121.00090    0.99%    passed     99.07%
+  91  BUMA.1121.00091    1.00%    passed     99.02%
+  92  BUMA.1121.00092    1.01%    passed     99.16%
+  93  BUMA.1121.00093    0.98%    passed     99.01%
+  94  BUMA.1121.00094    1.01%    passed     96.50%
+  95  BUMA.1121.00095    1.02%    passed     99.93%
+  96  BUMA.1121.00096    0.99%    passed     99.81%
+  97  BUMA.1121.00097    1.01%    passed     99.58%
+  98  BUMA.1121.00098    1.02%    passed     99.99%
+  99  BUMA.1121.00099    1.00%    passed     99.96%
+ 100  BUMA.1121.00100    1.05%    passed     99.46%
+ 101  BUMA.1121.00101    1.05%    passed     99.86%
+ 102  BUMA.1121.00102    1.03%    passed     99.94%
+ 103  BUMA.1121.00103    0.99%    passed     99.95%
+ 104  BUMA.1121.00104    1.01%    passed     99.25%
+ 105  BUMA.1121.00105    1.00%    passed     98.35%
+ 106  BUMA.1121.00106    1.01%    passed     99.35%
+ 107  BUMA.1121.00107    1.00%    passed     99.27%
+ 108  BUMA.1121.00108    1.04%    passed    100.00%
+ 109  BUMA.1121.00109    1.01%    passed     99.99%
+ 110  BUMA.1121.00110    1.03%    passed     99.74%
+ 111  BUMA.1121.00111    1.00%    passed     99.36%
+ 112  BUMA.1121.00112    1.01%    passed     99.45%
+****  TOTAL              1.06%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000047998 for long alignment
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 1.731 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 225540)...
+
+NOTE: 178 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -4295958.818
+2. Current log-likelihood: -4211097.153
+3. Current log-likelihood: -4211080.628
+4. Current log-likelihood: -4211079.247
+5. Current log-likelihood: -4211078.830
+6. Current log-likelihood: -4211078.608
+7. Current log-likelihood: -4211078.446
+8. Current log-likelihood: -4211078.315
+Optimal log-likelihood: -4211078.217
+Rate parameters:  A-C: 1.16229  A-G: 7.61988  A-T: 0.50187  C-G: 1.00325  C-T: 9.11617  G-T: 1.00000
+Base frequencies:  A: 0.161  C: 0.338  G: 0.345  T: 0.155
+Parameters optimization took 8 rounds (4.140 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.098470 sec (of wall-clock time) 2.575618 sec(of CPU time)
+Computing RapidNJ tree took 0.053733 sec (of wall-clock time) 0.658105 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -4217437.492
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 208.678 second
+Computing log-likelihood of 98 initial trees ... 12.919 seconds
+Current best score: -4209888.889
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -4209797.311
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -4209790.609
+Iteration 10 / LogL: -4210167.227 / Time: 0h:4m:38s
+Iteration 20 / LogL: -4210265.937 / Time: 0h:5m:23s
+Finish initializing candidate tree set (19)
+Current best tree score: -4209790.609 / CPU time: 312.740
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -4209789.067
+Iteration 30 / LogL: -4211160.910 / Time: 0h:5m:56s (0h:18m:56s left)
+Iteration 40 / LogL: -4210769.936 / Time: 0h:6m:26s (0h:13m:37s left)
+Iteration 50 / LogL: -4210173.294 / Time: 0h:6m:58s (0h:10m:20s left)
+Log-likelihood cutoff on original alignment: -4210549.072
+Iteration 60 / LogL: -4211596.586 / Time: 0h:7m:35s (0h:8m:4s left)
+Iteration 70 / LogL: -4210166.043 / Time: 0h:8m:7s (0h:6m:13s left)
+Iteration 80 / LogL: -4209822.714 / Time: 0h:8m:45s (0h:4m:45s left)
+Iteration 90 / LogL: -4210099.624 / Time: 0h:9m:20s (0h:3m:26s left)
+Iteration 100 / LogL: -4210569.909 / Time: 0h:9m:54s (0h:2m:17s left)
+Log-likelihood cutoff on original alignment: -4210549.072
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -4210852.058 / Time: 0h:10m:27s (0h:8m:36s left)
+Iteration 120 / LogL: -4209790.918 / Time: 0h:11m:2s (0h:7m:23s left)
+TREE SEARCH COMPLETED AFTER 124 ITERATIONS / Time: 0h:11m:16s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4209789.067
+2. Current log-likelihood: -4209789.043
+3. Current log-likelihood: -4209789.026
+4. Current log-likelihood: -4209789.011
+Optimal log-likelihood: -4209789.001
+Rate parameters:  A-C: 1.16295  A-G: 7.62794  A-T: 0.50663  C-G: 1.00632  C-T: 9.10768  G-T: 1.00000
+Base frequencies:  A: 0.161  C: 0.338  G: 0.345  T: 0.155
+Parameters optimization took 4 rounds (0.990 sec)
+BEST SCORE FOUND : -4209789.001
+Creating bootstrap support values...
+Split supports printed to NEXUS file Burkholderia_pseudo_mallei/6-tree_module/BUMA_112.nucl.grp.aln.iqtree_tree.splits.nex
+Total tree length: 0.080
+
+Total number of iterations: 124
+CPU time used for tree search: 13499.450 sec (3h:44m:59s)
+Wall-clock time used for tree search: 665.301 sec (0h:11m:5s)
+Total CPU time used: 13691.238 sec (3h:48m:11s)
+Total wall-clock time used: 677.697 sec (0h:11m:17s)
+
+Computing bootstrap consensus tree...
+Reading input file Burkholderia_pseudo_mallei/6-tree_module/BUMA_112.nucl.grp.aln.iqtree_tree.splits.nex...
+112 taxa and 402 splits.
+Consensus tree written to Burkholderia_pseudo_mallei/6-tree_module/BUMA_112.nucl.grp.aln.iqtree_tree.contree
+Reading input trees file Burkholderia_pseudo_mallei/6-tree_module/BUMA_112.nucl.grp.aln.iqtree_tree.contree
+Log-likelihood of consensus tree: -4209809.265
+
+Analysis results written to: 
+  IQ-TREE report:                Burkholderia_pseudo_mallei/6-tree_module/BUMA_112.nucl.grp.aln.iqtree_tree.iqtree
+  Maximum-likelihood tree:       Burkholderia_pseudo_mallei/6-tree_module/BUMA_112.nucl.grp.aln.iqtree_tree.treefile
+  Likelihood distances:          Burkholderia_pseudo_mallei/6-tree_module/BUMA_112.nucl.grp.aln.iqtree_tree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Burkholderia_pseudo_mallei/6-tree_module/BUMA_112.nucl.grp.aln.iqtree_tree.splits.nex
+  Consensus tree:                Burkholderia_pseudo_mallei/6-tree_module/BUMA_112.nucl.grp.aln.iqtree_tree.contree
+  Screen log file:               Burkholderia_pseudo_mallei/6-tree_module/BUMA_112.nucl.grp.aln.iqtree_tree.log
+
+Date and Time: Fri Nov 12 16:54:26 2021

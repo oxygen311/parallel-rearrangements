@@ -1,0 +1,19 @@
+[2021-11-12 15:29:56] :: INFO :: PanACoTA version 1.3.1-dev3
+[2021-11-12 15:29:56] :: INFO :: Command used
+ 	 > PanACoTA pangenome
+[2021-11-12 15:29:56] :: INFO :: Building bank with all proteins to Burkholderia_pseudo_mallei/2-annotate_module/Proteins/BUMA_112.All.prt
+[2021-11-12 15:29:58] :: INFO :: Will run MMseqs2 with:
+	- minimum sequence identity = 80.0%
+	- cluster mode 1
+	- 32 threads
+[2021-11-12 15:29:58] :: INFO :: Creating database
+[2021-11-12 15:29:58] :: DETAIL :: MMseqs command: mmseqs createdb Burkholderia_pseudo_mallei/2-annotate_module/Proteins/BUMA_112.All.prt Burkholderia_pseudo_mallei/3-pangenome_module/tmp_BUMA_112.All.prt_0.8-mode1-th32/BUMA_112.All.prt-msDB
+[2021-11-12 15:30:09] :: INFO :: Clustering proteins...
+[2021-11-12 15:30:09] :: DETAIL :: MMseqs command: mmseqs cluster Burkholderia_pseudo_mallei/3-pangenome_module/tmp_BUMA_112.All.prt_0.8-mode1-th32/BUMA_112.All.prt-msDB Burkholderia_pseudo_mallei/3-pangenome_module/tmp_BUMA_112.All.prt_0.8-mode1-th32/BUMA_112.All.prt-clust-0.8-mode1-th32 Burkholderia_pseudo_mallei/3-pangenome_module/tmp_BUMA_112.All.prt_0.8-mode1-th32 --min-seq-id 0.8 --threads 32 --cluster-mode 1
+[2021-11-12 15:30:39] :: DETAIL :: MMseqs command: mmseqs createtsv Burkholderia_pseudo_mallei/3-pangenome_module/tmp_BUMA_112.All.prt_0.8-mode1-th32/BUMA_112.All.prt-msDB Burkholderia_pseudo_mallei/3-pangenome_module/tmp_BUMA_112.All.prt_0.8-mode1-th32/BUMA_112.All.prt-msDB Burkholderia_pseudo_mallei/3-pangenome_module/tmp_BUMA_112.All.prt_0.8-mode1-th32/BUMA_112.All.prt-clust-0.8-mode1-th32 Burkholderia_pseudo_mallei/3-pangenome_module/tmp_BUMA_112.All.prt_0.8-mode1-th32/BUMA_112.All.prt-clust-0.8-mode1-th32.tsv
+[2021-11-12 15:30:42] :: INFO :: Converting mmseqs results to pangenome file
+[2021-11-12 15:30:42] :: INFO :: Pangenome has 17612 families.
+[2021-11-12 15:30:45] :: INFO :: Retrieving information from pan families
+[2021-11-12 15:30:47] :: DETAIL :: Saving all information to a binary file for later use
+[2021-11-12 15:30:48] :: INFO :: Generating qualitative and quantitative matrix, and summary file
+[2021-11-12 15:30:56] :: INFO :: DONE
